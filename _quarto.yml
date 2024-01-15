@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Landsberger"
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: briefe.qmd
+        text: Briefe
+      - href: suchoptionen.ipynb
+        text: Suchoptionen 
+      - href: editionsprinzipien.qmd
+        text: Editionsprinzipien  
+  back-to-top-navigation: true 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true
+
+
+

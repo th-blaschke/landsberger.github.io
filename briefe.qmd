@@ -1,0 +1,8 @@
+---
+title: "Briefe"
+---
+Einen Überblick über die Metadaten zum untersuchten Briefkorpus bietet die [hier](files/metadata_letters.csv) (zum Download klicken) bereitgestellte CSV-Datei.
+
+[1929-07-10_Mueller_Landsberger](1929-07-10_Mueller_Landsberger.qmd)  
+[1929-12-09_Hartmann_Landsberger](1929-12-09_Hartmann_Landsberger.qmd)
+

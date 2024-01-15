@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Karl Friedrich Müller an Benno Landsberger vom 07.10.1929 encoded in TEI</title>
+                <respStmt>
+                    <resp>Encoded by, </resp>
+                    <persName>Theresa Blaschke</persName>
+                 </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                    <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                    <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l26.pdf</idno>
+                    <extent>
+                        <measure unit="pages" quantity="3.0">3.0 Seiten</measure>
+                        <measure unit="words" quantity="413">413 Wörter</measure>
+                    </extent>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                        <idno>l26</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="nan">Karl Friedrich Müller</persName>
+                    <settlement ref="https://www.wikidata.org/wiki/Q2079">Leipzig</settlement>
+                    <date when="1929-07-10">07.10.1929</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                    <settlement ref="nan">nan</settlement>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="de">deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>König (9)</term>
+                    <term>Assur (4)</term>
+                    <term>Text (4)</term>
+                    <term>Assurs (4)</term>
+                    <term>Göttern (3)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener>
+                <persName>Karl Müller</persName>
+                <address>
+                    <addrLine><placeName ref="https://www.wikidata.org/wiki/Q2079">Leipzig,</placeName> Seeburgstr. 53III.</addrLine>
+                    </address>
+                <dateline>
+                    <date when="1929-07-10">Am 10. Juli 1929.</date>
+                </dateline>
+                <salute>Hochverehrter Herr Professor!</salute>
+            </opener>
+            <p>Endlich bin ich in der Lage, Ihnen einen<lb/>
+                Teil meiner Textbearbeitungen zu schicken, den Rest hoffe<lb/>
+                ich in rascher Folge nachsenden zu können.<lb/>
+                Die Bearbeitung des <title type="cuneiformtext" ref="https://cdli.mpiwg-berlin.mpg.de/artifacts/282609">Krönungsritual</title> ist noch<lb/>
+                nicht vollständig. Zu behandeln sind noch das Verbum <foreign xml:lang="akk">kararu</foreign>,<lb/>
+                die Form <foreign xml:lang="akk">ip-pal</foreign> (II, 14), <foreign xml:lang="akk">ab-ba-sa</foreign> und, von Einzelheiten<lb/>
+                abgesehen, die Bedeutung von <foreign xml:lang="akk">abnu</foreign> und die Götter, das Material<lb/>
+                für diese Punkte habe ich zusammen. Unter den Göttern sind<lb/>
+                besonders wichtig <name type="deity" ref="https://www.wikidata.org/wiki/Q369938">Ninlil</name> und <name type="deity">Serua</name>. Hier kann man den Spuren<lb/>
+                der Volksreligion am ehesten nachgehen. Wichtig sind hier einige<lb/>
+                der <lang xml:lang="arc">Aramäischen</lang> Texte in <title type="journal" ref="https://d-nb.info/010053964">MDOG 60</title>, die ich gern in Autographie<lb/>
+                bringen möchte. Sie zeigen, was sich noch 800 Jahre nach dem<lb/>
+                Ende des <placeName type="ANE">assyrischen Reiches</placeName> lebendig erhalten hat, sicher<lb/>
+                Reste der Volksreligion, denn offizielle Religionen brechen<lb/>
+                zusammen mit den Staaten von denen sie gestutzt worden sind.<lb/>
+                Bedeutungsvoll für die Erkenntnis der Volksreligion erscheint<lb/>
+                mir auch die Tatsache, daß <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assur</name> meist ohne Gottesdeterminativ<lb/>
+                geschrieben wird, als einziger des ganzen Pantheons. Von der<lb/>
+                Fassung des Verhältnisses der <name type="deity" ref="https://www.wikidata.org/wiki/Q369938">Ninlil</name> zur <name type="deity">Serua</name> erhoffe ich<lb/>
+                auch die Möglichkeit, den Text zu datieren. Datierungsmöglich-<lb/>
+                keiten bietet wohl auch das Verhältnis des <name type="deity" ref="https://www.wikidata.org/wiki/Q214672">Enlil</name> zu <name type="deity" ref="https://www.wikidata.org/wiki/Q190123">Marduk</name>.<lb/>
+                Für die Stellung des Königs zu den Göttern, der Priester und<lb/>
+                Beamtenschaft bietet der Text auch genügend Material, ich habe<lb/>
+                zu diesen Punkten auch aus historischen Texten Stoff gesammelt.<lb/>
+                Es ergibt sich, daß der eigentliche Herr der Stadt und des Rei-<lb/>
+                ches <placeName type="ANE" ref="https://pleiades.stoa.org/places/893945">Assur</placeName> nicht der König, sondern der Gott <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assur</name> ist, der Kö-<lb/>
+                nig ist nur sein Statthalter. Der König trägt die Krone <name type="deity">Assurs</name>.<lb/>
+                <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assur</name> hat ihn zur Königsherrschaft berufen, auf Geheiß <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assurs</name><lb/>
+                zieht der König zu Felde, er kämpft mit den Waffen <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assurs</name>, der<lb/>
+                Gott ist es eigentlich, der den Feind besiegt, der König berich-<lb/>
+                tet dem Gott von seinen Kriegstaten (cf. <title type="cuneiformtext" ref="https://cdli.mpiwg-berlin.mpg.de/artifacts/285665">8. Feldzug Sargons</title>),<lb/>
+                dabei spricht der König "vor" den Göttern, aber die Götter "mit"<lb/>
+                ihm, genau das Verhältnis wie zwischen dem König und seinen<lb/>
+                Untertanen. Aus dieser Stellung des Königs erklärt sich auch,<lb/>
+                daß sich viele assyrische Könige als Priester <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assurs</name> bezeichnen<lb/>
+                und daß in dem Priesterhymus bei der Krönung nur vom Priester-<lb/>
+                tum die Rede ist. Daß der König als oberster Priester galt,<lb/>
+                zeigen Briefe, in denen der König um Entscheidung in kultischen<lb/>
+                Angelegenheiten angegangen wird.<lb/>
+                Den Text <title type="cuneiformtext" ref="https://cdli.mpiwg-berlin.mpg.de/artifacts/369116">KAR 139</title> will ich bei der Behand-<lb/>
+                lung des <foreign xml:lang="akk">Pû-lišānu</foreign> bringen; bei der Stelle III, 2 soll der Sänger<lb/>
+                behandelt werden, dabei wird vielleicht der Text von der <name type="deity">Mārat-<lb/>
+                nāri</name> angeschlossen.</p>
+            <closer>
+                <salute>Mit ergebenem Gruß<lb/>
+                    Ihr</salute>
+                <signed>Karl Müller</signed>
+            </closer>
+            <postscript>
+                <p>{Anhang mit Keilschriftzeichen und akkadischen Äquivalenten}</p>
+            </postscript>  
+        </body>
+    </text>
+</TEI>

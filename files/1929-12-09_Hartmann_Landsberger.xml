@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Richard Hartmann an Benno Landsberger vom 09.12.1929 encoded in TEI</title>
+                <respStmt>
+                    <resp>Encoded by, </resp>
+                    <persName>Theresa Blaschke</persName>
+                 </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                    <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                    <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l6.pdf</idno>
+                    <extent>
+                        <measure unit="pages" quantity="2.0">2.0 Seiten</measure>
+                        <measure unit="words" quantity="348">348 Wörter</measure>
+                    </extent>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                        <idno>l6</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <p>Beschreibart: Handschrift</p>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://www.wikidata.org/wiki/Q1525652">Richard Hartmann</persName>
+                    <settlement ref="https://www.wikidata.org/wiki/Q2966">Heidelberg</settlement>
+                    <date when="1929-12-09">09.12.1929</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                    <settlement ref="nan">nan</settlement>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="de">deutsch</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Keilschriftforschung (4)</term>
+                    <term>Assistentenstellen (3)</term>
+                    <term>Götze (2)</term>
+                    <term>Assistent (2)</term>
+                    <term>Frage (2)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener>
+                <address>
+                    <addrLine><placeName ref="https://www.wikidata.org/wiki/Q2966">Heidelberg</placeName></addrLine>
+                    <addrLine>Häusserstr. 14.</addrLine>
+                    </address>
+                <dateline>
+                    <date when="1929-12-09">9.XII.1929</date>
+                </dateline>
+                <salute>Sehr geehrter Herr Kollege!</salute>
+            </opener>
+            <p>Durch die Berufung vom Kollegen <persName type="modern" ref="http://www.wikidata.org/entity/Q109158">Götze</persName> nach <placeName type= "modern" ref="https://www.wikidata.org/wiki/Q3869">Marburg</placeName><lb/>
+                (die Ihre Übersiedlung nach <placeName type="modern" ref="https://www.wikidata.org/wiki/Q2079">Leipzig</placeName> zur Voraussetzung<lb/>
+                hat, wofür ich Ihnen nachträglich noch herzlich gratu-<lb/>
+                lieren möchte) wird hier die Assistentenfrage neu<lb/>
+                aufgerollt. Und in dieser Sache möchte ich Sie<lb/>
+                um Ihren Rat bitten!<lb/>
+                Die Situation liegt hier etwas kompliziert.<lb/>
+                <persName type="modern" ref="http://www.wikidata.org/entity/Q109158">Götze</persName> ist hier Assistent am <orgName type="institute">Orientalischen und am<lb/>
+                Sprachwissenschaftlichen (indogermanistischen) Seminar</orgName>,<lb/>
+                die beide Anrecht auf 1/2 Assistenten haben. Ausserdem<lb/>
+                las er, wie Sie ja wissen, als einziger über die Ge-<lb/>
+                biete der <name type="academicdiscipline" ref="https://www.wikidata.org/wiki/Q4752891">Keilschriftforschung</name>. Nun denke ich zwar<lb/>
+                daran, den Versuch zu machen, bei diesem Anlass<lb/>
+                etwas mehr herauszuschlagen, sei es ein Extraordi-<lb/>
+                nariat für <name type="academicdiscipline" ref="https://www.wikidata.org/wiki/Q4752891">Keilschriftforschung</name> neben den 2 halben<lb/>
+                Assistentenstellen, sei es einen bezahlten Lehrauftrag,<lb/>
+                sei es wenigstens 1½ statt der 2/2 Assistentenstellen.<lb/>
+                Aber Sie können sich denken, dass heutigentages<lb/>
+                die Aussicht auf all das fast gleich Null ist. Dage-<lb/>
+                gen hoffe ich, dass wir die 2 halben Assistenten-<lb/>
+                stellen behalten. Ausserdem sind wohl alle Beteilig-<lb/>
+                ten in dem Wunsche einig, dass die <name type="academicdiscipline" ref="https://www.wikidata.org/wiki/Q4752891">Keilschrift-<lb/>
+                forschung</name> nicht dauernd aus dem Lehrplan ver-<lb/>
+                schwindet. Praktisch bedeutet das, dass wir einen<lb/>
+                jungen Assyriologen suchen, der bereit wäre, an<lb/>
+                den beiden Instituten als Assistent zu fungieren.<lb/>
+                Die Arbeit, die der Betr. an den Seminaren zu leisten hat,<lb/>
+                ist wirklich nicht übermässig, das Gehalt das übliche<lb/>
+                (385,- M im Monat in den ersten 2 Jahren). Aber da wir<lb/>
+                wünschen, dass der Betr. <lang xml:lang="akk">Akkadisch</lang> usw. liest, sollte er<lb/>
+                sich eben in absehbarer Zeit habilitieren können.<lb/>
+                Wenn irgend möglich, sollte er also bereits promoviert<lb/>
+                haben. Meine Bitte an Sie ist: könnten Sie uns Leute<lb/>
+                nennen, die dafür in Frage kommen? Ob <persName type="modern" ref="http://www.wikidata.org/entity/Q94873664">Dr. Schott</persName><lb/>
+                uns unter diesen Bedingungen erreichbar ist, ist mir<lb/>
+                nicht sicher. Ich hörte von <persName type="modern" ref="http://www.wikidata.org/entity/Q109158">G.</persName>, dass Sie wohl einige<lb/>
+                tüchtige Schüler haben. Vielleicht könnte von denen<lb/>
+                doch einer in Frage kommen. Für die Assistenten-<lb/>
+                stelle an sich könnten wir wohl leicht eine geeignete<lb/>
+                Kraft finden; aber — und das ist der wunde Punkt —<lb/>
+                wir legen eben viel Gewicht darauf, die <name type="academicdiscipline" ref="https://www.wikidata.org/wiki/Q4752891">Keilschriftforschung</name><lb/>
+                hier nicht aussterben zu lassen.<lb/>
+                Für freundliche Auskunft und Hilfe wäre<lb/>
+                ich Ihnen sehr dankbar.</p>
+                <div type="notes"><p>{Am linken Rand der zweiten Briefseite befindet sich eine vermutlich von Landsberger gemachte Notiz, die eine Rechnung zu sein scheint. Bedeutung unklar.}</p></div>
+            <closer>
+                <salute>Mit den besten Grüssen<lb/>
+                    Ihr<lb/>
+                    sehr ergebener</salute>
+                <signed>R. Hartmann</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

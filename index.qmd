@@ -1,0 +1,77 @@
+---
+title: "Benno Landsberger und seine Korrespondenz"
+---
+
+<a title="neznámí, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Benno_Landsberger_(1890-1968).jpg"><img width="120" alt="Benno Landsberger (1890-1968)" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Benno_Landsberger_%281890-1968%29.jpg"></a>
+
+## Biographie
+Wer ein Altorientalistik-Studium absolviert, kommt nicht umhin, dem Namen Benno Landsberger zu begegnen. Landsberger war als außer- und ordentlicher Professor an den Universitäten Marburg und Leipzig tätig, bis er aufgrund seines jüdischen Glaubens 1935 gezwungen war, Deutschland zu verlassen. Er nahm zuerst einen Ruf an die Universität Ankara an, 1948 dann an die Universität Chicago, wo er bis zu einer Emeritierung tätig war. Er war unter anderem an der Erstellung des Chicago Assyrian Dictionary beteiligt. Er leistete einen wichtigen Beitrag dazu, dem Fach Altorientalistik, das über lange Zeit im Schatten der Bibelwissenschaft und Arabistik stand, einen eigenständigen Charakter zu verleihen. Mit seiner Antrittsvorlesung „Die Eigenbegrifflichkeit der babylonischen Welt“ 1925 plädierte er dafür, die Geschichte, Kultur und Religion des Alten Orients nicht anhand von modernen Maßstäben oder denen benachbarter Kulturen zu messen, sondern den Untersuchungsgegenstand aus seinem direkten Kontext zu betrachten. Die Forschungsinteressen Landsbergers erstreckten sich von sumerischer und akkadischer Lexikographie und religiösen Fragen bis hin zur Flora und Fauna des Alten Orients.
+
+![](img/lebenslauf.png){fig-align="center"}
+
+Informationen zur Person Landsbergers sind sowohl im [Marburger Professorenkatalog online](https://professorenkatalog.online.uni-marburg.de/de/pkat/gsrec/details?current=1&q=Benno%20Landsberger) als auch im [Professorenkatalog der Universität Leipzig](https://research.uni-leipzig.de/catalogus-professorum-lipsiensium/leipzig/Landsberger_91/) zu finden. Eine Biographie ist zudem als Monographie publiziert: 
+
+Vacín, Luděk
+The Unknown Benno Landsberger
+A Biographical Sketch of an Assyriological Altmeister's Development, Exile, and Personal Life. In collaboration with Jitka Sýkorová (Leipziger Altorientalistische Studien 10) xvi, 132 pp. Wiesbaden: Harrassowitz, 2019.
+
+## Publikationen
+
+Eine Auflistung von Publikationen Landsbergers ist zudem in der Zeitschrift Journal of Cuneiform Studies zu finden:
+
+Kilmer, Anne Draffkorn, and Johannes Renger. “A Bibliography of B. Landsberger’s Works.” Journal of Cuneiform Studies 26, no. 3 (1974): 183–94. http://www.jstor.org/stable/1359274.
+
+Die Publikationen werden [hier](files//landsberger_publications.csv) (zum Download klicken) zudem in Form einer CSV-Datei bereitgestellt.
+
+## Landsbergers Korrespondenz
+### Aufbewahrungsorte
+Verschiedene Briefe, die Landsberger an Kollegen und Schüler verschickte und von diesen erhielt, werden in Archiven der Universitäten Leipzig und Jerusalem aufbewahrt. Sie sind auf der Internetseite des Instituts für Altorientalistik der Universität Leipzig als [„Landsberger Archives“](https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives) in Form von Scans verfügbar gemacht. Es handelt sich dabei um eine Sammlung von ca. 80 Briefen und Postkarten unterschiedlicher Länge, die handschriftlich oder mit der Schreibmaschine verfasst wurden. Handschriftliche Briefe wurden bereits z.T. transkribiert und ebenfalls auf der Internetseite verfügbar gemacht. 
+
+Ein weiterer Teil der Korrespondenz Landsbergers mit seinem Doktoranden Fritz Rudolf Kraus, der ebenfalls ins türkische Exil fliehen musste und 1953 schließlich eine Professur an der Universität Leiden erhielt, befindet sich in der [Leiden University Libraries](https://collectionguides.universiteitleiden.nl/resources/ubl217). Ein Teil der Briefe (ca. 400) sind in einer Monografie publiziert worden (kein Open-Access). 
+
+Schmidt, Jan, eds. Dreizehn Jahre Istanbul (1937-1949) (2 vols), (Leiden, Niederlande: Brill, 23 Jan. 2014) doi: https://doi.org/10.1163/9789004263079
+
+Laut Einleitung dieser Monographie existieren aber noch weitere 600 unpublizierte Briefe aus dieser Korrespondenz in der Leiden University Libraries.
+
+Eine weitere Quelle für Briefe von und an Landsberger stellt laut einer Fußnote der bereits oben erwähnten Biographie von L. Vacín zu Landsberger die Korrespondenz mit Peter Jensen dar, der 1895-1928 als Ordinarius an der Universität Marburg lehrte, und dessen Briefnachlass sich im Archiv der Universität Marburg befinden soll.
+
+Eine dritte Quelle stellt die [University of Chicago](https://oi-idb-static.uchicago.edu/multimedia/331039/museum%20archives%20-%20finding%20aid%20-%20papers%20of%20benno%20landsberger.pdf) dar, die ebenfalls Manuskripte und Korrespondenz Landsbergers aufbewahrt. Die Korrespondenz in den Archiven der Universität Marburg und der University of Chicago ist m. W. nach bisher nicht digital erschlossen. Möglicherweise befinden sich auch in anderen Archiven weitere Briefe Landsbergers.
+
+## Landsbergers Korrespondenz kontextualisiert
+
+### Wikidata Assyriolog\*innen
+Farblegende:  
+  
+Knoten:  
+Grün: institutions  
+Pink: persons  
+
+Kanten:  
+Hellgrün: educated at  
+Hellbraun: student of   
+Hellblau: member of  
+Pink: has employer  
+Dunkelgrün: has student  
+
+
+[Wikidata Assyriolog\*innen](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/f8866c76792485d6c7400ff039f631a0/raw/c24ad3c83569d0a67883349c2fa11ea23fa253a8/network-4bf6d2f1-194.gexf)
+
+
+
+### Netzwerk Landsberger
+Farblegende:  
+  
+Knoten:  
+rot: not in assyriologists network  
+schwarz: in assyriologists network  
+
+Kanten:  
+Lila: reviewed book of  
+Hellgrün: sent letter to  
+Hellblau: co-author  
+Hellbraun: co-editor  
+Dunkelgrün: co-editor + co-author  
+Pink: sent letter to + reviewed book of  
+
+
+[Netzwerk Landsberger](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/14064a600d0e30e1364f33cc1a2d0fae/raw/c76b98863c3cc19b8ed15f034c7ccb23758e05c1/network-d4171c22-88d.gexf)
