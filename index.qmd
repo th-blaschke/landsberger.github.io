@@ -43,14 +43,13 @@ Eine dritte Quelle stellt die [University of Chicago](https://oi-idb-static.uchi
 Farblegende:  
   
 Knoten:  
-Grün: institutions  
-Pink: persons  
+![Legende Knoten Netzwerk Assyriolog*innen](img/Legende_Knoten_Assyriologie.png){fig-align="center"}
 
 Kanten:  
+![Legende Kanten Netzwerk Assyriolog*innen](img/Legende_AssyriologieNetzwerk.png){fig-align="center"}
 
 
-
-[Wikidata Assyriolog\*innen](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/f8866c76792485d6c7400ff039f631a0/raw/c24ad3c83569d0a67883349c2fa11ea23fa253a8/network-4bf6d2f1-194.gexf)
+[Netzwer Assyriolog*innen nach Wikidata](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/c034d04d500c00c447f34500b318eede/raw/10947405d0a1bbdb916bca45c207a4dc2f838320/network-dc260b5f-236.gexf)
 
 
 
@@ -61,7 +60,7 @@ Knoten:
 rot: nicht im Gesamtnetzwerk    
 
 Kanten:  
-![](img/Legende_LandsbergerNetzwerk.png){fig-align="center"}
+![Legende Netzwerk Landsberger](img/Legende_LandsbergerNetzwerk.png){fig-align="center"}
 
 
 [Netzwerk Landsberger](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/3b17d5a8433061c27315c89fd9f41c4b/raw/03c2ec7cc8d0c280f3550a0cfd08f0f9376fc2bb/network-406884ae-9ff.gexf)
