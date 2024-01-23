@@ -74,6 +74,5 @@ Dunkelgrün: co-editor + co-author
 Pink: sent letter to + reviewed book of  
 
 
-[Netzwerk Landsberger](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/3520ffb2f1f0a642ded35bc65c0aea37/raw/dd1a7df359d580917bc92b51189c930a22c05120/network-88a0d004-82d.gexf)
+[Netzwerk Landsberger](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/3b17d5a8433061c27315c89fd9f41c4b/raw/03c2ec7cc8d0c280f3550a0cfd08f0f9376fc2bb/network-406884ae-9ff.gexf)
 
-![Briefe von Landsberger an Fachkollegen](img/Briefe_von_Landsberger.png)
