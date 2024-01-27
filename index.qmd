@@ -52,7 +52,7 @@ Kanten:
 [Netzwerk Assyriolog*innen nach Wikidata](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fth-blaschke%2F9aee057730e456325a9ac25b174f27bc%2Fraw%2Ff970650912803a55b4b51659e2e76d3c829cde4d%2Fnetwork-aa0383db-ac1.gexf)
 
 ```{=html}
-<iframe width="600" height="400" src="https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fth-blaschke%2F9aee057730e456325a9ac25b174f27bc%2Fraw%2Ff970650912803a55b4b51659e2e76d3c829cde4d%2Fnetwork-aa0383db-ac1.gexf" title="Die Altorientalistik Fachcommunity zu Landsbergers Zeiten"></iframe>
+<iframe width="780" height="500" src="https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fth-blaschke%2F9aee057730e456325a9ac25b174f27bc%2Fraw%2Ff970650912803a55b4b51659e2e76d3c829cde4d%2Fnetwork-aa0383db-ac1.gexf" title="Die Altorientalistik Fachcommunity zu Landsbergers Zeiten"></iframe>
 ```
 
 
@@ -70,6 +70,6 @@ Kanten:
 [Netzwerk Landsberger](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/3b17d5a8433061c27315c89fd9f41c4b/raw/03c2ec7cc8d0c280f3550a0cfd08f0f9376fc2bb/network-406884ae-9ff.gexf)
 
 ```{=html}
-<iframe width="600" height="400" src="https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/3b17d5a8433061c27315c89fd9f41c4b/raw/03c2ec7cc8d0c280f3550a0cfd08f0f9376fc2bb/network-406884ae-9ff.gexf" title="Landsbergers Publikationsnetzwerk sowie Korrespondenznetzwerk nach den in Leipzig und Jerusalem aufbewahrten Briefen"></iframe>
+<iframe width="780" height="500" src="https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/3b17d5a8433061c27315c89fd9f41c4b/raw/03c2ec7cc8d0c280f3550a0cfd08f0f9376fc2bb/network-406884ae-9ff.gexf" title="Landsbergers Publikationsnetzwerk sowie Korrespondenznetzwerk nach den in Leipzig und Jerusalem aufbewahrten Briefen"></iframe>
 ```
 
