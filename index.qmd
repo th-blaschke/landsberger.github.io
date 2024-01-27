@@ -49,7 +49,11 @@ Kanten:
 ![Legende Kanten Netzwerk Assyriolog*innen](img/Legende_AssyriologieNetzwerk.png){fig-align="center"}
 
 
-[Netzwer Assyriolog*innen nach Wikidata](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/th-blaschke/c034d04d500c00c447f34500b318eede/raw/10947405d0a1bbdb916bca45c207a4dc2f838320/network-dc260b5f-236.gexf)
+[Netzwerk Assyriolog*innen nach Wikidata](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fth-blaschke%2F9aee057730e456325a9ac25b174f27bc%2Fraw%2Ff970650912803a55b4b51659e2e76d3c829cde4d%2Fnetwork-aa0383db-ac1.gexf)
+
+```{=html}
+<iframe width="780" height="500" src="https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fth-blaschke%2F9aee057730e456325a9ac25b174f27bc%2Fraw%2Ff970650912803a55b4b51659e2e76d3c829cde4d%2Fnetwork-aa0383db-ac1.gexf" title="Die Altorientalistik Fachcommunity zu Landsbergers Zeiten"></iframe>
+```
 
 
 
