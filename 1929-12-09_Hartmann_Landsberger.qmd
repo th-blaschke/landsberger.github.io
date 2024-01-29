@@ -3,7 +3,7 @@ title: "Brief von Richard Hartmann an Benno Landsberger vom 09.12.1929"
 ---
 
 **Absender**: [Richard Hartmann](https://www.wikidata.org/wiki/Q1525652)   
-**Aufenthaltsort Absender**: [Heidelberg](https://www.wikidata.org/wiki/Q2966)  
+**Aufenthaltsort Absender**: [Heidelberg](https://www.geonames.org/2907911/heidelberg.html)  
 **Datum**: 09.12.1929  
 **Empfänger**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
 **Stichwörter und ihre Häufigkeit**:  
@@ -24,8 +24,8 @@ Häusserstr. 14.
 
 Sehr geehrter Herr Kollege!
 
-Durch die Berufung vom Kollegen [Götze](http://www.wikidata.org/entity/Q109158) nach [Marburg](https://www.wikidata.org/wiki/Q3869)<br/>
-(die Ihre Übersiedlung nach [Leipzig](https://www.wikidata.org/wiki/Q2079) zur Voraussetzung<br/>
+Durch die Berufung vom Kollegen [Götze](http://www.wikidata.org/entity/Q109158) nach [Marburg](https://www.geonames.org/6559132/marburg-universitaetsstadt.html)<br/>
+(die Ihre Übersiedlung nach [Leipzig](https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html) zur Voraussetzung<br/>
 hat, wofür ich Ihnen nachträglich noch herzlich gratu-<br/>
 lieren möchte) wird hier die Assistentenfrage neu<br/>
 aufgerollt. Und in dieser Sache möchte ich Sie<br/>
