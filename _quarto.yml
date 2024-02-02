@@ -16,6 +16,7 @@ website:
       - href: editionsprinzipien.qmd
         text: Editionsprinzipien  
   back-to-top-navigation: true 
+  page-footer: "Die auf dieser Seite präsentierten Inhalte wurden im Rahmen der Masterarbeit *Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger* (WiSe 2023/2024) an der Philipps-Universität-Marburg im Fach Cultural Data Studies erstellt. Die vorgestellte Briefkorrespondenz wurde bereits im [*Landsberger Archives*](https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives) veröffentlicht. Alle Veröffentlichungsrechte liegen beim Altorientalischen Institut der Universität Leipzig und der Hebrew University Jerusalem."
 
 format:
   html:
