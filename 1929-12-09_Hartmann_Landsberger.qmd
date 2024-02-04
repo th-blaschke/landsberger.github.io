@@ -13,10 +13,11 @@ Götze (2)
 Assistent (2)  
 Frage (2)  
 
+[Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1929-12-09_Hartmann_Landsberger_wordfrequency.qmd){target="_blank"}
  
 [Ansicht als TEI-Dokument](files/1929-12-09_Hartmann_Landsberger.xml)  
 
-[Faksimile](files/1929-07-10_Mueller_Landsberger.pdf){target="_blank"}
+[Faksimile](files/1929-12-09_Hartmann_Landsberger.pdf){target="_blank"}
 
 
 Heidelberg  
