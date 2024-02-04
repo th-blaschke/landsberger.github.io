@@ -7,13 +7,13 @@ title: "Brief von Richard Hartmann an Benno Landsberger vom 09.12.1929"
 **Datum**: 09.12.1929  
 **Empfänger**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
 **Stichwörter und ihre Häufigkeit**:  
-Keilschriftforschung (4)  
-Assistentenstellen (3)  
-Götze (2)  
-Assistent (2)  
-Frage (2)  
+Keilschriftforschung (4.04)  
+Assistentenstellen (3.03)  
+Götze (2.02)  
+Assistent (2.02)  
+Frage (2.02)  
 
-[Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1929-12-09_Hartmann_Landsberger_wordfrequency.qmd){target="_blank"}
+[Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1929-12-09_Hartmann_Landsberger.qmd){target="_blank"}
  
 [Ansicht als TEI-Dokument](files/1929-12-09_Hartmann_Landsberger.xml)  
 
