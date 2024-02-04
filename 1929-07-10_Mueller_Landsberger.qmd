@@ -6,17 +6,19 @@ title: "Brief von Karl Friedrich Müller an Benno Landsberger vom 07.10.1929"
 **Aufenthaltsort Absender**: [Leipzig](https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html)  
 **Datum**: 07.10.1929  
 **Empfänger**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
-**Stichwörter und ihre Häufigkeit**:  
-König (9)  
-Assur (4)  
-Text (4)  
-Assurs (4)  
-Göttern (3)  
+**Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
+König (5.66)  
+Assur (2.52)  
+Text (2.52)  
+Assurs (2.52)  
+Göttern (1.89)  
 
-[Ansicht als plain text](files/1929-07-10_Mueller_Landsberger.txt)  
+[Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1929-07-10_Mueller_Landsberger_wordfrequency.qmd){target="_blank"}
+  
 [Ansicht als TEI-Dokument](files/1929-07-10_Mueller_Landsberger.xml)  
 
-[Faksimile](1929-07-10_Mueller_Landsberger_image.qmd){target="_blank"}
+[Faksimile](files/1929-07-10_Mueller_Landsberger.pdf){target="_blank"}
+
 
 Karl Müller  
 Leipzig, Seeburgstr. 53III.  

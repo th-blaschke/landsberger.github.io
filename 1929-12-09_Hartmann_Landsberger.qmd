@@ -13,14 +13,15 @@ Götze (2)
 Assistent (2)  
 Frage (2)  
 
-[Ansicht als plain text](files/1929-12-09_Hartmann_Landsberger.txt)  
+ 
 [Ansicht als TEI-Dokument](files/1929-12-09_Hartmann_Landsberger.xml)  
 
-[Faksimile](1929-12-09_Hartmann_Landsberger_image.qmd){target="_blank"}
+[Faksimile](files/1929-07-10_Mueller_Landsberger.pdf){target="_blank"}
 
-Heidelberg
-Häusserstr. 14.
-9.XII.1929
+
+Heidelberg  
+Häusserstr. 14.  
+9.XII.1929  
 
 Sehr geehrter Herr Kollege!
 
