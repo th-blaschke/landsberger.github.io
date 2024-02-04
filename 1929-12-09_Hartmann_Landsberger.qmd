@@ -2,11 +2,11 @@
 title: "Brief von Richard Hartmann an Benno Landsberger vom 09.12.1929"
 ---
 
-**Absender**: [Richard Hartmann](https://www.wikidata.org/wiki/Q1525652)   
-**Aufenthaltsort Absender**: [Heidelberg](https://www.geonames.org/2907911/heidelberg.html)  
+**Absender\*in**: [Richard Hartmann](https://www.wikidata.org/wiki/Q1525652)   
+**Aufenthaltsort Absender\*in**: [Heidelberg](https://www.geonames.org/2907911/heidelberg.html)  
 **Datum**: 09.12.1929  
-**Empfänger**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
-**Stichwörter und ihre Häufigkeit**:  
+**Empfänger\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
+**Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
 Keilschriftforschung (4.04)  
 Assistentenstellen (3.03)  
 Götze (2.02)  
