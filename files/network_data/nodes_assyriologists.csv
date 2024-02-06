@@ -1,0 +1,755 @@
+Id,Label,Name,Wikidata ID,Entitätstyp,Geburtsdatum,Sterbedatum,GND ID
+0,École Normale Supérieure,École Normale Supérieure,https://www.wikidata.org/wiki/Q83259,Institution,,,https://d-nb.info/gnd/36276-1
+1,Heidelberg University,Heidelberg University,https://www.wikidata.org/wiki/Q151510,Institution,,,https://d-nb.info/gnd/2024349-2
+2,École du Louvre,École du Louvre,https://www.wikidata.org/wiki/Q273534,Institution,,,https://d-nb.info/gnd/84618-1
+3,Protestant Faculty of Theology in Paris,Protestant Faculty of Theology in Paris,https://www.wikidata.org/wiki/Q3064314,Institution,,,
+4,Faculty of Arts of Paris,Faculty of Arts of Paris,https://www.wikidata.org/wiki/Q3064325,Institution,,,
+5,Leiden University,Leiden University,https://www.wikidata.org/wiki/Q156598,Institution,,,https://d-nb.info/gnd/1025656059
+6,Utrecht University,Utrecht University,https://www.wikidata.org/wiki/Q221653,Institution,,,https://d-nb.info/gnd/36950-0
+7,Yale University,Yale University,https://www.wikidata.org/wiki/Q49112,Institution,,,https://d-nb.info/gnd/36828-3
+8,University of Vienna,University of Vienna,https://www.wikidata.org/wiki/Q165980,Institution,,,https://d-nb.info/gnd/2024703-5
+9,École pratique des hautes études,École pratique des hautes études,https://www.wikidata.org/wiki/Q273631,Institution,,,https://d-nb.info/gnd/1003491-2
+10,Ludwig Maximilian University of Munich,Ludwig Maximilian University of Munich,https://www.wikidata.org/wiki/Q55044,Institution,,,https://d-nb.info/gnd/2002585-3
+11,University of Florence,University of Florence,https://www.wikidata.org/wiki/Q820887,Institution,,,https://d-nb.info/gnd/41068-8
+12,University of Chicago,University of Chicago,https://www.wikidata.org/wiki/Q131252,Institution,,,https://d-nb.info/gnd/1389-4
+13,American University of Beirut,American University of Beirut,https://www.wikidata.org/wiki/Q469482,Institution,,,https://d-nb.info/gnd/39395-2
+14,University of Baghdad,University of Baghdad,https://www.wikidata.org/wiki/Q550376,Institution,,,https://d-nb.info/gnd/80396-0
+15,Brandeis University,Brandeis University,https://www.wikidata.org/wiki/Q49119,Institution,,,https://d-nb.info/gnd/4239456-9
+16,Brigham Young University,Brigham Young University,https://www.wikidata.org/wiki/Q332498,Institution,,,https://d-nb.info/gnd/35653-0
+17,Columbia University,Columbia University,https://www.wikidata.org/wiki/Q49088,Institution,,,https://d-nb.info/gnd/8599-6
+18,University of London,University of London,https://www.wikidata.org/wiki/Q170027,Institution,,,https://d-nb.info/gnd/35654-2
+19,Johns Hopkins University,Johns Hopkins University,https://www.wikidata.org/wiki/Q193727,Institution,,,https://d-nb.info/gnd/37450-7
+20,Loyola University Chicago,Loyola University Chicago,https://www.wikidata.org/wiki/Q1537759,Institution,,,https://d-nb.info/gnd/1018404-1
+21,Tokyo University of Education,Tokyo University of Education,https://www.wikidata.org/wiki/Q11524880,Institution,,,
+22,University of Tokyo,University of Tokyo,https://www.wikidata.org/wiki/Q7842,Institution,,,https://d-nb.info/gnd/37826-4
+23,University of Warsaw,University of Warsaw,https://www.wikidata.org/wiki/Q144488,Institution,,,https://d-nb.info/gnd/1011775-1
+24,University of Graz,University of Graz,https://www.wikidata.org/wiki/Q622683,Institution,,,https://d-nb.info/gnd/36157-4
+25,Harvard University,Harvard University,https://www.wikidata.org/wiki/Q13371,Institution,,,https://d-nb.info/gnd/2012974-9
+26,Humboldt University of Berlin,Humboldt University of Berlin,https://www.wikidata.org/wiki/Q152087,Institution,,,https://d-nb.info/gnd/1220138-8
+27,University of Tübingen,University of Tübingen,https://www.wikidata.org/wiki/Q153978,Institution,,,https://d-nb.info/gnd/36187-2
+28,University of Geneva,University of Geneva,https://www.wikidata.org/wiki/Q503473,Institution,,,https://d-nb.info/gnd/1010450-1
+29,Uppsala University,Uppsala University,https://www.wikidata.org/wiki/Q185246,Institution,,,https://d-nb.info/gnd/1010726-5
+30,University of Wrocław,University of Wrocław,https://www.wikidata.org/wiki/Q315658,Institution,,,https://d-nb.info/gnd/1220756-1
+31,"School of Oriental and African Studies, University of London","School of Oriental and African Studies, University of London",https://www.wikidata.org/wiki/Q220144,Institution,,,https://d-nb.info/gnd/37884-7
+32,Northwestern University,Northwestern University,https://www.wikidata.org/wiki/Q309350,Institution,,,https://d-nb.info/gnd/41006-8
+33,Budapest University of Jewish Studies,Budapest University of Jewish Studies,https://www.wikidata.org/wiki/Q285382,Institution,,,
+34,Eötvös Loránd University,Eötvös Loránd University,https://www.wikidata.org/wiki/Q390287,Institution,,,https://d-nb.info/gnd/35680-3
+35,University of Pennsylvania,University of Pennsylvania,https://www.wikidata.org/wiki/Q49117,Institution,,,https://d-nb.info/gnd/37246-8
+36,Queens' College,Queens' College,https://www.wikidata.org/wiki/Q765642,Institution,,,https://d-nb.info/gnd/5051002-2
+37,Faculty of Protestant theology of University of Vienna,Faculty of Protestant theology of University of Vienna,https://www.wikidata.org/wiki/Q64392119,Institution,,,https://d-nb.info/gnd/2039227-8
+38,Eton College,Eton College,https://www.wikidata.org/wiki/Q192088,Institution,,,https://d-nb.info/gnd/1000998-X
+39,New College,New College,https://www.wikidata.org/wiki/Q1376987,Institution,,,https://d-nb.info/gnd/1080154-6
+40,Temple University,Temple University,https://www.wikidata.org/wiki/Q1420239,Institution,,,https://d-nb.info/gnd/1011506-7
+41,Gratz College,Gratz College,https://www.wikidata.org/wiki/Q5597737,Institution,,,
+42,Ankara University,Ankara University,https://www.wikidata.org/wiki/Q1060621,Institution,,,
+43,Hebrew University of Jerusalem,Hebrew University of Jerusalem,https://www.wikidata.org/wiki/Q174158,Institution,,,https://d-nb.info/gnd/2023678-5
+44,Leipzig University,Leipzig University,https://www.wikidata.org/wiki/Q154804,Institution,,,https://d-nb.info/gnd/2024343-1
+45,Tbilisi State University,Tbilisi State University,https://www.wikidata.org/wiki/Q37008,Institution,,,https://d-nb.info/gnd/5194533-2
+46,Frederick William University,Frederick William University,https://www.wikidata.org/wiki/Q20266330,Institution,,,https://d-nb.info/gnd/1016783-3
+47,University of Paris,University of Paris,https://www.wikidata.org/wiki/Q209842,Institution,,,https://d-nb.info/gnd/2025059-9
+48,University of Freiburg,University of Freiburg,https://www.wikidata.org/wiki/Q153987,Institution,,,https://d-nb.info/gnd/2024338-8
+49,University of Strasbourg,University of Strasbourg,https://www.wikidata.org/wiki/Q20808141,Institution,,,https://d-nb.info/gnd/1010669-8
+50,University of Münster,University of Münster,https://www.wikidata.org/wiki/Q168426,Institution,,,https://d-nb.info/gnd/1194191657
+51,TU Dresden,TU Dresden,https://www.wikidata.org/wiki/Q158158,Institution,,,https://d-nb.info/gnd/2024114-8
+52,University of Göttingen,University of Göttingen,https://www.wikidata.org/wiki/Q152838,Institution,,,https://d-nb.info/gnd/2024315-7
+53,University of Marburg,University of Marburg,https://www.wikidata.org/wiki/Q155354,Institution,,,https://d-nb.info/gnd/2001630-X
+54,Collège Stanislas de Paris,Collège Stanislas de Paris,https://www.wikidata.org/wiki/Q2983698,Institution,,,
+55,Collège de France,Collège de France,https://www.wikidata.org/wiki/Q202660,Institution,,,https://d-nb.info/gnd/36341-8
+56,Dallas Theological Seminary,Dallas Theological Seminary,https://www.wikidata.org/wiki/Q3269488,Institution,,,https://d-nb.info/gnd/7700998-8
+57,King's College,King's College,https://www.wikidata.org/wiki/Q924289,Institution,,,https://d-nb.info/gnd/110193-6
+58,Illinois College,Illinois College,https://www.wikidata.org/wiki/Q574316,Institution,,,
+59,Indiana University Bloomington,Indiana University Bloomington,https://www.wikidata.org/wiki/Q1079140,Institution,,,https://d-nb.info/gnd/1011446-4
+60,Michigan State University,Michigan State University,https://www.wikidata.org/wiki/Q270222,Institution,,,https://d-nb.info/gnd/30697-6
+61,Defense Language Institute,Defense Language Institute,https://www.wikidata.org/wiki/Q1102209,Institution,,,https://d-nb.info/gnd/3020457-4
+62,National Cryptologic School,National Cryptologic School,https://www.wikidata.org/wiki/Q4315002,Institution,,,
+63,Princeton University,Princeton University,https://www.wikidata.org/wiki/Q21578,Institution,,,https://d-nb.info/gnd/30381-1
+64,University of Erlangen–Nuremberg,University of Erlangen–Nuremberg,https://www.wikidata.org/wiki/Q40025,Institution,,,https://d-nb.info/gnd/2000862-4
+65,University College London,University College London,https://www.wikidata.org/wiki/Q193196,Institution,,,https://d-nb.info/gnd/1010776-9
+66,"Faculty of Law, Charles University in Prague","Faculty of Law, Charles University in Prague",https://www.wikidata.org/wiki/Q12047389,Institution,,,
+67,Lady Margaret Hall,Lady Margaret Hall,https://www.wikidata.org/wiki/Q951946,Institution,,,
+68,Queen's College London,Queen's College London,https://www.wikidata.org/wiki/Q3414026,Institution,,,https://d-nb.info/gnd/5103880-8
+69,Istanbul University,Istanbul University,https://www.wikidata.org/wiki/Q192964,Institution,,,https://d-nb.info/gnd/36056-9
+70,French Biblical and Archaeological School of Jerusalem,French Biblical and Archaeological School of Jerusalem,https://www.wikidata.org/wiki/Q273496,Institution,,,
+71,Catholic University of Paris,Catholic University of Paris,https://www.wikidata.org/wiki/Q1470431,Institution,,,
+72,Magdalen College,Magdalen College,https://www.wikidata.org/wiki/Q81162,Institution,,,
+73,University of Queensland,University of Queensland,https://www.wikidata.org/wiki/Q866012,Institution,,,https://d-nb.info/gnd/25170-7
+74,Sapienza University of Rome,Sapienza University of Rome,https://www.wikidata.org/wiki/Q209344,Institution,,,https://d-nb.info/gnd/1097368-0
+75,Dropsie College for Hebrew and Cognate Learning,Dropsie College for Hebrew and Cognate Learning,https://www.wikidata.org/wiki/Q65088719,Institution,,,
+76,Bryn Mawr College,Bryn Mawr College,https://www.wikidata.org/wiki/Q995265,Institution,,,https://d-nb.info/gnd/1007334-6
+77,Southern Baptist Theological Seminary,Southern Baptist Theological Seminary,https://www.wikidata.org/wiki/Q7569667,Institution,,,
+78,King's College London,King's College London,https://www.wikidata.org/wiki/Q245247,Institution,,,https://d-nb.info/gnd/42229-0
+79,Wadham College,Wadham College,https://www.wikidata.org/wiki/Q2537765,Institution,,,
+80,University of Helsinki,University of Helsinki,https://www.wikidata.org/wiki/Q28695,Institution,,,https://d-nb.info/gnd/37372-2
+81,Brooklyn College,Brooklyn College,https://www.wikidata.org/wiki/Q371625,Institution,,,https://d-nb.info/gnd/13762-5
+82,Exeter College,Exeter College,https://www.wikidata.org/wiki/Q81173,Institution,,,
+83,University of Oxford,University of Oxford,https://www.wikidata.org/wiki/Q34433,Institution,,,https://d-nb.info/gnd/36214-1
+84,Earlham College,Earlham College,https://www.wikidata.org/wiki/Q5326502,Institution,,,
+85,University of Innsbruck,University of Innsbruck,https://www.wikidata.org/wiki/Q875788,Institution,,,https://d-nb.info/gnd/36165-3
+86,University of Giessen,University of Giessen,https://www.wikidata.org/wiki/Q317053,Institution,,,https://d-nb.info/gnd/36154-9
+87,University of Paris 1 Pantheon-Sorbonne,University of Paris 1 Pantheon-Sorbonne,https://www.wikidata.org/wiki/Q999763,Institution,,,https://d-nb.info/gnd/1019538-5
+88,"University of California, Los Angeles","University of California, Los Angeles",https://www.wikidata.org/wiki/Q174710,Institution,,,https://d-nb.info/gnd/2045111-8
+89,American Baptist Seminary of the West,American Baptist Seminary of the West,https://www.wikidata.org/wiki/Q4743139,Institution,,,
+90,John Brown University,John Brown University,https://www.wikidata.org/wiki/Q6223569,Institution,,,
+91,University of Michigan,University of Michigan,https://www.wikidata.org/wiki/Q230492,Institution,,,https://d-nb.info/gnd/37642-5
+92,Franklin & Marshall College,Franklin & Marshall College,https://www.wikidata.org/wiki/Q664881,Institution,,,
+93,University of Virginia,University of Virginia,https://www.wikidata.org/wiki/Q213439,Institution,,,https://d-nb.info/gnd/36636-5
+94,"University of Maryland, Baltimore","University of Maryland, Baltimore",https://www.wikidata.org/wiki/Q4119470,Institution,,,https://d-nb.info/gnd/80659-6
+95,Samford University,Samford University,https://www.wikidata.org/wiki/Q6381586,Institution,,,
+96,The Queen's College,The Queen's College,https://www.wikidata.org/wiki/Q73094,Institution,,,https://d-nb.info/gnd/5086315-0
+97,Moscow State University,Moscow State University,https://www.wikidata.org/wiki/Q13164,Institution,,,https://d-nb.info/gnd/1010710-1
+98,Saint Petersburg State University,Saint Petersburg State University,https://www.wikidata.org/wiki/Q27621,Institution,,,https://d-nb.info/gnd/5114370-7
+99,Gonville and Caius College,Gonville and Caius College,https://www.wikidata.org/wiki/Q863940,Institution,,,https://d-nb.info/gnd/1701650-2
+100,Christ's College,Christ's College,https://www.wikidata.org/wiki/Q714717,Institution,,,https://d-nb.info/gnd/5027974-9
+101,University of Toronto,University of Toronto,https://www.wikidata.org/wiki/Q180865,Institution,,,https://d-nb.info/gnd/39300-9
+102,Louvre Museum,Louvre Museum,https://www.wikidata.org/wiki/Q19675,Institution,,,https://d-nb.info/gnd/1006837-5
+103,UCL Institute of Archaeology,UCL Institute of Archaeology,https://www.wikidata.org/wiki/Q7864073,Institution,,,
+104,Free University of Amsterdam,Free University of Amsterdam,https://www.wikidata.org/wiki/Q1065414,Institution,,,https://d-nb.info/gnd/80108-2
+105,Radboud University Nijmegen,Radboud University Nijmegen,https://www.wikidata.org/wiki/Q632004,Institution,,,https://d-nb.info/gnd/10103039-3
+106,University of Groningen,University of Groningen,https://www.wikidata.org/wiki/Q850730,Institution,,,https://d-nb.info/gnd/36948-2
+107,Brill,Brill,https://www.wikidata.org/wiki/Q917031,Institution,,,https://d-nb.info/gnd/125422-4
+108,Naples Eastern University,Naples Eastern University,https://www.wikidata.org/wiki/Q1632525,Institution,,,https://d-nb.info/gnd/10075219-6
+109,Chicago Assyrian Dictionary,Chicago Assyrian Dictionary,https://www.wikidata.org/wiki/Q1071825,Institution,,,
+110,Auburn Theological Seminary,Auburn Theological Seminary,https://www.wikidata.org/wiki/Q4819308,Institution,,,
+111,University of Zurich,University of Zurich,https://www.wikidata.org/wiki/Q206702,Institution,,,https://d-nb.info/gnd/36190-2
+112,New York University,New York University,https://www.wikidata.org/wiki/Q49210,Institution,,,https://d-nb.info/gnd/1713-9
+113,Barnard College,Barnard College,https://www.wikidata.org/wiki/Q167733,Institution,,,https://d-nb.info/gnd/1082718-3
+114,British Museum,British Museum,https://www.wikidata.org/wiki/Q6373,Institution,,,https://d-nb.info/gnd/38379-X
+115,University of Shizuoka,University of Shizuoka,https://www.wikidata.org/wiki/Q2114730,Institution,,,
+116,Rikkyo University,Rikkyo University,https://www.wikidata.org/wiki/Q1143235,Institution,,,https://d-nb.info/gnd/55755-9
+117,Sophia University,Sophia University,https://www.wikidata.org/wiki/Q1153094,Institution,,,https://d-nb.info/gnd/1011493-2
+118,University of Rostock,University of Rostock,https://www.wikidata.org/wiki/Q159895,Institution,,,https://d-nb.info/gnd/38329-6
+119,University of Cambridge,University of Cambridge,https://www.wikidata.org/wiki/Q35794,Institution,,,https://d-nb.info/gnd/7877-3
+120,University of Pisa,University of Pisa,https://www.wikidata.org/wiki/Q645663,Institution,,,https://d-nb.info/gnd/1011221-2
+121,University of Liège,University of Liège,https://www.wikidata.org/wiki/Q1334582,Institution,,,https://d-nb.info/gnd/2025003-4
+122,University of Arizona,University of Arizona,https://www.wikidata.org/wiki/Q503419,Institution,,,https://d-nb.info/gnd/2039654-5
+123,Bible Lands Museum,Bible Lands Museum,https://www.wikidata.org/wiki/Q126130,Institution,,,https://d-nb.info/gnd/5117172-7
+124,University of Turin,University of Turin,https://www.wikidata.org/wiki/Q499911,Institution,,,https://d-nb.info/gnd/1011229-7
+125,Charles University,Charles University,https://www.wikidata.org/wiki/Q31519,Institution,,,https://d-nb.info/gnd/3511-7
+126,Brown University,Brown University,https://www.wikidata.org/wiki/Q49114,Institution,,,https://d-nb.info/gnd/1010811-7
+127,University of Texas at Austin,University of Texas at Austin,https://www.wikidata.org/wiki/Q49213,Institution,,,https://d-nb.info/gnd/1051487315
+128,Istanbul Archaeology Museums,Istanbul Archaeology Museums,https://www.wikidata.org/wiki/Q636978,Institution,,,https://d-nb.info/gnd/10004989-8
+129,Tel Aviv University,Tel Aviv University,https://www.wikidata.org/wiki/Q319239,Institution,,,https://d-nb.info/gnd/1011130-X
+130,Ernst Wasmuth Verlag,Ernst Wasmuth Verlag,https://www.wikidata.org/wiki/Q1360524,Institution,,,https://d-nb.info/gnd/1050319-5
+131,Free University Berlin,Free University Berlin,https://www.wikidata.org/wiki/Q153006,Institution,,,https://d-nb.info/gnd/2114189-7
+132,Vorderasiatisches Museum Berlin,Vorderasiatisches Museum Berlin,https://www.wikidata.org/wiki/Q542084,Institution,,,https://d-nb.info/gnd/5035694-X
+133,Technical University of Berlin,Technical University of Berlin,https://www.wikidata.org/wiki/Q51985,Institution,,,https://d-nb.info/gnd/2114678-0
+134,University of Jena,University of Jena,https://www.wikidata.org/wiki/Q154561,Institution,,,https://d-nb.info/gnd/36164-1
+135,Wheaton College,Wheaton College,https://www.wikidata.org/wiki/Q747179,Institution,,,
+136,University of Amsterdam,University of Amsterdam,https://www.wikidata.org/wiki/Q214341,Institution,,,https://d-nb.info/gnd/1010694-7
+137,The Netherlands Institute for the Near East,The Netherlands Institute for the Near East,https://www.wikidata.org/wiki/Q18655579,Institution,,,
+138,University of Basel,University of Basel,https://www.wikidata.org/wiki/Q372608,Institution,,,https://d-nb.info/gnd/36146-X
+139,University of Bonn,University of Bonn,https://www.wikidata.org/wiki/Q152171,Institution,,,https://d-nb.info/gnd/36150-1
+140,Academy of Sciences of the GDR,Academy of Sciences of the GDR,https://www.wikidata.org/wiki/Q49738,Institution,,,https://d-nb.info/gnd/40680-6
+141,University of Oslo,University of Oslo,https://www.wikidata.org/wiki/Q486156,Institution,,,https://d-nb.info/gnd/1013645-9
+142,University of North Carolina at Chapel Hill,University of North Carolina at Chapel Hill,https://www.wikidata.org/wiki/Q192334,Institution,,,https://d-nb.info/gnd/11163-6
+143,German Archaeological Institute,German Archaeological Institute,https://www.wikidata.org/wiki/Q695302,Institution,,,https://d-nb.info/gnd/18740-9
+144,University of Fribourg,University of Fribourg,https://www.wikidata.org/wiki/Q36188,Institution,,,https://d-nb.info/gnd/2024211-6
+145,University of Halle-Wittenberg,University of Halle-Wittenberg,https://www.wikidata.org/wiki/Q32120,Institution,,,https://d-nb.info/gnd/2024276-1
+146,University of Strasbourg,University of Strasbourg,https://www.wikidata.org/wiki/Q157575,Institution,,,https://d-nb.info/gnd/1010669-8
+147,"University of California, Berkeley","University of California, Berkeley",https://www.wikidata.org/wiki/Q168756,Institution,,,https://d-nb.info/gnd/2025100-2
+148,Saarland University,Saarland University,https://www.wikidata.org/wiki/Q700758,Institution,,,https://d-nb.info/gnd/2024427-7
+149,University of Lyon,University of Lyon,https://www.wikidata.org/wiki/Q2383462,Institution,,,
+150,National Center for Scientific Research,National Center for Scientific Research,https://www.wikidata.org/wiki/Q280413,Institution,,,https://d-nb.info/gnd/4543-3
+151,University of Hamburg,University of Hamburg,https://www.wikidata.org/wiki/Q156725,Institution,,,https://d-nb.info/gnd/35534-3
+152,Vanderbilt University,Vanderbilt University,https://www.wikidata.org/wiki/Q29052,Institution,,,
+153,Durham University,Durham University,https://www.wikidata.org/wiki/Q458393,Institution,,,https://d-nb.info/gnd/36205-0
+154,University of Copenhagen,University of Copenhagen,https://www.wikidata.org/wiki/Q186285,Institution,,,https://d-nb.info/gnd/36485-X
+155,National Museum in Prague,National Museum in Prague,https://www.wikidata.org/wiki/Q188112,Institution,,,https://d-nb.info/gnd/1010865-8
+156,Náprstek Museum,Náprstek Museum,https://www.wikidata.org/wiki/Q631349,Institution,,,
+157,University of Königsberg,University of Königsberg,https://www.wikidata.org/wiki/Q672420,Institution,,,https://d-nb.info/gnd/2024311-X
+158,University of Toulouse,University of Toulouse,https://www.wikidata.org/wiki/Q578023,Institution,,,https://d-nb.info/gnd/36052-1
+159,Free University of Brussels,Free University of Brussels,https://www.wikidata.org/wiki/Q20754971,Institution,,,https://d-nb.info/gnd/1011179-7
+160,University of Poitiers,University of Poitiers,https://www.wikidata.org/wiki/Q661056,Institution,,,https://d-nb.info/gnd/36289-X
+161,Ghent University,Ghent University,https://www.wikidata.org/wiki/Q1137665,Institution,,,https://d-nb.info/gnd/10019747-4
+162,Cardiff University,Cardiff University,https://www.wikidata.org/wiki/Q1035745,Institution,,,https://d-nb.info/gnd/10050925-3
+163,Central Institute for Ancient History and Archeology,Central Institute for Ancient History and Archeology,https://www.wikidata.org/wiki/Q190599,Institution,,,https://d-nb.info/gnd/7418-4
+164,"Institute for the Study of Ancient Cultures, West Asia & North Africa","Institute for the Study of Ancient Cultures, West Asia & North Africa",https://www.wikidata.org/wiki/Q1276053,Institution,,,https://d-nb.info/gnd/1004227-1
+165,Merton College,Merton College,https://www.wikidata.org/wiki/Q82513,Institution,,,
+166,University of Birmingham,University of Birmingham,https://www.wikidata.org/wiki/Q223429,Institution,,,https://d-nb.info/gnd/40138-9
+167,School for Advanced Studies in the Social Sciences,School for Advanced Studies in the Social Sciences,https://www.wikidata.org/wiki/Q273518,Institution,,,https://d-nb.info/gnd/90164-7
+168,Slovenian Academy of Sciences and Arts,Slovenian Academy of Sciences and Arts,https://www.wikidata.org/wiki/Q266063,Institution,,,
+169,Austrian Academy of Sciences,Austrian Academy of Sciences,https://www.wikidata.org/wiki/Q299015,Institution,,,https://d-nb.info/gnd/1001454-8
+170,Académie des Inscriptions et Belles-Lettres,Académie des Inscriptions et Belles-Lettres,https://www.wikidata.org/wiki/Q337526,Institution,,,https://d-nb.info/gnd/35017-5
+171,Lincean Academy,Lincean Academy,https://www.wikidata.org/wiki/Q338432,Institution,,,https://d-nb.info/gnd/35038-2
+172,Academy of Sciences of Turin,Academy of Sciences of Turin,https://www.wikidata.org/wiki/Q2822396,Institution,,,https://d-nb.info/gnd/1000017-3
+173,"Royal Academy of Science, Letters and Fine Arts of Belgium","Royal Academy of Science, Letters and Fine Arts of Belgium",https://www.wikidata.org/wiki/Q337580,Institution,,,https://d-nb.info/gnd/35026-6
+174,British Academy,British Academy,https://www.wikidata.org/wiki/Q723551,Institution,,,https://d-nb.info/gnd/2006093-2
+175,Royal Netherlands Academy of Arts and Sciences,Royal Netherlands Academy of Arts and Sciences,https://www.wikidata.org/wiki/Q253439,Institution,,,https://d-nb.info/gnd/37531-7
+176,Accademia delle Arti del Disegno,Accademia delle Arti del Disegno,https://www.wikidata.org/wiki/Q1760178,Institution,,,https://d-nb.info/gnd/1094452-7
+177,Russian Academy of Sciences,Russian Academy of Sciences,https://www.wikidata.org/wiki/Q83172,Institution,,,https://d-nb.info/gnd/5052646-7
+178,Saint Petersburg Academy of Sciences,Saint Petersburg Academy of Sciences,https://www.wikidata.org/wiki/Q4345832,Institution,,,https://d-nb.info/gnd/2034160-X
+179,Arab Academy of Damascus,Arab Academy of Damascus,https://www.wikidata.org/wiki/Q2822268,Institution,,,https://d-nb.info/gnd/1007019-9
+180,Jordan Academy of Arabic,Jordan Academy of Arabic,https://www.wikidata.org/wiki/Q2903612,Institution,,,
+181,American Academy of Arts and Sciences,American Academy of Arts and Sciences,https://www.wikidata.org/wiki/Q463303,Institution,,,https://d-nb.info/gnd/2003822-7
+182,American Oriental Society,American Oriental Society,https://www.wikidata.org/wiki/Q465925,Institution,,,https://d-nb.info/gnd/38832-4
+183,Institut français de Turquie,Institut français de Turquie,https://www.wikidata.org/wiki/Q96071396,Institution,,,
+184,Société Asiatique,Société Asiatique,https://www.wikidata.org/wiki/Q1226248,Institution,,,https://d-nb.info/gnd/1017313-4
+185,Royal Czech Society of Sciences,Royal Czech Society of Sciences,https://www.wikidata.org/wiki/Q1575786,Institution,,,
+186,Czech Academy of Science and Art,Czech Academy of Science and Art,https://www.wikidata.org/wiki/Q1648961,Institution,,,
+187,Parish of Evangelical Church of Czech Brethren,Parish of Evangelical Church of Czech Brethren,https://www.wikidata.org/wiki/Q11994436,Institution,,,
+188,Academy of Sciences and Literature Mainz,Academy of Sciences and Literature Mainz,https://www.wikidata.org/wiki/Q414163,Institution,,,https://d-nb.info/gnd/35487-9
+189,Hungarian Academy of Sciences,Hungarian Academy of Sciences,https://www.wikidata.org/wiki/Q265058,Institution,,,https://d-nb.info/gnd/35661-X
+190,National Academy of Sciences,National Academy of Sciences,https://www.wikidata.org/wiki/Q270794,Institution,,,https://d-nb.info/gnd/1001101-8
+191,Academia Europaea,Academia Europaea,https://www.wikidata.org/wiki/Q337234,Institution,,,https://d-nb.info/gnd/5068568-5
+192,Saxon Academy of Sciences and Humanities,Saxon Academy of Sciences and Humanities,https://www.wikidata.org/wiki/Q451079,Institution,,,https://d-nb.info/gnd/37863-X
+193,Georgian National Academy of Sciences,Georgian National Academy of Sciences,https://www.wikidata.org/wiki/Q538954,Institution,,,
+194,Academy of Sciences of the USSR,Academy of Sciences of the USSR,https://www.wikidata.org/wiki/Q2370801,Institution,,,https://d-nb.info/gnd/1000125-6
+195,Heidelberg Academy for Sciences and Humanities,Heidelberg Academy for Sciences and Humanities,https://www.wikidata.org/wiki/Q833738,Institution,,,https://d-nb.info/gnd/2004744-7
+196,American Philosophical Society,American Philosophical Society,https://www.wikidata.org/wiki/Q466089,Institution,,,https://d-nb.info/gnd/35311-5
+197,Bavarian Academy of Sciences and Humanities,Bavarian Academy of Sciences and Humanities,https://www.wikidata.org/wiki/Q684415,Institution,,,https://d-nb.info/gnd/2005521-3
+198,Austrian Archaeological Institute,Austrian Archaeological Institute,https://www.wikidata.org/wiki/Q306557,Institution,,,https://d-nb.info/gnd/35371-1
+199,Royal Prussian Academy of Sciences,Royal Prussian Academy of Sciences,https://www.wikidata.org/wiki/Q329464,Institution,,,https://d-nb.info/gnd/35495-8
+200,Göttingen Academy of Sciences,Göttingen Academy of Sciences,https://www.wikidata.org/wiki/Q414188,Institution,,,https://d-nb.info/gnd/2003658-9
+201,Linguistic Society of America,Linguistic Society of America,https://www.wikidata.org/wiki/Q6554021,Institution,,,https://d-nb.info/gnd/2148-9
+202,Royal Swedish Academy of Sciences,Royal Swedish Academy of Sciences,https://www.wikidata.org/wiki/Q191583,Institution,,,https://d-nb.info/gnd/1013793-2
+203,Hellenic Philological Society of Constantinople,Hellenic Philological Society of Constantinople,https://www.wikidata.org/wiki/Q18912936,Institution,,,https://d-nb.info/gnd/1084542-2
+204,"Royal Swedish Academy of Letters, History and Antiquities","Royal Swedish Academy of Letters, History and Antiquities",https://www.wikidata.org/wiki/Q1792159,Institution,,,https://d-nb.info/gnd/1001473-1
+205,Royal Geographical Society,Royal Geographical Society,https://www.wikidata.org/wiki/Q691152,Institution,,,https://d-nb.info/gnd/1009629-2
+206,International Academy of the History of Science,International Academy of the History of Science,https://www.wikidata.org/wiki/Q337449,Institution,,,https://d-nb.info/gnd/2034846-0
+207,Society of Antiquaries of London,Society of Antiquaries of London,https://www.wikidata.org/wiki/Q5417893,Institution,,,https://d-nb.info/gnd/41219-3
+208,Finnish Academy of Science and Letters,Finnish Academy of Science and Letters,https://www.wikidata.org/wiki/Q666410,Institution,,,https://d-nb.info/gnd/1009564-0
+209,Royal Numismatic Society of Belgium,Royal Numismatic Society of Belgium,https://www.wikidata.org/wiki/Q55523922,Institution,,,https://d-nb.info/gnd/1010417-3
+210,Mommsen Society,Mommsen Society,https://www.wikidata.org/wiki/Q1583587,Institution,,,https://d-nb.info/gnd/515705-5
+211,British Institute for the Study of Iraq,British Institute for the Study of Iraq,https://www.wikidata.org/wiki/Q4970108,Institution,,,
+212,Deutsche Orient-Gesellschaft,Deutsche Orient-Gesellschaft,https://www.wikidata.org/wiki/Q314420,Institution,,,https://d-nb.info/gnd/37089-7
+213,Israel Academy of Sciences and Humanities,Israel Academy of Sciences and Humanities,https://www.wikidata.org/wiki/Q209184,Institution,,,https://d-nb.info/gnd/1002858-4
+214,Royal Danish Academy of Sciences and Letters,Royal Danish Academy of Sciences and Letters,https://www.wikidata.org/wiki/Q1636237,Institution,,,https://d-nb.info/gnd/1012710-0
+215,Royal Irish Academy,Royal Irish Academy,https://www.wikidata.org/wiki/Q110587,Institution,,,https://d-nb.info/gnd/37842-2
+216,Archaeological Institute of America,Archaeological Institute of America,https://www.wikidata.org/wiki/Q632218,Institution,,,https://d-nb.info/gnd/1004002-X
+217,Gesellschaft für Archäologie in Württemberg und Hohenzollern,Gesellschaft für Archäologie in Württemberg und Hohenzollern,https://www.wikidata.org/wiki/Q1518418,Institution,,,https://d-nb.info/gnd/4763714-6
+218,American Historical Association,American Historical Association,https://www.wikidata.org/wiki/Q464915,Institution,,,https://d-nb.info/gnd/1000418-X
+219,Tufts University,Tufts University,https://www.wikidata.org/wiki/Q49120,Institution,,,https://d-nb.info/gnd/1029986-5
+220,Washington University in St. Louis,Washington University in St. Louis,https://www.wikidata.org/wiki/Q777403,Institution,,,https://d-nb.info/gnd/1011518-3
+221,Institute of Oriental Manuscripts of the Russian Academy of Sciences,Institute of Oriental Manuscripts of the Russian Academy of Sciences,https://www.wikidata.org/wiki/Q3648060,Institution,,,
+222,University of Greifswald,University of Greifswald,https://www.wikidata.org/wiki/Q165528,Institution,,,https://d-nb.info/gnd/36158-6
+223,University of Pennsylvania Museum of Archaeology and Anthropology,University of Pennsylvania Museum of Archaeology and Anthropology,https://www.wikidata.org/wiki/Q1285902,Institution,,,https://d-nb.info/gnd/1221563-6
+224,"Faculty of Arts, Charles University in Prague","Faculty of Arts, Charles University in Prague",https://www.wikidata.org/wiki/Q3563550,Institution,,,https://d-nb.info/gnd/1052909-3
+225,University of Pavia,University of Pavia,https://www.wikidata.org/wiki/Q219317,Institution,,,https://d-nb.info/gnd/40464-0
+226,Veradzenunt,Veradzenunt,https://www.wikidata.org/wiki/Q88377012,Institution,,,
+227,Supreme Council of Antiquities,Supreme Council of Antiquities,https://www.wikidata.org/wiki/Q40535,Institution,,,
+228,Institute for Advanced Study,Institute for Advanced Study,https://www.wikidata.org/wiki/Q635642,Institution,,,https://d-nb.info/gnd/1004443-7
+229,University of Kiel,University of Kiel,https://www.wikidata.org/wiki/Q156737,Institution,,,https://d-nb.info/gnd/2024175-6
+230,Cornell University,Cornell University,https://www.wikidata.org/wiki/Q49115,Institution,,,https://d-nb.info/gnd/275-6
+231,University of Würzburg,University of Würzburg,https://www.wikidata.org/wiki/Q161976,Institution,,,https://d-nb.info/gnd/36189-6
+232,Imperial St. Petersburg University,Imperial St. Petersburg University,https://www.wikidata.org/wiki/Q28729082,Institution,,,
+233,Faculty of Oriental Studies of the St. Petersburg University,Faculty of Oriental Studies of the St. Petersburg University,https://www.wikidata.org/wiki/Q4126647,Institution,,,
+234,Hermitage Museum,Hermitage Museum,https://www.wikidata.org/wiki/Q132783,Institution,,,https://d-nb.info/gnd/2124053-X
+235,Herzen University,Herzen University,https://www.wikidata.org/wiki/Q323681,Institution,,,https://d-nb.info/gnd/5081827-2
+236,N.N. Miklukho-Maklai Institute of Anthropology and Ethnography RAS,N.N. Miklukho-Maklai Institute of Anthropology and Ethnography RAS,https://www.wikidata.org/wiki/Q4201873,Institution,,,
+237,Institute of Oriental Studies of the Russian Academy of Sciences,Institute of Oriental Studies of the Russian Academy of Sciences,https://www.wikidata.org/wiki/Q154528,Institution,,,
+238,Dar ul-Funun,Dar ul-Funun,https://www.wikidata.org/wiki/Q1165599,Institution,,,https://d-nb.info/gnd/82364-8
+239,Upper Iowa University,Upper Iowa University,https://www.wikidata.org/wiki/Q7898705,Institution,,,
+240,Corpus Christi College,Corpus Christi College,https://www.wikidata.org/wiki/Q536282,Institution,,,
+241,Haverford College,Haverford College,https://www.wikidata.org/wiki/Q579611,Institution,,,https://d-nb.info/gnd/5174146-5
+242,North Central College,North Central College,https://www.wikidata.org/wiki/Q7054728,Institution,,,
+243,Chicago Theological Seminary,Chicago Theological Seminary,https://www.wikidata.org/wiki/Q5095808,Institution,,,
+244,Bielefeld University,Bielefeld University,https://www.wikidata.org/wiki/Q24382,Institution,,,https://d-nb.info/gnd/2024177-X
+245,Faculty of Philology of Saint Petersburg State University,Faculty of Philology of Saint Petersburg State University,https://www.wikidata.org/wiki/Q3064300,Institution,,,
+246,Mines ParisTech,Mines ParisTech,https://www.wikidata.org/wiki/Q1189954,Institution,,,https://d-nb.info/gnd/41484-0
+247,Corpus Christi College,Corpus Christi College,https://www.wikidata.org/wiki/Q1135137,Institution,,,
+248,Mill Hill School,Mill Hill School,https://www.wikidata.org/wiki/Q6858340,Institution,,,
+249,School of Language and History – Geography,School of Language and History – Geography,https://www.wikidata.org/wiki/Q6088281,Institution,,,
+250,Faculty of History and Philology of St. Petersburg University,Faculty of History and Philology of St. Petersburg University,https://www.wikidata.org/wiki/Q58918586,Institution,,,
+251,Faculty of Law at the Jan Kazimierz University in Lviv,Faculty of Law at the Jan Kazimierz University in Lviv,https://www.wikidata.org/wiki/Q24946362,Institution,,,
+252,École nationale des langues orientales vivantes,École nationale des langues orientales vivantes,https://www.wikidata.org/wiki/Q52440672,Institution,,,
+253,Hillsdale College,Hillsdale College,https://www.wikidata.org/wiki/Q5763774,Institution,,,https://d-nb.info/gnd/669758-6
+254,Goethe University Frankfurt,Goethe University Frankfurt,https://www.wikidata.org/wiki/Q50662,Institution,,,https://d-nb.info/gnd/35074-6
+255,University of Pittsburgh,University of Pittsburgh,https://www.wikidata.org/wiki/Q235034,Institution,,,https://d-nb.info/gnd/1010790-3
+256,University of Liverpool,University of Liverpool,https://www.wikidata.org/wiki/Q499510,Institution,,,https://d-nb.info/gnd/36310-8
+257,University of Pretoria,University of Pretoria,https://www.wikidata.org/wiki/Q604444,Institution,,,https://d-nb.info/gnd/1010792-7
+258,University of Tehran,University of Tehran,https://www.wikidata.org/wiki/Q737835,Institution,,,https://d-nb.info/gnd/1015713-X
+259,Beaux-Arts de Paris,Beaux-Arts de Paris,https://www.wikidata.org/wiki/Q273593,Institution,,,https://d-nb.info/gnd/2070913-4
+260,Charité,Charité,https://www.wikidata.org/wiki/Q162684,Institution,,,https://d-nb.info/gnd/10070261-2
+261,Benaki Museum,Benaki Museum,https://www.wikidata.org/wiki/Q816669,Institution,,,https://d-nb.info/gnd/2066829-6
+262,Queens College,Queens College,https://www.wikidata.org/wiki/Q1760438,Institution,,,https://d-nb.info/gnd/1023779-3
+263,Metropolitan Museum of Art,Metropolitan Museum of Art,https://www.wikidata.org/wiki/Q160236,Institution,,,https://d-nb.info/gnd/1008914-7
+264,Karlsruhe Institute of Technology,Karlsruhe Institute of Technology,https://www.wikidata.org/wiki/Q309988,Institution,,,https://d-nb.info/gnd/10141290-3
+265,Lviv University,Lviv University,https://www.wikidata.org/wiki/Q80207,Institution,,,https://d-nb.info/gnd/10032822-2
+266,Fogg Museum,Fogg Museum,https://www.wikidata.org/wiki/Q809600,Institution,,,https://d-nb.info/gnd/7797-5
+267,University of Glasgow,University of Glasgow,https://www.wikidata.org/wiki/Q192775,Institution,,,https://d-nb.info/gnd/36206-2
+268,University of Edinburgh,University of Edinburgh,https://www.wikidata.org/wiki/Q160302,Institution,,,https://d-nb.info/gnd/40296-5
+269,Jesus College,Jesus College,https://www.wikidata.org/wiki/Q81174,Institution,,,
+270,University of Bern,University of Bern,https://www.wikidata.org/wiki/Q659080,Institution,,,https://d-nb.info/gnd/2023768-6
+271,Hopkins School,Hopkins School,https://www.wikidata.org/wiki/Q5900712,Institution,,,
+272,Amherst College,Amherst College,https://www.wikidata.org/wiki/Q49165,Institution,,,https://d-nb.info/gnd/44721-3
+273,Royal Academy of Arts,Royal Academy of Arts,https://www.wikidata.org/wiki/Q270920,Institution,,,https://d-nb.info/gnd/1023738-0
+274,Medieval Academy of America,Medieval Academy of America,https://www.wikidata.org/wiki/Q1162009,Institution,,,https://d-nb.info/gnd/40412-3
+275,Academy of Sciences Berlin,Academy of Sciences Berlin,https://www.wikidata.org/wiki/Q414169,Institution,,,https://d-nb.info/gnd/46171-4
+276,Académie des beaux-arts,Académie des beaux-arts,https://www.wikidata.org/wiki/Q337531,Institution,,,https://d-nb.info/gnd/4277299-0
+277,Société nationale des Antiquaires de France,Société nationale des Antiquaires de France,https://www.wikidata.org/wiki/Q3488100,Institution,,,
+278,Comité des travaux historiques et scientifiques,Comité des travaux historiques et scientifiques,https://www.wikidata.org/wiki/Q2985434,Institution,,,https://d-nb.info/gnd/36789-8
+279,Greek Study Association,Greek Study Association,https://www.wikidata.org/wiki/Q17122314,Institution,,,https://d-nb.info/gnd/41786-5
+280,Société centrale des architectes,Société centrale des architectes,https://www.wikidata.org/wiki/Q21721744,Institution,,,
+281,Revue d'assyriologie et d'archéologie orientale,Revue d'assyriologie et d'archéologie orientale,https://www.wikidata.org/wiki/Q15762062,Institution,,,
+282,French School at Athens,French School at Athens,https://www.wikidata.org/wiki/Q273548,Institution,,,https://d-nb.info/gnd/1004632-X
+283,German Academy of Sciences Leopoldina,German Academy of Sciences Leopoldina,https://www.wikidata.org/wiki/Q543804,Institution,,,https://d-nb.info/gnd/35672-4
+284,American Academy of Arts and Letters,American Academy of Arts and Letters,https://www.wikidata.org/wiki/Q463281,Institution,,,https://d-nb.info/gnd/1023075-0
+285,Royal Society of Arts and Sciences in Gothenburg,Royal Society of Arts and Sciences in Gothenburg,https://www.wikidata.org/wiki/Q835943,Institution,,,https://d-nb.info/gnd/129552-4
+286,Koldewey-Gesellschaft,Koldewey-Gesellschaft,https://www.wikidata.org/wiki/Q1779095,Institution,,,
+287,Academy of Learning,Academy of Learning,https://www.wikidata.org/wiki/Q740370,Institution,,,https://d-nb.info/gnd/1086818792
+288,Lwów Scientific Society,Lwów Scientific Society,https://www.wikidata.org/wiki/Q6706991,Institution,,,
+289,Emmanuel Laroche,Emmanuel Laroche,http://www.wikidata.org/wiki/Q475767,Person,1914-07-11T00:00:00Z,1991-06-16T00:00:00Z,https://d-nb.info/gnd/11877882X
+290,Giovanni Pettinato,Giovanni Pettinato,http://www.wikidata.org/wiki/Q518313,Person,1934-09-27T00:00:00Z,2011-05-19T00:00:00Z,https://d-nb.info/gnd/106206478
+291,André Parrot,André Parrot,http://www.wikidata.org/wiki/Q522200,Person,1901-02-15T00:00:00Z,1980-08-24T00:00:00Z,https://d-nb.info/gnd/118591819
+292,Barbara Parker-Mallowan,Barbara Parker-Mallowan,http://www.wikidata.org/wiki/Q61640628,Person,1908-01-01T00:00:00Z,1993-01-01T00:00:00Z,
+293,Denise Cocquerillat,Denise Cocquerillat,http://www.wikidata.org/wiki/Q61678564,Person,1918-06-08T00:00:00Z,1999-12-18T00:00:00Z,
+294,Wilfred van Soldt,Wilfred van Soldt,http://www.wikidata.org/wiki/Q63198554,Person,1947-09-12T00:00:00Z,2021-05-15T00:00:00Z,https://d-nb.info/gnd/112265499
+295,Gerard Jacobus Thierry,Gerard Jacobus Thierry,http://www.wikidata.org/wiki/Q63258037,Person,1880-08-25T00:00:00Z,1962-01-16T00:00:00Z,https://d-nb.info/gnd/1221821962
+296,Govert van Driel,Govert van Driel,http://www.wikidata.org/wiki/Q63258084,Person,1937-01-01T00:00:00Z,2002-10-17T00:00:00Z,https://d-nb.info/gnd/1053068662
+297,Marten Stol,Marten Stol,http://www.wikidata.org/wiki/Q63352545,Person,1940-11-10T00:00:00Z,,https://d-nb.info/gnd/118132997
+298,W.F. Leemans,W.F. Leemans,http://www.wikidata.org/wiki/Q63844688,Person,1912-05-30T00:00:00Z,1991-06-28T00:00:00Z,https://d-nb.info/gnd/140143890
+299,W.H.Ph. Römer,W.H.Ph. Römer,http://www.wikidata.org/wiki/Q63845063,Person,1928-03-15T00:00:00Z,2018-08-24T00:00:00Z,https://d-nb.info/gnd/120387158
+300,Johannes Jacobus Adrianus van Dijk,Johannes Jacobus Adrianus van Dijk,http://www.wikidata.org/wiki/Q63845168,Person,1915-01-28T00:00:00Z,1996-05-14T00:00:00Z,https://d-nb.info/gnd/128542519
+301,Lucie van den Bergh,Lucie van den Bergh,http://www.wikidata.org/wiki/Q63861431,Person,1904-02-14T00:00:00Z,1942-09-10T00:00:00Z,
+302,Ahmet Ünal,Ahmet Ünal,http://www.wikidata.org/wiki/Q64006880,Person,1943-01-01T00:00:00Z,,https://d-nb.info/gnd/1111055408
+303,Walter Farber,Walter Farber,http://www.wikidata.org/wiki/Q64006881,Person,1947-01-01T00:00:00Z,,https://d-nb.info/gnd/1048628450
+304,Joachim Krecher,Joachim Krecher,http://www.wikidata.org/wiki/Q64019485,Person,1933-07-10T00:00:00Z,2020-12-12T00:00:00Z,https://d-nb.info/gnd/1046295683
+305,Walter Mayer,Walter Mayer,http://www.wikidata.org/wiki/Q64019491,Person,1941-09-06T00:00:00Z,2019-12-27T00:00:00Z,https://d-nb.info/gnd/1032963891
+306,Nicolas Schneider,Nicolas Schneider,http://www.wikidata.org/wiki/Q64589582,Person,1887-11-28T00:00:00Z,1953-03-06T00:00:00Z,https://d-nb.info/gnd/132637634
+307,Marcel Sigrist,Marcel Sigrist,http://www.wikidata.org/wiki/Q66596753,Person,1940-08-19T00:00:00Z,,https://d-nb.info/gnd/13653872X
+308,Boricus Antonius van Proosdij,Boricus Antonius van Proosdij,http://www.wikidata.org/wiki/Q68600698,Person,1901-04-28T00:00:00Z,1990-01-02T00:00:00Z,
+309,H.L.J. Vanstiphout,H.L.J. Vanstiphout,http://www.wikidata.org/wiki/Q73503445,Person,1941-06-24T00:00:00Z,2019-10-22T00:00:00Z,https://d-nb.info/gnd/132014351
+310,Charles-François Jean,Charles-François Jean,http://www.wikidata.org/wiki/Q79872911,Person,1874-03-20T00:00:00Z,1955-05-15T00:00:00Z,https://d-nb.info/gnd/1055304304
+311,Jean-Robert Kupper,Jean-Robert Kupper,http://www.wikidata.org/wiki/Q81911735,Person,1920-01-22T00:00:00Z,2009-01-06T00:00:00Z,https://d-nb.info/gnd/119058308
+312,Sheldon Godfrey,Sheldon Godfrey,http://www.wikidata.org/wiki/Q88091370,Person,1938-01-01T00:00:00Z,,https://d-nb.info/gnd/172928729
+313,Pietro Mander,Pietro Mander,http://www.wikidata.org/wiki/Q93226258,Person,1946-04-12T00:00:00Z,,https://d-nb.info/gnd/120112946X
+314,Joaquín Sanmartín Ascaso,Joaquín Sanmartín Ascaso,http://www.wikidata.org/wiki/Q93233640,Person,1941-01-01T00:00:00Z,,https://d-nb.info/gnd/133245195
+315,Johann Tischler,Johann Tischler,http://www.wikidata.org/wiki/Q94132398,Person,1946-05-05T00:00:00Z,2019-05-10T00:00:00Z,https://d-nb.info/gnd/1102899828
+316,Erich Neu,Erich Neu,http://www.wikidata.org/wiki/Q94132980,Person,1936-11-26T00:00:00Z,1999-12-31T00:00:00Z,https://d-nb.info/gnd/133992578
+317,James B. Nies,James B. Nies,http://www.wikidata.org/wiki/Q94297704,Person,1856-01-01T00:00:00Z,1922-01-01T00:00:00Z,https://d-nb.info/gnd/1055342168
+318,Hans Erich Hirsch,Hans Erich Hirsch,http://www.wikidata.org/wiki/Q94519975,Person,1931-01-01T00:00:00Z,2020-03-15T00:00:00Z,https://d-nb.info/gnd/11951429X
+319,Albert Schott,Albert Schott,http://www.wikidata.org/wiki/Q94873664,Person,1901-01-23T00:00:00Z,1945-05-08T00:00:00Z,https://d-nb.info/gnd/143474529
+320,Manfred Müller,Manfred Müller,http://www.wikidata.org/wiki/Q94873671,Person,1936-01-01T00:00:00Z,2006-01-01T00:00:00Z,https://d-nb.info/gnd/131611054
+321,Pierre M. Purves,Pierre M. Purves,http://www.wikidata.org/wiki/Q94884452,Person,1907-02-22T00:00:00Z,1987-09-21T00:00:00Z,https://d-nb.info/gnd/1028425082
+322,Robert Donceel,Robert Donceel,http://www.wikidata.org/wiki/Q97065285,Person,1938-01-01T00:00:00Z,2019-01-01T00:00:00Z,https://d-nb.info/gnd/1161367934
+323,Léon Legrain,Léon Legrain,http://www.wikidata.org/wiki/Q98961712,Person,1878-06-16T00:00:00Z,1963-10-28T00:00:00Z,https://d-nb.info/gnd/1055104097
+324,Henri Limet,Henri Limet,http://www.wikidata.org/wiki/Q104444537,Person,1924-01-01T00:00:00Z,2009-01-01T00:00:00Z,https://d-nb.info/gnd/120497735
+325,Jacob J. Finkelstein,Jacob J. Finkelstein,http://www.wikidata.org/wiki/Q105096216,Person,1922-01-01T00:00:00Z,1974-01-01T00:00:00Z,https://d-nb.info/gnd/136088295
+326,William John Hinke,William John Hinke,http://www.wikidata.org/wiki/Q105520777,Person,1871-01-01T00:00:00Z,1947-01-01T00:00:00Z,https://d-nb.info/gnd/121078604
+327,Arthur Carl Piepkorn,Arthur Carl Piepkorn,http://www.wikidata.org/wiki/Q105598119,Person,1907-01-01T00:00:00Z,1973-01-01T00:00:00Z,https://d-nb.info/gnd/1024258955
+328,George Douglas Young,George Douglas Young,http://www.wikidata.org/wiki/Q106937699,Person,1910-09-02T00:00:00Z,1980-05-21T00:00:00Z,https://d-nb.info/gnd/1199157406
+329,Theo Bauer,Theo Bauer,http://www.wikidata.org/wiki/Q107163077,Person,1896-03-04T00:00:00Z,1957-05-10T00:00:00Z,https://d-nb.info/gnd/1034114441
+330,William St Chad Boscawen,William St Chad Boscawen,http://www.wikidata.org/wiki/Q108616352,Person,1854-01-01T00:00:00Z,1913-01-01T00:00:00Z,https://d-nb.info/gnd/124907288
+331,Maurice Lambert,Maurice Lambert,http://www.wikidata.org/wiki/Q110056420,Person,1914-01-01T00:00:00Z,1979-05-24T00:00:00Z,https://d-nb.info/gnd/1194021514
+332,Marguerite Rutten,Marguerite Rutten,http://www.wikidata.org/wiki/Q110897325,Person,1898-10-18T00:00:00Z,1984-04-07T00:00:00Z,
+333,Kenneth T. Aitken,Kenneth T. Aitken,http://www.wikidata.org/wiki/Q113739017,Person,1947-01-01T00:00:00Z,,https://d-nb.info/gnd/118272258X
+334,Luc Bachelot,Luc Bachelot,http://www.wikidata.org/wiki/Q113760005,Person,1946-01-01T00:00:00Z,,https://d-nb.info/gnd/122365544X
+335,Gabriella Frantz-Szabó,Gabriella Frantz-Szabó,http://www.wikidata.org/wiki/Q113777851,Person,1937-02-28T00:00:00Z,,https://d-nb.info/gnd/137229372
+336,Tzvi Abusch,Tzvi Abusch,http://www.wikidata.org/wiki/Q113781041,Person,1940-06-13T00:00:00Z,,https://d-nb.info/gnd/14171462X
+337,Ronald Herbert Sack,Ronald Herbert Sack,http://www.wikidata.org/wiki/Q113789906,Person,1943-01-01T00:00:00Z,,https://d-nb.info/gnd/172392977
+338,Herbert Sauren,Herbert Sauren,http://www.wikidata.org/wiki/Q113789909,Person,1934-01-01T00:00:00Z,,https://d-nb.info/gnd/17239435X
+339,Aaron Jacob Skaist,Aaron Jacob Skaist,http://www.wikidata.org/wiki/Q113790965,Person,1932-01-01T00:00:00Z,,https://d-nb.info/gnd/173488471
+340,Barry L. Eichler,Barry L. Eichler,http://www.wikidata.org/wiki/Q113797817,Person,1940-01-01T00:00:00Z,,https://d-nb.info/gnd/102502074X
+341,Laurence Timothy Doty,Laurence Timothy Doty,http://www.wikidata.org/wiki/Q113803595,Person,1945-01-01T00:00:00Z,,https://d-nb.info/gnd/1033671444
+342,David B. Weisberg,David B. Weisberg,http://www.wikidata.org/wiki/Q113805524,Person,1938-01-01T00:00:00Z,2012-01-01T00:00:00Z,https://d-nb.info/gnd/1034588931
+343,Giovanni Semerano,Giovanni Semerano,http://www.wikidata.org/wiki/Q596009,Person,1911-02-21T00:00:00Z,2005-07-20T00:00:00Z,
+344,Joseph Halévy,Joseph Halévy,http://www.wikidata.org/wiki/Q601964,Person,1827-12-15T00:00:00Z,1917-01-21T00:00:00Z,https://d-nb.info/gnd/116405309
+345,Taha Baqir,Taha Baqir,http://www.wikidata.org/wiki/Q6811478,Person,1912-01-01T00:00:00Z,1984-02-28T00:00:00Z,https://d-nb.info/gnd/1051905907
+346,Paul Y. Hoskisson,Paul Y. Hoskisson,http://www.wikidata.org/wiki/Q7154504,Person,1943-01-01T00:00:00Z,,
+347,Richard Hallock,Richard Hallock,http://www.wikidata.org/wiki/Q7326221,Person,1906-04-05T00:00:00Z,1980-11-20T00:00:00Z,https://d-nb.info/gnd/1055431780
+348,Thorkild Jacobsen,Thorkild Jacobsen,http://www.wikidata.org/wiki/Q7662926,Person,1904-06-07T00:00:00Z,1993-05-02T00:00:00Z,https://d-nb.info/gnd/124206018
+349,Theodor Gaster,Theodor Gaster,http://www.wikidata.org/wiki/Q7781585,Person,1906-07-21T00:00:00Z,1992-02-02T00:00:00Z,https://d-nb.info/gnd/121993922
+350,Theophilus Pinches,Theophilus Pinches,http://www.wikidata.org/wiki/Q7782321,Person,1856-01-01T00:00:00Z,1934-06-06T00:00:00Z,https://d-nb.info/gnd/116186216
+351,William Henry Boulton,William Henry Boulton,http://www.wikidata.org/wiki/Q8011903,Person,1869-01-01T00:00:00Z,1964-01-01T00:00:00Z,
+352,William L. Moran,William L. Moran,http://www.wikidata.org/wiki/Q8014195,Person,1921-08-11T00:00:00Z,2000-12-19T00:00:00Z,https://d-nb.info/gnd/119001144
+353,Miguel Civil,Miguel Civil,http://www.wikidata.org/wiki/Q9032685,Person,1926-05-07T00:00:00Z,2019-01-13T00:00:00Z,https://d-nb.info/gnd/119216124
+354,Tōru Ozaki,Tōru Ozaki,http://www.wikidata.org/wiki/Q11465171,Person,1944-02-01T00:00:00Z,,https://d-nb.info/gnd/124612369
+355,Akio Tsukimoto,Akio Tsukimoto,http://www.wikidata.org/wiki/Q11516147,Person,1948-05-20T00:00:00Z,,https://d-nb.info/gnd/111084059
+356,Krystyna Łyczkowska,Krystyna Łyczkowska,http://www.wikidata.org/wiki/Q11748814,Person,1933-01-23T00:00:00Z,2018-01-29T00:00:00Z,https://d-nb.info/gnd/140281185
+357,Gonzague Ryckmans,Gonzague Ryckmans,http://www.wikidata.org/wiki/Q12214087,Person,1887-12-10T00:00:00Z,1969-09-03T00:00:00Z,https://d-nb.info/gnd/1055462430
+358,Juan Errandonea,Juan Errandonea,http://www.wikidata.org/wiki/Q12260975,Person,1917-06-12T00:00:00Z,1967-03-12T00:00:00Z,
+359,Arno Poebel,Arno Poebel,http://www.wikidata.org/wiki/Q14829524,Person,1881-01-26T00:00:00Z,1958-03-03T00:00:00Z,https://d-nb.info/gnd/116247940
+360,Kaspar K. Riemschneider,Kaspar K. Riemschneider,http://www.wikidata.org/wiki/Q15439262,Person,1934-04-03T00:00:00Z,1976-06-05T00:00:00Z,
+361,Gerhard Meier,Gerhard Meier,http://www.wikidata.org/wiki/Q15444584,Person,1913-08-31T00:00:00Z,1945-01-01T00:00:00Z,https://d-nb.info/gnd/1090326998
+362,Nicholas Postgate,Nicholas Postgate,http://www.wikidata.org/wiki/Q15990233,Person,1945-11-05T00:00:00Z,,https://d-nb.info/gnd/122478754
+363,Ethel Bristowe,Ethel Bristowe,http://www.wikidata.org/wiki/Q15998201,Person,1862-01-01T00:00:00Z,1952-01-01T00:00:00Z,
+364,Giuseppe Furlani,Giuseppe Furlani,http://www.wikidata.org/wiki/Q16744611,Person,1885-11-10T00:00:00Z,1962-12-17T00:00:00Z,https://d-nb.info/gnd/118885839
+365,Claudio Saporetti,Claudio Saporetti,http://www.wikidata.org/wiki/Q16766437,Person,1938-03-08T00:00:00Z,,https://d-nb.info/gnd/122764919
+366,Robert Henry Pfeiffer,Robert Henry Pfeiffer,http://www.wikidata.org/wiki/Q16773629,Person,1892-02-14T00:00:00Z,1958-03-16T00:00:00Z,https://d-nb.info/gnd/121557073
+367,Raymond Gestin,Raymond Gestin,http://www.wikidata.org/wiki/Q16945185,Person,1902-01-01T00:00:00Z,1991-01-01T00:00:00Z,https://d-nb.info/gnd/1157809510
+368,Paul Garelli,Paul Garelli,http://www.wikidata.org/wiki/Q17350599,Person,1924-04-23T00:00:00Z,2006-07-08T00:00:00Z,https://d-nb.info/gnd/119101033
+369,Åke W. Sjöberg,Åke W. Sjöberg,http://www.wikidata.org/wiki/Q17516081,Person,1924-08-01T00:00:00Z,2014-08-08T00:00:00Z,https://d-nb.info/gnd/123377013
+370,Georges Dossin,Georges Dossin,http://www.wikidata.org/wiki/Q19894802,Person,1896-02-04T00:00:00Z,1983-12-08T00:00:00Z,https://d-nb.info/gnd/101976838X
+371,Franz Marius Theodor de Liagre Böhl,Franz Marius Theodor de Liagre Böhl,http://www.wikidata.org/wiki/Q20113644,Person,1882-08-16T00:00:00Z,1976-11-16T00:00:00Z,https://d-nb.info/gnd/104302763
+372,René Labat,René Labat,http://www.wikidata.org/wiki/Q20789758,Person,1904-06-05T00:00:00Z,1974-04-03T00:00:00Z,https://d-nb.info/gnd/130310247
+373,Friedrich Schmidtke,Friedrich Schmidtke,http://www.wikidata.org/wiki/Q21064904,Person,1891-05-03T00:00:00Z,1969-07-22T00:00:00Z,https://d-nb.info/gnd/1051792304
+374,Maurice Pézard,Maurice Pézard,http://www.wikidata.org/wiki/Q21091582,Person,1876-05-27T00:00:00Z,1923-10-07T00:00:00Z,https://d-nb.info/gnd/11613934X
+375,Stephanie Dalley,Stephanie Dalley,http://www.wikidata.org/wiki/Q21592378,Person,1943-03-01T00:00:00Z,,https://d-nb.info/gnd/1037836405
+376,Norman Yoffee,Norman Yoffee,http://www.wikidata.org/wiki/Q22917513,Person,1944-05-25T00:00:00Z,,https://d-nb.info/gnd/138062382
+377,Joseph Étienne Gautier,Joseph Étienne Gautier,http://www.wikidata.org/wiki/Q22936338,Person,1861-09-06T00:00:00Z,1924-02-10T00:00:00Z,https://d-nb.info/gnd/1055419500
+378,Pinhas Artzi,Pinhas Artzi,http://www.wikidata.org/wiki/Q22944180,Person,1923-05-23T00:00:00Z,2007-04-08T00:00:00Z,https://d-nb.info/gnd/1017897530
+379,Leonie Zuntz,Leonie Zuntz,http://www.wikidata.org/wiki/Q23059545,Person,1908-10-11T00:00:00Z,1942-12-14T00:00:00Z,https://d-nb.info/gnd/127664262
+380,Joan Goodnick Westenholz,Joan Goodnick Westenholz,http://www.wikidata.org/wiki/Q24645284,Person,1943-07-01T00:00:00Z,2013-01-01T00:00:00Z,https://d-nb.info/gnd/12998020X
+381,Sidney Smith,Sidney Smith,http://www.wikidata.org/wiki/Q25171686,Person,1889-08-29T00:00:00Z,1979-06-12T00:00:00Z,https://d-nb.info/gnd/102125341
+382,Hartmut Waetzoldt,Hartmut Waetzoldt,http://www.wikidata.org/wiki/Q26736564,Person,1941-01-01T00:00:00Z,,https://d-nb.info/gnd/139480684
+383,Bedřich Hrozný,Bedřich Hrozný,http://www.wikidata.org/wiki/Q311931,Person,1879-05-06T00:00:00Z,1952-12-12T00:00:00Z,https://d-nb.info/gnd/118775162
+384,Abraham Sachs,Abraham Sachs,http://www.wikidata.org/wiki/Q330562,Person,1914-12-11T00:00:00Z,1983-04-22T00:00:00Z,https://d-nb.info/gnd/118966383
+385,Oliver Gurney,Oliver Gurney,http://www.wikidata.org/wiki/Q351122,Person,1911-01-28T00:00:00Z,2001-01-11T00:00:00Z,https://d-nb.info/gnd/115592717
+386,Leonard Woolley,Leonard Woolley,http://www.wikidata.org/wiki/Q356134,Person,1880-04-17T00:00:00Z,1960-02-20T00:00:00Z,https://d-nb.info/gnd/122090632
+387,Samuel Noah Kramer,Samuel Noah Kramer,http://www.wikidata.org/wiki/Q362308,Person,1897-09-28T00:00:00Z,1990-11-26T00:00:00Z,https://d-nb.info/gnd/118566113
+388,Denise Schmandt-Besserat,Denise Schmandt-Besserat,http://www.wikidata.org/wiki/Q443378,Person,1933-08-10T00:00:00Z,,https://d-nb.info/gnd/143609831
+389,Muazzez İlmiye Çığ,Muazzez İlmiye Çığ,http://www.wikidata.org/wiki/Q464906,Person,1914-06-20T00:00:00Z,,https://d-nb.info/gnd/105147206
+390,Itamar Singer,Itamar Singer,http://www.wikidata.org/wiki/Q508221,Person,1946-11-26T00:00:00Z,2012-09-19T00:00:00Z,https://d-nb.info/gnd/115176578
+391,Sedat Alp,Sedat Alp,http://www.wikidata.org/wiki/Q560099,Person,1913-01-01T00:00:00Z,2006-10-09T00:00:00Z,https://d-nb.info/gnd/119252791
+392,Tamaz Gamkrelidze,Tamaz Gamkrelidze,http://www.wikidata.org/wiki/Q701358,Person,1929-10-23T00:00:00Z,2021-02-10T00:00:00Z,https://d-nb.info/gnd/103745378
+393,Wolfram von Soden,Wolfram von Soden,http://www.wikidata.org/wiki/Q98364,Person,1908-06-19T00:00:00Z,1996-10-06T00:00:00Z,https://d-nb.info/gnd/105524050
+394,Dietz-Otto Edzard,Dietz-Otto Edzard,http://www.wikidata.org/wiki/Q98515,Person,1930-08-28T00:00:00Z,2004-06-02T00:00:00Z,https://d-nb.info/gnd/121168093
+395,Helmuth Theodor Bossert,Helmuth Theodor Bossert,http://www.wikidata.org/wiki/Q99316,Person,1889-09-11T00:00:00Z,1961-02-05T00:00:00Z,https://d-nb.info/gnd/118897454
+396,Hermann Hunger,Hermann Hunger,http://www.wikidata.org/wiki/Q88118,Person,1942-06-30T00:00:00Z,,https://d-nb.info/gnd/136354181
+397,Friedrich Delitzsch,Friedrich Delitzsch,http://www.wikidata.org/wiki/Q72141,Person,1850-09-03T00:00:00Z,1922-12-19T00:00:00Z,https://d-nb.info/gnd/118671375
+398,Johannes Friedrich,Johannes Friedrich,http://www.wikidata.org/wiki/Q72333,Person,1893-08-27T00:00:00Z,1972-08-12T00:00:00Z,https://d-nb.info/gnd/11869359X
+399,Alfred Jeremias,Alfred Jeremias,http://www.wikidata.org/wiki/Q74738,Person,1864-02-21T00:00:00Z,1935-01-11T00:00:00Z,https://d-nb.info/gnd/117105457
+400,Ignace Gelb,Ignace Gelb,http://www.wikidata.org/wiki/Q76890,Person,1907-10-14T00:00:00Z,1985-12-22T00:00:00Z,https://d-nb.info/gnd/128316101
+401,Robert Koldewey,Robert Koldewey,http://www.wikidata.org/wiki/Q60700,Person,1855-09-10T00:00:00Z,1925-02-04T00:00:00Z,https://d-nb.info/gnd/116314230
+402,Hugo Winckler,Hugo Winckler,http://www.wikidata.org/wiki/Q64339,Person,1863-07-04T00:00:00Z,1913-04-19T00:00:00Z,https://d-nb.info/gnd/117399825
+403,Walter Andrae,Walter Andrae,http://www.wikidata.org/wiki/Q67392,Person,1875-02-18T00:00:00Z,1956-07-28T00:00:00Z,https://d-nb.info/gnd/118835173
+404,Benno Landsberger,Benno Landsberger,http://www.wikidata.org/wiki/Q67592,Person,1890-04-21T00:00:00Z,1968-04-26T00:00:00Z,https://d-nb.info/gnd/116681888
+405,Franz Xaver Kugler,Franz Xaver Kugler,http://www.wikidata.org/wiki/Q71313,Person,1862-11-27T00:00:00Z,1929-01-25T00:00:00Z,https://d-nb.info/gnd/116599642
+406,Carl Bezold,Carl Bezold,http://www.wikidata.org/wiki/Q71554,Person,1859-05-18T00:00:00Z,1922-11-21T00:00:00Z,https://d-nb.info/gnd/116160918
+407,Eberhard Schrader,Eberhard Schrader,http://www.wikidata.org/wiki/Q71881,Person,1836-01-07T00:00:00Z,1908-07-04T00:00:00Z,https://d-nb.info/gnd/117024074
+408,Arnold Gustavs,Arnold Gustavs,http://www.wikidata.org/wiki/Q695268,Person,1875-01-07T00:00:00Z,1956-12-19T00:00:00Z,https://d-nb.info/gnd/116931167
+409,François Thureau-Dangin,François Thureau-Dangin,http://www.wikidata.org/wiki/Q1352388,Person,1872-01-03T00:00:00Z,1944-01-24T00:00:00Z,https://d-nb.info/gnd/118802194
+410,Harry A. Hoffner,Harry A. Hoffner,http://www.wikidata.org/wiki/Q5666792,Person,1934-11-27T00:00:00Z,2015-03-10T00:00:00Z,https://d-nb.info/gnd/129257613
+411,Louis-Joseph Delaporte,Louis-Joseph Delaporte,http://www.wikidata.org/wiki/Q19894719,Person,1874-10-22T00:00:00Z,1944-02-24T00:00:00Z,https://d-nb.info/gnd/1020302887
+412,Philo Houwink ten Cate,Philo Houwink ten Cate,http://www.wikidata.org/wiki/Q63341778,Person,1930-08-24T00:00:00Z,2013-01-08T00:00:00Z,https://d-nb.info/gnd/119303280
+413,Johan de Roos,Johan de Roos,http://www.wikidata.org/wiki/Q63341805,Person,1937-12-19T00:00:00Z,2020-12-16T00:00:00Z,
+414,Franca Pecchioli Daddi,Franca Pecchioli Daddi,http://www.wikidata.org/wiki/Q85805975,Person,1944-10-17T00:00:00Z,2014-12-11T00:00:00Z,https://d-nb.info/gnd/1124249362
+415,Ronald Crossland,Ronald Crossland,http://www.wikidata.org/wiki/Q98594633,Person,1920-01-01T00:00:00Z,2006-01-01T00:00:00Z,
+416,Hatice Gonnet-Bağana,Hatice Gonnet-Bağana,http://www.wikidata.org/wiki/Q106860691,Person,1932-01-01T00:00:00Z,,
+417,Anna Maria Polvani,Anna Maria Polvani,http://www.wikidata.org/wiki/Q108776345,Person,1945-05-16T00:00:00Z,,
+418,Ferdinand Sommer,Ferdinand Sommer,http://www.wikidata.org/wiki/Q1405805,Person,1875-05-04T00:00:00Z,1962-04-03T00:00:00Z,https://d-nb.info/gnd/11875145X
+419,Horst Klengel,Horst Klengel,http://www.wikidata.org/wiki/Q1629573,Person,1933-01-06T00:00:00Z,2019-12-25T00:00:00Z,https://d-nb.info/gnd/119519380
+420,Volkert Haas,Volkert Haas,http://www.wikidata.org/wiki/Q2531422,Person,1936-11-01T00:00:00Z,2019-05-13T00:00:00Z,https://d-nb.info/gnd/12138134X
+421,Jørgen Alexander Knudtzon,Jørgen Alexander Knudtzon,http://www.wikidata.org/wiki/Q2690828,Person,1854-09-09T00:00:00Z,1917-01-07T00:00:00Z,https://d-nb.info/gnd/124264921
+422,Edgar Howard Sturtevant,Edgar Howard Sturtevant,http://www.wikidata.org/wiki/Q4444895,Person,1875-03-07T00:00:00Z,1952-07-01T00:00:00Z,https://d-nb.info/gnd/172410568
+423,Craig Melchert,Craig Melchert,http://www.wikidata.org/wiki/Q5181227,Person,1945-04-05T00:00:00Z,,https://d-nb.info/gnd/135922321
+424,Gary Beckman,Gary Beckman,http://www.wikidata.org/wiki/Q5524681,Person,1948-01-01T00:00:00Z,,https://d-nb.info/gnd/1024753735
+425,Bruno Meissner,Bruno Meissner,http://www.wikidata.org/wiki/Q90884,Person,1868-04-25T00:00:00Z,1947-03-13T00:00:00Z,https://d-nb.info/gnd/116870214
+426,Hans Gustav Güterbock,Hans Gustav Güterbock,http://www.wikidata.org/wiki/Q91991,Person,1908-05-27T00:00:00Z,2000-03-29T00:00:00Z,https://d-nb.info/gnd/121116522
+427,Adam Falkenstein,Adam Falkenstein,http://www.wikidata.org/wiki/Q95566,Person,1906-09-17T00:00:00Z,1966-10-15T00:00:00Z,https://d-nb.info/gnd/118685945
+428,Erich Ebeling,Erich Ebeling,http://www.wikidata.org/wiki/Q101365,Person,1886-11-21T00:00:00Z,1955-10-28T00:00:00Z,https://d-nb.info/gnd/116320885
+429,Rykle Borger,Rykle Borger,http://www.wikidata.org/wiki/Q106433,Person,1929-05-24T00:00:00Z,2010-12-27T00:00:00Z,https://d-nb.info/gnd/12095687X
+430,Peter Jensen,Peter Jensen,http://www.wikidata.org/wiki/Q108039,Person,1861-08-16T00:00:00Z,1936-08-16T00:00:00Z,https://d-nb.info/gnd/102413711
+431,Albrecht Goetze,Albrecht Goetze,http://www.wikidata.org/wiki/Q109158,Person,1897-01-11T00:00:00Z,1971-08-15T00:00:00Z,https://d-nb.info/gnd/116740256
+432,Johann Nepomuk Strassmaier,Johann Nepomuk Strassmaier,http://www.wikidata.org/wiki/Q109486,Person,1846-05-15T00:00:00Z,1920-01-11T00:00:00Z,https://d-nb.info/gnd/117308455
+433,Annelies Kammenhuber,Annelies Kammenhuber,http://www.wikidata.org/wiki/Q109708,Person,1922-03-19T00:00:00Z,1995-12-24T00:00:00Z,https://d-nb.info/gnd/119145634
+434,Hubert Grimme,Hubert Grimme,http://www.wikidata.org/wiki/Q110202,Person,1864-01-24T00:00:00Z,1942-09-05T00:00:00Z,https://d-nb.info/gnd/116854685
+435,Heinrich Zimmern,Heinrich Zimmern,http://www.wikidata.org/wiki/Q115000,Person,1862-07-14T00:00:00Z,1931-02-17T00:00:00Z,https://d-nb.info/gnd/11880846X
+436,Michael Roaf,Michael Roaf,http://www.wikidata.org/wiki/Q116626,Person,1947-05-20T00:00:00Z,,https://d-nb.info/gnd/138400105
+437,Josef Klíma,Josef Klíma,http://www.wikidata.org/wiki/Q121690,Person,1909-11-16T00:00:00Z,1989-11-30T00:00:00Z,https://d-nb.info/gnd/1062692926
+438,Hans Ehelolf,Hans Ehelolf,http://www.wikidata.org/wiki/Q123496,Person,1881-07-30T00:00:00Z,1939-05-29T00:00:00Z,https://d-nb.info/gnd/135913837
+439,Emil Forrer,Emil Forrer,http://www.wikidata.org/wiki/Q125010,Person,1894-02-19T00:00:00Z,1986-01-10T00:00:00Z,https://d-nb.info/gnd/128987715
+440,Charles Fossey,Charles Fossey,http://www.wikidata.org/wiki/Q201834,Person,1869-07-29T00:00:00Z,1946-11-27T00:00:00Z,https://d-nb.info/gnd/116676914
+441,Paul Haupt,Paul Haupt,http://www.wikidata.org/wiki/Q214158,Person,1858-11-25T00:00:00Z,1926-12-15T00:00:00Z,https://d-nb.info/gnd/116528036
+442,William W. Hallo,William W. Hallo,http://www.wikidata.org/wiki/Q214523,Person,1928-03-09T00:00:00Z,2015-03-27T00:00:00Z,https://d-nb.info/gnd/11915448X
+443,Adolf Leo Oppenheim,Adolf Leo Oppenheim,http://www.wikidata.org/wiki/Q215468,Person,1904-06-07T00:00:00Z,1974-07-21T00:00:00Z,https://d-nb.info/gnd/137690428
+444,Gertrude Bell,Gertrude Bell,http://www.wikidata.org/wiki/Q231360,Person,1868-07-14T00:00:00Z,1926-07-12T00:00:00Z,https://d-nb.info/gnd/118658026
+445,Halet Çambel,Halet Çambel,http://www.wikidata.org/wiki/Q274048,Person,1916-08-27T00:00:00Z,2014-01-12T00:00:00Z,https://d-nb.info/gnd/132128128
+446,Édouard Dhorme,Édouard Dhorme,http://www.wikidata.org/wiki/Q274286,Person,1881-01-15T00:00:00Z,1966-01-19T00:00:00Z,https://d-nb.info/gnd/124954030
+447,Ernst Friedrich Weidner,Ernst Friedrich Weidner,http://www.wikidata.org/wiki/Q1358167,Person,1891-10-07T00:00:00Z,1976-02-18T00:00:00Z,https://d-nb.info/gnd/117240664
+448,Jean Bottéro,Jean Bottéro,http://www.wikidata.org/wiki/Q1378164,Person,1914-08-30T00:00:00Z,2007-12-15T00:00:00Z,https://d-nb.info/gnd/119442272
+449,Wolfgang Röllig,Wolfgang Röllig,http://www.wikidata.org/wiki/Q1399198,Person,1932-02-06T00:00:00Z,2023-02-22T00:00:00Z,https://d-nb.info/gnd/11945680X
+450,Jean Nougayrol,Jean Nougayrol,http://www.wikidata.org/wiki/Q1685725,Person,1900-02-14T00:00:00Z,1975-01-23T00:00:00Z,https://d-nb.info/gnd/126859701
+451,Brigitte Groneberg,Brigitte Groneberg,http://www.wikidata.org/wiki/Q916304,Person,1945-04-09T00:00:00Z,,https://d-nb.info/gnd/129328898
+452,Alfred Loisy,Alfred Loisy,http://www.wikidata.org/wiki/Q918361,Person,1857-02-28T00:00:00Z,1940-06-01T00:00:00Z,https://d-nb.info/gnd/118574124
+453,Jean-Vincent Scheil,Jean-Vincent Scheil,http://www.wikidata.org/wiki/Q972619,Person,1858-06-10T00:00:00Z,1940-09-21T00:00:00Z,https://d-nb.info/gnd/137460929
+454,Hermann Volrath Hilprecht,Hermann Volrath Hilprecht,http://www.wikidata.org/wiki/Q984339,Person,1859-07-28T00:00:00Z,1925-03-19T00:00:00Z,https://d-nb.info/gnd/116892374
+455,Paolo Matthiae,Paolo Matthiae,http://www.wikidata.org/wiki/Q1066991,Person,1940-01-09T00:00:00Z,,https://d-nb.info/gnd/120943581
+456,Daniel David Luckenbill,Daniel David Luckenbill,http://www.wikidata.org/wiki/Q1160411,Person,1881-06-21T00:00:00Z,1927-06-05T00:00:00Z,https://d-nb.info/gnd/154371777
+457,Hormuzd Rassam,Hormuzd Rassam,http://www.wikidata.org/wiki/Q1285498,Person,1826-01-01T00:00:00Z,1910-09-16T00:00:00Z,https://d-nb.info/gnd/117690600
+458,Hans Henning von der Osten,Hans Henning von der Osten,http://www.wikidata.org/wiki/Q1297258,Person,1899-10-31T00:00:00Z,1960-06-30T00:00:00Z,https://d-nb.info/gnd/137162901
+459,Trevor R. Bryce,Trevor R. Bryce,http://www.wikidata.org/wiki/Q1323892,Person,1940-01-01T00:00:00Z,,https://d-nb.info/gnd/133186989
+460,Elena Cassin,Elena Cassin,http://www.wikidata.org/wiki/Q1327855,Person,1909-10-30T00:00:00Z,2011-06-23T00:00:00Z,https://d-nb.info/gnd/12238685X
+461,Ephraim Avigdor Speiser,Ephraim Avigdor Speiser,http://www.wikidata.org/wiki/Q1346814,Person,1902-01-24T00:00:00Z,1965-06-15T00:00:00Z,https://d-nb.info/gnd/102116091
+462,Erica Reiner,Erica Reiner,http://www.wikidata.org/wiki/Q1351817,Person,1924-08-06T00:00:00Z,2005-12-31T00:00:00Z,https://d-nb.info/gnd/11930404X
+463,Christliebe Fichtner-Jeremias,Christliebe Fichtner-Jeremias,http://www.wikidata.org/wiki/Q113812700,Person,1894-01-01T00:00:00Z,,https://d-nb.info/gnd/1050959590
+464,Malcolm J. A. Horsnell,Malcolm J. A. Horsnell,http://www.wikidata.org/wiki/Q113844274,Person,1939-01-01T00:00:00Z,,https://d-nb.info/gnd/1124178619
+465,Kilian Butz,Kilian Butz,http://www.wikidata.org/wiki/Q113846389,Person,1946-03-12T00:00:00Z,1990-05-22T00:00:00Z,https://d-nb.info/gnd/1137586907
+466,Franz Bayer,Franz Bayer,http://www.wikidata.org/wiki/Q114600125,Person,1876-01-01T00:00:00Z,1944-10-05T00:00:00Z,https://d-nb.info/gnd/129859168
+467,Ellen Seton Ogden,Ellen Seton Ogden,http://www.wikidata.org/wiki/Q116051920,Person,1875-01-01T00:00:00Z,1937-01-01T00:00:00Z,
+468,David Gordon Lyon,David Gordon Lyon,http://www.wikidata.org/wiki/Q5234260,Person,1852-04-24T00:00:00Z,1935-12-04T00:00:00Z,https://d-nb.info/gnd/1037275934
+469,Dietrich Opitz,Dietrich Opitz,http://www.wikidata.org/wiki/Q5275195,Person,1901-01-13T00:00:00Z,1992-01-02T00:00:00Z,
+470,Donald Wiseman,Donald Wiseman,http://www.wikidata.org/wiki/Q5295320,Person,1918-10-25T00:00:00Z,2010-02-02T00:00:00Z,https://d-nb.info/gnd/1060077345
+471,Edward Chiera,Edward Chiera,http://www.wikidata.org/wiki/Q5342291,Person,1885-08-05T00:00:00Z,1933-06-20T00:00:00Z,https://d-nb.info/gnd/102939332X
+472,Harri Holma,Harri Holma,http://www.wikidata.org/wiki/Q5480518,Person,1886-04-14T00:00:00Z,1954-04-14T00:00:00Z,https://d-nb.info/gnd/116965428
+473,Georges Roux,Georges Roux,http://www.wikidata.org/wiki/Q5546891,Person,1914-11-16T00:00:00Z,1999-08-12T00:00:00Z,https://d-nb.info/gnd/1148975500
+474,Godfrey Rolles Driver,Godfrey Rolles Driver,http://www.wikidata.org/wiki/Q5576534,Person,1892-08-20T00:00:00Z,1975-04-22T00:00:00Z,https://d-nb.info/gnd/118672460
+475,Leonard William King,Leonard William King,http://www.wikidata.org/wiki/Q5910045,Person,1869-12-08T00:00:00Z,1919-08-20T00:00:00Z,https://d-nb.info/gnd/115751971
+476,Armas Salonen,Armas Salonen,http://www.wikidata.org/wiki/Q6090034,Person,1915-01-17T00:00:00Z,1981-10-22T00:00:00Z,https://d-nb.info/gnd/12337653X
+477,Jack M. Sasson,Jack M. Sasson,http://www.wikidata.org/wiki/Q6113796,Person,1941-10-01T00:00:00Z,,https://d-nb.info/gnd/1027243584
+478,James Kinnier Wilson,James Kinnier Wilson,http://www.wikidata.org/wiki/Q6137372,Person,1921-11-27T00:00:00Z,,https://d-nb.info/gnd/133322300
+479,Knut Tallqvist,Knut Tallqvist,http://www.wikidata.org/wiki/Q6203467,Person,1865-03-16T00:00:00Z,1949-08-16T00:00:00Z,https://d-nb.info/gnd/121648737
+480,Svi Rin,Svi Rin,http://www.wikidata.org/wiki/Q6671631,Person,1914-02-27T00:00:00Z,1998-09-26T00:00:00Z,https://d-nb.info/gnd/1089261365
+481,Manfried Dietrich,Manfried Dietrich,http://www.wikidata.org/wiki/Q26978122,Person,1935-11-06T00:00:00Z,,https://d-nb.info/gnd/123930251
+482,Karl Hecker,Karl Hecker,http://www.wikidata.org/wiki/Q27055450,Person,1933-07-25T00:00:00Z,2017-04-22T00:00:00Z,https://d-nb.info/gnd/1129901165
+483,Augustin-Georges Barrois,Augustin-Georges Barrois,http://www.wikidata.org/wiki/Q27560015,Person,1898-02-17T00:00:00Z,1987-08-27T00:00:00Z,https://d-nb.info/gnd/129082015
+484,Joachim Oelsner,Joachim Oelsner,http://www.wikidata.org/wiki/Q28036595,Person,1932-02-18T00:00:00Z,,https://d-nb.info/gnd/121004821
+485,William Muss-Arnolt,William Muss-Arnolt,http://www.wikidata.org/wiki/Q30715968,Person,1860-01-01T00:00:00Z,,https://d-nb.info/gnd/117189103
+486,Mary Inda Hussey,Mary Inda Hussey,http://www.wikidata.org/wiki/Q42329307,Person,1876-06-17T00:00:00Z,1952-06-20T00:00:00Z,https://d-nb.info/gnd/127667946
+487,Olof Pedersén,Olof Pedersén,http://www.wikidata.org/wiki/Q48618106,Person,1946-01-01T00:00:00Z,,https://d-nb.info/gnd/1185182187
+488,Mogens Trolle Larsen,Mogens Trolle Larsen,http://www.wikidata.org/wiki/Q50825883,Person,1937-05-20T00:00:00Z,,https://d-nb.info/gnd/129741426
+489,Helga Trenkwalder,Helga Trenkwalder,http://www.wikidata.org/wiki/Q52130875,Person,1941-01-01T00:00:00Z,,
+490,Cyril John Gadd,Cyril John Gadd,http://www.wikidata.org/wiki/Q52150040,Person,1893-01-01T00:00:00Z,1969-01-01T00:00:00Z,https://d-nb.info/gnd/101111088
+491,Manfred K. Schretter,Manfred K. Schretter,http://www.wikidata.org/wiki/Q53453888,Person,1944-02-25T00:00:00Z,,https://d-nb.info/gnd/111870747
+492,C. B. F. Walker,C. B. F. Walker,http://www.wikidata.org/wiki/Q55081512,Person,1942-10-04T00:00:00Z,,https://d-nb.info/gnd/129845507
+493,Jacques Freu,Jacques Freu,http://www.wikidata.org/wiki/Q55623424,Person,1925-01-01T00:00:00Z,,https://d-nb.info/gnd/1042805520
+494,Veysel Donbaz,Veysel Donbaz,http://www.wikidata.org/wiki/Q55627930,Person,1939-01-01T00:00:00Z,,https://d-nb.info/gnd/1011926555
+495,Hildegard Lewy,Hildegard Lewy,http://www.wikidata.org/wiki/Q55854876,Person,1903-01-01T00:00:00Z,1969-01-01T00:00:00Z,https://d-nb.info/gnd/125443234
+496,Paul Naster,Paul Naster,http://www.wikidata.org/wiki/Q55989747,Person,1913-12-19T00:00:00Z,1998-06-22T00:00:00Z,https://d-nb.info/gnd/134018877
+497,Maurice Birot,Maurice Birot,http://www.wikidata.org/wiki/Q56000672,Person,1916-01-01T00:00:00Z,1993-01-01T00:00:00Z,https://d-nb.info/gnd/1055660194
+498,Karlheinz Kessler,Karlheinz Kessler,http://www.wikidata.org/wiki/Q57147951,Person,1948-10-09T00:00:00Z,,https://d-nb.info/gnd/131496484
+499,Brian Peckham,Brian Peckham,http://www.wikidata.org/wiki/Q59531690,Person,1934-01-28T00:00:00Z,2008-10-19T00:00:00Z,https://d-nb.info/gnd/132581280
+500,Otto Emil Ravn,Otto Emil Ravn,http://www.wikidata.org/wiki/Q60310170,Person,1881-11-30T00:00:00Z,1952-11-18T00:00:00Z,https://d-nb.info/gnd/1055431799
+501,Amnon Altman,Amnon Altman,http://www.wikidata.org/wiki/Q60430554,Person,1935-07-13T00:00:00Z,2016-10-24T00:00:00Z,https://d-nb.info/gnd/1077937776
+502,Jana Součková,Jana Součková,http://www.wikidata.org/wiki/Q60678710,Person,1944-09-11T00:00:00Z,,https://d-nb.info/gnd/1098579801
+503,Felix Ernst Peiser,Felix Ernst Peiser,http://www.wikidata.org/wiki/Q1403449,Person,1862-07-27T00:00:00Z,1921-04-24T00:00:00Z,https://d-nb.info/gnd/116074086
+504,Fritz Rudolf Kraus,Fritz Rudolf Kraus,http://www.wikidata.org/wiki/Q1408904,Person,1910-03-21T00:00:00Z,1991-01-19T00:00:00Z,https://d-nb.info/gnd/133281434
+505,Georges Boyer,Georges Boyer,http://www.wikidata.org/wiki/Q1508813,Person,1896-10-27T00:00:00Z,1960-01-22T00:00:00Z,https://d-nb.info/gnd/1145719759
+506,Georges Contenau,Georges Contenau,http://www.wikidata.org/wiki/Q1508852,Person,1877-04-09T00:00:00Z,1964-03-22T00:00:00Z,https://d-nb.info/gnd/10110958X
+507,Jean-Jacques Glassner,Jean-Jacques Glassner,http://www.wikidata.org/wiki/Q3166276,Person,1944-01-01T00:00:00Z,,https://d-nb.info/gnd/1021318531
+508,Jean-Marie Durand,Jean-Marie Durand,http://www.wikidata.org/wiki/Q3167649,Person,1940-11-13T00:00:00Z,,https://d-nb.info/gnd/138794839
+509,Jules-Justin Sauveplane,Jules-Justin Sauveplane,http://www.wikidata.org/wiki/Q3188364,Person,1862-01-01T00:00:00Z,1928-01-01T00:00:00Z,
+510,Leon De Meyer,Leon De Meyer,http://www.wikidata.org/wiki/Q3270879,Person,1928-12-31T00:00:00Z,2006-11-04T00:00:00Z,https://d-nb.info/gnd/137661819
+511,Raymond-Jacques Tournay,Raymond-Jacques Tournay,http://www.wikidata.org/wiki/Q3420612,Person,1912-03-28T00:00:00Z,1999-11-25T00:00:00Z,https://d-nb.info/gnd/1043839011
+512,Anson Rainey,Anson Rainey,http://www.wikidata.org/wiki/Q3491605,Person,1930-01-11T00:00:00Z,2011-02-19T00:00:00Z,https://d-nb.info/gnd/17232436X
+513,Stephen Herbert Langdon,Stephen Herbert Langdon,http://www.wikidata.org/wiki/Q4285160,Person,1876-05-08T00:00:00Z,1937-05-19T00:00:00Z,https://d-nb.info/gnd/121281396
+514,Albert Tobias Clay,Albert Tobias Clay,http://www.wikidata.org/wiki/Q4711331,Person,1866-01-01T00:00:00Z,1925-01-01T00:00:00Z,https://d-nb.info/gnd/116541733
+515,Alexander Heidel,Alexander Heidel,http://www.wikidata.org/wiki/Q4719108,Person,1907-01-01T00:00:00Z,1955-01-01T00:00:00Z,https://d-nb.info/gnd/1025857283
+516,Amélie Kuhrt,Amélie Kuhrt,http://www.wikidata.org/wiki/Q4749612,Person,1944-09-23T00:00:00Z,2023-01-02T00:00:00Z,https://d-nb.info/gnd/143238124
+517,Christopher Johnston,Christopher Johnston,http://www.wikidata.org/wiki/Q5112644,Person,1856-12-08T00:00:00Z,1914-06-26T00:00:00Z,
+518,Claude Hermann Walter Johns,Claude Hermann Walter Johns,http://www.wikidata.org/wiki/Q5128884,Person,1857-02-20T00:00:00Z,1920-08-20T00:00:00Z,https://d-nb.info/gnd/142190888
+519,H. W. F. Saggs,H. W. F. Saggs,http://www.wikidata.org/wiki/Q712677,Person,1920-12-02T00:00:00Z,2005-08-31T00:00:00Z,https://d-nb.info/gnd/10751317X
+520,Archibald Sayce,Archibald Sayce,http://www.wikidata.org/wiki/Q716584,Person,1845-09-25T00:00:00Z,1933-02-04T00:00:00Z,https://d-nb.info/gnd/117023779
+521,Bernd Funck,Bernd Funck,http://www.wikidata.org/wiki/Q823485,Person,1945-01-02T00:00:00Z,1996-11-15T00:00:00Z,https://d-nb.info/gnd/105156485
+522,Johannes Renger,Johannes Renger,http://www.wikidata.org/wiki/Q1698237,Person,1934-09-18T00:00:00Z,2023-03-12T00:00:00Z,https://d-nb.info/gnd/121653331
+523,Jussi Aro,Jussi Aro,http://www.wikidata.org/wiki/Q1714074,Person,1928-06-05T00:00:00Z,1983-03-11T00:00:00Z,https://d-nb.info/gnd/1191135454
+524,Klaas Veenhof,Klaas Veenhof,http://www.wikidata.org/wiki/Q1744174,Person,1935-11-09T00:00:00Z,2023-07-28T00:00:00Z,https://d-nb.info/gnd/123217814
+525,Leopold Messerschmidt,Leopold Messerschmidt,http://www.wikidata.org/wiki/Q1819766,Person,1870-08-29T00:00:00Z,1911-03-10T00:00:00Z,https://d-nb.info/gnd/1033347426
+526,Liane Jakob-Rost,Liane Jakob-Rost,http://www.wikidata.org/wiki/Q1822702,Person,1928-01-01T00:00:00Z,,https://d-nb.info/gnd/107502038
+527,Matthew Stolper,Matthew Stolper,http://www.wikidata.org/wiki/Q1909619,Person,1944-01-01T00:00:00Z,,https://d-nb.info/gnd/1052683118
+528,Reginald Campbell Thompson,Reginald Campbell Thompson,http://www.wikidata.org/wiki/Q1918460,Person,1876-08-21T00:00:00Z,1941-05-23T00:00:00Z,https://d-nb.info/gnd/115627065
+529,Henri de Genouillac,Henri de Genouillac,http://www.wikidata.org/wiki/Q2395015,Person,1881-03-15T00:00:00Z,1940-11-20T00:00:00Z,https://d-nb.info/gnd/139064532
+530,Simo Parpola,Simo Parpola,http://www.wikidata.org/wiki/Q2404090,Person,1943-07-04T00:00:00Z,,https://d-nb.info/gnd/138568782
+531,Wilfred G. Lambert,Wilfred G. Lambert,http://www.wikidata.org/wiki/Q2571034,Person,1926-02-26T00:00:00Z,2011-11-09T00:00:00Z,https://d-nb.info/gnd/1048497208
+532,Albert Kirk Grayson,Albert Kirk Grayson,http://www.wikidata.org/wiki/Q2638289,Person,1935-01-01T00:00:00Z,,https://d-nb.info/gnd/113099169
+533,Hayim Tadmor,Hayim Tadmor,http://www.wikidata.org/wiki/Q2909659,Person,1923-11-18T00:00:00Z,2005-12-11T00:00:00Z,https://d-nb.info/gnd/119010534
+534,Henri Pognon,Henri Pognon,http://www.wikidata.org/wiki/Q3131806,Person,1853-05-13T00:00:00Z,1921-03-16T00:00:00Z,https://d-nb.info/gnd/116250968
+535,Henri de Contenson,Henri de Contenson,http://www.wikidata.org/wiki/Q3132254,Person,1926-03-04T00:00:00Z,2019-09-08T00:00:00Z,
+536,Pierre Amiet,Pierre Amiet,http://www.wikidata.org/wiki/Q64173705,Person,1922-04-29T00:00:00Z,2021-04-21T00:00:00Z,https://d-nb.info/gnd/118882864
+537,Harald Hauptmann,Harald Hauptmann,http://www.wikidata.org/wiki/Q96344,Person,1936-04-19T00:00:00Z,2018-08-02T00:00:00Z,https://d-nb.info/gnd/122973283
+538,Caspar Levias,Caspar Levias,http://www.wikidata.org/wiki/Q2941157,Person,1860-02-13T00:00:00Z,1934-02-18T00:00:00Z,https://d-nb.info/gnd/1055431713
+539,René Dussaud,René Dussaud,http://www.wikidata.org/wiki/Q347579,Person,1868-12-24T00:00:00Z,1958-03-17T00:00:00Z,https://d-nb.info/gnd/1012003140
+540,Burkhart Kienast,Burkhart Kienast,http://www.wikidata.org/wiki/Q18575875,Person,1929-07-03T00:00:00Z,2014-11-17T00:00:00Z,https://d-nb.info/gnd/124905749
+541,Igor M. Diakonoff,Igor M. Diakonoff,http://www.wikidata.org/wiki/Q447180,Person,1914-12-30T00:00:00Z,1999-05-02T00:00:00Z,https://d-nb.info/gnd/120868008
+542,Louis Bazin,Louis Bazin,http://www.wikidata.org/wiki/Q3261196,Person,1920-12-29T00:00:00Z,2011-03-02T00:00:00Z,https://d-nb.info/gnd/1055763503
+543,Christoph Krehl,Christoph Krehl,http://www.wikidata.org/wiki/Q10860967,Person,1825-06-29T00:00:00Z,1901-05-15T00:00:00Z,https://d-nb.info/gnd/116514477
+544,Enno Littmann,Enno Littmann,http://www.wikidata.org/wiki/Q95229,Person,1875-09-16T00:00:00Z,1958-05-04T00:00:00Z,https://d-nb.info/gnd/11872858X
+545,Wilhelm Spiegelberg,Wilhelm Spiegelberg,http://www.wikidata.org/wiki/Q100547,Person,1870-06-25T00:00:00Z,1930-12-23T00:00:00Z,https://d-nb.info/gnd/118616188
+546,Albert Thumb,Albert Thumb,http://www.wikidata.org/wiki/Q1714002,Person,1865-05-18T00:00:00Z,1915-08-14T00:00:00Z,https://d-nb.info/gnd/117360120
+547,Ulrich Hausmann,Ulrich Hausmann,http://www.wikidata.org/wiki/Q2475922,Person,1917-08-13T00:00:00Z,1996-01-19T00:00:00Z,https://d-nb.info/gnd/118547151
+548,Ruth Mayer-Opificius,Ruth Mayer-Opificius,http://www.wikidata.org/wiki/Q27055516,Person,1928-09-23T00:00:00Z,2006-08-03T00:00:00Z,https://d-nb.info/gnd/172298679
+549,Paul E. Kahle,Paul E. Kahle,http://www.wikidata.org/wiki/Q70136,Person,1875-01-21T00:00:00Z,1964-09-24T00:00:00Z,https://d-nb.info/gnd/118714678
+550,Asger Aaboe,Asger Aaboe,http://www.wikidata.org/wiki/Q724489,Person,1922-04-26T00:00:00Z,2007-01-19T00:00:00Z,https://d-nb.info/gnd/133578771
+551,William F. Albright,William F. Albright,http://www.wikidata.org/wiki/Q451799,Person,1891-05-24T00:00:00Z,1971-09-19T00:00:00Z,https://d-nb.info/gnd/118644408
+552,François-Maurice Allotte de La Fuÿe,François-Maurice Allotte de La Fuÿe,http://www.wikidata.org/wiki/Q15617126,Person,1844-11-06T00:00:00Z,1939-02-13T00:00:00Z,https://d-nb.info/gnd/116287829
+553,Bendt Alster,Bendt Alster,http://www.wikidata.org/wiki/Q59526482,Person,1946-07-26T00:00:00Z,2012-04-30T00:00:00Z,https://d-nb.info/gnd/1137504269
+554,Michael C. Astour,Michael C. Astour,http://www.wikidata.org/wiki/Q3856127,Person,1916-12-17T00:00:00Z,2004-10-07T00:00:00Z,https://d-nb.info/gnd/12060079X
+555,Edgar James Banks,Edgar James Banks,http://www.wikidata.org/wiki/Q5337311,Person,1866-05-23T00:00:00Z,1945-05-05T00:00:00Z,https://d-nb.info/gnd/1104188066
+556,Richard David Barnett,Richard David Barnett,http://www.wikidata.org/wiki/Q4954616,Person,1909-01-23T00:00:00Z,1986-07-29T00:00:00Z,https://d-nb.info/gnd/139414975
+557,George Aaron Barton,George Aaron Barton,http://www.wikidata.org/wiki/Q5536028,Person,1859-01-01T00:00:00Z,1942-01-01T00:00:00Z,https://d-nb.info/gnd/105532027X
+558,Kurt Bittel,Kurt Bittel,http://www.wikidata.org/wiki/Q99134,Person,1907-07-05T00:00:00Z,1991-01-30T00:00:00Z,https://d-nb.info/gnd/118663569
+559,Alfred Boissier,Alfred Boissier,http://www.wikidata.org/wiki/Q55771044,Person,1867-01-01T00:00:00Z,1945-01-01T00:00:00Z,https://d-nb.info/gnd/116233931
+560,Robert John Braidwood,Robert John Braidwood,http://www.wikidata.org/wiki/Q933418,Person,1907-07-29T00:00:00Z,2003-01-15T00:00:00Z,https://d-nb.info/gnd/1023733404
+561,James Henry Breasted,James Henry Breasted,http://www.wikidata.org/wiki/Q365982,Person,1865-08-27T00:00:00Z,1935-12-02T00:00:00Z,https://d-nb.info/gnd/118659936
+562,E. A. Wallis Budge,E. A. Wallis Budge,http://www.wikidata.org/wiki/Q2316289,Person,1857-07-27T00:00:00Z,1934-11-23T00:00:00Z,https://d-nb.info/gnd/115102949
+563,George Glenn Cameron,George Glenn Cameron,http://www.wikidata.org/wiki/Q59629110,Person,1905-07-30T00:00:00Z,1979-09-14T00:00:00Z,https://d-nb.info/gnd/118931741
+564,Richard Caplice,Richard Caplice,http://www.wikidata.org/wiki/Q85692871,Person,1931-01-01T00:00:00Z,2011-01-01T00:00:00Z,https://d-nb.info/gnd/1037238672
+565,Guillaume Cardascia,Guillaume Cardascia,http://www.wikidata.org/wiki/Q1553857,Person,1914-07-31T00:00:00Z,2006-09-27T00:00:00Z,https://d-nb.info/gnd/119299526
+566,Viktor Christian,Viktor Christian,http://www.wikidata.org/wiki/Q4501432,Person,1885-03-30T00:00:00Z,1963-05-28T00:00:00Z,https://d-nb.info/gnd/116509171
+567,James Alexander Craig,James Alexander Craig,http://www.wikidata.org/wiki/Q95261461,Person,1855-03-02T00:00:00Z,1932-05-16T00:00:00Z,https://d-nb.info/gnd/116707089
+568,Peter Damerow,Peter Damerow,http://www.wikidata.org/wiki/Q2074459,Person,1939-12-20T00:00:00Z,2011-11-20T00:00:00Z,https://d-nb.info/gnd/12127134X
+569,Anton Deimel,Anton Deimel,http://www.wikidata.org/wiki/Q109052,Person,1865-12-05T00:00:00Z,1954-08-07T00:00:00Z,https://d-nb.info/gnd/116055170
+570,Karlheinz Deller,Karlheinz Deller,http://www.wikidata.org/wiki/Q15449572,Person,1927-02-21T00:00:00Z,2003-12-20T00:00:00Z,https://d-nb.info/gnd/118847236
+571,Pinhas Pierre Delougaz,Pinhas Pierre Delougaz,http://www.wikidata.org/wiki/Q24038400,Person,1901-07-16T00:00:00Z,1975-03-29T00:00:00Z,
+572,Henry Field,Henry Field,http://www.wikidata.org/wiki/Q15130478,Person,1902-12-15T00:00:00Z,1986-01-04T00:00:00Z,https://d-nb.info/gnd/124529801
+573,Hugo Heinrich Figulla,Hugo Heinrich Figulla,http://www.wikidata.org/wiki/Q59631449,Person,1885-12-27T00:00:00Z,1969-02-06T00:00:00Z,https://d-nb.info/gnd/1050469046
+574,André Finet,André Finet,http://www.wikidata.org/wiki/Q55994770,Person,1922-01-01T00:00:00Z,2007-01-01T00:00:00Z,https://d-nb.info/gnd/131717138
+575,Henri Frankfort,Henri Frankfort,http://www.wikidata.org/wiki/Q958310,Person,1897-02-24T00:00:00Z,1954-07-16T00:00:00Z,https://d-nb.info/gnd/116717238
+576,Robert Francis Harper,Robert Francis Harper,http://www.wikidata.org/wiki/Q18911460,Person,1864-01-01T00:00:00Z,1914-01-01T00:00:00Z,https://d-nb.info/gnd/116483954
+577,Walther Hinz,Walther Hinz,http://www.wikidata.org/wiki/Q106038,Person,1906-11-19T00:00:00Z,1992-04-12T00:00:00Z,https://d-nb.info/gnd/10203642X
+578,Blahoslav Hruška,Blahoslav Hruška,http://www.wikidata.org/wiki/Q881095,Person,1945-05-05T00:00:00Z,2008-06-26T00:00:00Z,https://d-nb.info/gnd/1019023538
+579,Kurt Jaritz,Kurt Jaritz,http://www.wikidata.org/wiki/Q113783586,Person,1926-01-01T00:00:00Z,1999-01-01T00:00:00Z,https://d-nb.info/gnd/101734793X
+580,Tom Bard Jones,Tom Bard Jones,http://www.wikidata.org/wiki/Q113399676,Person,1909-01-01T00:00:00Z,1999-01-01T00:00:00Z,https://d-nb.info/gnd/118558293
+581,Clarence Elwood Keiser,Clarence Elwood Keiser,http://www.wikidata.org/wiki/Q59627719,Person,1884-10-12T00:00:00Z,1958-07-21T00:00:00Z,https://d-nb.info/gnd/172522358
+582,Paul Koschaker,Paul Koschaker,http://www.wikidata.org/wiki/Q114526,Person,1879-04-19T00:00:00Z,1951-06-01T00:00:00Z,https://d-nb.info/gnd/118565621
+583,Hans Martin Kümmel,Hans Martin Kümmel,http://www.wikidata.org/wiki/Q15428381,Person,1937-12-30T00:00:00Z,1986-07-30T00:00:00Z,https://d-nb.info/gnd/1262065836
+584,Jørgen Læssøe,Jørgen Læssøe,http://www.wikidata.org/wiki/Q12320831,Person,1924-06-26T00:00:00Z,1993-02-02T00:00:00Z,https://d-nb.info/gnd/172215307
+585,Georges Lampre,Georges Lampre,http://www.wikidata.org/wiki/Q29057473,Person,1855-06-21T00:00:00Z,1912-05-08T00:00:00Z,
+586,Carl Ferdinand Friedrich Lehmann-Haupt,Carl Ferdinand Friedrich Lehmann-Haupt,http://www.wikidata.org/wiki/Q124547,Person,1861-03-11T00:00:00Z,1938-07-24T00:00:00Z,https://d-nb.info/gnd/116872381
+587,Julius Lewy,Julius Lewy,http://www.wikidata.org/wiki/Q55847835,Person,1895-01-01T00:00:00Z,1963-01-01T00:00:00Z,https://d-nb.info/gnd/116977922
+588,Stephen Lieberman,Stephen Lieberman,http://www.wikidata.org/wiki/Q111147846,Person,,,
+589,Henry Frederick Lutz,Henry Frederick Lutz,http://www.wikidata.org/wiki/Q105382614,Person,1886-01-01T00:00:00Z,,https://d-nb.info/gnd/1029392714
+590,Max Mallowan,Max Mallowan,http://www.wikidata.org/wiki/Q454442,Person,1904-05-06T00:00:00Z,1978-08-19T00:00:00Z,https://d-nb.info/gnd/119492350
+591,Lubor Matouš,Lubor Matouš,http://www.wikidata.org/wiki/Q1872883,Person,1908-11-02T00:00:00Z,1994-04-02T00:00:00Z,https://d-nb.info/gnd/121796906
+592,Theophile Meek,Theophile Meek,http://www.wikidata.org/wiki/Q7782268,Person,1881-01-01T00:00:00Z,1966-01-01T00:00:00Z,https://d-nb.info/gnd/1037829158
+593,Petrus Emmanuel van der Meer,Petrus Emmanuel van der Meer,http://www.wikidata.org/wiki/Q83495915,Person,1895-04-30T00:00:00Z,1963-05-31T00:00:00Z,https://d-nb.info/gnd/122641035
+594,Machteld Mellink,Machteld Mellink,http://www.wikidata.org/wiki/Q533573,Person,1917-10-26T00:00:00Z,2006-02-23T00:00:00Z,https://d-nb.info/gnd/101049862
+595,Piero Meriggi,Piero Meriggi,http://www.wikidata.org/wiki/Q3903300,Person,1899-01-12T00:00:00Z,1982-06-29T00:00:00Z,https://d-nb.info/gnd/102756791
+596,Eduard Meyer,Eduard Meyer,http://www.wikidata.org/wiki/Q76894,Person,1855-01-25T00:00:00Z,1930-08-31T00:00:00Z,https://d-nb.info/gnd/118733281
+597,Jacques de Morgan,Jacques de Morgan,http://www.wikidata.org/wiki/Q541964,Person,1857-06-03T00:00:00Z,1924-06-12T00:00:00Z,https://d-nb.info/gnd/117144037
+598,Roger Moorey,Roger Moorey,http://www.wikidata.org/wiki/Q7358676,Person,1937-05-30T00:00:00Z,2004-12-23T00:00:00Z,https://d-nb.info/gnd/129891185
+599,Anton Moortgat,Anton Moortgat,http://www.wikidata.org/wiki/Q124897,Person,1897-09-21T00:00:00Z,1977-10-09T00:00:00Z,https://d-nb.info/gnd/118736809
+600,Otto E. Neugebauer,Otto E. Neugebauer,http://www.wikidata.org/wiki/Q111996,Person,1899-05-26T00:00:00Z,1990-02-19T00:00:00Z,https://d-nb.info/gnd/11695471X
+601,Theodor Nöldeke,Theodor Nöldeke,http://www.wikidata.org/wiki/Q63458,Person,1836-03-02T00:00:00Z,1930-12-25T00:00:00Z,https://d-nb.info/gnd/119453223
+602,Karl Oberhuber,Karl Oberhuber,http://www.wikidata.org/wiki/Q59533484,Person,1915-10-31T00:00:00Z,1997-01-04T00:00:00Z,https://d-nb.info/gnd/136105947
+603,Albert T. Olmstead,Albert T. Olmstead,http://www.wikidata.org/wiki/Q1696727,Person,1880-03-23T00:00:00Z,1945-04-11T00:00:00Z,https://d-nb.info/gnd/13745791X
+604,Heinrich Otten,Heinrich Otten,http://www.wikidata.org/wiki/Q1275375,Person,1913-12-27T00:00:00Z,2012-04-08T00:00:00Z,https://d-nb.info/gnd/118738690
+605,Tahsin Özgüç,Tahsin Özgüç,http://www.wikidata.org/wiki/Q322589,Person,1916-03-12T00:00:00Z,2005-10-28T00:00:00Z,https://d-nb.info/gnd/118937022
+606,Herbert Petschow,Herbert Petschow,http://www.wikidata.org/wiki/Q1608904,Person,1909-12-26T00:00:00Z,1991-06-28T00:00:00Z,https://d-nb.info/gnd/124869629
+607,David Pingree,David Pingree,http://www.wikidata.org/wiki/Q1029283,Person,1933-01-02T00:00:00Z,2005-11-11T00:00:00Z,https://d-nb.info/gnd/129395943
+608,Hugo Radau,Hugo Radau,http://www.wikidata.org/wiki/Q59610936,Person,1873-01-01T00:00:00Z,,https://d-nb.info/gnd/116332298
+609,Erkki Salonen,Erkki Salonen,http://www.wikidata.org/wiki/Q17383740,Person,1920-04-16T00:00:00Z,2001-01-01T00:00:00Z,https://d-nb.info/gnd/14360693X
+610,Mariano San Nicolò,Mariano San Nicolò,http://www.wikidata.org/wiki/Q1897006,Person,1887-08-20T00:00:00Z,1955-05-15T00:00:00Z,https://d-nb.info/gnd/10198104X
+611,Otto Schröder,Otto Schröder,http://www.wikidata.org/wiki/Q2040524,Person,1851-07-14T00:00:00Z,1937-01-28T00:00:00Z,https://d-nb.info/gnd/117078956
+612,Vladimir Shileyko,Vladimir Shileyko,http://www.wikidata.org/wiki/Q1970429,Person,1891-02-02T00:00:00Z,1930-10-05T00:00:00Z,https://d-nb.info/gnd/129209570
+613,Edmond Sollberger,Edmond Sollberger,http://www.wikidata.org/wiki/Q55772969,Person,1920-10-12T00:00:00Z,1989-06-21T00:00:00Z,https://d-nb.info/gnd/1165678888
+614,Vladimír Souček,Vladimír Souček,http://www.wikidata.org/wiki/Q95175918,Person,1928-06-01T00:00:00Z,1990-06-09T00:00:00Z,https://d-nb.info/gnd/1118396545
+615,Louis Speleers,Louis Speleers,http://www.wikidata.org/wiki/Q54828374,Person,1882-01-01T00:00:00Z,1966-01-01T00:00:00Z,https://d-nb.info/gnd/1035117185
+616,Ferris J. Stephens,Ferris J. Stephens,http://www.wikidata.org/wiki/Q110089267,Person,1893-01-01T00:00:00Z,1969-01-01T00:00:00Z,https://d-nb.info/gnd/1033820970
+617,Maximilian Streck,Maximilian Streck,http://www.wikidata.org/wiki/Q15456048,Person,1873-10-18T00:00:00Z,1945-03-25T00:00:00Z,https://d-nb.info/gnd/117312878
+618,Vasily Vasilievich Struve,Vasily Vasilievich Struve,http://www.wikidata.org/wiki/Q647712,Person,1889-01-21T00:00:00Z,1965-09-15T00:00:00Z,https://d-nb.info/gnd/119147874
+619,Emil Szlechter,Emil Szlechter,http://www.wikidata.org/wiki/Q20028755,Person,1906-01-14T00:00:00Z,1995-01-14T00:00:00Z,https://d-nb.info/gnd/1172656800
+620,Eckhard Unger,Eckhard Unger,http://www.wikidata.org/wiki/Q97996,Person,1884-04-11T00:00:00Z,1966-07-24T00:00:00Z,https://d-nb.info/gnd/118763717
+621,Arthur Ungnad,Arthur Ungnad,http://www.wikidata.org/wiki/Q711755,Person,1879-08-03T00:00:00Z,1947-04-26T00:00:00Z,https://d-nb.info/gnd/117310085
+622,Roland de Vaux,Roland de Vaux,http://www.wikidata.org/wiki/Q695459,Person,1903-12-17T00:00:00Z,1971-09-10T00:00:00Z,https://d-nb.info/gnd/122729943
+623,Charles Virolleaud,Charles Virolleaud,http://www.wikidata.org/wiki/Q332206,Person,1879-07-02T00:00:00Z,1968-12-17T00:00:00Z,https://d-nb.info/gnd/117435570
+624,Max von Oppenheim,Max von Oppenheim,http://www.wikidata.org/wiki/Q215900,Person,1860-07-15T00:00:00Z,1946-11-15T00:00:00Z,https://d-nb.info/gnd/118736418
+625,Leroy Waterman,Leroy Waterman,http://www.wikidata.org/wiki/Q6529067,Person,1875-01-01T00:00:00Z,1972-01-01T00:00:00Z,https://d-nb.info/gnd/1055176551
+626,Franz Heinrich Weißbach,Franz Heinrich Weißbach,http://www.wikidata.org/wiki/Q106027,Person,1865-11-25T00:00:00Z,1944-02-20T00:00:00Z,https://d-nb.info/gnd/117299081
+627,Raymond Westbrook,Raymond Westbrook,http://www.wikidata.org/wiki/Q2134262,Person,1946-10-01T00:00:00Z,2009-07-23T00:00:00Z,https://d-nb.info/gnd/122321928
+628,Maurus Witzel,Maurus Witzel,http://www.wikidata.org/wiki/Q11771752,Person,1882-04-02T00:00:00Z,1968-01-23T00:00:00Z,https://d-nb.info/gnd/117430358
+629,Michael Heltzer,Michael Heltzer,http://www.wikidata.org/wiki/Q2905287,Person,1928-05-01T00:00:00Z,2010-06-06T00:00:00Z,https://d-nb.info/gnd/121342999
+630,Muhammad Dandamayev,Muhammad Dandamayev,http://www.wikidata.org/wiki/Q3896070,Person,1928-09-02T00:00:00Z,2017-08-28T00:00:00Z,https://d-nb.info/gnd/171085515
+631,Wolfram Nagel,Wolfram Nagel,http://www.wikidata.org/wiki/Q2592126,Person,1923-10-23T00:00:00Z,2019-11-14T00:00:00Z,https://d-nb.info/gnd/128552816
+632,Rainer Michael Boehmer,Rainer Michael Boehmer,http://www.wikidata.org/wiki/Q64173719,Person,1930-01-01T00:00:00Z,2022-09-10T00:00:00Z,https://d-nb.info/gnd/119315289
+633,Ludwig Abel,Ludwig Abel,https://www.wikidata.org/wiki/Q1874134,Person,1863-05-18T00:00:00Z,1900-06-25T00:00:00Z,https://d-nb.info/gnd/116001798
+634,Walter Bachmann,Walter Bachmann,https://www.wikidata.org/wiki/Q2543499,Person,1883-05-08T00:00:00Z,1958-03-15T00:00:00Z,https://d-nb.info/gnd/132993562
+635,Charles James Ball,Charles James Ball,https://www.wikidata.org/wiki/Q16003530,Person,1851-01-01T00:00:00Z,1924-02-07T00:00:00Z,https://d-nb.info/gnd/1055389865
+636,Willi Bang,Willi Bang,https://www.wikidata.org/wiki/Q6058766,Person,1869-08-09T00:00:00Z,1934-10-08T00:00:00Z,https://d-nb.info/gnd/120493039
+637,Jakob Barth,Jakob Barth,https://www.wikidata.org/wiki/Q123192,Person,1851-03-03T00:00:00Z,1914-10-24T00:00:00Z,https://d-nb.info/gnd/116063718
+638,Christian Bartholomae,Christian Bartholomae,https://www.wikidata.org/wiki/Q106006,Person,1855-01-21T00:00:00Z,1925-08-09T00:00:00Z,https://d-nb.info/gnd/116884444
+639,Waldemar Belck,Waldemar Belck,https://www.wikidata.org/wiki/Q19513832,Person,1862-02-25T00:00:00Z,1932-09-06T00:00:00Z,https://d-nb.info/gnd/118508563
+640,Arthur John Booth,Arthur John Booth,https://www.wikidata.org/wiki/Q38215398,Person,1842-01-01T00:00:00Z,1913-08-19T00:00:00Z,
+641,Ferdinand Bork,Ferdinand Bork,https://www.wikidata.org/wiki/Q59530859,Person,1871-01-01T00:00:00Z,1962-01-01T00:00:00Z,
+642,Rudolf Ernst Brünnow,Rudolf Ernst Brünnow,https://www.wikidata.org/wiki/Q5588868,Person,1858-02-07T00:00:00Z,1917-04-14T00:00:00Z,https://d-nb.info/gnd/116751851
+643,Etienne Combe,Etienne Combe,https://www.wikidata.org/wiki/Q94851043,Person,1881-03-20T00:00:00Z,1962-07-09T00:00:00Z,https://d-nb.info/gnd/1023669145
+644,Gaston Cros,Gaston Cros,https://www.wikidata.org/wiki/Q5526725,Person,1861-10-06T00:00:00Z,1915-05-10T00:00:00Z,https://d-nb.info/gnd/1055177345
+645,Édouard Cuq,Édouard Cuq,https://www.wikidata.org/wiki/Q54826514,Person,1850-12-14T00:00:00Z,1934-05-25T00:00:00Z,https://d-nb.info/gnd/101112033
+646,Samuel Daiches,Samuel Daiches,https://www.wikidata.org/wiki/Q59532678,Person,1878-07-01T00:00:00Z,1949-03-21T00:00:00Z,https://d-nb.info/gnd/116015934
+647,Alphonse J. Delattre,Alphonse J. Delattre,https://www.wikidata.org/wiki/Q93262229,Person,1841-03-06T00:00:00Z,1928-03-20T00:00:00Z,https://d-nb.info/gnd/142978183
+648,Louis Dennefeld,Louis Dennefeld,https://www.wikidata.org/wiki/Q55771018,Person,1883-01-01T00:00:00Z,1954-01-01T00:00:00Z,https://d-nb.info/gnd/1034491822
+649,Marcel-Auguste Dieulafoy,Marcel-Auguste Dieulafoy,https://www.wikidata.org/wiki/Q2624559,Person,1844-08-03T00:00:00Z,1920-02-25T00:00:00Z,https://d-nb.info/gnd/117641502
+650,Theodor Dombart,Theodor Dombart,https://www.wikidata.org/wiki/Q2417507,Person,1884-10-08T00:00:00Z,1969-12-25T00:00:00Z,https://d-nb.info/gnd/116175648
+651,Raymond Philip Dougherty,Raymond Philip Dougherty,https://www.wikidata.org/wiki/Q59627660,Person,1877-08-05T00:00:00Z,1933-07-14T00:00:00Z,https://d-nb.info/gnd/153660376
+652,Wilhelm Eilers,Wilhelm Eilers,https://www.wikidata.org/wiki/Q1700834,Person,1906-09-27T00:00:00Z,1989-07-03T00:00:00Z,https://d-nb.info/gnd/118688375
+653,Georg Eißer,Georg Eißer,https://www.wikidata.org/wiki/Q3101299,Person,1898-07-11T00:00:00Z,1964-06-04T00:00:00Z,https://d-nb.info/gnd/116437006
+654,Samuel I. Feigin,Samuel I. Feigin,https://www.wikidata.org/wiki/Q16711435,Person,1893-05-13T00:00:00Z,1950-01-03T00:00:00Z,https://d-nb.info/gnd/1145383009
+655,Carl Frank,Carl Frank,https://www.wikidata.org/wiki/Q92571821,Person,1881-02-07T00:00:00Z,1945-11-02T00:00:00Z,https://d-nb.info/gnd/116703334
+656,Thomas‏ Friedrich,Thomas‏ Friedrich,https://www.wikidata.org/wiki/Q105069688,Person,1855-01-01T00:00:00Z,,https://d-nb.info/gnd/1050471121
+657,John Garstang,John Garstang,https://www.wikidata.org/wiki/Q733602,Person,1876-05-05T00:00:00Z,1956-09-12T00:00:00Z,https://d-nb.info/gnd/104266457
+658,C. van Gelderen,C. van Gelderen,https://www.wikidata.org/wiki/Q65588707,Person,1872-06-07T00:00:00Z,1945-11-18T00:00:00Z,https://d-nb.info/gnd/116522151
+659,Berend Gemser,Berend Gemser,https://www.wikidata.org/wiki/Q54888561,Person,1890-05-17T00:00:00Z,1962-11-15T00:00:00Z,https://d-nb.info/gnd/105702854
+660,André Godard,André Godard,https://www.wikidata.org/wiki/Q518977,Person,1881-01-24T00:00:00Z,1965-07-31T00:00:00Z,https://d-nb.info/gnd/1102405035
+661,Godefroy Goossens,Godefroy Goossens,https://www.wikidata.org/wiki/Q55771040,Person,1912-04-15T00:00:00Z,1963-02-22T00:00:00Z,https://d-nb.info/gnd/1157836224
+662,Halil Edhem Eldem,Halil Edhem Eldem,https://www.wikidata.org/wiki/Q1557764,Person,1861-01-01T00:00:00Z,1938-11-16T00:00:00Z,https://d-nb.info/gnd/117414999
+663,Osman Hamdi Bey,Osman Hamdi Bey,https://www.wikidata.org/wiki/Q1190012,Person,1842-12-30T00:00:00Z,1910-02-24T00:00:00Z,https://d-nb.info/gnd/11892639X
+664,Ernst Herzfeld,Ernst Herzfeld,https://www.wikidata.org/wiki/Q62933,Person,1879-07-23T00:00:00Z,1948-01-21T00:00:00Z,https://d-nb.info/gnd/118550225
+665,Léon Heuzey,Léon Heuzey,https://www.wikidata.org/wiki/Q709657,Person,1831-12-01T00:00:00Z,1922-02-08T00:00:00Z,https://d-nb.info/gnd/116785055
+666,David George Hogarth,David George Hogarth,https://www.wikidata.org/wiki/Q3556340,Person,1862-05-23T00:00:00Z,1927-11-06T00:00:00Z,https://d-nb.info/gnd/1018776702
+667,Fritz Hommel,Fritz Hommel,https://www.wikidata.org/wiki/Q76294,Person,1854-07-31T00:00:00Z,1936-04-17T00:00:00Z,https://d-nb.info/gnd/116976055
+668,"Morris Jastrow, Jr.","Morris Jastrow, Jr.",https://www.wikidata.org/wiki/Q635773,Person,1861-08-13T00:00:00Z,1921-06-22T00:00:00Z,https://d-nb.info/gnd/117085626
+669,Julius Jordan,Julius Jordan,https://www.wikidata.org/wiki/Q1712720,Person,1877-10-27T00:00:00Z,1945-02-02T00:00:00Z,https://d-nb.info/gnd/137666128
+670,A. A. Kampman,A. A. Kampman,https://www.wikidata.org/wiki/Q63433521,Person,1911-07-06T00:00:00Z,1977-09-23T00:00:00Z,https://d-nb.info/gnd/140254978
+671,Ernst Klauber,Ernst Klauber,https://www.wikidata.org/wiki/Q59532115,Person,1887-01-01T00:00:00Z,1914-01-01T00:00:00Z,https://d-nb.info/gnd/116206195
+672,Josef Kohler,Josef Kohler,https://www.wikidata.org/wiki/Q71691,Person,1849-03-09T00:00:00Z,1919-08-03T00:00:00Z,https://d-nb.info/gnd/118564633
+673,Friedrich Küchler,Friedrich Küchler,https://www.wikidata.org/wiki/Q94836305,Person,1874-04-15T00:00:00Z,1921-04-23T00:00:00Z,https://d-nb.info/gnd/116581204
+674,Eugène Ledrain,Eugène Ledrain,https://www.wikidata.org/wiki/Q3059980,Person,1844-06-22T00:00:00Z,1910-02-16T00:00:00Z,https://d-nb.info/gnd/117613770
+675,Heinrich Lenzen,Heinrich Lenzen,https://www.wikidata.org/wiki/Q28869264,Person,1900-09-20T00:00:00Z,1978-01-19T00:00:00Z,https://d-nb.info/gnd/122111265
+676,Arthur Gotfred Lie,Arthur Gotfred Lie,https://www.wikidata.org/wiki/Q94817645,Person,1887-01-01T00:00:00Z,1932-08-31T00:00:00Z,https://d-nb.info/gnd/1055343229
+677,Felix von Luschan,Felix von Luschan,https://www.wikidata.org/wiki/Q114416,Person,1854-08-11T00:00:00Z,1924-02-07T00:00:00Z,https://d-nb.info/gnd/117319813
+678,Theodore Makridi,Theodore Makridi,https://www.wikidata.org/wiki/Q2417971,Person,1872-01-01T00:00:00Z,1940-12-01T00:00:00Z,https://d-nb.info/gnd/128233079
+679,Roland de Mecquenem,Roland de Mecquenem,https://www.wikidata.org/wiki/Q7360509,Person,1877-08-20T00:00:00Z,1957-01-01T00:00:00Z,https://d-nb.info/gnd/102822824
+680,David Myhrman,David Myhrman,https://www.wikidata.org/wiki/Q16649925,Person,1866-12-02T00:00:00Z,1940-04-15T00:00:00Z,https://d-nb.info/gnd/117205761
+681,Friedrich Nötscher,Friedrich Nötscher,https://www.wikidata.org/wiki/Q1455630,Person,1890-07-19T00:00:00Z,1966-05-17T00:00:00Z,https://d-nb.info/gnd/122575865
+682,Roger T. O'Callaghan,Roger T. O'Callaghan,https://www.wikidata.org/wiki/Q108330787,Person,1912-01-01T00:00:00Z,1954-01-01T00:00:00Z,https://d-nb.info/gnd/13277609X
+683,Fritz Ose,Fritz Ose,https://www.wikidata.org/wiki/Q113722528,Person,,,https://d-nb.info/gnd/1145574041
+684,Holger Pedersen,Holger Pedersen,https://www.wikidata.org/wiki/Q545230,Person,1867-04-07T00:00:00Z,1953-10-25T00:00:00Z,https://d-nb.info/gnd/119280264
+685,Georges Perrot,Georges Perrot,https://www.wikidata.org/wiki/Q1281062,Person,1832-11-12T00:00:00Z,1914-06-30T00:00:00Z,https://d-nb.info/gnd/116082534
+686,John Punnett Peters,John Punnett Peters,https://www.wikidata.org/wiki/Q6253548,Person,1852-01-01T00:00:00Z,1921-11-10T00:00:00Z,https://d-nb.info/gnd/12366389X
+687,Alfred Pohl,Alfred Pohl,https://www.wikidata.org/wiki/Q110089412,Person,1890-01-01T00:00:00Z,1961-01-01T00:00:00Z,https://d-nb.info/gnd/1022642928
+688,Edith Porada,Edith Porada,https://www.wikidata.org/wiki/Q5338645,Person,1912-08-22T00:00:00Z,1994-03-24T00:00:00Z,https://d-nb.info/gnd/116268565
+689,Frederik Poulsen,Frederik Poulsen,https://www.wikidata.org/wiki/Q12312690,Person,1876-03-07T00:00:00Z,1950-11-08T00:00:00Z,https://d-nb.info/gnd/116277920
+690,Conrad Preusser,Conrad Preusser,https://www.wikidata.org/wiki/Q59529511,Person,1881-01-01T00:00:00Z,1964-01-01T00:00:00Z,https://d-nb.info/gnd/1135983461
+691,Ira Maurice Price,Ira Maurice Price,https://www.wikidata.org/wiki/Q87824808,Person,1856-01-01T00:00:00Z,1939-09-18T00:00:00Z,https://d-nb.info/gnd/116289775
+692,Oskar Reuther,Oskar Reuther,https://www.wikidata.org/wiki/Q2032917,Person,1880-10-20T00:00:00Z,1954-08-05T00:00:00Z,https://d-nb.info/gnd/116456027
+693,Bernhard Rosenkranz,Bernhard Rosenkranz,https://www.wikidata.org/wiki/Q107165818,Person,1903-04-13T00:00:00Z,,https://d-nb.info/gnd/1145511341
+694,Paul Rost,Paul Rost,https://www.wikidata.org/wiki/Q94763386,Person,1869-01-01T00:00:00Z,1938-01-01T00:00:00Z,https://d-nb.info/gnd/117629391
+695,Fuad Safar,Fuad Safar,https://www.wikidata.org/wiki/Q12017889,Person,1911-10-01T00:00:00Z,1978-01-09T00:00:00Z,https://d-nb.info/gnd/1016455356
+696,Fritz Schachermeyr,Fritz Schachermeyr,https://www.wikidata.org/wiki/Q113937,Person,1895-01-10T00:00:00Z,1987-12-26T00:00:00Z,https://d-nb.info/gnd/118606018
+697,Heinrich Schäfer,Heinrich Schäfer,https://www.wikidata.org/wiki/Q98050,Person,1868-10-29T00:00:00Z,1957-04-06T00:00:00Z,https://d-nb.info/gnd/11709773X
+698,Claude F. A. Schaeffer,Claude F. A. Schaeffer,https://www.wikidata.org/wiki/Q5128825,Person,1898-03-06T00:00:00Z,1982-08-25T00:00:00Z,https://d-nb.info/gnd/172354994
+699,Johann Schaumberger,Johann Schaumberger,https://www.wikidata.org/wiki/Q1558091,Person,1885-09-23T00:00:00Z,1955-08-27T00:00:00Z,https://d-nb.info/gnd/1028324642
+700,Erich Schmidt,Erich Schmidt,https://www.wikidata.org/wiki/Q71601,Person,1897-09-13T00:00:00Z,1964-10-03T00:00:00Z,https://d-nb.info/gnd/133714780
+701,Hartmut Schmökel,Hartmut Schmökel,https://www.wikidata.org/wiki/Q1147193,Person,1906-04-17T00:00:00Z,1991-08-06T00:00:00Z,https://d-nb.info/gnd/135296323
+702,Paul Schnabel,Paul Schnabel,https://www.wikidata.org/wiki/Q1675403,Person,1887-09-05T00:00:00Z,1947-03-23T00:00:00Z,https://d-nb.info/gnd/116818638
+703,Moses Schorr,Moses Schorr,https://www.wikidata.org/wiki/Q1388246,Person,1874-05-10T00:00:00Z,1941-07-08T00:00:00Z,https://d-nb.info/gnd/119354241
+704,Einar von Schuler,Einar von Schuler,https://www.wikidata.org/wiki/Q1305954,Person,1930-10-28T00:00:00Z,1990-02-14T00:00:00Z,https://d-nb.info/gnd/119056658
+705,James Simon,James Simon,https://www.wikidata.org/wiki/Q84859,Person,1851-09-17T00:00:00Z,1932-05-23T00:00:00Z,https://d-nb.info/gnd/117392634
+706,Johann Jakob Stamm,Johann Jakob Stamm,https://www.wikidata.org/wiki/Q57338148,Person,1910-09-11T00:00:00Z,1993-11-03T00:00:00Z,https://d-nb.info/gnd/118616676
+707,Richard F. S. Starr,Richard F. S. Starr,https://www.wikidata.org/wiki/Q100396452,Person,1900-03-01T00:00:00Z,1994-03-09T00:00:00Z,https://d-nb.info/gnd/1055176780
+708,Louis Vanden Berghe,Louis Vanden Berghe,https://www.wikidata.org/wiki/Q2113749,Person,1923-12-24T00:00:00Z,1993-09-17T00:00:00Z,https://d-nb.info/gnd/119030519
+709,William Hayes Ward,William Hayes Ward,https://www.wikidata.org/wiki/Q8011067,Person,1835-06-25T00:00:00Z,1916-08-28T00:00:00Z,https://d-nb.info/gnd/117141828
+710,Louis-Charles Watelin,Louis-Charles Watelin,https://www.wikidata.org/wiki/Q23823970,Person,1874-01-01T00:00:00Z,1934-06-26T00:00:00Z,https://d-nb.info/gnd/1211656209
+711,Otto Weber,Otto Weber,https://www.wikidata.org/wiki/Q1417389,Person,1877-07-28T00:00:00Z,1928-07-29T00:00:00Z,https://d-nb.info/gnd/117170453
+712,Cecil Weir,Cecil Weir,https://www.wikidata.org/wiki/Q5056348,Person,1897-12-04T00:00:00Z,1995-03-04T00:00:00Z,https://d-nb.info/gnd/1075216907
+713,Hans-Siegfried Schuster,Hans-Siegfried Schuster,https://www.wikidata.org/wiki/Q15449583,Person,1910-11-27T00:00:00Z,2002-10-16T00:00:00Z,https://d-nb.info/gnd/1027030955
+714,Anne Kilmer,Anne Kilmer,https://www.wikidata.org/wiki/Q111147806,Person,,2023-01-01T00:00:00Z,https://d-nb.info/gnd/156802104
+715,University of Cologne,University of Cologne,https://www.wikidata.org/wiki/Q54096,Institution,,,https://d-nb.info/gnd/2024231-1
+716,University of Pennsylvania,University of Pennsylvania,https://www.wikidata.org/wiki/Q49117,Institution,,,https://d-nb.info/gnd/37246-8
+717,David Stronach,David Stronach,http://www.wikidata.org/entity/Q3018835,Person,1931-06-10T00:00:00Z,2020-06-27T00:00:00Z,https://d-nb.info/gnd/120903008
+718,Koninklijke Vlaamse Academie van België voor Wetenschappen en Kunsten,Koninklijke Vlaamse Academie van België voor Wetenschappen en Kunsten,https://www.wikidata.org/wiki/Q1301699,Institution,,,https://d-nb.info/gnd/10014293-X
+719,"Martha Sharp Joukowsky ","Martha Sharp Joukowsky ",http://www.wikidata.org/entity/Q19667749,Person,"1936-09-02T00:00:00Z 	 ",2022-01-07T00:00:00Z,https://d-nb.info/gnd/141833033
+720,Klaus Schippmann,Klaus Schippmann,http://www.wikidata.org/entity/Q122716,Person,1924-10-30T00:00:00Z,2010-09-08T00:00:00Z,https://d-nb.info/gnd/12002795X
+721,Peter Calmeyer,Peter Calmeyer,http://www.wikidata.org/entity/Q2074264,Person,"1930-09-05T00:00:00Z 	 ",1995-11-22T00:00:00Z,https://d-nb.info/gnd/122754336
+722,Sava Tutundžić,Sava Tutundžić,https://www.wikidata.org/wiki/Q12746890,Person,1928-09-01T00:00:00Z,2020-03-30T00:00:00Z,
+723,University of Belgrade,University of Belgrade,https://www.wikidata.org/wiki/Q240631,Institution,,,https://d-nb.info/gnd/1011759-3
+724,Ursula Seidl,Ursula Seidl,https://www.wikidata.org/wiki/Q2501874,Person,1939-09-11T00:00:00Z,,https://d-nb.info/gnd/1121013546
+725,Gerhard Rudolf Meyer,Gerhard Rudolf Meyer,https://www.wikidata.org/wiki/Q1512378,Person,1908-06-19T00:00:00Z,1977-10-24T00:00:00Z,https://d-nb.info/gnd/102304408
+726,Jürgen Schmidt,Jürgen Schmidt,http://www.wikidata.org/entity/Q1717656,Person,1929-06-23T00:00:00Z,2010-12-17T00:00:00Z,https://d-nb.info/gnd/139742956
+727,Technical University of Berlin,Technical University of Berlin,https://www.wikidata.org/wiki/Q51985,Institution,,,https://d-nb.info/gnd/2114678-0
+728,Emilie Haspels,Emilie Haspels,http://www.wikidata.org/entity/Q1337326,Person,1894-09-15T00:00:00Z,"1980-12-25T00:00:00Z 	 ",https://d-nb.info/gnd/132708299
+729,Allard Pierson Museum,Allard Pierson Museum,https://www.wikidata.org/wiki/Q1244372,Institution,,,
+730,Hetty Goldman,Hetty Goldman,http://www.wikidata.org/entity/Q1616306,Person,1881-12-19T00:00:00Z,1972-05-04T00:00:00Z,https://d-nb.info/gnd/128965312
+731,American School of Classical Studies at Athens,American School of Classical Studies at Athens,https://www.wikidata.org/wiki/Q466718,Institution,,,https://d-nb.info/gnd/35362-0
+732,Radcliffe College,Radcliffe College,https://www.wikidata.org/wiki/Q49124,Institution,,,https://d-nb.info/gnd/1017254-3
+733,James A. Sauer,James A. Sauer,https://www.wikidata.org/wiki/Q115786731,Person,"1945-04-23T00:00:00Z 	 ",1999-11-23T00:00:00Z,https://d-nb.info/gnd/123276950
+734,Concordia Campus,Concordia Campus,https://www.wikidata.org/wiki/Q108332938,Institution,,,
+735,American Center of Oriental Research,American Center of Oriental Research,https://www.wikidata.org/wiki/Q19872190,Institution,,,
+736,American Schools of Oriental Research,American Schools of Oriental Research,https://www.wikidata.org/wiki/Q466721,Institution,,,https://d-nb.info/gnd/1020864-1
+737,Harvard Museum of the Ancient Near East,Harvard Museum of the Ancient Near East,https://www.wikidata.org/wiki/Q2918448,Institution,,,
+738,Agnès Spycket,Agnès Spycket,https://www.wikidata.org/wiki/Q55991954,Person,1921-09-01T00:00:00Z,"2022-01-17T00:00:00Z 	 ",https://d-nb.info/gnd/120511991
+739,Margarete Falkner,Margarete Falkner,https://www.wikidata.org/wiki/Q51844356,Person,1922-05-02T00:00:00Z,1962-11-30T00:00:00Z,https://d-nb.info/gnd/112153533X
+740,Terence Mitchell,Terence Mitchell,https://www.wikidata.org/wiki/Q106497675,Person,1929-01-01T00:00:00Z,2019-01-01T00:00:00Z,https://d-nb.info/gnd/1055104100
+741,"St Catharine's College, Cambridge","St Catharine's College, Cambridge",https://www.wikidata.org/wiki/Q256754,Institution,,,https://d-nb.info/gnd/1023786-0
+742,Robert H. Dyson,Robert H. Dyson,https://www.wikidata.org/wiki/Q85502260,Person,1927-08-02T00:00:00Z,"2020-02-15T00:00:00Z 	 ",https://d-nb.info/gnd/1260069389
+743,Leo Trümpelmann,Leo Trümpelmann,https://www.wikidata.org/wiki/Q27183226,Person,1931-09-01T00:00:00Z,"1989-08-15T00:00:00Z 	   ",https://d-nb.info/gnd/1171451334
+744,Deutsche Orient-Gesellschaft,Deutsche Orient-Gesellschaft,https://www.wikidata.org/wiki/Q314420,Institution,,,https://d-nb.info/gnd/37089-7
+745,Firouz Bagherzadeh,Firouz Bagherzadeh,https://www.wikidata.org/wiki/Q105336840,Person,"1930-05-31T00:00:00Z 	 ","2021-02-04T00:00:00Z 	 ",
+746,Lucienne Laroche,Lucienne Laroche,https://www.wikidata.org/wiki/Q55772697,Person,"1929-01-01T00:00:00Z 	 ",1981-01-01T00:00:00Z,
+747,Jocelyn Orchard,Jocelyn Orchard,https://www.wikidata.org/wiki/Q98093835,Person,"1936-01-01T00:00:00Z 	 ",2019-01-01T00:00:00Z,
+748,Vaughn Emerson Crawford,Vaughn Emerson Crawford,https://www.wikidata.org/wiki/Q106690721,Person,"1910-01-01T00:00:00Z 	 ",1981-09-25T00:00:00Z,
+749,Samuel A. B. Mercer,Samuel A. B. Mercer,https://www.wikidata.org/wiki/Q67930517,Person,1880-05-10T00:00:00Z,"1969-01-10T00:00:00Z 	 ",https://d-nb.info/gnd/116886765
+750,Nashotah House,Nashotah House,https://www.wikidata.org/wiki/Q6966890,Institution,,,
+751,Seabury-Western Theological Seminary,Seabury-Western Theological Seminary,https://www.wikidata.org/wiki/Q7440232,Institution,,,https://d-nb.info/gnd/1009509-3
+752,Trinity College,Trinity College,https://www.wikidata.org/wiki/Q3551685,Institution,,,https://d-nb.info/gnd/135872-8
+753,Pembroke College in Brown University,Pembroke College in Brown University,https://www.wikidata.org/wiki/Q7161950,Institution,,,

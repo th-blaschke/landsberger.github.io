@@ -1,0 +1,11 @@
+SELECT DISTINCT ?item ?itemLabel ?birth ?death
+WHERE {
+VALUES ?profession {wd:Q19361459 wd:Q4529715 wd:Q67931007 wd:Q26424344} 
+    ?item wdt:P106 ?profession.
+    ?item wdt:P569 ?birth.
+    ?item wdt:P570 ?death.
+    FILTER (?birth >= "1820-01-01"^^xsd:dateTime)
+    FILTER (?birth <= "1948-12-31"^^xsd:dateTime)
+    FILTER (?death >= "1908-01-01"^^xsd:dateTime)
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" }
+}

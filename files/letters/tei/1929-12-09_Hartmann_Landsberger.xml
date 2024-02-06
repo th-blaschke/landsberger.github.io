@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief von Richard Hartmann an Benno Landsberger vom 09.12.1929 encoded in TEI</title>
-                <respStmt>
-                    <resp>Encoded by, </resp>
-                    <persName>Theresa Blaschke</persName>
-                 </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl>
-                    <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
-                    <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                    <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l6.pdf</idno>
-                    <extent>
-                        <measure unit="pages" quantity="2.0">2.0 Seiten</measure>
-                        <measure unit="words" quantity="348">348 Wörter</measure>
-                    </extent>
-                </bibl>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                        <idno>l6</idno>
-                    </msIdentifier>
-                    <physDesc>
-                        <objectDesc>
-                            <p>Beschreibart: Handschrift</p>
-                        </objectDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="https://www.wikidata.org/wiki/Q1525652">Richard Hartmann</persName>
-                    <settlement ref="https://www.wikidata.org/wiki/Q2966">Heidelberg</settlement>
-                    <date when="1929-12-09">09.12.1929</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
-                    <settlement ref="nan">nan</settlement>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="de">deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>Keilschriftforschung (4)</term>
-                    <term>Assistentenstellen (3)</term>
-                    <term>Götze (2)</term>
-                    <term>Assistent (2)</term>
-                    <term>Frage (2)</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Richard Hartmann an Benno Landsberger vom 09.12.1929 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l6.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2.0">2.0 Seiten</measure>
+                            <measure unit="words" quantity="348">348 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l6</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="https://www.wikidata.org/wiki/Q1525652">Richard Hartmann</persName>
+                        <settlement ref="https://www.geonames.org/2907911/heidelberg.html">Heidelberg</settlement>
+                        <date when="1929-12-09">09.12.1929</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Keilschriftforschung (4.04)</term>
+                        <term>Assistentenstellen (3.03)</term>
+                        <term>Götze (2.02)</term>
+                        <term>Assistent (2.02)</term>
+                        <term>Frage (2.02)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
     <text>
         <body>
             <opener>

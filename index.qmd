@@ -21,7 +21,7 @@ Eine Auflistung von Publikationen Landsbergers ist zudem in der Zeitschrift Jour
 
 Kilmer, Anne Draffkorn, and Johannes Renger. “A Bibliography of B. Landsberger’s Works.” Journal of Cuneiform Studies 26, no. 3 (1974): 183–94. http://www.jstor.org/stable/1359274.
 
-Die Publikationen werden [hier](files//landsberger_publications.csv) (zum Download klicken) zudem in Form einer CSV-Datei bereitgestellt.
+Die [Publikationen](files/landsberger_publications.csv)(zum Download klicken) werden zudem in Form einer CSV-Datei bereitgestellt.
 
 ## Landsbergers Korrespondenz
 ### Aufbewahrungsorte

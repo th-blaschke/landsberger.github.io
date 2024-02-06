@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Brief von Karl Friedrich Müller an Benno Landsberger vom 07.10.1929 encoded in TEI</title>
-                <respStmt>
-                    <resp>Encoded by, </resp>
-                    <persName>Theresa Blaschke</persName>
-                 </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl>
-                    <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
-                    <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                    <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l26.pdf</idno>
-                    <extent>
-                        <measure unit="pages" quantity="3.0">3.0 Seiten</measure>
-                        <measure unit="words" quantity="413">413 Wörter</measure>
-                    </extent>
-                </bibl>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                        <idno>l26</idno>
-                    </msIdentifier>
-                    <physDesc>
-                        <objectDesc>
-                            <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
-                        </objectDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="nan">Karl Friedrich Müller</persName>
-                    <settlement ref="https://www.wikidata.org/wiki/Q2079">Leipzig</settlement>
-                    <date when="1929-07-10">07.10.1929</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
-                    <settlement ref="nan">nan</settlement>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="de">deutsch</language>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term>König (9)</term>
-                    <term>Assur (4)</term>
-                    <term>Text (4)</term>
-                    <term>Assurs (4)</term>
-                    <term>Göttern (3)</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Karl Friedrich Müller an Benno Landsberger vom 07.10.1929 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l26.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="3.0">3.0 Seiten</measure>
+                            <measure unit="words" quantity="413">413 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l26</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html">Leipzig</settlement>
+                        <date when="1929-07-10">07.10.1929</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                    <term>König (5.66)</term>
+                    <term>Assur (2.52)</term>
+                    <term>Text (2.52)</term>
+                    <term>Assurs (2.52)</term>
+                    <term>Göttern (1.89)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
     <text>
         <body>
             <opener>
