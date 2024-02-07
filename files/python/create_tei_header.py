@@ -1,11 +1,11 @@
 import pandas as pd
 import os
 
-# Einlesen der Metadatentabelle in einen Dataframe
+"""Einlesen der Metadatentabelle in einen Dataframe"""
 df_metadata = pd.read_csv("Metadaten_Briefe.csv")
 
-# Einlesen der einzelnen Zeilen des Dataframe
-# Vergabe von Variablennamen für die einzelnen Spaltenwerte pro Zeile, um diese leichter in das TEI-Template einfügen zu können
+"""Einlesen der einzelnen Zeilen des Dataframe
+Vergabe von Variablennamen für die einzelnen Spaltenwerte pro Zeile, um diese leichter in das TEI-Template einfügen zu können"""
 for index, row in df_metadata.iterrows():
     filename = row["Dateiname"]
     signature = row["LandsbergerArchives Signatur"]
@@ -26,7 +26,8 @@ for index, row in df_metadata.iterrows():
     pages = row["Anzahl Seiten"]
     words = row["Anzahl Wörter"]
     keywords_string = row["Häufigste Wörter (relative Häufigkeit)"]
-    # Die häufigsten Wörter sind als str gespeichert. Um die Einzelwerte trennen und damit besser durchsuchbar zu machen, werden sie jeweils getrennt in ein term-Tag eingefügt
+
+    """Die häufigsten Wörter sind als str gespeichert. Um die Einzelwerte trennen und damit besser durchsuchbar zu machen, werden sie jeweils getrennt in ein term-Tag eingefügt"""
     keywords_list = keywords_string.split(",") 
     single_keyword_list = []
     for i in keywords_list:
@@ -34,7 +35,7 @@ for index, row in df_metadata.iterrows():
             single_keyword_list.append(f"<term>{i}</term>")
     keyword_final = '\n'.join(single_keyword_list)
     
-    # Einfügen der Variablennamen in das TEI-Template, für jede Tabellenzeile (= jeden Brief) wird ein eigener Header erstellt und unter dem in der Metadatentabelle hinterlegten Dateinamen gespeichert
+    """Einfügen der Variablennamen in das TEI-Template, für jede Tabellenzeile (= jeden Brief) wird ein eigener Header erstellt und unter dem in der Metadatentabelle hinterlegten Dateinamen gespeichert"""
     with open(os.path.join("xml", "header", f"{filename}_header.xml"), "w", encoding="utf-8") as outfile:
         xml_text =f"""<?xml version="1.0" encoding="UTF-8"?>
     <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
