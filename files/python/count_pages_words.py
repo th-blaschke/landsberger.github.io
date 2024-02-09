@@ -36,8 +36,8 @@ for file in glob.glob(join("txt", "*.txt")):
 
 """Die beiden erstellten Dictionarys werden mit dem eingelesenen Dataframe zu den Metadaten zusammengeführt
 Das Mapping erfolgt über den Dateinamen, der sowohl im Dataframe als auch in den Dictionarys vorliegt"""
-df_metadata['Anzahl Seiten'] = df_metadata['Dateiname'].map(file_page_dict)
-df_metadata['Anzahl Wörter'] = df_metadata['Dateiname'].map(file_words_dict)
+df_metadata["Anzahl Seiten"] = df_metadata["Dateiname"].map(file_page_dict)
+df_metadata["Anzahl Wörter"] = df_metadata["Dateiname"].map(file_words_dict)
 
 """Speichern der um die Spalten 'Anzahl Seiten' und 'Anzahl Wörter' ergänzten Metadaten als CSV-Datei"""
 df_metadata.to_csv("Metadaten_Briefe.csv")

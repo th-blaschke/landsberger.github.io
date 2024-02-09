@@ -58,7 +58,7 @@ def create_term_doc(five_words_dict, name_textfile):
 def save_tdm(tdm):
     """Speichern der Term-Dokument-Matrix als CSV-Datei"""
     with open("term_document_matrix.csv", "w", encoding="utf-8") as outfile:
-        tdm.to_csv(outfile, sep=",", lineterminator='\n')
+        tdm.to_csv(outfile, sep=",", lineterminator="\n")
 
 def compare_word_frequency (tdm, keyword_list):
     """Abgleich der fünf häufigsten Wörter eines jeden Textes mit der Term-Dokument-Matrix;
@@ -78,7 +78,7 @@ def main(textfiles):
     keywords = []
     for textfile in textfiles:
         text = read_text(textfile)
-        textname = textfile.split('\\')[1].split('.')[0]
+        textname = textfile.split("\\")[1].split(".")[0]
         len_text = get_textlength(text)
         dict_word_frequ = get_wordfrequency(text)
         five_words_dict = get_dict_5_most(dict_word_frequ, len_text)
@@ -88,7 +88,7 @@ def main(textfiles):
         keywords.append(keys_dict_list)
 
     results = pd.DataFrame(dict_list).T.fillna(0)
-    results["Summe"] = np.around(results.sum(axis='columns'), 2)
+    results["Summe"] = np.around(results.sum(axis="columns"), 2)
     save_tdm(results)
     compare_word_frequency(results, keywords)
 

@@ -19,8 +19,8 @@ for file in glob.glob(join("Kerntext_txt", "*.txt")):
         text = re.sub ("\d", "", text) # entfernt alle Zahlen
         text = re.sub("\W", " ", text) # entfernt alle Nicht-Wortzeichen
         text = re.sub("  ", " ", text) # entfernt alle doppelten Leerzeichen
-        text = ' '.join([word for word in text.split() if word.lower() not in lines])
-        file = file.split('\\')[2].split('.')[0]
+        text = " ".join([word for word in text.split() if word.lower() not in lines])
+        file = file.split("\\")[2].split(".")[0]
 
         with open(f"Kerntext_stop_removed/{file}.txt", "w", encoding="utf-8") as outfile:
             output_text=outfile.write(text)

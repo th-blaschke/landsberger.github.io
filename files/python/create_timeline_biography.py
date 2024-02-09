@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Einstellen der Schriftgröße der Graphik
-matplotlib.rcParams.update({'font.size': 18})
-matplotlib.rcParams.update({'axes.titlesize' : 26})
+matplotlib.rcParams.update({"font.size": 18})
+matplotlib.rcParams.update({"axes.titlesize" : 26})
 
 # Einlesen der in einer CSV-Datei gespeicherten Lebensdaten in zwei Listen
 df_bio = pd.read_csv("Lebenslauf-Landsberger.csv", encoding="utf-8")

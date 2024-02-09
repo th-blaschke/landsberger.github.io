@@ -33,7 +33,7 @@ for index, row in df_metadata.iterrows():
     for i in keywords_list:
         if i != "nan":
             single_keyword_list.append(f"<term>{i}</term>")
-    keyword_final = '\n'.join(single_keyword_list)
+    keyword_final = "\n".join(single_keyword_list)
     
     """Einfügen der Variablennamen in das TEI-Template, für jede Tabellenzeile (= jeden Brief) wird ein eigener Header erstellt und unter dem in der Metadatentabelle hinterlegten Dateinamen gespeichert"""
     with open(join("xml", "header", f"{filename}_header.xml"), "w", encoding="utf-8") as outfile:
