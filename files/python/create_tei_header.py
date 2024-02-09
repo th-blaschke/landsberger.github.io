@@ -1,5 +1,5 @@
 import pandas as pd
-import os
+from os.path import join
 
 """Einlesen der Metadatentabelle in einen Dataframe"""
 df_metadata = pd.read_csv("Metadaten_Briefe.csv")
@@ -36,7 +36,7 @@ for index, row in df_metadata.iterrows():
     keyword_final = '\n'.join(single_keyword_list)
     
     """Einfügen der Variablennamen in das TEI-Template, für jede Tabellenzeile (= jeden Brief) wird ein eigener Header erstellt und unter dem in der Metadatentabelle hinterlegten Dateinamen gespeichert"""
-    with open(os.path.join("xml", "header", f"{filename}_header.xml"), "w", encoding="utf-8") as outfile:
+    with open(join("xml", "header", f"{filename}_header.xml"), "w", encoding="utf-8") as outfile:
         xml_text =f"""<?xml version="1.0" encoding="UTF-8"?>
     <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
     <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>

@@ -1,17 +1,17 @@
-import pandas as pd
 import glob
-import os
-from PyPDF2 import PdfReader
+import pandas as pd
 import re
+from os.path import join
+from PyPDF2 import PdfReader
 
 """Einlesen der Metadatentabelle, zu der die Angabe der Seitenzahl und Wortzahl eines jeden Briefes hinzugefügt werden soll"""
-df_metadata = pd.read_csv("Metadaten-Briefe.csv")
+df_metadata = pd.read_csv("Metadaten_Briefe.csv")
 
 """Einlesen der Bilddigitalsate im PDF-Format, 
 Zählen der Seitenanzahl mit der len-Funktion, 
 Speichern von Dateiname und Seitenzahl in einem Dictionary"""
 file_page_dict = {}
-for file in glob.glob(os.path.join("pdf", "*.pdf")):
+for file in glob.glob(join("pdf", "*.pdf")):
     with open(file, "r") as infile:
         pdf_file = PdfReader(file)
         filename_pdf = file.split("\\")[1].split(".")[0]
@@ -24,7 +24,7 @@ Aufsplitten des Brieftextes in eine Wortliste
 Zählen der Länge der Liste (= Wortanzahl des Briefes) mit der len-Funktion
 Speichern von Dateiname und Wortanzahl in einem Dictionary""" 
 file_words_dict = {}
-for file in glob.glob(os.path.join("txt", "*.txt")):
+for file in glob.glob(join("txt", "*.txt")):
     with open(file, "r", encoding="utf-8") as infile:
         text = infile.read()
         filename_txt = file.split("\\")[1].split(".")[0]

@@ -4,7 +4,7 @@
     "href": "suchoptionen.html",
     "title": "Suchoptionen Metadaten",
     "section": "",
-    "text": "import pandas as pd\n\ndf_metadata = pd.read_csv(\"files\\metadata_letters.csv\")\n\ndef list_content(column_name):\n    names = (df_metadata[column_name].unique())\n    for i in sorted(names):\n        print(i)\n\ndef print_result(column_name, name):\n    result = df_metadata.loc[df_metadata[column_name] == name, \"Dateiname\"].to_list()\n    for i in result:\n        print(i)"
+    "text": "import pandas as pd\n\n\"\"\"Einlesen der Metadaten-Tabelle als Dataframe\"\"\"\ndf_metadata = pd.read_csv(\"files\\metadata_letters.csv\")\n\ndef list_content(column_name):\n    \"\"\"Auflisten der unique-Werte einer Spalte des Dataframe in alphabetischer Reihenfolge\"\"\"\n    names = (df_metadata[column_name].unique())\n    for i in sorted(names):\n        print(i)\n\ndef print_result(column_name, name):\n    \"\"\"Ausgabe der Zeilen des Dataframe, die ein Suchwort (= name) enthalten\"\"\"\n    result = df_metadata.loc[df_metadata[column_name] == name, \"Dateiname\"].to_list()\n    for i in result:\n        print(i)"
   },
   {
     "objectID": "suchoptionen.html#suche-nach-absendern",
@@ -32,14 +32,14 @@
     "href": "suchoptionen.html#suche-nach-einem-datumszeitraum",
     "title": "Suchoptionen Metadaten",
     "section": "Suche nach einem Datumszeitraum",
-    "text": "Suche nach einem Datumszeitraum\n\n#Einfügen eines Datumszeitraums\nstart_date = \"1929-01-01\"\nend_date = \"1931-01-01\"\n\n\ndf_metadata[\"Datum (ISO 8601)\"] = pd.to_datetime(df_metadata[\"Datum (ISO 8601)\"], format=\"ISO8601\")\nmask = (df_metadata[\"Datum (ISO 8601)\"] &gt; start_date) & (df_metadata[\"Datum (ISO 8601)\"] &lt;= end_date)\n\nresult_date = df_metadata.loc[mask, \"Dateiname\"].to_list()\nfor i in result_date:\n    print(i)\n\n1929-06-06_Landsberger_ThureauDangin\n1929-07-10_Mueller_Landsberger\n1929-12-09_Hartmann_Landsberger\n1930-01-03_Budde_Landsberger"
+    "text": "Suche nach einem Datumszeitraum\n\n#Einfügen eines Datumszeitraums\nstart_date = \"1929-01-01\"\nend_date = \"1931-01-01\"\n\n\"\"\"Umwandeln des Datums in ein Datetime-Format; Definieren des Datumszeitraums\"\"\"\ndf_metadata[\"Datum (ISO 8601)\"] = pd.to_datetime(df_metadata[\"Datum (ISO 8601)\"], format=\"ISO8601\")\nmask = (df_metadata[\"Datum (ISO 8601)\"] &gt; start_date) & (df_metadata[\"Datum (ISO 8601)\"] &lt;= end_date)\n\nresult_date = df_metadata.loc[mask, \"Dateiname\"].to_list()\nfor i in result_date:\n    print(i)\n\n1929-06-06_Landsberger_ThureauDangin\n1929-07-10_Mueller_Landsberger\n1929-12-09_Hartmann_Landsberger\n1930-01-03_Budde_Landsberger"
   },
   {
     "objectID": "suchoptionen.html#suche-nach-der-briefsprache",
     "href": "suchoptionen.html#suche-nach-der-briefsprache",
     "title": "Suchoptionen Metadaten",
     "section": "Suche nach der Briefsprache",
-    "text": "Suche nach der Briefsprache\n\nAusgeben einer Liste von Sprachen\n\nlist_content(\"Sprache\")\n\ndeutsch\nenglisch\nfranzösisch\n\n\n\n\nAuswahl einer Sprache und der zugehörigen Briefe\n\n#Einfügen des gesuchten Sprache\nname = \"englisch\"\n\nprint_result(\"Sprache\", name)\n\n1933-03-08_Gadd_Landsberger\n1943-10-01_Thompson_Landsberger\n1956-02-15_Landsberger_Segerstedt\n1960-09-27_Landsberger_Aro\n1962-02-19_Finkelstein_Landsberger"
+    "text": "Suche nach der Briefsprache\n\nAusgeben einer Liste von Sprachen\n\nlist_content(\"Sprache\")\n\ndeutsch\nenglisch\nfranzösisch\n\n\n\n\nAuswahl einer Sprache und der zugehörigen Briefe\n\n#Einfügen der gesuchten Sprache\nname = \"englisch\"\n\nprint_result(\"Sprache\", name)\n\n1933-03-08_Gadd_Landsberger\n1943-10-01_Thompson_Landsberger\n1956-02-15_Landsberger_Segerstedt\n1960-09-27_Landsberger_Aro\n1962-02-19_Finkelstein_Landsberger"
   },
   {
     "objectID": "editionsprinzipien.html",
