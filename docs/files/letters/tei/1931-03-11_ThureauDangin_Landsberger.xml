@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von François Thureau-Dangin an Benno Landsberger vom 11.03.1931 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l7.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="3">3 Seiten</measure>
+                            <measure unit="words" quantity="241">241 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l7</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q1352388">François Thureau-Dangin</persName>
+                        <settlement ref="https://www.geonames.org/2968815/paris.html">Paris</settlement>
+                        <date when="1931-03-11">11.03.1931</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="fr">französisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>traduction (3.06)</term>
+                        <term>école (2.04)</term>
+                        <term>appris (2.04)</term>
+                        <term>mort (2.04)</term>
+                        <term>question (2.04)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline>
+                        <date when="1931-03-11">11 mars 1931</date>
+                    </dateline>
+                    <address>
+                        <addrLine style="pre-printed">102 RUE DE GRENELLE (VIIE)</addrLine>
+                    </address>
+                    <salute>Cher Monsieur,</salute>
+                </opener>
+                <p>Cordial merci pour le <title type="monograph" ref="https://d-nb.info/570158052">1er volume<lb/>
+                    de la Neue Folge des Leipziger Semi-<lb/>
+                    tische Studien</title>. Je suis heureux de<lb/>
+                    voir cette excellente suite de monographie,<lb/>
+                    renaître, comme le Phénix, de ses<lb/>
+                    cendres. Sous votre direction elle<lb/>
+                    continuera, je n'en doute pas à faire<lb/>
+                    honneur a l'"école de <placeName type="modern" ref="https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html">Leipzig</placeName>".<lb/>
+                    C'est avec une vive peine que j'ai<lb/>
+                    appris la mort du maître qui a tant<lb/>
+                    fait pour maintenir cette école à<lb/>
+                    un haut niveau scientifique.<lb/>
+                    J'avais beaucoup de respect et d'admi-<lb/>
+                    ration pour le <persName type="modern" ref="https://www.wikidata.org/wiki/Q115000">Professeur Zimmern</persName>.<lb/>
+                    Sa mort laisse un lieu grand vide<lb/>
+                    dans nos études.<lb/>
+                    J'ai appris que vous préparez une<lb/>
+                    étude sur la série <title type="monograph" ref="https://d-nb.info/992536693">ana ittišu</title> -<lb/>
+                    voulez-vous me permettre de vous<lb/>
+                    poser une question? Il s'agit de<lb/>
+                    la tablette reconstituée par <persName type="modern" ref="https://www.wikidata.org/wiki/Q4285160">Langdon</persName><lb/>
+                    <title type="journal" ref="https://www.wikidata.org/wiki/Q15762062">RA XIV pp. 1 et suiv</title>. Avez-vous pu<lb/>
+                    reconstituer la fin de la Col. I?<lb/>
+                    Dans un vocabulaire de <placeName type="ANE" ref="https://pleiades.stoa.org/places/668295">Ras Shamra</placeName><lb/>
+                    qui conserve la partie <lang xml:lang="sux">sumérienne</lang><lb/>
+                    mais remplace la traduction <lang xml:lang="akk">accadienne</lang><lb/>
+                    par une traduction en langue<lb/>
+                    inconnue, il reste de cette fin<lb/>
+                    de colonne ce qui suit.<lb/>
+                    
+                    {Keilschrift}<lb/>
+                    ici la traduction<lb/>
+                    en langue inconnu<lb/>
+                    
+                    <persName type="modern" ref="https://www.wikidata.org/wiki/Q52150040">Gadd</persName> m'a communiqué qques lignes<lb/>
+                    d'un fragment inédit <title type="cuneiformtext">RM. II, 36</title> que<lb/>
+                    vous connaissez certainement. Mal-<lb/>
+                    heureusement ce pagment ne donne<lb/>
+                    rien pour le passage en question.</p>
+                    <div type="notes"><p>{Links unterhalb der Signatur ist "20-44" notiert. Bedeutung unklar.}</p></div>
+                <closer>
+                    <salute>Je m'excuse, cher Monsieur, de<lb/>
+                        mon indiscrétion et vous prie de me croire<lb/>
+                        votre reconnaissant et dévoué.</salute>
+                    <signed>F Thureau-Dangin</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    
