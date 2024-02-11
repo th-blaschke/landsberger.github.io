@@ -1,0 +1,73 @@
+---
+title: "Brief von François Thureau-Dangin an Benno Landsberger vom 11.03.1931"
+---
+
+**Absender\*in**: [François Thureau-Dangin](https://www.wikidata.org/wiki/Q1352388)   
+**Aufenthaltsort Absender\*in**: [Paris](https://www.geonames.org/2968815/)  
+**Datum**: 11.03.1931  
+**Empfänger\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
+**Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
+traduction (3.06)
+école (2.04)
+appris (2.04)
+mort (2.04)
+question (2.04)
+
+[Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1931-03-11_ThureauDangin_Landsberger_wordfrequency.qmd){target="_blank"}
+ 
+[Ansicht als TEI-Dokument](files/letters/tei/1931-03-11_ThureauDangin_Landsberger.xml)  
+
+[Faksimile](files/letters/pdf/1931-03-11_ThureauDangin_Landsberger.pdf){target="_blank"}
+
+
+11 mars 1931  
+102 RUE DE GRENELLE (VIIE)  
+
+Cher Monsieur,<br/>
+Cordial merci pour le [1er volume\
+de la Neue Folge des Leipziger Semi-\
+tische Studien](https://d-nb.info/570158052). Je suis heureux de<br/>
+voir cette excellente suite de monographie,<br/>
+renaître, comme le Phénix, de ses<br/>
+cendres. Lous votre direction elle<br/>
+continuera, je n'en doute pas à faire<br/>
+honneur a l'"école de [Leipzig](https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html")".<br/>
+C’est avec une vive peine que j’ai<br/>
+appris la mort du maître qui a tant<br/>
+fait pour maintenir cette école a<br/>
+un haut niveau scientifique.<br/>
+J'avais beaucoup de respect et d'admi-<br/>
+ration pour le [Professeur Zimmern](https://www.wikidata.org/wiki/Q115000).<br/>
+Sa mort laisse un lieu grand vide<br/>
+dans nos études.<br/>
+J'ai appris que vous préparez une<br/>
+étude sur la série [ana ittišu](https://d-nb.info/992536693) -<br/>
+voulez-vous me permettre de vous<br/>
+poser une question? Il s'agit de<br/>
+la tablette reconstituée par [Langdon](https://www.wikidata.org/wiki/Q4285160)<br/>
+[RA](https://www.wikidata.org/wiki/Q15762062) XIV pp. 1 et suiv. Avez-vous pu<br/>
+reconstituer la fin de la Col. I?<br/>
+Dans un vocabulaire de [Ras Shamra](https://pleiades.stoa.org/places/668295)<br/>
+qui conserve la partie <span style="color:green;">sumérienne</span><br/>
+mais remplace la traduction <span style="color:green;">accadienne</span><br/>
+par une traduction en langue<br/>
+inconnue, il reste de cette fin<br/>
+de colonne ce qui suit.<br/>
+<br/>
+{Keilschrift}<br/>
+ici la traduction<br/>
+en langue inconnu<br/>
+<br/>
+[Gadd](https://www.wikidata.org/wiki/Q52150040) m'a communiqué qques lignes<br/>
+d'un fragment inédit <span style="color:purple;">RM. II, 36</span> que<br/>
+vous connaissez certainement. Mal-<br/>
+heureusement ce pagment ne donne<br/>
+rien pour le passage en question.<br/>
+Je m'excuse, cher Monsieur, de<br/>
+mon indiscrétion et vous prie de me croire<br/>
+votre reconnaissant et dévoué.<br/>
+F Thureau-Dangin
+
+{Links unterhalb der Signatur ist "20-44" notiert. Bedeutung unklar.}
+
+*Zitiervorschlag: Brief von François Thureau-Dangin an Benno Landsberger vom 11.03.1931. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1931-03-11_ThureauDangin_Landsberger.html.*

@@ -1,3 +1,9 @@
+"""Das untenstehende Skript basiert auf 
+https://matplotlib.org/stable/gallery/lines_bars_and_markers/timeline.html#sphx-glr-gallery-lines-bars-and-markers-timeline-py (letzter Zugriff 06.02.2024) 
+und wurde in ähnlicher Form bereits in einem Seminar zu "Kunstgeschichtliche Visualisierungsprojekte", 
+Dozentin Katharina Hefele, WiSe 2022/2023 im Rahmen eines studentischen Projekt von mir verwendet.
+"""
+
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
