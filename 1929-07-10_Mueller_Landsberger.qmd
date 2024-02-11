@@ -15,7 +15,7 @@ Göttern (1.89)
 
 [Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1929-07-10_Mueller_Landsberger_wordfrequency.qmd){target="_blank"}
   
-[Ansicht als TEI-Dokument](files/letters/tei/1929-07-10_Mueller_Landsberger.xml)  
+[Ansicht als TEI-Dokument](files/letters/tei/1929-07-10_Mueller_Landsberger.xml){target="_blank"}    
 
 [Faksimile](files/letters/pdf/1929-07-10_Mueller_Landsberger.pdf){target="_blank"}
 

@@ -7,15 +7,15 @@ title: "Brief von François Thureau-Dangin an Benno Landsberger vom 11.03.1931"
 **Datum**: 11.03.1931  
 **Empfänger\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
 **Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
-traduction (3.06)
-école (2.04)
-appris (2.04)
-mort (2.04)
-question (2.04)
+traduction (3.06)  
+école (2.04)  
+appris (2.04)  
+mort (2.04)  
+question (2.04)  
 
 [Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1931-03-11_ThureauDangin_Landsberger_wordfrequency.qmd){target="_blank"}
  
-[Ansicht als TEI-Dokument](files/letters/tei/1931-03-11_ThureauDangin_Landsberger.xml)  
+[Ansicht als TEI-Dokument](files/letters/tei/1931-03-11_ThureauDangin_Landsberger.xml){target="_blank"}    
 
 [Faksimile](files/letters/pdf/1931-03-11_ThureauDangin_Landsberger.pdf){target="_blank"}
 
@@ -31,7 +31,7 @@ voir cette excellente suite de monographie,<br/>
 renaître, comme le Phénix, de ses<br/>
 cendres. Lous votre direction elle<br/>
 continuera, je n'en doute pas à faire<br/>
-honneur a l'"école de [Leipzig](https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html")".<br/>
+honneur a l'"école de [Leipzig](https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html)".<br/>
 C’est avec une vive peine que j’ai<br/>
 appris la mort du maître qui a tant<br/>
 fait pour maintenir cette école a<br/>

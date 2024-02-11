@@ -15,7 +15,7 @@ Frage (2.02)
 
 [Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1929-12-09_Hartmann_Landsberger_wordfrequency.qmd){target="_blank"}
  
-[Ansicht als TEI-Dokument](files/letters/tei/1929-12-09_Hartmann_Landsberger.xml)  
+[Ansicht als TEI-Dokument](files/letters/tei/1929-12-09_Hartmann_Landsberger.xml){target="_blank"}    
 
 [Faksimile](files/letters/pdf/1929-12-09_Hartmann_Landsberger.pdf){target="_blank"}
 
