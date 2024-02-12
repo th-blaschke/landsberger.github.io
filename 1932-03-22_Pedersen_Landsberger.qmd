@@ -7,11 +7,11 @@ title: "Brief von Johannes Pedersen an Benno Landsberger vom 22.03.1932"
 **Datum**: 22.03.1932  
 **Empfänger\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
 **Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
-Zeit (2.54)
-denke (1.69)
-Leipzig (1.69)
-schöne (1.69)
-gefunden (1.69)
+Zeit (2.54)  
+denke (1.69)  
+Leipzig (1.69)  
+schöne (1.69)  
+gefunden (1.69)  
 
 [Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1932-03-22_Pedersen_Landsberger_wordfrequency.qmd){target="_blank"}  
  

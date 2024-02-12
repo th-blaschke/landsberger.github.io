@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Walter Andrae an Benno Landsberger vom 30.06.1932 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l18.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="150">150 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l18</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67392">Walter Andrae</persName>
+                        <settlement ref="https://www.geonames.org/2950159/berlin.html">Berlin</settlement>
+                        <date when="1932-06-30">30.06.1932</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>helfen (5.26)</term>
+                        <term>Generaldirektor (2.63)</term>
+                        <term>glänzend (2.63)</term>
+                        <term>Leuten (2.63)</term>
+                        <term>droben (2.63)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <orgName style="pre-printed">VORDERASIATISCHE ABTEILUNG<lb/>
+                            DER STAATLICHEN MUSEEN</orgName>
+                    </address>
+                     <dateline><placeName ref="https://www.wikidata.org/wiki/Q64" style="pre-printed">BERLIN</placeName> C2, <date when="1932-06-30">DEN 30.6.32.</date></dateline>
+                     <address>
+                        <addrLine style="pre-printed">AM LUSTGARTEN</addrLine>
+                        <addrLine style="pre-printed">FERNSPR.: N2 KUPFERGRABEN 5401</addrLine>
+                        <addrLine style="pre-printed">V.A. NR.</addrLine>
+                    </address>          
+                    <salute>Sehr verehrter Herr Kollege Landsberger</salute>
+                </opener>
+                <p>Ihr Schreiben an den Generaldirektor wird uns – wenn<lb/>
+                    heutzutage überhaupt etwas helfen kann - glänzend helfen.<lb/>
+                    Es sagt den Leuten droben Lob und packt sie an der empfind-<lb/>
+                    lichen Stelle. Jedenfalls danken wir Ihnen sehr herzlich für<lb/>
+                    Ihre Hilfsstellung.<lb/>
+                    Wie mir <persName type="modern" ref="http://www.wikidata.org/entity/Q123496">Ehelolf</persName> sagte, kommen Sie mit Ihrer Veröffentlichung<lb/>
+                    der <title type="monograph" ref="https://d-nb.info/365039365">Assur-Zoologie</title> bei der <orgName type="academy" ref="https://www.wikidata.org/wiki/Q451079">Sächs. Akademie</orgName> in Not. Ich freue<lb/>
+                    mich, daß wir soeben noch in der Lage sind, einspringen zu<lb/>
+                    können, und Ihnen die fehlenden Fünfhundert Reichsmark<lb/>
+                    gebenenfalls dafür zu überweisen.<lb/>
+                    Es ist überhaupt ein Lichtblick, der von dem Fleiß und<lb/>
+                    der ordnenden Arbeit der <name type="academicdiscipline" ref="https://www.wikidata.org/wiki/Q156859">Assyriologie</name> so wie Sie sie vertreten<lb/>
+                    auf den finsteren Orient, wie auf die höhenrauchumhüllte<lb/>
+                    Gegenwart geworfen wird. Man braucht nun nicht mehr<lb/>
+                    zu verzweifeln, daß es weiter geht.</p>
+                <closer>
+                    <salute>Mit freundlichen Empfehlungen<lb/>
+                        Ihr<lb/>
+                        ergebenster</salute>
+                    <signed>W. Andrae</signed>
+                </closer>
+                <postscript>
+                        <p></p>
+                </postscript>  
+            </body>
+        </text>
+    </TEI>
+    
