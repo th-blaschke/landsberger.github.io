@@ -29,7 +29,7 @@ Hochverehrter Herr Professor!
 Endlich bin ich in der Lage, Ihnen einen<br/>
 Teil meiner Textbearbeitungen zu schicken, den Rest hoffe<br/>
 ich in rascher Folge nachsenden zu können.<br/>
-Die Bearbeitung des [Krönungsritual](https://cdli.mpiwg-berlin.mpg.de/artifacts/282609) ist noch<br/>
+Die Bearbeitung des [Krönungsritual](https://cdli.ucla.edu/P282609) ist noch<br/>
 nicht vollständig. Zu behandeln sind noch das Verbum  <span style="color:red;">kararu</span>,<br/>
 die Form  <span style="color:red;">ip-pal</span> (II, 14), <span style="color:red;">ab-ba-sa</span> und, von Einzelheiten<br/>
 abgesehen, die Bedeutung von <span style="color:red;">abnu</span> und die Götter, das Material<br/>
@@ -56,7 +56,7 @@ nig ist nur sein Statthalter. Der König trägt die Krone [Assurs](https://www.w
 [Assur](https://www.wikidata.org/wiki/Q685878) hat ihn zur Königsherrschaft berufen, auf Geheiß [Assurs](https://www.wikidata.org/wiki/Q685878)<br/>
 zieht der König zu Felde, er kämpft mit den Waffen [Assurs](https://www.wikidata.org/wiki/Q685878), der<br/>
 Gott ist es eigentlich, der den Feind besiegt, der König berich-<br/>
-tet dem Gott von seinen Kriegstaten (cf. [8. Feldzug Sargons](https://cdli.mpiwg-berlin.mpg.de/artifacts/285665)),<br/>
+tet dem Gott von seinen Kriegstaten (cf. [8. Feldzug Sargons](https://cdli.ucla.edu/P285665)),<br/>
 dabei spricht der König "vor" den Göttern, aber die Götter "mit"<br/>
 ihm, genau das Verhältnis wie zwischen dem König und seinen<br/>
 Untertanen. Aus dieser Stellung des Königs erklärt sich auch,<br/>
@@ -65,7 +65,7 @@ und daß in dem Priesterhymus bei der Krönung nur vom Priester-<br/>
 tum die Rede ist. Daß der König als oberster Priester galt,<br/>
 zeigen Briefe, in denen der König um Entscheidung in kultischen<br/>
 Angelegenheiten angegangen wird.<br/>
-Den Text [KAR 139](https://cdli.mpiwg-berlin.mpg.de/artifacts/369116) will ich bei der Behand-<br/>
+Den Text [KAR 139](https://cdli.ucla.edu/P369116) will ich bei der Behand-<br/>
 lung des  <span style="color:red;">Pû-lišānu</span> bringen; bei der Stelle III, 2 soll der Sänger<br/>
 behandelt werden, dabei wird vielleicht der Text von der <span style="color:blue;">Mārat-<br/>
 nāri</span> angeschlossen.  
