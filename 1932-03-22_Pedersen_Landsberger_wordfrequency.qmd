@@ -1,0 +1,17 @@
+---
+title: "Worthäufigkeiten - Brief von Johannes Pedersen an Benno Landsberger vom 22.03.1932"
+---
+
+**Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus**
+
+|                                 | Zeit  | denke | Leipzig | schöne | gefunden |
+|---------------------------------|-------|-------|---------|--------|----------|
+| 1932-03-22_Pedersen_Landsberger | 2.54  | 1.69  | 1.69    | 1.69   | 1.69     |
+| 1936-05-09_Mueller_Landsberger  | 2.3   | 0.0   | 0.0     | 0.0    | 0.0      |
+| 1937-03-05_Mueller_Landsberger  | 1.34  | 0.0   | 0.0     | 0.0    | 0.0      |
+| 1937-05-03_Landsberger_Mueller  | 0.0   | 0.0   | 1.43    | 0.0    | 0.0      |
+| 1937-07-19_Landsberger_Mueller  | 1.85  | 0.0   | 1.85    | 0.0    | 0.0      |
+| 1938-04-20_Mueller_Landsberger  | 2.86  | 0.0   | 4.29    | 0.0    | 0.0      |
+| 1938-05-18_Mueller_Landsberger  | 0.0   | 0.0   | 4.65    | 0.0    | 0.0      |
+| 1938-08-04_Landsberger_Mueller  | 0.0   | 0.0   | 1.4     | 0.0    | 0.0      |
+| Summe                           | 10.89 | 1.69  | 15.31   | 1.69   | 1.69     |

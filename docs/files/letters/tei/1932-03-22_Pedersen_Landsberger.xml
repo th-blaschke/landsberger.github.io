@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Johannes Pedersen an Benno Landsberger vom 22.03.1932 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l14.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="3">3 Seiten</measure>
+                            <measure unit="words" quantity="358">358 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l14</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="https://www.wikidata.org/wiki/Q6039205">Johannes Pedersen</persName>
+                        <settlement ref="https://www.geonames.org/2618425/copenhagen.html">Kopenhagen</settlement>
+                        <date when="1932-03-22">22.03.1932</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Zeit (2.54)</term>
+                        <term>denke (1.69)</term>
+                        <term>Leipzig (1.69)</term>
+                        <term>schöne (1.69)</term>
+                        <term>gefunden (1.69)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine>Hjalmar Brantings Plads 4</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1932-03-22">22.3.1932</date>
+                        <placeName ref="https://www.wikidata.org/wiki/Q1748">Kopenhagen</placeName>
+                    </dateline>
+                    <salute>Lieber Freund,</salute>
+                </opener>
+                <p>Ich habe von Dir verschiedene Drucksachen bekommen, sogar<lb/>
+                    schon vor langem. Dass du nicht etwa glaubest, ich habe<lb/>
+                    sie gleichgültig empfangen, schreibe ich Dir und bedanke<lb/>
+                    mich für Deine freundlichen Gaben. Mit besonderem Interesse<lb/>
+                    habe ich Deinen Nachruf<!--B. Landsberger, Heinrich Zimmern (Obituary), Zeitschrift für Assyriologie und verwandte Gebiete : Fachzeitschrift der Deutschen Morgenländischen Gesellschaft 40 (1931) 133-143.-->, unseren gemeinsamen Lehrer<lb/>
+                    <persName type="modern" ref="https://www.wikidata.org/wiki/Q115000">Zimmern</persName> betreffend, gelesen. Er war ein hervorragender
+                    Philologe, und obwohl ich in seinem Fach nicht weiter<lb/>
+                    gearbeitet habe, denke ich immer mit grösster Verehrung<lb/>
+                    an ihn und seinen Unterricht. Die Zeit, welche wir in<lb/>
+                    <placeName type="modern" ref="https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html">Leipzig</placeName> beisammen verbrachten, steht bald als eine<lb/>
+                    vorsintflutliche Idylle, wie etwa die Zeit Goethes, von<lb/>
+                    der man heute so viel überflüssiges schreibt. Ich denke<lb/>
+                    immer mit Freude an die schöne Zeit. Jetzt sitzest<lb/>
+                    Du auf dem Throne <persName type="modern" ref="https://www.wikidata.org/wiki/Q115000">Zimmerns</persName>, und hast schon eine ganze<lb/>
+                    Reihe von Schülern. Zwei Zeugnisse davon hast du<lb/>
+                    mir geschickt, und ich bitte, wenn die jungen Herren<lb/>
+                    noch bei dir sind, Ihnen meinen besten Dank zu<lb/>
+                    überbringen. Sowohl die <lang xml:lang="sux">sumerischen</lang> wie die <lang xml:lang="akk">babyloni-<lb/>
+                    schen</lang> Beschwörungen habe ich studiert und allerlei, das<lb/>
+                    auch mich interessierte, gefunden.<lb/>
+                    Ich habe mir diesmal ein verhältnismässig leichtes<lb/>
+                    Semester gemacht, und arbeite eifrig daran, meine Arbeit<lb/>
+                    über <placeName type="modern" ref="https://www.geonames.org/294640/state-of-israel.html">Israel</placeName> zu vollenden. Ein schwieriges Unternehmen,<lb/>
+                    aber es hat viele Jahre mein Gewissen gedrückt, nur<lb/>
+                    ohne es zu Ende geführt zu haben, kann ich mich<lb/>
+                    nicht in Freiheit mit anderen Sachen beschäftigen.<lb/>
+                    Seitdem wir uns in <placeName type="modern" ref="https://www.geonames.org/2643743/london.html">London</placeName> begegneten, hat sich vie-<lb/>
+                    les verändert, und zwar in malam partem. Mit<lb/>
+                    grosstem Erstaunen betrachten wir als Zuschauer,<lb/>
+                    was in <placeName type="modern" ref="https://www.wikidata.org/wiki/Q1206012">Deutschland</placeName> vor sich geht. Auch bei uns<lb/>
+                    herrscht Krise, unsere Valuta schwimmt. Man<lb/>
+                    sagt, es soll besser werden, aber niemand weiss, wie<lb/>
+                    oder wann. Die Studien haben in derartigen Zeiten<lb/>
+                    einen doppelten Reiz. - Hast Du die neue <lang xml:lang="arc">aramäische</lang><lb/>
+                    Inschrift gesehen, die <persName type="modern" ref="https://www.wikidata.org/wiki/Q12213939">Ronzevalle</persName> in <title type="journal">MFOB</title> <!--Mélanges de la Faculté Orientale de Beyrouth--> veröffent-<lb/>
+                    licht hat? Ich hoffe sehr, dass wir in <placeName type="modern" ref="https://www.geonames.org/170017/hamah.html">Hama</placeName>, wo<lb/>
+                    wir graben, neue Inschriften finden werden. Bis<lb/>
+                    jetzt hat man allerdings hauptsächlich ara-<lb/>
+                    bische Keramik gefunden – und zwar eine sehr schöne Samm-<lb/>
+                    lung. Aber jetzt wird man in die Tiefe gehen und ältere<lb/>
+                    Schichten untersuchen<lb/>
+                    Ich hatte gehofft, dich in <placeName type="modern" ref="https://www.geonames.org/2751772/gemeente-leiden.html">Leiden</placeName> in sehen,<lb/>
+                    wurde aber enttäuscht. Einmal muss ich wohl wieder nach  <placeName type="modern" ref="https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html">Leipzig</placeName><lb/>
+                    kommen.</p>
+                <closer>
+                    <salute>Herzliche Grüsse!<lb/>
+                        Dein alter Freund</salute>
+                    <signed>Joha. Pedersen</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    
