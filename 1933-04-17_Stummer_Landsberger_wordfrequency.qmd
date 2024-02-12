@@ -1,0 +1,10 @@
+---
+title: "Worthäufigkeiten - Brief von Friedrich Stummer an Benno Landsberger vom 17.04.1933"
+---
+
+**Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus**
+
+|                                | Hehn | Schüler | widmen | Karsamstag | schickte |
+|--------------------------------|------|---------|--------|------------|----------|
+| 1933-04-17_Stummer_Landsberger | 2.17 | 2.17    | 2.17   | 1.09       | 1.09     |
+| Summe                          | 2.17 | 2.17    | 2.17   | 1.09       | 1.09     |

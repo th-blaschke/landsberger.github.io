@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Friedrich Stummer an Benno Landsberger vom 17.04.1933 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l83.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="302">302 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l83</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="https://www.wikidata.org/wiki/Q1417449">Friedrich Stummer</persName>
+                        <settlement ref="https://www.geonames.org/3220897/kreisfreie-stadt-wuerzburg.html">Würzburg</settlement>
+                        <date when="1933-04-17">17.04.1933</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Hehn (2.17)</term>
+                        <term>Schüler (2.17)</term>
+                        <term>widmen (2.17)</term>
+                        <term>Karsamstag (1.09)</term>
+                        <term>schickte (1.09)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.wikidata.org/wiki/Q2999">Würzburg,</placeName><date when="1933-04-17">am 17. April 1933</date></dateline>
+                    <address>
+                        <addrLine>Hindenburgstraße 26/II.</addrLine>
+                    </address>       
+                    <salute>Hochverehrter Herr Professor!</salute>
+                </opener>
+                <p>Am Karsamstag schickte mir mein Buchhändler das<lb/>
+                    neueste Heft der <title type="journal" ref="https://d-nb.info/01262635X">ZA</title>. Mit warmer Zustimmung las ich darin<lb/>
+                    Ihren Nachruf<!--B. Landsberger, Johannes Hehn (Obituary), Zeitschrift für Assyriologie und verwandte Gebiete: Fachzeitschrift der Deutschen Morgenländischen Gesellschaft 41 (1933) 302-303.--> auf <persName type="modern" ref="https://www.wikidata.org/wiki/Q23562017">Johannes Hehn</persName>. Als sein ältester Schüler empfinde<lb/>
+                    ich es als angenehme Pflicht, Ihnen herzlich für die<lb/>
+                    sympathischen Worte zu danken, die Sie meinem hochverehrten,<lb/>
+                    tief betrauerten Lehrer und väterlichen Freunde gewidmet<lb/>
+                    haben.<lb/>
+                    Ich bin überzeugt: lebte <persName type="modern" ref="https://www.wikidata.org/wiki/Q23562017">Hehn</persName> noch, er würde dem Bilde,<lb/>
+                    das Sie von ihm entworfen haben, nicht widersprechen. Auch<lb/>
+                    das war ganz in seinem Sinne, daß Sie die Kämpfe und<lb/>
+                    Schwierigkeiten, die er zu bestehen hatte, nur kurz und taktvoll<lb/>
+                    berührten. Er hat sehr schwer an ihnen getragen,<lb/>
+                    denn seiner irenischen Natur lag der Streit nicht,<lb/>
+                    und seiner Bescheidenheit widerstrebte es, sich als Mittelpunkt<lb/>
+                    einer Debatte zu wissen.<lb/>
+                    Ich darf Ihnen auch für die ehrenvolle Erwähnung meines<lb/>
+                    Namens im Schlußsatz danken. Sie hat mich um so mehr<lb/>
+                    gefreut, als ich bis jetzt der Meinung war, daß Sie meine<lb/>
+                    diesbezüglichen Arbeiten ablehnten. Aber ich bitte sehr, diese<lb/>
+                    Bemerkung nicht so aufzufassen, als ob ich damit einer per-<lb/>
+                    sönlichen Verstimmung Luft machen wolle. Abgesehen davon,<lb/>
+                    daß der Anlaß dazu nicht passend wäre, müßte ich es doch<lb/>
+                    selber als lächerlich empfinden, wenn ich jemanden eine<lb/>
+                    von der meinen abweichende Auffassung übelnehmen<lb/>
+                    wollte.<lb/>
+                    Leider habe ich mich in den letzten Jahren der<lb/>
+                    <name type="academicdiscipline" ref="https://www.wikidata.org/wiki/Q156859">Assyriologie</name> nur wenig widmen können, da mich andere<lb/>
+                    Arbeiten, die sich mir aus meiner Lehrtätigkeit ergaben,<lb/>
+                    mich sehr in Anspruch nahmen. Aber ich habe<lb/>
+                    mich wenigstens bemüht, Fühlung zu behalten. Hier,<lb/>
+                    wo ich als Nachfolger <persName type="modern" ref="https://www.wikidata.org/wiki/Q23562017">Hehns</persName> mich doppelt als sein Schü-<lb/>
+                    ler und seinem Erbe verpflichtet fühle, hoffe ich auch<lb/>
+                    bald Gelegenheit zu haben, mich der orientalischen Umwelt<lb/>
+                    des Alten Testamentes wieder mehr zu widmen.</p>
+                <closer>
+                    <salute>Mit den besten Wünschen für den Rest der<lb/>
+                        Ferien und mit dem Ausdruck aufrichtiger Verehrung<lb/>
+                        Ihr<lb/>
+                        ergebenster<lb/>
+                       </salute>
+                    <signed>[?] Friedrich Stummer.</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    

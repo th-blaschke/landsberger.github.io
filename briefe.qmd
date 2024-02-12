@@ -8,3 +8,4 @@ Einen Überblick über die Metadaten zum untersuchten Briefkorpus bietet die [hi
 [1931-03-11_ThureauDangin_Landsberger](1931-03-11_ThureauDangin_Landsberger.qmd)  
 [1932-03-22_Pedersen_Landsberger](1932-03-22_Pedersen_Landsberger.qmd)  
 [1932-06-30_Andrae_Landsberger](1932-06-30_Andrae_Landsberger.qmd)  
+[1933-04-17_Stummer_Landsberger](1933-04-17_Stummer_Landsberger.qmd)  

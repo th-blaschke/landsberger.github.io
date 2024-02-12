@@ -1,0 +1,69 @@
+---
+title: "Brief von Friedrich Stummer an Benno Landsberger vom 17.04.1933"
+---
+
+**Absender\*in**: [Friedrich Stummer](https://www.wikidata.org/wiki/Q1417449)   
+**Aufenthaltsort Absender\*in**: [Würzburg](https://www.geonames.org/3220897/kreisfreie-stadt-wuerzburg.html)  
+**Datum**: 17.04.1933   
+**Empfänger\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
+**Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
+Hehn (2.17)  
+Schüler (2.17)  
+widmen (2.17)  
+Karsamstag (1.09)  
+schickte (1.09)  
+
+[Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1933-04-17_Stummer_Landsberger_wordfrequency.qmd){target="_blank"}   
+ 
+[Ansicht als TEI-Dokument](files/letters/tei/1933-04-17_Stummer_Landsberger.xml){target="_blank"}    
+
+[Faksimile](files/letters/pdf/1933-04-17_Stummer_Landsberger.pdf){target="_blank"}  
+
+Würzburg, am 17. April 1933  
+Hindenburgstraße 26/II.  
+  
+Hochverehrter Herr Professor!<br/>
+Am Karsamstag schickte mir mein Buchhändler das<br/>
+neueste Heft der [ZA](https://d-nb.info/01262635X). Mit warmer Zustimmung las ich darin<br/>
+Ihren Nachruf^[B. Landsberger, Johannes Hehn (Obituary), Zeitschrift für Assyriologie und verwandte Gebiete: Fachzeitschrift der Deutschen Morgenländischen Gesellschaft 41 (1933) 302-303.] auf [Johannes Hehn](https://www.wikidata.org/wiki/Q23562017). Als sein ältester Schüler empfinde<br/>
+ich es als angenehme Pflicht, Ihnen herzlich für die<br/>
+sympathischen Worte zu danken, die Sie meinem hochverehrten,<br/>
+tief betrauerten Lehrer und väterlichen Freunde gewidmet<br/>
+haben.<br/>
+Ich bin überzeugt: lebte [Hehn](https://www.wikidata.org/wiki/Q23562017) noch, er würde dem Bilde,<br/>
+das Sie von ihm entworfen haben, nicht widersprechen. Auch<br/>
+das war ganz in seinem Sinne, daß Sie die Kämpfe und<br/>
+Schwierigkeiten, die er zu bestehen hatte, nur kurz und taktvoll<br/>
+berührten. Er hat sehr schwer an ihnen getragen,<br/>
+denn seiner irenischen Natur lag der Streit nicht,<br/>
+und seiner Bescheidenheit widerstrebte es, sich als Mittelpunkt<br/>
+einer Debatte zu wissen.<br/>
+Ich darf Ihnen auch für die ehrenvolle Erwähnung meines<br/>
+Namens im Schlußsatz danken. Sie hat mich um so mehr<br/>
+gefreut, als ich bis jetzt der Meinung war, daß Sie meine<br/>
+diesbezüglichen Arbeiten ablehnten. Aber ich bitte sehr, diese<br/>
+Bemerkung nicht so aufzufassen, als ob ich damit einer per-<br/>
+sönlichen Verstimmung Luft machen wolle. Abgesehen davon,<br/>
+daß der Anlaß dazu nicht passend wäre, müßte ich es doch<br/>
+selber als lächerlich empfinden, wenn ich jemanden eine<br/>
+von der meinen abweichende Auffassung übelnehmen<br/>
+wollte.<br/>
+Leider habe ich mich in den letzten Jahren der<br/>
+[Assyriologie](https://www.wikidata.org/wiki/Q156859) nur wenig widmen können, da mich andere<br/>
+Arbeiten, die sich mir aus meiner Lehrtätigkeit ergaben,<br/>
+mich sehr in Anspruch nahmen. Aber ich habe<br/>
+mich wenigstens bemüht, Fühlung zu behalten. Hier,<br/>
+wo ich als Nachfolger [Hehns](https://www.wikidata.org/wiki/Q23562017) mich doppelt als sein Schü-<br/>
+ler und seinem Erbe verpflichtet fühle, hoffe ich auch<br/>
+bald Gelegenheit zu haben, mich der orientalischen Umwelt<br/>
+des Alten Testamentes wieder mehr zu widmen.<br/>
+
+Mit den besten Wünschen für den Rest der<br/>
+Ferien und mit dem Ausdruck aufrichtiger Verehrung<br/>
+Ihr<br/>
+ergebenster<br/>
+[?] Friedrich Stummer.
+
+
+
+*Zitiervorschlag: Brief von Friedrich Stummer an Benno Landsberger vom 17.04.1933. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1933-04-17_Stummer_Landsberger.html.*
