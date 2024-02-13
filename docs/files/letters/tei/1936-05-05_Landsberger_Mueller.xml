@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 05.05.1936 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l27.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="449">449 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l27</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1936-05-05">05.05.1936</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Briefe (1.99)</term>
+                        <term>England (1.99)</term>
+                        <term>bitte (1.32)</term>
+                        <term>Punkte (1.32)</term>
+                        <term>Schuster (1.32)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="http://www.wikidata.org/entity/Q67592">Ankara,</placeName><date when="1936-05-05">den 5. Mai 36</date></dateline>
+                    <address>
+                        <addrLine> P.K. 28</addrLine>
+                    </address>
+                    <salute>Mein lieber Herr <persName>Müller</persName>,</salute>
+                </opener>
+                <p>Für Ihre beiden ausführlichen Briefe und Ihre sehr freundlichen<lb/>
+                    Wünsche danke ich Ihnen herzlich. Auch Ihrer lieben Frau Gemahlin<lb/>
+                    bitte ich Dank und Gruss zu bestellen. Sie haben recht, es hat keinen<lb/>
+                    Zweck zu klagen, und so will ich lieber an die Punkte Ihrer Briefe<lb/>
+                    bzw. die mir durch <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Schuster</persName> übermittelten Punkte anknüpfen, die<lb/>
+                    für die Zukunft uns wieder wenigstens einen matten Abglanz unserer<lb/>
+                    früheren Arbeitskraft und Arbeitsfreude zu bringen versprechen.<lb/>
+                    Bezüglich <placeName type="modern" ref="https://www.geonames.org/2643743/london.html">London</placeName> würde ich Ihnen gern klipp und klar antworten, es<lb/>
+                    ist mir aber aus folgenden Gründen nicht möglich: 1. Auch ich bin<lb/>
+                    nicht sicher, ob ich für <placeName type="modern" ref="https://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> Devisen erhälte; ich hatte nähmlich<lb/>
+                    das Gehaltsfünftel, dessen Versendung in's Ausland hier frei ist,<lb/>
+                    allmonatlich nach <placeName type="modern" ref="https://www.geonames.org/798544/republic-of-poland.html">Polen</placeName> schicken lassen und es versäumt, den so<lb/>
+                    gesammelten Betrag rechtzeitig nach <placeName type="modern" ref="https://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> weiter zu senden;<lb/>
+                    jetzt ist in <placeName type="modern" ref="https://www.geonames.org/798544/republic-of-poland.html">Polen</placeName> die Devisensperre eingeführt und ich bin nicht<lb/>
+                    sicher, ob ich trotzdem dort die Ausfuhrerlaubnis erhalte; 2. Der<lb/>
+                    Students room des <orgName type="museum" ref="https://www.wikidata.org/wiki/Q6373">Britischen Museum</orgName> ist wegen Uebersiedlung in<lb/>
+                    seine neuen Räume im Sommer zeitweise geschlossen; ich habe bei<lb/>
+                    <persName type="modern" ref="https://www.wikidata.org/wiki/Q52150040">Gadd</persName> angefragt, wann diese Schliessung beabsichtigt ist und ob<lb/>
+                    während dieser Zeit den Anwesenden scholars trotzdem zu arbeiten er-<lb/>
+                    möglicht wird; 3. Ich habe noch nicht darüber disponiert, wann ich<lb/>
+                    überhaupt meine Reise nach <placeName type="modern" ref="https://www.geonames.org/8505031/czechoslovakia.html">Tchechoslowakei</placeName>, <placeName type="modern" ref="https://www.geonames.org/2782113/republic-of-austria.html">Oesterreich</placeName>, <placeName type="modern" ref="https://www.wikidata.org/wiki/Q1206012">Deutschland</placeName><lb/>
+                    und <placeName type="modern" ref="https://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html">England</placeName> antreten werde; 4. Psychologisch bin ich immer noch<lb/>
+                    nicht recht in der Lage, konkrete Entschlüsse ernsterer Art fassen<lb/>
+                    zu können. Wenn alle diese Schwierigkeiten überwunden werden, bin<lb/>
+                    ich natürlich gerne bereit mich Ihren Bedürfnissen und Wünschen anzu-<lb/>
+                    passen, und dass ich sehr gerne mit Ihnen zusammen in <placeName type="modern" ref="https://www.geonames.org/2643743/london.html">London</placeName> arbei-<lb/>
+                    ten würde, muss ich wohl nicht ausdrücklich sagen. Uebrigens erwähnt<lb/>
+                    Herr <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Schuster</persName> in seinem Briefe nichts davon, dass er der Dritte<lb/>
+                    im Bunde sein will. Als Fazit bitte ich im Auge zu behalten, dass<lb/>
+                    etwa der August für diese Reise zur Verfügung steht, dass ich aber<lb/>
+                    keine endgültige Bindung eingehen kann.<lb/>
+                    Ich höffe, dass Sie an dem für Ihr Examen angegebenen Datum<lb/>
+                    festhalten; zu einem weiteren Aufschub liegt wirklich kein Grund<lb/>
+                    vor. Die in Ihrer Arbeit noch verbliebenen Schwirigkeiten werden<lb/>
+                    wir ja in jedem Falle besprechen können. <foreign xml:lang="akk">lapātu</foreign> erfordert eine<lb/>
+                    umfassende Untersuchung, es muss auch festgestellt werden, was die<lb/>
+                    technische Bedeutung von l. in den <lang xml:lang="akk">altbabylonischen</lang> Wirtschaftstex-<lb/>
+                    ten ist. Klar ist <foreign xml:lang="akk">lapātu ša nakāsi</foreign> (Hauptstelle in Ritt.),<lb/>
+                    ferner l. in Verbindung mit Flüssigkeiten. Die Grundvorstellung<lb/>
+                    ist wohl: anfassen, hineinfassen, eindringen lassen.<lb/>
+                    Da Sie mit Examensarbeit (freilich wohl zum Teil unnötiger<lb/>
+                    Weise) jetzt vollkommen ausgefüllt sind, will ich etliche Anfragen<lb/>
+                    für später aufsparen. So hätte ich mich dafür interessiert, ob es<lb/>
+                    ein getipptes Exemplar des Komentars zu <title type="cuneiformtext" ref="https://oracc.museum.upenn.edu/dcclt/corpus">Harra Tafel 1</title> gibt.</p>
+                <closer>
+                    <salute>Indem ich Sie aufs herzlichste begrüsse, bin ich Ihr stets<lb/>
+                        dankbar verbundener</salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    
