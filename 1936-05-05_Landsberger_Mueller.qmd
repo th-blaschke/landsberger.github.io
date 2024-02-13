@@ -66,9 +66,11 @@ ist wohl: anfassen, hineinfassen, eindringen lassen.<br/>
 Da Sie mit Examensarbeit (freilich wohl zum Teil unnötiger<br/>
 Weise) jetzt vollkommen ausgefüllt sind, will ich etliche Anfragen<br/>
 für später aufsparen. So hätte ich mich dafür interessiert, ob es<br/>
-ein getipptes Exemplar des Komentars zu [Harra Tafel 1](https://oracc.museum.upenn.edu/dcclt/corpus) gibt.<br/>
+ein getipptes Exemplar des Komentars zu <span style="color:purple;">Harra Tafel 1</span> gibt.<br/>
 Indem ich Sie aufs herzlichste begrüsse, bin ich Ihr stets<br/>
 dankbar verbundener<br/>
 B. Landsberger
+
+
 
 *Zitiervorschlag: Brief von Benno Landsberger an Karl Friedrich Müller vom 05.05.1936. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1936-05-05_Landsberger_Mueller.html.*
