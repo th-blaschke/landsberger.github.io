@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 09.02.1937 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l37.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="340">340 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l37</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1937-02-09">09.02.1937</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Sch (6.09)</term>
+                        <term>Arbeit (2.61)</term>
+                        <term>ea (2.61)</term>
+                        <term>Eile (1.74)</term>
+                        <term>Schuster (1.74)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.wikidata.org/wiki/Q3640">Ankara</placeName>, <date when="1937-02-09">den 9. Februar 1937</date></dateline>
+                    <address>
+                        <addrLine>P.K. 28</addrLine>
+                    </address>
+                    <salute>Lieber Herr <persName>Müller</persName>!</salute>
+                </opener>
+                <p>Obgleich ich eigentlich immer Eile habe und noch nicht 
+                    gelernt habe, langsam zu eilen, möchte ich Ihnen "in Eile" herz-
+                    lich danken für Ihren Brief vom 29. Januar<!--Siehe dazu 1937-01-29_Mueller_Landsberger--> und die Abschriften
+                    der Londoner Texte. K 3438a ist sicher Duplikat zu K 10209 und 
+                    weist Berührungen mit dem Ritual von Zimmern, Neujahrsfest No. 1 
+                    auf. Sowie ich die Sache Pohl hinter mir habe, schicke ich 
+                    Ihnen Transskriptionen. Ich wurde jetzt auch durch die Besuche von 
+                    Frankfort und Moortgat aufgehalten.
+                    Bitte können Sie nicht Herrn Schuster veranlassen, 
+                    mir zu antworten? Ich muss gestehen, dass ich diesen unausgesetzten 
+                    Geduldproben eines schönen Tages wohl nicht mehr gewachsen sein 
+                    werde. Dabei weiss ich ganz genau, dass Schuster für die Belan-
+                    ge der Firma Koehler Zeit in Abundanz hat. Sch. ist von Koscha-
+                    ker aufgefordert worden, sein Manuskript in etwa 2 Monaten ab-
+                    zuliefern. Selbst wenn Sch. die Arbeit an ea aufgibt oder ver-
+                    tagt, wird er kaum in der Lage sein, so schnell zu liefern. 
+                    Dabei ist ja die Frage Langdon immer noch offen. Auch dieser 
+                    antwortet mir trotz meiner Bitten nicht und sendet lu=amelu
+                    nicht zurück. Ich werde Koschaker vorschlagen, das Einverständ-
+                    nis von Sch. vorausgesetzt, die Arbeit Sch.'s für das zweite 
+                    Heft der ZA zurückzustellen. Auch ich möchte ja mir in Ruhe über-
+                    legen, was ich Sch. hinsichtlich Umarbeitung vorschlagen will 
+                    und dann auch noch alle Einzelheiten nachprüfen, auch in stili-
+                    stischer Hinsicht. Schön wäre es, wenn Sch. rasch noch ea fertig-
+                    stellen könnte, wobei es ja nur auf die Textgestaltung ankommt, 
+                    alles andere würde ich machen. (Den Nicht-Besitz der Vokabular-
+                    texte empfinde ich von Tag zu Tag schlimmer.) Vielleicht könnten 
+                    Sie uns dann noch helfen durch Uebernahme der Reinschrift von ea. 
+                    Von Ihnen erwartet die ZA die Arbeit des assyrischen Marterls 
+                    für das erste Heft. Vielleicht schicken Sie mir einen Entwurf. 
+                    Ich bitte Sie also, wirken Sie auf Sch. ein und verhindern Sie 
+                    es, dass er es zum Krach mit mir treibt.</p>
+                <closer>
+                    <salute>Indem ich Sie aufs herzlichste begrüsse, bin ich<lb/>
+                        Ihr stets ergebener
+                        </salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    

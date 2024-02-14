@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Karl Friedrich Müller an Benno Landsberger vom 29.01.1937 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l36.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="3">3 Seiten</measure>
+                            <measure unit="words" quantity="709">709 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l36</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine (Durchschlagpapier)</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="https://www.geonames.org/2809575/wiederitzsch.html">Wiederitzsch </settlement>
+                        <date when="1937-01-29">29.01.1937</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Text (2.99)</term>
+                        <term>Teil (2.61)</term>
+                        <term>Texte (1.87)</term>
+                        <term>Karte (1.49)</term>
+                        <term>Arbeit (1.49)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine><placeName ref="https://www.wikidata.org/wiki/Q2568383">Wiederitzsch</placeName>, Blücherstr. 23</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1937-01-29">Am 29. Januar 1937</date>
+                    </dateline>
+                    <salute>Hochverehrter Herr Professor!</salute>
+                </opener>
+                <p>Sie schrieben in Ihrem letzten Briefe von den Dämonen,<lb/> 
+                    die sich recht unangenehm für mich interessierten und Sie<lb/>
+                    haben damit nicht so unrecht. Wenn ich auch nicht durch<lb/> 
+                    eigene Krankheit gehindert war, so doch durch schwere Krank-<lb/>
+                    heitsfälle und mancherlei Amtsarbeit in meiner Gemein-<lb/>
+                    de, sodaß ich erst jetzt dazu komme, wieder an meine Wissen-<lb/>
+                    schaft zu denken. Es war ein schrecklicher Monat.<lb/>
+                    Sie haben mich aufs höchste überrascht durch das Hono-<lb/>
+                    rar, das Sie mir überweisen ließen, empfangen Sie meinen<lb/> 
+                    herzlichsten Dank für Ihre Freundlichkeit! Es wird mir eine<lb/>
+                    Freude sein, meinen Dank auch durch die Tat abstatten zu<lb/> 
+                    können, sobald ich das Manuskript von <title type="monograph" ref="https://d-nb.info/992536693">ana ittisu</title> weiterschrei-<lb/>
+                    ben kann.<lb/>
+                    Gestern erhielt ich eine Karte von <persName type="modern" ref="https://www.wikidata.org/wiki/Q110089412">Pohl</persName>, in der er be-<lb/>
+                    weglich klagt, daß er den Kommentar zu Tafel 5-7<!--der Serie ana ittišu--> noch nicht<lb/> 
+                    habe. Der unerfahrene Waisenknabe! Er, den Sie wegen seiner<lb/>
+                    Pünktlichkeit in der Beantwortung von Post den süßesten aller<lb/> 
+                    Pöhle nannten, hatte mir im Dezember den Empfang meiner Karte,<lb/> 
+                    auf der ich ihm Ihre Nachtragswünsche mitteilte, nicht be-<lb/>
+                    stätigt, sodaß ich sie ihm jetzt nocheinmal mitteilte; da eine<lb/> 
+                    Karte von <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Schuster</persName> an ihn verlorengegangen war, fürchtete ich<lb/> 
+                    das Gleiche für meine Karte. Zum Glück war meine Sorge un-<lb/>
+                    nötig.<lb/>
+                    Was meine Arbeit<!--K. F. Müller, Das assyrische Ritual (= MVAeG 41/3), Leipzig 1937, https://d-nb.info/560743793--> anlangt, hoffe ich, Ihnen in rascher<lb/> 
+                    Folge die einzelnen Teile zuschicken zu können. Ich muß mich<lb/> 
+                    mehr dazuhalten als ich erst annahm, <persName type="modern" ref="https://www.wikidata.org/wiki/Q72333">Friedrich</persName> will das Manu-<lb/>
+                    skript Ende März haben! O ihr Götter! Gespannt bin ich auf<lb/> 
+                    den Text <title type="cuneiformtext" ref="https://cdli.ucla.edu/P395012">K.3438a</title>. Bei der Angabe des angeblich dazu gehörigen<lb/> 
+                    Textes <title type="cuneiformtext" ref="https://cdli.ucla.edu/P398551">K.10209</title> dürfte Ihnen wohl ein Irrtum unterlaufen sein,<lb/> 
+                    ich vermute, daß Sie <title type="cuneiformtext" ref="https://cdli.ucla.edu/P395027">K.3455</title> meinen, ich lege Ihnen Abschrif-<lb/>
+                    ten meiner Kopien beider Texte bei, die Sie mir nicht zurück-<lb/>
+                    zusenden brauchen. Der <persName type="modern" ref="http://www.wikidata.org/entity/Q115000">Zimmernsche</persName> Text<!--Vermutlicher Bezug zu einem Keilschrifttext in H. Zimmern, Beiträge zur Kenntnis der babylonischen Religion : d. Beschwörungstaf. Šurpu, Ritualtaf. für d. Wahrsager, Beschwörer u. Sänger, Leipzig 1896, https://d-nb.info/760253439.--> wird mir immer un-<lb/>
+                    klarer, je mehr ich mich hineinvertiefe. Es sind ja nicht<lb/> 
+                    nur die sprachlichen Schwierigkeiten. Ich frage mich sehr,<lb/> 
+                    ob dem Text ein einheitliches Ritual zugrundeliegt oder ob er<lb/> 
+                    verschiedene Einzelzüge verschiedener Rituale erklärt. Für<lb/> 
+                    letztere Auffassung spricht mir, daß ich den Text in Gruppen<lb/> 
+                    teilen kann, die ich in anderen Ritualen belegen kann (zum<lb/>
+                    Hüpfenlassen der Röstbrote bietet der <name type="deity">Marat-nari</name>-Text eine<lb/> 
+                    Parallele!), jedoch verkenne ich die Schäche dieser Annahme<lb/> 
+                    nicht. Ich werde Ihnen in den nächsten Tagen Näheres über<lb/>
+                    meine Arbeit an diesen Texten mitteilen.<lb/>
+                    Die Anlage meiner Arbeit denke ich mir so: Die Einlei-<lb/>
+                    tung behandelt in großen Zügen die verschiedenen Gruppen von<lb/> 
+                    <lang xml:lang="akk">akkadischen</lang> Ritualen und weist hin auf die Sonderstellung<lb/>
+                    <lang xml:lang="akk">assyrischer</lang> Rituale, deren Quellen dargelegt werden. Dann<lb/> 
+                    als Teil I "Der König bei der Neubelehnung mit seinem Amte",<lb/> 
+                    Teil II: "Der König beim profanen Mahle", Teil III: "Der<lb/> 
+                    König beim Opferkult". In Teil I behandele ich den großen<lb/> 
+                    Königstext, an die Übersetzung und die philologischen Anmer-<lb/>
+                    kungen schließt sich ein sachlicher Kommentar, der dann auch<lb/> 
+                    den Text <title type="cuneiformtext" ref="https://cdli.ucla.edu/P282609">KAR 217</title> und den Segensspruch der <foreign xml:lang="akk">takultu</foreign> enthält,<lb/> 
+                    ferner will ich auf das babylonische Neujahrsritual nach dem<lb/> 
+                    großen Text in <title type="monograph" ref="https://d-nb.info/760222088">Rit.Acc.</title> eingehen und auch einige Insignien-<lb/>
+                    texte bieten, um so die Besonderheiten des assyrischen Rituals<lb/> 
+                    zu zeigen. Teil II behandelt den <persName type="modern" ref="http://www.wikidata.org/entity/Q1403449">Peiserschen</persName> Text<!--Um welche Publikation von Peiser es sich handelt, ist mir unklar-->, der eine<lb/> 
+                    besondere Literaturgattung darstellt: die Dienstanweisung<lb/> 
+                    für profane Gelegenheiten. In Teil III will ich ausgehen<lb/> 
+                    von den Texten <title type="cuneiformtext" ref="https://cdli.ucla.edu/P336231">KAR 146</title> und <title type="cuneiformtext" ref="https://cdli.ucla.edu/P336233">215</title>, bei deren sachlicher Erklärung<lb/> 
+                    auch die <placeName type="ANE" ref="https://pleiades.stoa.org/places/874621">Niniveh</placeName>-Texte herangezogen werden. Zum Beweis, daß<lb/> 
+                    hier assyrisches Sondergut vorliegt, werden die <foreign xml:lang="akk">naru</foreign>-Texte<lb/> 
+                    sowie dür übrigen Texte aus <title type="monograph" ref="https://d-nb.info/760253439">BBR</title> und die babylonsichen Rituale<lb/> 
+                    aus <title type="monograph" ref="https://d-nb.info/760222088">Rit.Acc.</title> kurz behandelt. Aus diesen Ergebnissen wird<lb/> 
+                    dann die Folgerung gezogen für die Erklärung des Zimmern-<lb/>
+                    schen Neujahrstextes<!--Vermutlicher Bezug zu einem Keilschrifttext in H. Zimmern, Beiträge zur Kenntnis der babylonischen Religion : d. Beschwörungstaf. Šurpu, Ritualtaf. für d. Wahrsager, Beschwörer u. Sänger, Leipzig 1896, https://d-nb.info/760253439.-->. Den Abschluß der Arbeit soll eine<lb/> 
+                    tabellarische Zusammenstellung der assyrischen Termini und<lb/> 
+                    ihrer Entsprechungen in <placeName type="ANE" ref="https://pleiades.stoa.org/places/874621">Niniveh</placeName> und <placeName type="ANE" ref="https://pleiades.stoa.org/places/893951">Babylon</placeName> bilden.<lb/>
+                    Was den Zeitplan anlangt, so will ich zuerst den Teil III<lb/> 
+                    als den schwierigsten behandeln, und zwar will ich Ihnen zu-<lb/>
+                    nächst die philologische Bearbeitung der Texte und die rohe<lb/>
+                    Behandlung des <persName type="modern" ref="http://www.wikidata.org/entity/Q115000">Zimmernschen</persName> Textes<!--Vermutlicher Bezug zu einem Keilschrifttext in H. Zimmern, Beiträge zur Kenntnis der babylonischen Religion : d. Beschwörungstaf. Šurpu, Ritualtaf. für d. Wahrsager, Beschwörer u. Sänger, Leipzig 1896, https://d-nb.info/760253439.--> zustellen, ich hoffe, daß<lb/> 
+                    dies am Ende der nächsten Woche geschehen kann.<lb/>
+                    Mein Arm ist soweit wieder in Ordnung, daß er mich prak-<lb/>
+                    tisch nicht mehr stört, auch sonst habe ich nicht über Stö-<lb/>
+                    rungen zu klagen, wenn ich von der Amtsarbeit absehe, die ja<lb/>
+                    nun mehr glücklich wieder auf ihr normales und erträgliches<lb/> 
+                    Maß zurückgegangen sind. Hoffentlich erfreuen auch Sie sich<lb/> 
+                    guter Gesundheit und rechter Arbeitsfreude.</p>
+                <closer>
+                    <salute>Mit herzlichem Gruß<lb/>
+                        Ihr dankbar ergebener</salute>>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    

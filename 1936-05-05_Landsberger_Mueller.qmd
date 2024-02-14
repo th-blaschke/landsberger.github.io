@@ -5,7 +5,7 @@ title: "Brief von Benno Landsberger an Karl Friedrich Müller vom 05.05.1936"
 **Absender\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)   
 **Aufenthaltsort Absender\*in**: [Ankara](https://www.geonames.org/323786/ankara.html)  
 **Datum**: 05.05.1936   
-**Empfänger\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
+**Empfänger\*in**: Karl Friedrich Müller 
 **Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
 Briefe (1.99)  
 England (1.99)  
@@ -70,7 +70,7 @@ ein getipptes Exemplar des Komentars zu <span style="color:purple;">Harra Tafel 
 Indem ich Sie aufs herzlichste begrüsse, bin ich Ihr stets<br/>
 dankbar verbundener<br/>
 B. Landsberger
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 *Zitiervorschlag: Brief von Benno Landsberger an Karl Friedrich Müller vom 05.05.1936. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1936-05-05_Landsberger_Mueller.html.*
