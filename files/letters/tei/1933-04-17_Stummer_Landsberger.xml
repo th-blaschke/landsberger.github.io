@@ -66,7 +66,7 @@
         <text>
             <body>
                 <opener>
-                    <dateline><placeName ref="https://www.wikidata.org/wiki/Q2999">Würzburg,</placeName><date when="1933-04-17">am 17. April 1933</date></dateline>
+                    <dateline><placeName ref="https://www.geonames.org/3220897/kreisfreie-stadt-wuerzburg.html">Würzburg,</placeName><date when="1933-04-17">am 17. April 1933</date></dateline>
                     <address>
                         <addrLine>Hindenburgstraße 26/II.</addrLine>
                     </address>       

@@ -47,7 +47,7 @@ stätigt, sodaß ich sie ihm jetzt nocheinmal mitteilte; da eine<br/>
 Karte von [Schuster](https://www.wikidata.org/wiki/Q15449583) an ihn verlorengegangen war, fürchtete ich<br/> 
 das Gleiche für meine Karte. Zum Glück war meine Sorge un-<br/>
 nötig.<br/>
-Was meine Arbeit^[K. F. Müller, Das assyrische Ritual (= MVAeG 41/3), Leipzig 1937, [https://d-nb.info/560743793](https://d-nb.info/560743793) anlangt, hoffe ich, Ihnen in rascher<br/> 
+Was meine Arbeit^[K. F. Müller, Das assyrische Ritual (= MVAeG 41/3), Leipzig 1937, [https://d-nb.info/560743793](https://d-nb.info/560743793). Für die in diesem Brief angesprochenen Keilschrifttexte siehe eben diese Publikation.] anlangt, hoffe ich, Ihnen in rascher<br/> 
 Folge die einzelnen Teile zuschicken zu können. Ich muß mich<br/> 
 mehr dazuhalten als ich erst annahm, [Friedrich](https://www.wikidata.org/wiki/Q72333) will das Manu-<br/>
 skript Ende März haben! O ihr Götter! Gespannt bin ich auf<br/> 
@@ -55,7 +55,7 @@ den Text [K.3438a](https://cdli.ucla.edu/P395012). Bei der Angabe des angeblich 
 Textes [K.10209](https://cdli.ucla.edu/P398551) dürfte Ihnen wohl ein Irrtum unterlaufen sein,<br/> 
 ich vermute, daß Sie [K.3455](https://cdli.ucla.edu/P395027) meinen, ich lege Ihnen Abschrif-<br/>
 ten meiner Kopien beider Texte bei, die Sie mir nicht zurück-<br/>
-zusenden brauchen. Der [Zimmern](http://www.wikidata.org/entity/Q115000)sche Text^[Vermutlicher Bezug zu einem Keilschrifttext in H. Zimmern, Beiträge zur Kenntnis der babylonischen Religion : d. Beschwörungstaf. Šurpu, Ritualtaf. für d. Wahrsager, Beschwörer u. Sänger, Leipzig 1896, [https://d-nb.info/760253439](https://d-nb.info/760253439).] wird mir immer un-<br/>
+zusenden brauchen. Der [Zimmern](http://www.wikidata.org/entity/Q115000)sche Text wird mir immer un-<br/>
 klarer, je mehr ich mich hineinvertiefe. Es sind ja nicht<br/> 
 nur die sprachlichen Schwierigkeiten. Ich frage mich sehr,<br/> 
 ob dem Text ein einheitliches Ritual zugrundeliegt oder ob er<br/> 
@@ -79,7 +79,7 @@ den Text [KAR 217](https://cdli.ucla.edu/P282609) und den Segensspruch der <span
 ferner will ich auf das babylonische Neujahrsritual nach dem<br/> 
 großen Text in [Rit.Acc.](https://d-nb.info/760222088) eingehen und auch einige Insignien-<br/>
 texte bieten, um so die Besonderheiten des assyrischen Rituals<br/> 
-zu zeigen. Teil II behandelt den [Peiser](http://www.wikidata.org/entity/Q1403449)schen Text^[Um welche Publikation von Peiser es sich handelt, ist mir unklar.], der eine<br/> 
+zu zeigen. Teil II behandelt den [Peiser](http://www.wikidata.org/entity/Q1403449)schen Text, der eine<br/> 
 besondere Literaturgattung darstellt: die Dienstanweisung<br/> 
 für profane Gelegenheiten. In Teil III will ich ausgehen<br/> 
 von den Texten [KAR 146](https://cdli.ucla.edu/P336231) und [215](https://cdli.ucla.edu/P336233), bei deren sachlicher Erklärung<br/> 
@@ -104,7 +104,7 @@ Maß zurückgegangen sind. Hoffentlich erfreuen auch Sie sich<br/>
 guter Gesundheit und rechter Arbeitsfreude.<br/>
 Mit herzlichem Gruß<br/>
 Ihr dankbar ergebener
-&nbsp;
-&nbsp;
-&nbsp;
+<br/>
+<br/>
+<br/>
 *Zitiervorschlag: Brief von Karl Friedrich Müller an Benno Landsberger vom 29.01.1937. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1937-01-29_Mueller_Landsberger.html.*

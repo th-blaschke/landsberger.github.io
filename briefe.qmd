@@ -12,3 +12,4 @@ Einen Überblick über die Metadaten zum untersuchten Briefkorpus bietet die [hi
 [1936-05-05_Landsberger_Mueller](1936-05-05_Landsberger_Mueller.qmd)  
 [1937-01-29_Mueller_Landsberger](1937-01-29_Mueller_Landsberger.qmd)  
 [1937-02-09_Landsberger_Mueller](1937-02-09_Landsberger_Mueller.qmd)  
+[1937-04-12_Castellino_Landsberger](1937-04-12_Castellino_Landsberger.qmd)  

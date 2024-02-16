@@ -28,7 +28,7 @@ Obgleich ich eigentlich immer Eile habe und noch nicht<br/>
 gelernt habe, langsam zu eilen, möchte ich Ihnen "in Eile" herz-<br/>
 lich danken für Ihren [Brief vom 29. Januar](1937-01-29_Mueller_Landsberger.qmd) und die Abschriften<br/>
 der [London](https://www.geonames.org/2643743/london.html)er Texte.^[Dabei dürfte es sich um die beiden Texte [K.10209](https://cdli.ucla.edu/P398551) und [K.3455](https://cdli.ucla.edu/P395027) aus dem British Museum handeln, die bereits im Brief vom [29. Januar](1937-01-29_Mueller_Landsberger.qmd) erwähnt werden.] [K 3438a](https://cdli.ucla.edu/P395012) ist sicher Duplikat zu [K 10209](https://cdli.ucla.edu/P398551) und<br/> 
-weist Berührungen mit dem Ritual von Zimmern, Neujahrsfest No. 1<br/> 
+weist Berührungen mit dem Ritual von [Zimmern, Neujahrsfest](https://d-nb.info/368750221) No. 1<br/> 
 auf. Sowie ich die Sache [Pohl](https://www.wikidata.org/wiki/Q110089412) hinter mir habe, schicke ich<br/> 
 Ihnen Transskriptionen. Ich wurde jetzt auch durch die Besuche von<br/> 
 [Frankfort](http://www.wikidata.org/entity/Q958310) und [Moortgat](http://www.wikidata.org/entity/Q124897) aufgehalten.<br/>
@@ -40,7 +40,7 @@ ge der Firma Koehler Zeit in Abundanz hat. [Sch.](https://www.wikidata.org/wiki/
 ker](https://www.wikidata.org/wiki/Q114526) aufgefordert worden, sein Manuskript in etwa 2 Monaten ab-<br/>
 zuliefern. Selbst wenn [Sch.](https://www.wikidata.org/wiki/Q15449583) die Arbeit an [ea](https://d-nb.info/740736582) aufgibt oder ver-<br/>
 tagt, wird er kaum in der Lage sein, so schnell zu liefern.<br/> 
-Dabei ist ja die Frage [Langdon]https://www.wikidata.org/wiki/Q4285160 immer noch offen. Auch dieser<br/> 
+Dabei ist ja die Frage [Langdon](https://www.wikidata.org/wiki/Q4285160) immer noch offen. Auch dieser<br/> 
 antwortet mir trotz meiner Bitten nicht und sendet <span style="color:purple;">lu=amelu</span><br/>
 nicht zurück. Ich werde [Koschaker](https://www.wikidata.org/wiki/Q114526) vorschlagen, das Einverständ-<br/>
 nis von [Sch.](https://www.wikidata.org/wiki/Q15449583) vorausgesetzt, die Arbeit [Sch.](https://www.wikidata.org/wiki/Q15449583)'s für das zweite<br/> 
@@ -59,7 +59,7 @@ es, dass er es zum Krach mit mir treibt.<br/>
 Indem ich Sie aufs herzlichste begrüsse, bin ich<br/>
 Ihr stets ergebener<br/>
 B. Landsberger<br/>
-&nbsp;
-&nbsp;
-&nbsp;
+<br/>
+<br/>
+<br/>
 *Zitiervorschlag: Brief von Benno Landsberger an Karl Friedrich Müller vom 09.02.1937. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1937-02-09_Landsberger_Mueller.html.*

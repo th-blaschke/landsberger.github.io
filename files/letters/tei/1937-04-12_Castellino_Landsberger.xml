@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Giorgio Castellino an Benno Landsberger vom 12.04.1937 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l79.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="181">181 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l79</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="https://www.wikidata.org/wiki/Q93269194">Giorgio Castellino</persName>
+                        <settlement ref="https://www.geonames.org/3169070/rome.html">Rom</settlement>
+                        <date when="1937-04-12">12.04.1937</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Ehre (2.22)</term>
+                        <term>persönlich (2.22)</term>
+                        <term>gekannt (2.22)</term>
+                        <term>Jahren (2.22)</term>
+                        <term>Orientalisten (2.22)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine>Via Appia Antica, 126</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1937-04-12">den 12 April 1937.</date>
+                        <placeName ref="https://www.geonames.org/3169070/rome.html">Roma (141)</placeName>
+                    </dateline>
+                    <salute>Sehr gehrter Herr Professor!</salute>
+                </opener>
+                <p>Obwohl ich nicht die Ehre habe von Ihnen<lb/>
+                    persönlich gekannt zu sein, habe ich Sie doch vor zwei Jahren auf dem<lb/>
+                    <title type="meeting" ref="https://d-nb.info/gnd/1030650-X">Orientalisten Congress</title> in <placeName type="modern" ref="https://www.geonames.org/3169070/rome.html">Rom</placeName> kennen und würdigen gelernt. Daher erlaube<lb/>
+                    ich mir Sie zu stören. Ich arbeite jetzt an einer Vergleichung der <lang xml:lang="">Hebr.</lang><lb/>
+                    und <lang xml:lang="akk">Akkadischen</lang> Hymnen, und möchte, in meine Arbeit, auch eine Bearbeitung<lb/>
+                    des Textes, den <persName type="modern" ref="http://www.wikidata.org/entity/Q115000">H. Zimmern</persName> in <title type="cuneiformtext" ref="https://cdli.ucla.edu/P343020">"S. Kultlieder" unter N.215 (V.S. X, 215)</title><lb/>
+                    veröffentlicht hat, mit hineinschliessen. Er fängt mit: <foreign xml:lang="akk">il-ta-am</foreign> an, und<lb/>
+                    ist an der Göttin <name type="deity" ref="https://www.wikidata.org/wiki/Q1809764">Nanâ</name> gedichtet.<lb/>
+                    Wollen Sie so gut sein mir eine Transkription<lb/>
+                    wenigstens der ersten Strophe, (4 Zeilen), zu übersenden? Ich glaube, dass<lb/>
+                    der Text in mehr als einer Hinsicht sehr wichtig ist und es wäre daher<lb/>
+                    wohl Schade wenn ich denselben nicht verwerten könnte. Ich bin überzeugt,<lb/>
+                    dass Sie sehr beschäftigt sind, desshalb nehme ich sehr ungern Ihre kost-<lb/>
+                    bare Zeit in Anspruch.</p>
+                <closer>
+                    <salute>In der Hoffnung, dass Sie mir den erbetenen<lb/>
+                        Gefallen tun können, wofür ich Ihnen zu aufrichtigen Dank verpflichtet bin,<lb/>
+                        zeichne ich mich ergebenst</salute>
+                    <signed>Gr. Georg Castellino</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    

@@ -66,7 +66,7 @@
         <text>
             <body>
                 <opener>
-                    <dateline><placeName ref="https://www.wikidata.org/wiki/Q3640">Ankara</placeName>, <date when="1937-02-09">den 9. Februar 1937</date></dateline>
+                    <dateline><placeName ref="https://www.geonames.org/323786/ankara.html">Ankara</placeName>, <date when="1937-02-09">den 9. Februar 1937</date></dateline>
                     <address>
                         <addrLine>P.K. 28</addrLine>
                     </address>
@@ -76,7 +76,7 @@
                     gelernt habe, langsam zu eilen, möchte ich Ihnen "in Eile" herz-<lb/>
                     lich danken für Ihren Brief vom 29. Januar<!--Siehe dazu 1937-01-29_Mueller_Landsberger--> und die Abschriften<lb/>
                     der <placeName type="modern" ref="https://www.geonames.org/2643743/london.html">Londoner</placeName> Texte.<!--Dabei dürfte es sich um die beiden Texte K.10209 (https://cdli.ucla.edu/P398551) und K.3455 (https://cdli.ucla.edu/P395027) aus dem British Museum handeln, die bereits im Brief 1937-01-29_Mueller_Landsberger erwähnt werden.--> <title type="cuneiformtext" ref="https://cdli.ucla.edu/P395012">K 3438a</title> ist sicher Duplikat zu <title type="cuneiformtext" ref="https://cdli.ucla.edu/P398551">K 10209</title> und<lb/> 
-                    weist Berührungen mit dem Ritual von Zimmern, Neujahrsfest No. 1<lb/> 
+                    weist Berührungen mit dem Ritual von <title type="monograph" ref="https://d-nb.info/368750221">Zimmern, Neujahrsfest</title> No. 1<lb/> 
                     auf. Sowie ich die Sache <persName type="modern" ref="https://www.wikidata.org/wiki/Q110089412">Pohl</persName> hinter mir habe, schicke ich<lb/> 
                     Ihnen Transskriptionen. Ich wurde jetzt auch durch die Besuche von<lb/> 
                     <persName type="modern" ref="http://www.wikidata.org/entity/Q958310">Frankfort</persName> und <persName type="modern" ref="http://www.wikidata.org/entity/Q124897">Moortgat</persName> aufgehalten.<lb/>
@@ -100,7 +100,7 @@
                     alles andere würde ich machen. (Den Nicht-Besitz der Vokabular-<lb/>
                     texte empfinde ich von Tag zu Tag schlimmer.) Vielleicht könnten<lb/> 
                     Sie uns dann noch helfen durch Uebernahme der Reinschrift von <title type="monograph" ref="https://d-nb.info/740736582">ea</title>.<lb/> 
-                    Von Ihnen erwartet die <title type="journal" ref="https://d-nb.info/01262635X">ZA</title> die Arbeit des <lang xml:lang="akk"> assyrischen</lang> Marterls<lb/> 
+                    Von Ihnen erwartet die <title type="journal" ref="https://d-nb.info/01262635X">ZA</title> die Arbeit des <lang xml:lang="akk">assyrischen</lang> Marterls<lb/> 
                     für das erste Heft. Vielleicht schicken Sie mir einen Entwurf.<lb/> 
                     Ich bitte Sie also, wirken Sie auf <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Sch.</persName> ein und verhindern Sie<lb/> 
                     es, dass er es zum Krach mit mir treibt.</p>

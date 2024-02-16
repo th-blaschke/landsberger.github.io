@@ -1,0 +1,10 @@
+---
+title: "Worthäufigkeiten - Brief von Giorgio Castellino an Benno Landsberger vom 12.04.1937"
+---
+
+**Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus**
+
+|                                   | Ehre | persönlich | gekannt | Jahren | Orientalisten |
+|-----------------------------------|------|------------|---------|--------|---------------|
+| 1937-04-12_Castellino_Landsberger | 2.22 | 2.22       | 2.22    | 2.22   | 2.22          |
+| Summe                             | 2.22 | 2.22       | 2.22    | 2.22   | 2.22          |

@@ -1,0 +1,49 @@
+---
+title: "Brief von Giorgio Castellino an Benno Landsberger vom 12.04.1937"
+---
+
+**Absender\*in**: [Girgio Castellino](https://www.wikidata.org/wiki/Q93269194)    
+**Aufenthaltsort Absender\*in**: [Rom](https://www.geonames.org/3169070/rome.html)  
+**Datum**: 12.04.1937   
+**Empfänger\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
+**Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
+Ehre (2.22)  
+persönlich (2.22)  
+gekannt (2.22)  
+Jahren (2.22)  
+Orientalisten (2.22)  
+
+[Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1937-04-12_Castellino_Landsberger_wordfrequency.qmd){target="_blank"}   
+ 
+[Ansicht als TEI-Dokument](files/letters/tei/1937-04-12_Castellino_Landsberger.xml){target="_blank"}    
+
+[Faksimile](files/letters/pdf/1937-04-12_Castellino_Landsberger.pdf){target="_blank"}  
+
+
+Via Appia Antica, 126  
+den 12 April 1937.  
+Roma (141)  
+  
+Sehr gehrter Herr Professor!<br/>
+Obwohl ich nicht die Ehre habe von Ihnen<br/>
+persönlich gekannt zu sein, habe ich Sie doch vor zwei Jahren auf dem<br/>
+[Orientalisten Congress](https://d-nb.info/gnd/1030650-X) in [Rom](https://www.geonames.org/3169070/rome.html) kennen und würdigen gelernt. Daher erlaube<br/>
+ich mir Sie zu stören. Ich arbeite jetzt an einer Vergleichung der <span style="color:green;">Hebr.</span><br/>
+und <span style="color:green;">Akkadischen</span> Hymnen, und möchte, in meine Arbeit, auch eine Bearbeitung<br/>
+des Textes, den [H. Zimmern](http://www.wikidata.org/entity/Q115000) in ["S. Kultlieder" unter N.215 (V.S. X, 215)](https://cdli.ucla.edu/P343020)<br/>
+veröffentlicht hat, mit hineinschliessen. Er fängt mit: <span style="color:red;">il-ta-am</span> an, und<br/>
+ist an der Göttin [Nanâ](https://www.wikidata.org/wiki/Q1809764) gedichtet.<br/>
+Wollen Sie so gut sein mir eine Transkription<br/>
+wenigstens der ersten Strophe, (4 Zeilen), zu übersenden? Ich glaube, dass<br/>
+der Text in mehr als einer Hinsicht sehr wichtig ist und es wäre daher<br/>
+wohl Schade wenn ich denselben nicht verwerten könnte. Ich bin überzeugt,<br/>
+dass Sie sehr beschäftigt sind, desshalb nehme ich sehr ungern Ihre kost-<br/>
+bare Zeit in Anspruch.<br/>
+In der Hoffnung, dass Sie mir den erbetenen<br/>
+Gefallen tun können, wofür ich Ihnen zu aufrichtigen Dank verpflichtet bin,<br/>
+zeichne ich mich ergebenst<br/>
+Gr. Georg Castellino<br/>
+<br/>
+<br/>
+<br/>
+*Zitiervorschlag: Brief von Giorgio Castellino an Benno Landsberger vom 12.04.1937. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1937-04-12_Castellino_Landsberger.html.*
