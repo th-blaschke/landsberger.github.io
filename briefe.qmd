@@ -10,3 +10,5 @@ Einen Überblick über die Metadaten zum untersuchten Briefkorpus bietet die [hi
 [1932-06-30_Andrae_Landsberger](1932-06-30_Andrae_Landsberger.qmd)  
 [1933-04-17_Stummer_Landsberger](1933-04-17_Stummer_Landsberger.qmd)  
 [1936-05-05_Landsberger_Mueller](1936-05-05_Landsberger_Mueller.qmd)  
+[1937-01-29_Mueller_Landsberger](1937-01-29_Mueller_Landsberger.qmd)  
+[1937-02-09_Landsberger_Mueller](1937-02-09_Landsberger_Mueller.qmd)  

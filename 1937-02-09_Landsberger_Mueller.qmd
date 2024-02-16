@@ -1,0 +1,65 @@
+---
+title: "Brief von Benno Landsberger an Karl Friedrich Müller vom 09.02.1937"
+---
+
+**Absender\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)   
+**Aufenthaltsort Absender\*in**: [Ankara](https://www.geonames.org/323786/ankara.html)  
+**Datum**: 09.02.1937   
+**Empfänger\*in**: Karl Friedrich Müller  
+**Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
+Sch (6.09)  (Sch als Abkürzung für Schuster)  
+Arbeit (2.61)  
+ea (2.61)  
+Eile (1.74)  
+Schuster (1.74)  
+
+[Relative Häufigkeit der fünf häufigsten Stichwörter im Gesamtbriefkorpus](1937-02-09_Landsberger_Mueller_wordfrequency.qmd){target="_blank"}   
+ 
+[Ansicht als TEI-Dokument](files/letters/tei/1937-02-09_Landsberger_Mueller.xml){target="_blank"}    
+
+[Faksimile](files/letters/pdf/1937-02-09_Landsberger_Mueller.pdf){target="_blank"}  
+
+
+Ankara, den 9. Februar 1937  
+P.K.28.  
+  
+Lieber Herr Müller! <br/>
+Obgleich ich eigentlich immer Eile habe und noch nicht<br/> 
+gelernt habe, langsam zu eilen, möchte ich Ihnen "in Eile" herz-<br/>
+lich danken für Ihren [Brief vom 29. Januar](1937-01-29_Mueller_Landsberger.qmd) und die Abschriften<br/>
+der [London](https://www.geonames.org/2643743/london.html)er Texte.^[Dabei dürfte es sich um die beiden Texte [K.10209](https://cdli.ucla.edu/P398551) und [K.3455](https://cdli.ucla.edu/P395027) aus dem British Museum handeln, die bereits im Brief vom [29. Januar](1937-01-29_Mueller_Landsberger.qmd) erwähnt werden.] [K 3438a](https://cdli.ucla.edu/P395012) ist sicher Duplikat zu [K 10209](https://cdli.ucla.edu/P398551) und<br/> 
+weist Berührungen mit dem Ritual von Zimmern, Neujahrsfest No. 1<br/> 
+auf. Sowie ich die Sache [Pohl](https://www.wikidata.org/wiki/Q110089412) hinter mir habe, schicke ich<br/> 
+Ihnen Transskriptionen. Ich wurde jetzt auch durch die Besuche von<br/> 
+[Frankfort](http://www.wikidata.org/entity/Q958310) und [Moortgat](http://www.wikidata.org/entity/Q124897) aufgehalten.<br/>
+Bitte können Sie nicht Herrn [Schuster](https://www.wikidata.org/wiki/Q15449583) veranlassen,<br/> 
+mir zu antworten? Ich muss gestehen, dass ich diesen unausgesetzten<br/> 
+Geduldproben eines schönen Tages wohl nicht mehr gewachsen sein<br/> 
+werde. Dabei weiss ich ganz genau, dass [Schuster](https://www.wikidata.org/wiki/Q15449583) für die Belan-<br/>
+ge der Firma Koehler Zeit in Abundanz hat. [Sch.](https://www.wikidata.org/wiki/Q15449583) ist von [Koscha-<br/>
+ker](https://www.wikidata.org/wiki/Q114526) aufgefordert worden, sein Manuskript in etwa 2 Monaten ab-<br/>
+zuliefern. Selbst wenn [Sch.](https://www.wikidata.org/wiki/Q15449583) die Arbeit an [ea](https://d-nb.info/740736582) aufgibt oder ver-<br/>
+tagt, wird er kaum in der Lage sein, so schnell zu liefern.<br/> 
+Dabei ist ja die Frage [Langdon]https://www.wikidata.org/wiki/Q4285160 immer noch offen. Auch dieser<br/> 
+antwortet mir trotz meiner Bitten nicht und sendet <span style="color:purple;">lu=amelu</span><br/>
+nicht zurück. Ich werde [Koschaker](https://www.wikidata.org/wiki/Q114526) vorschlagen, das Einverständ-<br/>
+nis von [Sch.](https://www.wikidata.org/wiki/Q15449583) vorausgesetzt, die Arbeit [Sch.](https://www.wikidata.org/wiki/Q15449583)'s für das zweite<br/> 
+Heft der [ZA](https://d-nb.info/01262635X) zurückzustellen. Auch ich möchte ja mir in Ruhe über-<br/>
+legen, was ich [Sch.](https://www.wikidata.org/wiki/Q15449583) hinsichtlich Umarbeitung vorschlagen will<br/> 
+und dann auch noch alle Einzelheiten nachprüfen, auch in stili-<br/>
+stischer Hinsicht. Schön wäre es, wenn [Sch.](https://www.wikidata.org/wiki/Q15449583) rasch noch [ea](https://d-nb.info/740736582) fertig-<br/>
+stellen könnte, wobei es ja nur auf die Textgestaltung ankommt,<br/> 
+alles andere würde ich machen. (Den Nicht-Besitz der Vokabular-<br/>
+texte empfinde ich von Tag zu Tag schlimmer.) Vielleicht könnten<br/> 
+Sie uns dann noch helfen durch Uebernahme der Reinschrift von [ea](https://d-nb.info/740736582).<br/> 
+Von Ihnen erwartet die [ZA](https://d-nb.info/01262635X) die Arbeit des <span style="color:green;">assyrischen</span> Marterls<br/> 
+für das erste Heft. Vielleicht schicken Sie mir einen Entwurf.<br/> 
+Ich bitte Sie also, wirken Sie auf [Sch.](https://www.wikidata.org/wiki/Q15449583) ein und verhindern Sie<br/> 
+es, dass er es zum Krach mit mir treibt.<br/>
+Indem ich Sie aufs herzlichste begrüsse, bin ich<br/>
+Ihr stets ergebener<br/>
+B. Landsberger<br/>
+&nbsp;
+&nbsp;
+&nbsp;
+*Zitiervorschlag: Brief von Benno Landsberger an Karl Friedrich Müller vom 09.02.1937. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1937-02-09_Landsberger_Mueller.html.*

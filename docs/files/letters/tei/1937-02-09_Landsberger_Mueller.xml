@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 09.02.1937 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l37.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="340">340 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l37</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1937-02-09">09.02.1937</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Sch (6.09)</term>
+                        <term>Arbeit (2.61)</term>
+                        <term>ea (2.61)</term>
+                        <term>Eile (1.74)</term>
+                        <term>Schuster (1.74)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.wikidata.org/wiki/Q3640">Ankara</placeName>, <date when="1937-02-09">den 9. Februar 1937</date></dateline>
+                    <address>
+                        <addrLine>P.K. 28</addrLine>
+                    </address>
+                    <salute>Lieber Herr <persName>Müller</persName>!</salute>
+                </opener>
+                <p>Obgleich ich eigentlich immer Eile habe und noch nicht<lb/> 
+                    gelernt habe, langsam zu eilen, möchte ich Ihnen "in Eile" herz-<lb/>
+                    lich danken für Ihren Brief vom 29. Januar<!--Siehe dazu 1937-01-29_Mueller_Landsberger--> und die Abschriften<lb/>
+                    der <placeName type="modern" ref="https://www.geonames.org/2643743/london.html">Londoner</placeName> Texte.<!--Dabei dürfte es sich um die beiden Texte K.10209 (https://cdli.ucla.edu/P398551) und K.3455 (https://cdli.ucla.edu/P395027) aus dem British Museum handeln, die bereits im Brief 1937-01-29_Mueller_Landsberger erwähnt werden.--> <title type="cuneiformtext" ref="https://cdli.ucla.edu/P395012">K 3438a</title> ist sicher Duplikat zu <title type="cuneiformtext" ref="https://cdli.ucla.edu/P398551">K 10209</title> und<lb/> 
+                    weist Berührungen mit dem Ritual von Zimmern, Neujahrsfest No. 1<lb/> 
+                    auf. Sowie ich die Sache <persName type="modern" ref="https://www.wikidata.org/wiki/Q110089412">Pohl</persName> hinter mir habe, schicke ich<lb/> 
+                    Ihnen Transskriptionen. Ich wurde jetzt auch durch die Besuche von<lb/> 
+                    <persName type="modern" ref="http://www.wikidata.org/entity/Q958310">Frankfort</persName> und <persName type="modern" ref="http://www.wikidata.org/entity/Q124897">Moortgat</persName> aufgehalten.<lb/>
+                    Bitte können Sie nicht Herrn <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Schuster</persName> veranlassen,<lb/> 
+                    mir zu antworten? Ich muss gestehen, dass ich diesen unausgesetzten<lb/> 
+                    Geduldproben eines schönen Tages wohl nicht mehr gewachsen sein<lb/> 
+                    werde. Dabei weiss ich ganz genau, dass <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Schuster</persName> für die Belan-<lb/>
+                    ge der Firma Koehler Zeit in Abundanz hat. <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Sch.</persName> ist von <persName type="modern" ref="https://www.wikidata.org/wiki/Q114526">Koscha-<lb/>
+                    ker</persName> aufgefordert worden, sein Manuskript in etwa 2 Monaten ab-<lb/>
+                    zuliefern. Selbst wenn <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Sch.</persName> die Arbeit an <title type="monograph" ref="https://d-nb.info/740736582">ea</title> aufgibt oder ver-<lb/>
+                    tagt, wird er kaum in der Lage sein, so schnell zu liefern.<lb/> 
+                    Dabei ist ja die Frage <persName type="modern" ref="https://www.wikidata.org/wiki/Q4285160">Langdon</persName> immer noch offen. Auch dieser<lb/> 
+                    antwortet mir trotz meiner Bitten nicht und sendet <title type="cuneiformtext">lu=amelu</title><lb/>
+                    nicht zurück. Ich werde <persName type="modern" ref="https://www.wikidata.org/wiki/Q114526">Koschaker</persName> vorschlagen, das Einverständ-<lb/>
+                    nis von <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Sch.</persName> vorausgesetzt, die Arbeit <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Sch.'s</persName> für das zweite<lb/> 
+                    Heft der <title type="journal" ref="https://d-nb.info/01262635X">ZA</title> zurückzustellen. Auch ich möchte ja mir in Ruhe über-<lb/>
+                    legen, was ich <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Sch.</persName> hinsichtlich Umarbeitung vorschlagen will<lb/> 
+                    und dann auch noch alle Einzelheiten nachprüfen, auch in stili-<lb/>
+                    stischer Hinsicht. Schön wäre es, wenn <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Sch.</persName> rasch noch <title type="monograph" ref="https://d-nb.info/740736582">ea</title> fertig-<lb/>
+                    stellen könnte, wobei es ja nur auf die Textgestaltung ankommt,<lb/> 
+                    alles andere würde ich machen. (Den Nicht-Besitz der Vokabular-<lb/>
+                    texte empfinde ich von Tag zu Tag schlimmer.) Vielleicht könnten<lb/> 
+                    Sie uns dann noch helfen durch Uebernahme der Reinschrift von <title type="monograph" ref="https://d-nb.info/740736582">ea</title>.<lb/> 
+                    Von Ihnen erwartet die <title type="journal" ref="https://d-nb.info/01262635X">ZA</title> die Arbeit des <lang xml:lang="akk"> assyrischen</lang> Marterls<lb/> 
+                    für das erste Heft. Vielleicht schicken Sie mir einen Entwurf.<lb/> 
+                    Ich bitte Sie also, wirken Sie auf <persName type="modern" ref="https://www.wikidata.org/wiki/Q15449583">Sch.</persName> ein und verhindern Sie<lb/> 
+                    es, dass er es zum Krach mit mir treibt.</p>
+                <closer>
+                    <salute>Indem ich Sie aufs herzlichste begrüsse, bin ich<lb/>
+                        Ihr stets ergebener
+                        </salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    
