@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 07.11.1936 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l32.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="392">392 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l32</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1936-11-07">07.11.1936</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Schuster (2.14)</term>
+                        <term>Wort (2.14)</term>
+                        <term>Telegramm (1.43)</term>
+                        <term>Subjekt (1.43)</term>
+                        <term>Sch (1.43)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.geonames.org/323786/ankara.html">Ankara</placeName>, <date when="1936-11-07">7. Nov. 36.</date></dateline>
+                    <salute>Mein lieber Herr Müller,</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Herzlichst<lb/>
+                        Ihr<lb/>
+                        alter</salute> 
+                    <signed>Landsberger</signed>
+                </closer>
+                <postscript>
+                        <p>Ich habe an <orgName ref="https://d-nb.info/gnd/2026268-1">de Gruyter</orgName> geschrieben,
+                            dass <persName ref="https://www.wikidata.org/wiki/Q15449583">Schusters</persName> Arbeit für ZA in Frage
+                            kommt, falls nach den bestehenden Vorschriften
+                            möglich.</p>
+                </postscript>  
+            </body>
+        </text>
+    </TEI>
+    

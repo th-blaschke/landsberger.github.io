@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 17.09.1936 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l3.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="116">116 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l3</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="http://www.geonames.org/3076127/frydek-mistek.html">Frydek</settlement>
+                        <date when="1935-09-17">17.09.1936</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>senden (6.67)</term>
+                        <term>pünktliche (3.33)</term>
+                        <term>Erledigung (3.33)</term>
+                        <term>feilen (3.33)</term>
+                        <term>ursprünglichen (3.33)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="http://www.geonames.org/3076127/frydek-mistek.html">Frydek,</placeName><date when="1935-09-17">16. Sept. 35</date></dateline>
+                    <salute>Lieber Herr <persName>Müller</persName>,</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Sie und <persName ref="https://www.wikidata.org/wiki/Q15449583">H. Schuster</persName> grüßt bestens<lb/>
+                        Ihr herzlich ergebener
+                        </salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+                <postscript>
+                        <p>Von [?] Ihr frdl. [?] Da<lb/>
+                            haben Sie ja zum Schluß enorm<lb/>
+                            gespurtet, haben jetzt aber das<lb/>
+                            [...?]</p>
+                </postscript>  
+            </body>
+        </text>
+    </TEI>
+    

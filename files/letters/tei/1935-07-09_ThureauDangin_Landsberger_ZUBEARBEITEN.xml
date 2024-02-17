@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von François Thureau-Dangin an Benno Landsberger vom 09.07.1935 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l69.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="101">101 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l69</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q1352388">François Thureau-Dangin</persName>
+                        <settlement ref="https://www.geonames.org/2968815/paris.html">Paris</settlement>
+                        <date when="1935-07-09">09.07.1935</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="fr">französisch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>enseignement (5.88)</term>
+                        <term>consterné (2.94)</term>
+                        <term>apprendre (2.94)</term>
+                        <term>obligé (2.94)</term>
+                        <term>abandonner (2.94)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline>
+                        <date when="1935-07-09">9 Juillet 1935</date>
+                    </dateline>
+                    <address>
+                        <addrLine>11, RUE GARANCIÈRE  VIe</addrLine>
+                    </address>       
+                    <salute>Mon cher Collègue,</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>votre fidèlement dévoué</salute>
+                    <signed>F Thureau-Dangin</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    

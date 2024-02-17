@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 01.03.1937 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l38.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="143">143 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l38</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1937-03-01">01.03.1937</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Kolumne (4.76)</term>
+                        <term>weiss (2.38)</term>
+                        <term>Schuster (2.38)</term>
+                        <term>Lande (2.38)</term>
+                        <term>dringende (2.38)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.geonames.org/323786/ankara.html">Ankara</placeName>, <date when="1937-03-01">den 1. März 1937</date></dateline>
+                    <address>
+                        <addrLine>P.K. 28</addrLine>
+                    </address>
+                    <salute>Lieber Herr <persName>Müller</persName>!</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Herzlichst
+                        </salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+                <postscript>
+                        <p>Die Texte sende ich bald.</p>
+                </postscript>  
+            </body>
+        </text>
+    </TEI>
+    

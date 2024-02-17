@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 10.07.1936 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l2.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="94">94 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l2</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine (Original)</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="http://www.geonames.org/3076127/frydek-mistek.html">Frydek</settlement>
+                        <date when="1936-07-10">10.07.1936</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Nachricht (7.69)</term>
+                        <term>Besitze (3.85)</term>
+                        <term>freudigen (3.85)</term>
+                        <term>Juni (3.85)</term>
+                        <term>gratuliere (3.85)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="http://www.geonames.org/3076127/frydek-mistek.html">Frýdek</placeName><date when="1936-07-10">am 10. Juli 1936.</date></dateline>
+                    <salute>Lieber Herr Doktor <persName>Müller</persName>!</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Bis dahin begrüsse ich Sie und die anderen<lb/>
+                        aufs Beste als<lb/>
+                        Ihr stets ergebener</salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    
