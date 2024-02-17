@@ -390,24 +390,24 @@ französisch</code></pre>
 <span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup</span>
 <span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> os.path <span class="im">import</span> join</span>
 <span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co">"""Die CSV-Datei references_names.csv enthält eine Liste der ref-Attribute </span></span>
-<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a><span class="co">(= Links zu Wikidata, Pleiades, GND) (bzw. des Tag-Inhalts, falls kein ref-Attribut existiert),</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="co">"""Die CSV-Datei references_names.csv enthält eine Liste der ref-Attribute und xml:lang-Attribute</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a><span class="co">(= Links zu Wikidata, Pleiades, GND, Sprachenkennung) (bzw. des Tag-Inhalts, falls kein ref-Attribut existiert),</span></span>
 <span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a><span class="co">die in den Kerntexten der Briefe den jeweiligen Tags zugeteilt wurden.</span></span>
 <span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a><span class="co">Die CSV-Datei wird als Dataframe eingelesen und die beiden Spalten in einem Dictionary </span></span>
 <span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a><span class="co">als key-value-Paare zusammengefasst"""</span></span>
 <span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>df_ref_names <span class="op">=</span> pd.read_csv(<span class="st">"files/references_names.csv"</span>)</span>
 <span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>dict_ref_names <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(df_ref_names[<span class="st">"Ref"</span>],df_ref_names[<span class="st">"Name"</span>]))</span>
 <span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> content_search(tag, attribute):</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> content_search(tag, attribute, ref):</span>
 <span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Einlesen der in TEI kodierten Textinhalte;</span></span>
 <span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a><span class="co">    Auffinden der ausgesuchten Tags und Attribute;</span></span>
 <span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a><span class="co">    Entfernen von Zeilenumbrüchen und doppelten Leerzeichen bei den Tag-Inhalten;</span></span>
-<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a><span class="co">    Gemeinsames Speichern der ref-Attribute und Briefnamen, Entfernen von Duplikaten;</span></span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a><span class="co">    Gemeinsames Speichern der ref-Attribute/xml:lang-Attribute und Briefnamen, Entfernen von Duplikaten;</span></span>
 <span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a><span class="co">    Zusammenführen der Suchergebnisse für jeden einzelnen Brief in einem gemeinsamen Dictionary </span></span>
-<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a><span class="co">    mit ref-Attribut und Briefname;</span></span>
-<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a><span class="co">    Abgleich der ref-Attribute mit den in der CSV-Datei gesammelten ref-Attributen und </span></span>
-<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a><span class="co">    Ersetzen der ref-Attribute durch ein Label;</span></span>
-<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a><span class="co">    Ausgabe des Ergebnis im Format 'Label des Taginhalts: Briefname(, Briefname, etc.)'</span></span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a><span class="co">    mit ref-Attribut/xml:lang-Attribut und Briefname;</span></span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a><span class="co">    Abgleich der ref-Attribute/xml:lang-Attrbute mit den in der CSV-Datei gesammelten Attributen und </span></span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a><span class="co">    Ersetzen der Attribute durch ein Label;</span></span>
+<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a><span class="co">    Ausgabe des Ergebnis im Format 'Label : Briefname(, Briefname, etc.)'</span></span>
 <span id="cb20-25"><a href="#cb20-25" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
 <span id="cb20-26"><a href="#cb20-26" aria-hidden="true" tabindex="-1"></a>    tags_all_letters <span class="op">=</span> []</span>
 <span id="cb20-27"><a href="#cb20-27" aria-hidden="true" tabindex="-1"></a>    ref_filename_dict <span class="op">=</span> {}</span>
@@ -423,8 +423,8 @@ französisch</code></pre>
 <span id="cb20-37"><a href="#cb20-37" aria-hidden="true" tabindex="-1"></a>                content <span class="op">=</span> re.sub(<span class="st">"-</span><span class="ch">\n</span><span class="st">"</span>, <span class="st">""</span>, content) <span class="co">#Zusammenführung von Wörtern, die am Zeilenende durch Bindestrich getrennt werden</span></span>
 <span id="cb20-38"><a href="#cb20-38" aria-hidden="true" tabindex="-1"></a>                content <span class="op">=</span> re.sub(<span class="st">"</span><span class="ch">\n</span><span class="st">"</span>, <span class="st">" "</span>, content) <span class="co">#Zusammenführung von Bezeichnungen, die aus mehreren Wörtern bestehen und auf zwei oder mehr Zeilen aufgeteilt sind</span></span>
 <span id="cb20-39"><a href="#cb20-39" aria-hidden="true" tabindex="-1"></a>                content <span class="op">=</span> re.sub(<span class="st">"  "</span>, <span class="st">""</span>, content)  <span class="co">#Entfernen von doppelten Leerzeichen</span></span>
-<span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> i.has_attr(<span class="st">"ref"</span>):</span>
-<span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a>                    ref_filename_list.append((i[<span class="st">"ref"</span>], filename))</span>
+<span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> i.has_attr(ref):</span>
+<span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a>                    ref_filename_list.append((i[ref], filename))</span>
 <span id="cb20-42"><a href="#cb20-42" aria-hidden="true" tabindex="-1"></a>                <span class="cf">else</span>:</span>
 <span id="cb20-43"><a href="#cb20-43" aria-hidden="true" tabindex="-1"></a>                    ref_filename_list.append((content, filename))</span>
 <span id="cb20-44"><a href="#cb20-44" aria-hidden="true" tabindex="-1"></a>            ref_filename_list <span class="op">=</span> <span class="bu">list</span>(<span class="bu">set</span>(ref_filename_list))</span>
@@ -446,7 +446,7 @@ französisch</code></pre>
 <section id="erwähnungen-von-modernen-personen" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-modernen-personen">Erwähnungen von modernen Personen</h3>
 <div class="cell" data-execution_count="12">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"persName"</span>, {<span class="st">"type"</span> : <span class="st">"modern"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"persName"</span>, {<span class="st">"type"</span> : <span class="st">"modern"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Albert Schott : 1929-12-09_Hartmann_Landsberger
 Albrecht Goetze : 1929-12-09_Hartmann_Landsberger
@@ -469,7 +469,7 @@ Sébastien Ronzevalle : 1932-03-22_Pedersen_Landsberger</code></pre>
 <section id="erwähnungen-von-konferenzenkongressen" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-konferenzenkongressen">Erwähnungen von Konferenzen/Kongressen</h3>
 <div class="cell" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"title"</span>, {<span class="st">"type"</span> : <span class="st">"meeting"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"title"</span>, {<span class="st">"type"</span> : <span class="st">"meeting"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>International Congress of Orientalists : 1937-04-12_Castellino_Landsberger</code></pre>
 </div>
@@ -478,7 +478,7 @@ Sébastien Ronzevalle : 1932-03-22_Pedersen_Landsberger</code></pre>
 <section id="erwähnungen-von-modernen-orten" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-modernen-orten">Erwähnungen von modernen Orten</h3>
 <div class="cell" data-execution_count="14">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"placeName"</span>, {<span class="st">"type"</span> : <span class="st">"modern"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"placeName"</span>, {<span class="st">"type"</span> : <span class="st">"modern"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Deutschland : 1932-03-22_Pedersen_Landsberger; 1936-05-05_Landsberger_Mueller
 England : 1936-05-05_Landsberger_Mueller
@@ -498,13 +498,13 @@ Tschechoslowakei : 1936-05-05_Landsberger_Mueller
 <section id="erwähnungen-von-modernen-institutionen" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-modernen-institutionen">Erwähnungen von modernen Institutionen</h3>
 <div class="cell" data-execution_count="15">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"orgName"</span>, {<span class="st">"type"</span> : <span class="st">"academy"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"orgName"</span>, {<span class="st">"type"</span> : <span class="st">"academy"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Sächsische Akademie der Wissenschaften : 1932-06-30_Andrae_Landsberger</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"orgName"</span>, {<span class="st">"type"</span> : <span class="st">"institute"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"orgName"</span>, {<span class="st">"type"</span> : <span class="st">"institute"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Orientalisches und Sprachwissenschaftliches (indogermanistisches) Seminar Universität Heidelberg : 1929-12-09_Hartmann_Landsberger</code></pre>
 </div>
@@ -513,7 +513,7 @@ Tschechoslowakei : 1936-05-05_Landsberger_Mueller
 <section id="erwähnungen-von-altorientalischen-orten" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-altorientalischen-orten">Erwähnungen von altorientalischen Orten</h3>
 <div class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"placeName"</span>, {<span class="st">"type"</span> : <span class="st">"ANE"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"placeName"</span>, {<span class="st">"type"</span> : <span class="st">"ANE"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Assur : 1929-07-10_Mueller_Landsberger
 Assyrisches Reich : 1929-07-10_Mueller_Landsberger
@@ -526,7 +526,7 @@ Ugarit : 1931-03-11_ThureauDangin_Landsberger</code></pre>
 <section id="erwähnungen-von-altorientalischen-göttern" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-altorientalischen-göttern">Erwähnungen von altorientalischen Göttern</h3>
 <div class="cell" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"name"</span>, {<span class="st">"type"</span> : <span class="st">"deity"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"name"</span>, {<span class="st">"type"</span> : <span class="st">"deity"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Assur : 1929-07-10_Mueller_Landsberger
 Enlil : 1929-07-10_Mueller_Landsberger
@@ -541,7 +541,7 @@ Serua : 1929-07-10_Mueller_Landsberger</code></pre>
 <section id="erwähnungen-von-forschungspublikationen" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-forschungspublikationen">Erwähnungen von Forschungspublikationen</h3>
 <div class="cell" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"title"</span>, {<span class="st">"type"</span> : <span class="st">"journal"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"title"</span>, {<span class="st">"type"</span> : <span class="st">"journal"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>MDOG : 1929-07-10_Mueller_Landsberger
 MFOB : 1932-03-22_Pedersen_Landsberger
@@ -550,7 +550,7 @@ ZA : 1933-04-17_Stummer_Landsberger; 1937-02-09_Landsberger_Mueller</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="20">
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"title"</span>, {<span class="st">"type"</span> : <span class="st">"monograph"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"title"</span>, {<span class="st">"type"</span> : <span class="st">"monograph"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Falkenstein/Haupttypen der sumerischen Beschwörung : 1931-03-11_ThureauDangin_Landsberger
 Landsberger/Die serie ana ittišu : 1931-03-11_ThureauDangin_Landsberger; 1937-01-29_Mueller_Landsberger
@@ -565,7 +565,7 @@ Zimmern/Babylonisches Neujahrsfest 2 : 1937-02-09_Landsberger_Mueller</code></pr
 <section id="erwähnungen-von-keilschrifttexten" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-keilschrifttexten">Erwähnungen von Keilschrifttexten</h3>
 <div class="cell" data-execution_count="21">
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"title"</span>, {<span class="st">"type"</span> : <span class="st">"cuneiformtext"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"title"</span>, {<span class="st">"type"</span> : <span class="st">"cuneiformtext"</span>}, <span class="st">"ref"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>K 10209 : 1937-01-29_Mueller_Landsberger; 1937-02-09_Landsberger_Mueller
 K 3438a : 1937-01-29_Mueller_Landsberger; 1937-02-09_Landsberger_Mueller
@@ -636,21 +636,12 @@ il-ta-am: 1937-04-12_Castellino_Landsberger</code></pre>
 <section id="erwähnungen-von-altorientalischen-sprachen" class="level3">
 <h3 class="anchored" data-anchor-id="erwähnungen-von-altorientalischen-sprachen">Erwähnungen von altorientalischen Sprachen</h3>
 <div class="cell" data-execution_count="24">
-<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>search_foreigntext(<span class="st">"lang"</span>, <span class="st">""</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>content_search(<span class="st">"lang"</span>, <span class="st">""</span>, <span class="st">"xml:lang"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Aramäischen: 1929-07-10_Mueller_Landsberger
-Akkadisch: 1929-12-09_Hartmann_Landsberger
-accadienne: 1931-03-11_ThureauDangin_Landsberger
-sumérienne: 1931-03-11_ThureauDangin_Landsberger
-aramäische: 1932-03-22_Pedersen_Landsberger
-babylonischen: 1932-03-22_Pedersen_Landsberger
-sumerischen: 1932-03-22_Pedersen_Landsberger
-altbabylonischen: 1936-05-05_Landsberger_Mueller
-akkadischen: 1937-01-29_Mueller_Landsberger
-assyrischer: 1937-01-29_Mueller_Landsberger
-assyrischen: 1937-02-09_Landsberger_Mueller
-Akkadischen: 1937-04-12_Castellino_Landsberger
-Hebr.: 1937-04-12_Castellino_Landsberger</code></pre>
+<pre><code>Akkadisch : 1929-12-09_Hartmann_Landsberger; 1931-03-11_ThureauDangin_Landsberger; 1932-03-22_Pedersen_Landsberger; 1936-05-05_Landsberger_Mueller; 1937-01-29_Mueller_Landsberger; 1937-02-09_Landsberger_Mueller; 1937-04-12_Castellino_Landsberger
+Aramäisch : 1929-07-10_Mueller_Landsberger; 1932-03-22_Pedersen_Landsberger
+Hebräisch : 1937-04-12_Castellino_Landsberger
+Sumerisch : 1931-03-11_ThureauDangin_Landsberger; 1932-03-22_Pedersen_Landsberger</code></pre>
 </div>
 </div>
 
