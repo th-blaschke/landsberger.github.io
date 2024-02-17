@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 13.04.1937 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l45.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="830">830 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l45</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1937-04-13">13.04.1937</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Sache (2.43)</term>
+                        <term>Arbeit (1.94)</term>
+                        <term>Frage (1.46)</term>
+                        <term>Schuster (1.46)</term>
+                        <term>Kraus (1.46)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline>
+                        <date when="1937-04-13">13/4 37</date>
+                    </dateline>
+                    <salute>Lieber Herr <persName>Müller</persName>!</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Herzlichst stets Ihr</salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+                <postscript>
+                        <p>Also nochmals: Geschludertes<lb/>
+                            Zeug nicht publizieren!<lb/>
+                            Die mir unbekannten Texte senden!<lb/>
+                            Soll ich an <persName ref="http://www.wikidata.org/entity/Q72333">Friedrich</persName> schreiben? Wie ich eben nochmals feststelle, sind die Texte keineswegs publikationsfertig.<lb/>
+                            Da ich ohnedies an <persName ref="http://www.wikidata.org/entity/Q72333">Friedrich</persName> schreiben muss, kann ich nicht anders als ihm<lb/>
+                            dies mitteilen.<lb/>
+                            Aber ich sage ihm gleichzeitig, dass<lb/>
+                            dies gründlich und rasch gebessert<lb/>
+                            werden kann.</p>
+                        <p>Sehr unangenehm ist es, dass Sie nach VAT und K-Nummern anstatt<lb/> 
+                            nach Ausgaben oder Nummern Ihrer Arbeit zitieren. Bitte ändern Sie das!<lb/> 
+                            Man kann in einer Arbeit<lb/> 
+                            nicht die letzten Texte zuerst bearbeiten.<lb/> 
+                            Ich bitte Sie daher, mir zunächst zu senden:<lb/> 
+                            a) die mir unbekannten VAT-Texte;<lb/> 
+                            b) die ersten von Ihnen bearbeiteten<lb/> 
+                            (Krönungsritual).<lb/>
+                            c) Möglichst Photo von TuL Nr. 8.</p>
+                </postscript>  
+            </body>
+        </text>
+    </TEI>
+    

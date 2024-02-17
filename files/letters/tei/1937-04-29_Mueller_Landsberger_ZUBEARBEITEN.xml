@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Karl Friedrich Müller an Benno Landsberger vom 29.04.1937 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l47.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="4">4 Seiten</measure>
+                            <measure unit="words" quantity="926">926 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l47</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="https://www.geonames.org/2809575/wiederitzsch.html">Wiederitzsch </settlement>
+                        <date when="1937-04-29">29.04.1937</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Arbeit (2.51)</term>
+                        <term>Friedrich (1.88)</term>
+                        <term>Text (1.88)</term>
+                        <term>Texte (1.57)</term>
+                        <term>Übersetzung (1.57)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine><placeName ref="https://www.geonames.org/2809575/wiederitzsch.html">Wiederitzsch</placeName>, Blücherstr. 23</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1937-04-29">Am 29. April 1937.</date>
+                    </dateline>
+                    <salute>Hochverehrter Herr Professor!</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Mit herzlichem Gruß<lb/>
+                        Ihr dankbar ergebener</salute>
+                </closer>
+                <postscript>
+                        <p>Das Drama "ana ittišu" ist nun endlich abgeschlossen, <persName ref="https://www.wikidata.org/wiki/Q110089412">Pohl</persName> schickte uns die letzten Bogen
+                        einschließlich [?]</p>
+                </postscript>  
+            </body>
+        </text>
+    </TEI>
+    
