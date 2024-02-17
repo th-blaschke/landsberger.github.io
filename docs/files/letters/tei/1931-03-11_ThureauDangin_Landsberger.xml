@@ -40,12 +40,12 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="http://www.wikidata.org/entity/Q1352388">François Thureau-Dangin</persName>
+                        <persName ref="https://www.wikidata.org/wiki/Q1352388">François Thureau-Dangin</persName>
                         <settlement ref="https://www.geonames.org/2968815/paris.html">Paris</settlement>
                         <date when="1931-03-11">11.03.1931</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="https://www.wikidata.org/wiki/Q67592">Benno Landsberger</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>

@@ -45,7 +45,7 @@
                         <date when="1929-07-10">07.10.1929</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="https://www.wikidata.org/wiki/Q67592">Benno Landsberger</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
@@ -78,7 +78,7 @@
             <p>Endlich bin ich in der Lage, Ihnen einen<lb/>
                 Teil meiner Textbearbeitungen zu schicken, den Rest hoffe<lb/>
                 ich in rascher Folge nachsenden zu können.<lb/>
-                Die Bearbeitung des <title type="cuneiformtext" ref="https://cdli.mpiwg-berlin.mpg.de/artifacts/282609">Krönungsritual</title> ist noch<lb/>
+                Die Bearbeitung des <title type="cuneiformtext" ref="https://cdli.ucla.edu/P282609">Krönungsritual</title> ist noch<lb/>
                 nicht vollständig. Zu behandeln sind noch das Verbum <foreign xml:lang="akk">kararu</foreign>,<lb/>
                 die Form <foreign xml:lang="akk">ip-pal</foreign> (II, 14), <foreign xml:lang="akk">ab-ba-sa</foreign> und, von Einzelheiten<lb/>
                 abgesehen, die Bedeutung von <foreign xml:lang="akk">abnu</foreign> und die Götter, das Material<lb/>
@@ -101,11 +101,11 @@
                 zu diesen Punkten auch aus historischen Texten Stoff gesammelt.<lb/>
                 Es ergibt sich, daß der eigentliche Herr der Stadt und des Rei-<lb/>
                 ches <placeName type="ANE" ref="https://pleiades.stoa.org/places/893945">Assur</placeName> nicht der König, sondern der Gott <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assur</name> ist, der Kö-<lb/>
-                nig ist nur sein Statthalter. Der König trägt die Krone <name type="deity">Assurs</name>.<lb/>
+                nig ist nur sein Statthalter. Der König trägt die Krone <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assurs</name>.<lb/>
                 <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assur</name> hat ihn zur Königsherrschaft berufen, auf Geheiß <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assurs</name><lb/>
                 zieht der König zu Felde, er kämpft mit den Waffen <name type="deity" ref="https://www.wikidata.org/wiki/Q685878">Assurs</name>, der<lb/>
                 Gott ist es eigentlich, der den Feind besiegt, der König berich-<lb/>
-                tet dem Gott von seinen Kriegstaten (cf. <title type="cuneiformtext" ref="https://cdli.mpiwg-berlin.mpg.de/artifacts/285665">8. Feldzug Sargons</title>),<lb/>
+                tet dem Gott von seinen Kriegstaten (cf. <title type="cuneiformtext" ref="https://cdli.ucla.edu/P285665">8. Feldzug Sargons</title>),<lb/>
                 dabei spricht der König "vor" den Göttern, aber die Götter "mit"<lb/>
                 ihm, genau das Verhältnis wie zwischen dem König und seinen<lb/>
                 Untertanen. Aus dieser Stellung des Königs erklärt sich auch,<lb/>
@@ -114,7 +114,7 @@
                 tum die Rede ist. Daß der König als oberster Priester galt,<lb/>
                 zeigen Briefe, in denen der König um Entscheidung in kultischen<lb/>
                 Angelegenheiten angegangen wird.<lb/>
-                Den Text <title type="cuneiformtext" ref="https://cdli.mpiwg-berlin.mpg.de/artifacts/369116">KAR 139</title> will ich bei der Behand-<lb/>
+                Den Text <title type="cuneiformtext" ref="https://cdli.ucla.edu/P369116">KAR 139</title> will ich bei der Behand-<lb/>
                 lung des <foreign xml:lang="akk">Pû-lišānu</foreign> bringen; bei der Stelle III, 2 soll der Sänger<lb/>
                 behandelt werden, dabei wird vielleicht der Text von der <name type="deity">Mārat-<lb/>
                 nāri</name> angeschlossen.</p>

@@ -40,7 +40,7 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="https://www.wikidata.org/wiki/Q67592">Benno Landsberger</persName>
                         <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
                         <date when="1936-05-05">05.05.1936</date>
                     </correspAction>

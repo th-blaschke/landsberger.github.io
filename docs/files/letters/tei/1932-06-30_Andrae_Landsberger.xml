@@ -40,12 +40,12 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="http://www.wikidata.org/entity/Q67392">Walter Andrae</persName>
+                        <persName ref="https://www.wikidata.org/wiki/Q67392">Walter Andrae</persName>
                         <settlement ref="https://www.geonames.org/2950159/berlin.html">Berlin</settlement>
                         <date when="1932-06-30">30.06.1932</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="https://www.wikidata.org/wiki/Q67592">Benno Landsberger</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
@@ -83,7 +83,7 @@
                     Es sagt den Leuten droben Lob und packt sie an der empfind-<lb/>
                     lichen Stelle. Jedenfalls danken wir Ihnen sehr herzlich für<lb/>
                     Ihre Hilfsstellung.<lb/>
-                    Wie mir <persName type="modern" ref="http://www.wikidata.org/entity/Q123496">Ehelolf</persName> sagte, kommen Sie mit Ihrer Veröffentlichung<lb/>
+                    Wie mir <persName type="modern" ref="https://www.wikidata.org/wiki/Q123496">Ehelolf</persName> sagte, kommen Sie mit Ihrer Veröffentlichung<lb/>
                     der <title type="monograph" ref="https://d-nb.info/365039365">Assur-Zoologie</title> bei der <orgName type="academy" ref="https://www.wikidata.org/wiki/Q451079">Sächs. Akademie</orgName> in Not. Ich freue<lb/>
                     mich, daß wir soeben noch in der Lage sind, einspringen zu<lb/>
                     können, und Ihnen die fehlenden Fünfhundert Reichsmark<lb/>

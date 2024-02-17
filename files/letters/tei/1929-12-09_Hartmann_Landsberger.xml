@@ -45,7 +45,7 @@
                         <date when="1929-12-09">09.12.1929</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="https://www.wikidata.org/wiki/Q67592">Benno Landsberger</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
@@ -75,14 +75,14 @@
                 </dateline>
                 <salute>Sehr geehrter Herr Kollege!</salute>
             </opener>
-            <p>Durch die Berufung vom Kollegen <persName type="modern" ref="http://www.wikidata.org/entity/Q109158">Götze</persName> nach <placeName type= "modern" ref="https://www.wikidata.org/wiki/Q3869">Marburg</placeName><lb/>
-                (die Ihre Übersiedlung nach <placeName type="modern" ref="https://www.wikidata.org/wiki/Q2079">Leipzig</placeName> zur Voraussetzung<lb/>
+            <p>Durch die Berufung vom Kollegen <persName type="modern" ref="https://www.wikidata.org/wiki/Q109158">Götze</persName> nach <placeName type= "modern" ref="https://www.geonames.org/2873759/marburg-an-der-lahn.html">Marburg</placeName><lb/>
+                (die Ihre Übersiedlung nach <placeName type="modern" ref="https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html">Leipzig</placeName> zur Voraussetzung<lb/>
                 hat, wofür ich Ihnen nachträglich noch herzlich gratu-<lb/>
                 lieren möchte) wird hier die Assistentenfrage neu<lb/>
                 aufgerollt. Und in dieser Sache möchte ich Sie<lb/>
                 um Ihren Rat bitten!<lb/>
                 Die Situation liegt hier etwas kompliziert.<lb/>
-                <persName type="modern" ref="http://www.wikidata.org/entity/Q109158">Götze</persName> ist hier Assistent am <orgName type="institute">Orientalischen und am<lb/>
+                <persName type="modern" ref="https://www.wikidata.org/wiki/Q109158">Götze</persName> ist hier Assistent am <orgName type="institute">Orientalischen und am<lb/>
                 Sprachwissenschaftlichen (indogermanistischen) Seminar</orgName>,<lb/>
                 die beide Anrecht auf 1/2 Assistenten haben. Ausserdem<lb/>
                 las er, wie Sie ja wissen, als einziger über die Ge-<lb/>
@@ -108,9 +108,9 @@
                 sich eben in absehbarer Zeit habilitieren können.<lb/>
                 Wenn irgend möglich, sollte er also bereits promoviert<lb/>
                 haben. Meine Bitte an Sie ist: könnten Sie uns Leute<lb/>
-                nennen, die dafür in Frage kommen? Ob Dr. <persName type="modern" ref="http://www.wikidata.org/entity/Q94873664">Schott</persName><lb/>
+                nennen, die dafür in Frage kommen? Ob Dr. <persName type="modern" ref="https://www.wikidata.org/wiki/Q94873664">Schott</persName><lb/>
                 uns unter diesen Bedingungen erreichbar ist, ist mir<lb/>
-                nicht sicher. Ich hörte von <persName type="modern" ref="http://www.wikidata.org/entity/Q109158">G.</persName>, dass Sie wohl einige<lb/>
+                nicht sicher. Ich hörte von <persName type="modern" ref="https://www.wikidata.org/wiki/Q109158">G.</persName>, dass Sie wohl einige<lb/>
                 tüchtige Schüler haben. Vielleicht könnte von denen<lb/>
                 doch einer in Frage kommen. Für die Assistenten-<lb/>
                 stelle an sich könnten wir wohl leicht eine geeignete<lb/>

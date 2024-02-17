@@ -45,7 +45,7 @@
                         <date when="1937-04-12">12.04.1937</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="https://www.wikidata.org/wiki/Q67592">Benno Landsberger</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
@@ -78,9 +78,9 @@
                 <p>Obwohl ich nicht die Ehre habe von Ihnen<lb/>
                     persönlich gekannt zu sein, habe ich Sie doch vor zwei Jahren auf dem<lb/>
                     <title type="meeting" ref="https://d-nb.info/gnd/1030650-X">Orientalisten Congress</title> in <placeName type="modern" ref="https://www.geonames.org/3169070/rome.html">Rom</placeName> kennen und würdigen gelernt. Daher erlaube<lb/>
-                    ich mir Sie zu stören. Ich arbeite jetzt an einer Vergleichung der <lang xml:lang="">Hebr.</lang><lb/>
+                    ich mir Sie zu stören. Ich arbeite jetzt an einer Vergleichung der <lang xml:lang="hbo">Hebr.</lang><lb/>
                     und <lang xml:lang="akk">Akkadischen</lang> Hymnen, und möchte, in meine Arbeit, auch eine Bearbeitung<lb/>
-                    des Textes, den <persName type="modern" ref="http://www.wikidata.org/entity/Q115000">H. Zimmern</persName> in <title type="cuneiformtext" ref="https://cdli.ucla.edu/P343020">"S. Kultlieder" unter N.215 (V.S. X, 215)</title><lb/>
+                    des Textes, den <persName type="modern" ref="https://www.wikidata.org/wiki/Q115000">H. Zimmern</persName> in <title type="cuneiformtext" ref="https://cdli.ucla.edu/P343020">"S. Kultlieder" unter N.215 (V.S. X, 215)</title><lb/>
                     veröffentlicht hat, mit hineinschliessen. Er fängt mit: <foreign xml:lang="akk">il-ta-am</foreign> an, und<lb/>
                     ist an der Göttin <name type="deity" ref="https://www.wikidata.org/wiki/Q1809764">Nanâ</name> gedichtet.<lb/>
                     Wollen Sie so gut sein mir eine Transkription<lb/>
