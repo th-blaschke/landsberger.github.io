@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Walter G. Kunstmann an Benno Landsberger vom 16.05.1932 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l17.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="289">289 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l17</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="nan">Walter G. Kunstmann</persName>
+                        <settlement ref="https://www.geonames.org/6323571/porto-alegre.html">Porto Alegre</settlement>
+                        <date when="1932-05-16">16.05.1932</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Inschrift (2.41)</term>
+                        <term>Vater (2.41)</term>
+                        <term>Wiedergaben (2.41)</term>
+                        <term>Phönizisch (2.41)</term>
+                        <term>scheinen (2.41)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine><orgName>Deutsche Evang.-Luth. Christus-Gemeinde</orgName></addrLine>
+                        <addrLine>Ecke Avenida Eduardo und Avenida Patria, Navegantes</addrLine>
+                        <addrLine><placeName ref="https://www.geonames.org/6323571/porto-alegre.html">Porto Alegre</placeName></addrLine>
+                        <persName>P. Joh. F. Kunstmann</persName>
+                        <persName ref="https://d-nb.info/gnd/125725353">P. Dr. Walter G. Kunstmann</persName> 
+                        <addrLine>Avenida Patria 631</addrLine>
+                </address>
+                <dateline>
+                    <placeName ref="https://www.geonames.org/6323571/porto-alegre.html">Porto Alegre,</placeName><date when="1932-05-16">den 16. Mai 1932</date>
+                </dateline>
+                    <salute>Hochverehrter, lieber Herr Professor!</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Mit herzlichen Grüßen bin ich<lb/>
+                        [...?] immer dankbarer</salute>
+                    <signed>Dr. W. Kunstmann</signed>
+                </closer>
+            </body>
+        </text>
+    </TEI>
+    

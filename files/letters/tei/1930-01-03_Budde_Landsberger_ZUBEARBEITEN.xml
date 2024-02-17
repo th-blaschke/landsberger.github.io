@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Karl Budde an Benno Landsberger vom 03.01.1930 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l10.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="181">181 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l10</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="https://www.wikidata.org/wiki/Q88003">Karl Budde</persName>
+                        <settlement ref="https://www.geonames.org/6559132/marburg-universitaetsstadt.html">Marburg</settlement>
+                        <date when="1930-01-03">03.01.1930</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Sabbat (4.55)</term>
+                        <term>Antwort (4.55)</term>
+                        <term>Vollmond (4.55)</term>
+                        <term>Namen (4.55)</term>
+                        <term>herzlichsten (2.27)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.geonames.org/6559132/marburg-universitaetsstadt.html">Marburg (Lahn),</placeName><date when="1930-01-03">3.1.30</date></dateline>
+                    <salute>Sehr verehrter, lieber Herr Kollege!</salute>
+                </opener>
+                <p>TO BE ADDED   
+                </p>       
+                <closer>
+                    <salute>In der Hoffnung, daß Sie Sich in Leipzig recht wohl fühlen,<lb/>
+                        mit herzlichen Grüßen,<lb/>
+                        Ihr getreuer Kollege</salute>
+                    <signed>K. Budde.</signed>
+                </closer>
+                <postscript>
+                        <p>Heute erwarte ich den Kollegen <persName>Beyer</persName> mit seiner jungen Frau. Machen<lb/>
+                            Sie es ihm schön nach! Sie lernten ihn ja damals bei mir kennen, noch un-<lb/>
+                            beweibt mit seiner alten, hinfälligen Mutter.</p>
+                </postscript>  
+            </body>
+        </text>
+    </TEI>
+    

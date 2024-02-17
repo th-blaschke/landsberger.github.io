@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Brief von Joh. F. Kunstmann an Benno Landsberger vom 24.11.1931 encoded in TEI</title>
+                    <respStmt>
+                        <resp>Encoded by, </resp>
+                        <persName>Theresa Blaschke</persName>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
+                        <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l13.pdf</idno>
+                        <extent>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="546">546 Wörter</measure>
+                        </extent>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l13</idno>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Beschreibart: Handschrift</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="nan">Joh. F. Kunstmann</persName>
+                        <settlement ref="https://www.geonames.org/6323571/porto-alegre.html">Porto Alegre</settlement>
+                        <date when="1931-11-24">24.11.1931</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/2879137/kreisfreie-stadt-leipzig.html">Leipzig</settlement>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="de">deutsch</language>
+                </langUsage>
+                <textClass>
+                    <keywords>
+                        <term>Arbeit (1.52)</term>
+                        <term>Moratorium (1.52)</term>
+                        <term>Hinrichs (1.02)</term>
+                        <term>Milréis (1.02)</term>
+                        <term>Mark (1.02)</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine><orgName>Deutsche Evang.-Luth. Christus-Gemeinde</orgName></addrLine>
+                        <addrLine>Ecke Avenida Eduardo und Avenida Patria, Navegantes</addrLine>
+                        <addrLine><placeName ref="https://www.geonames.org/6323571/porto-alegre.html">Porto Alegre</placeName></addrLine>
+                        <persName>P. Joh. F. Kunstmann</persName>
+                        <persName ref="https://d-nb.info/gnd/125725353">P. Dr. Walter G. Kunstmann</persName> 
+                        <addrLine>Avenida Patria 631</addrLine>
+                    </address>
+                    <dateline>
+                        <placeName ref="https://www.geonames.org/6323571/porto-alegre.html">Porto Alegre,</placeName><date when="1931-11-24">24. Nov. 1931</date>
+                    </dateline>
+                    <address>
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Herrn Prof Dr. B. Landsberger,</persName>
+                        <orgName>Leipziger Universität</orgName>
+                        <orgName>Semit. Institut</orgName>
+                        <addrLine>Schillerstr. 7 pt. l.</addrLine>
+                    </address>
+                    <salute>Alter, lieber Freund!</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Herzlichen Dank für alle Liebe und Treue. Beste<lb/>
+                        Wünsche zum Jahreswechsel an Dich und Frl. <persName>I.</persName> Dein alter</salute>
+                    <signed>Joh. F. Kunstmann.</signed>
+                </closer>
+                <postscript>
+                        <p>Auch meine Frau und Sohn lassen herzl. grüßen und wünschen
+                            alles Gute zum Neuen Jahre.</p>
+                </postscript>  
+            </body>
+        </text>
+    </TEI>
+    
