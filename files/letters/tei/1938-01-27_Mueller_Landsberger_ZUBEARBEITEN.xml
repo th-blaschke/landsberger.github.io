@@ -20,7 +20,7 @@
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
                         <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l66.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="3.0">3.0 Seiten</measure>
+                            <measure unit="pages" quantity="3">3 Seiten</measure>
                             <measure unit="words" quantity="790">790 Wörter</measure>
                         </extent>
                     </bibl>
@@ -54,14 +54,34 @@
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>Nummern (2.56)</term>
-<term>London (1.83)</term>
-<term>Tafeln (1.47)</term>
-<term>Texte (1.47)</term>
-<term>Nummer (1.47)</term>
+                        <term>Nummern (2.56)</term>
+                        <term>London (1.83)</term>
+                        <term>Tafeln (1.47)</term>
+                        <term>Texte (1.47)</term>
+                        <term>Nummer (1.47)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine><placeName ref="https://www.geonames.org/2809575/wiederitzsch.html">Wiederitzsch</placeName>, Blücherstr. 23.</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1938-01-27">Am 27. Januar 1938.</date>
+                    </dateline>
+                    <salute>Hochverehrter Herr Professor!</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Mit ergebenem Gruß<lb/>
+                        Ihr</salute>
+                </closer>
+            </body>
+        </text>
     </TEI>
+    
     

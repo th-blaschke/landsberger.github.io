@@ -5,7 +5,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Brief von Karl Friedrich Müller an Benno Landsberger vom 18.05.1938 encoded in TEI</title>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 04.08.1938 encoded in TEI</title>
                     <respStmt>
                         <resp>Encoded by, </resp>
                         <persName>Theresa Blaschke</persName>
@@ -18,20 +18,20 @@
                     <bibl>
                         <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l84.pdf</idno>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l86.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="1.0">1.0 Seiten</measure>
-                            <measure unit="words" quantity="140">140 Wörter</measure>
+                            <measure unit="pages" quantity="2">2 Seiten</measure>
+                            <measure unit="words" quantity="459">459 Wörter</measure>
                         </extent>
                     </bibl>
                     <msDesc>
                         <msIdentifier>
                             <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                            <idno>l84</idno>
+                            <idno>l86</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>
-                                <p>Beschreibart: Schreibmaschine (Durchschlagpapier)</p>
+                                <p>Beschreibart: Handschrift</p>
                             </objectDesc>
                         </physDesc>
                     </msDesc>
@@ -40,12 +40,12 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="nan">Karl Friedrich Müller</persName>
-                        <settlement ref="https://www.geonames.org/2809575/wiederitzsch.html">Wiederitzsch </settlement>
-                        <date when="1938-05-18">18.05.1938</date>
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1938-08-04">04.08.1938</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="nan">Karl Friedrich Müller</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
@@ -54,14 +54,34 @@
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>Naumburg (9.3)</term>
-<term>Korbetha (9.3)</term>
-<term>Jena (4.65)</term>
-<term>Leipzig (4.65)</term>
-<term>Zug (4.65)</term>
+                        <term>Sch (2.8)</term>
+                        <term>fahren (1.4)</term>
+                        <term>Leipzig (1.4)</term>
+                        <term>wissen (1.4)</term>
+                        <term>bitte (1.4)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine><placeName ref="https://www.geonames.org/323786/ankara.html">Ankara</placeName> P.K. 28</addrLine>    
+                    </address>        
+                    <dateline>
+                        <date when="1938-08-04">4. August 1938</date>
+                    </dateline>
+                    <salute>Lieber Herr <persName>Müller</persName>,</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Mit den herzlichsten Grüßen<lb/> 
+                        Ihr alter</salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+            </body>
+        </text>
     </TEI>
     

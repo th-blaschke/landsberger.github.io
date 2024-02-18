@@ -5,7 +5,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 24.08.1938 encoded in TEI</title>
+                    <title>Brief von Karl Friedrich Müller an Benno Landsberger vom 20.04.1938 encoded in TEI</title>
                     <respStmt>
                         <resp>Encoded by, </resp>
                         <persName>Theresa Blaschke</persName>
@@ -18,20 +18,20 @@
                     <bibl>
                         <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l71.pdf</idno>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l85.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="1.0">1.0 Seiten</measure>
-                            <measure unit="words" quantity="94">94 Wörter</measure>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="263">263 Wörter</measure>
                         </extent>
                     </bibl>
                     <msDesc>
                         <msIdentifier>
                             <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                            <idno>l71</idno>
+                            <idno>l85</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>
-                                <p>Beschreibart: Handschrift</p>
+                                <p>Beschreibart: Schreibmaschine (Durchschlagpapier)</p>
                             </objectDesc>
                         </physDesc>
                     </msDesc>
@@ -40,12 +40,12 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
-                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
-                        <date when="1938-08-24">24.08.1938</date>
+                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <settlement ref="https://www.geonames.org/2809575/wiederitzsch.html">Wiederitzsch </settlement>
+                        <date when="1938-04-20">20.04.1938</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="nan">Karl Friedrich Müller</persName>
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
@@ -54,14 +54,33 @@
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>liege (3.85)</term>
-<term>Krankenhaus (3.85)</term>
-<term>böse (3.85)</term>
-<term>Zehe (3.85)</term>
-<term>häuslicher (3.85)</term>
+                        <term>Schuster (8.57)</term>
+                        <term>Leipzig (4.29)</term>
+                        <term>Nachricht (4.29)</term>
+                        <term>Mai (4.29)</term>
+                        <term>Zeit (2.86)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine><placeName ref="https://www.geonames.org/2809575/wiederitzsch.html">Wiederitzsch</placeName>, Blücherstr. 23.</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1938-04-20">Am 20. April 1938</date>
+                    </dateline>
+                    <salute>Hochverehrter Herr Professor!</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Mit herzlichen Gruß<lb/>
+                        Ihr sehr ergebener</salute>
+                </closer>
+            </body>
+        </text>
     </TEI>
     

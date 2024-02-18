@@ -5,7 +5,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Brief von Jakob J. Finkelstein an Benno Landsberger vom 19.02.1962 encoded in TEI</title>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 15.08.1938 encoded in TEI</title>
                     <respStmt>
                         <resp>Encoded by, </resp>
                         <persName>Theresa Blaschke</persName>
@@ -18,16 +18,16 @@
                     <bibl>
                         <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/j16.pdf</idno>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l82.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="1.0">1.0 Seiten</measure>
-                            <measure unit="words" quantity="186">186 Wörter</measure>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="134">134 Wörter</measure>
                         </extent>
                     </bibl>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Institut für Archäologie der Hebrew University Jerusalem</repository>
-                            <idno>j16</idno>
+                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
+                            <idno>l82</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>
@@ -40,28 +40,45 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="http://www.wikidata.org/entity/Q105096216">Jakob J. Finkelstein</persName>
-                        <settlement ref="https://www.geonames.org/5327684/berkeley.html">Berkeley</settlement>
-                        <date when="1962-02-19">19.02.1962</date>
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1938-08-15">15.08.1938</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="nan">Karl Friedrich Müller</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
                 <langUsage>
-                    <language ident="eng">englisch</language>
+                    <language ident="de">deutsch</language>
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>Keilschrift (14.67)</term>
-<term>beginning (4.0)</term>
-<term>line (2.67)</term>
-<term>begin (2.67)</term>
-<term>Herewith (1.33)</term>
+                        <term>pünktlich (2.13)</term>
+                        <term>eingetroffener (2.13)</term>
+                        <term>Brief (2.13)</term>
+                        <term>grosse (2.13)</term>
+                        <term>Freude (2.13)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.geonames.org/323786/ankara.html">Ankara</placeName>, <date when="1938-08-15">den 15. August 1938.</date></dateline>
+                    <address>
+                        <addrLine>P.K. 28</addrLine>
+                    </address>         
+                    <salute>Lieber Herr <persName>Müller</persName>,</salute>
+                </opener>
+                <p>
+                </p>
+                <closer>
+                    <salute>Stets Ihr</salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+            </body>
+        </text>
     </TEI>
     

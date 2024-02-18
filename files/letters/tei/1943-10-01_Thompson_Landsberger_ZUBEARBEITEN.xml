@@ -5,7 +5,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Brief von Benno Landsberger an Torgny Segerstedt vom 15.02.1956 encoded in TEI</title>
+                    <title>Brief von Reginald Campbell Thompson an Benno Landsberger vom 01.10.1943 encoded in TEI</title>
                     <respStmt>
                         <resp>Encoded by, </resp>
                         <persName>Theresa Blaschke</persName>
@@ -18,20 +18,20 @@
                     <bibl>
                         <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l24.pdf</idno>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l78.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="4.0">4.0 Seiten</measure>
-                            <measure unit="words" quantity="1979">1979 Wörter</measure>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="148">148 Wörter</measure>
                         </extent>
                     </bibl>
                     <msDesc>
                         <msIdentifier>
                             <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                            <idno>l24</idno>
+                            <idno>l78</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>
-                                <p>Beschreibart: Schreibmaschine</p>
+                                <p>Beschreibart: Handschrift</p>
                             </objectDesc>
                         </physDesc>
                     </msDesc>
@@ -40,13 +40,13 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
-                        <settlement ref="https://www.geonames.org/4887398/chicago.html">Chicago</settlement>
-                        <date when="1956-02-15">15.02.1956</date>
+                        <persName ref="http://www.wikidata.org/entity/Q1918460">Reginald Campbell Thompson</persName>
+                        <settlement ref="https://www.geonames.org/2640729/oxford.html">Oxford</settlement>
+                        <date when="1943-10-01">01.10.1943</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="https://www.wikidata.org/wiki/Q525099">Torgny Segerstedt</persName>
-                        <settlement ref="https://www.geonames.org/2666199/uppsala.html">Uppsala</settlement>
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
                 <langUsage>
@@ -54,14 +54,39 @@
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>Haldar (2.52)</term>
-<term>Rundgren (2.04)</term>
-<term>Akkadian (2.04)</term>
-<term>language (0.96)</term>
-<term>published (0.6)</term>
+                        <term>thanks (5.26)</term>
+                        <term>books (5.26)</term>
+                        <term>work (5.26)</term>
+                        <term>treating (5.26)</term>
+                        <term>generous (2.63)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <addrLine>[?]</addrLine>
+                        <addrLine>[?]</addrLine>
+                        <addrLine>Oxford</addrLine>     
+                    </address>
+                    <dateline><date when="1943-10-01">Okt. 1. 1943</date></dateline>
+                    <salute>Dear Professor <persName>Landsberger</persName>,</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Again with many thanks, particularly<lb/>
+                        for treating me so well.<lb/>
+                        Yours sincerely.</salute>
+                    <signed>R. Campbell Thompson.</signed>
+                </closer>
+                <postscript>
+                        <p>P.S. IB.ḪU p. 127 I think I settled as Cantharides<lb/>
+                            in ḪU.SI ša IB.ḪU (Prisms of Esarhaddon, 12, note)</p>
+                </postscript>  
+            </body>
+        </text>
     </TEI>
     

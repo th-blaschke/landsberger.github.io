@@ -5,7 +5,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 29.01.1938 encoded in TEI</title>
+                    <title>Brief von Benno Landsberger an Torgny Segerstedt vom 15.02.1956 encoded in TEI</title>
                     <respStmt>
                         <resp>Encoded by, </resp>
                         <persName>Theresa Blaschke</persName>
@@ -18,20 +18,20 @@
                     <bibl>
                         <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l67.pdf</idno>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l24.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="6.0">6.0 Seiten</measure>
-                            <measure unit="words" quantity="1469">1469 Wörter</measure>
+                            <measure unit="pages" quantity="4">4 Seiten</measure>
+                            <measure unit="words" quantity="1979">1979 Wörter</measure>
                         </extent>
                     </bibl>
                     <msDesc>
                         <msIdentifier>
                             <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                            <idno>l67</idno>
+                            <idno>l24</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>
-                                <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
+                                <p>Beschreibart: Schreibmaschine</p>
                             </objectDesc>
                         </physDesc>
                     </msDesc>
@@ -41,27 +41,51 @@
                 <correspDesc>
                     <correspAction type="sent">
                         <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
-                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
-                        <date when="1938-01-29">29.01.1938</date>
+                        <settlement ref="https://www.geonames.org/4887398/chicago.html">Chicago</settlement>
+                        <date when="1956-02-15">15.02.1956</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="nan">Karl Friedrich Müller</persName>
-                        <settlement ref="nan">nan</settlement>
+                        <persName ref="https://www.wikidata.org/wiki/Q525099">Torgny Segerstedt</persName>
+                        <settlement ref="https://www.geonames.org/2666199/uppsala.html">Uppsala</settlement>
                     </correspAction>
                 </correspDesc>
                 <langUsage>
-                    <language ident="de">deutsch</language>
+                    <language ident="eng">englisch</language>
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>zweiten (3.97)</term>
-<term>Teil (3.17)</term>
-<term>Berichtigungen (1.59)</term>
-<term>Parallelstellen (1.59)</term>
-<term>Bearbeitungen (1.59)</term>
+                        <term>Haldar (2.52)</term>
+                        <term>Rundgren (2.04)</term>
+                        <term>Akkadian (2.04)</term>
+                        <term>language (0.96)</term>
+                        <term>published (0.6)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <orgName>Oriental Institute</orgName>
+                        <orgName>University of Chicago</orgName> 
+                        <addrLine><placeName ref="https://www.geonames.org/4887398/chicago.html">Chicago</placeName> 37, Illinois</addrLine>      
+                    </address>
+                    <dateline><date when="1956-02-15">February 15, 1956</date></dateline>
+                    <address>
+                        <orgName>Uppsala Universitet</orgName>
+                        <persName ref="https://www.wikidata.org/wiki/Q525099">[?] Professor Torgny Segerstedt</persName>
+                        <addrLine><placeName ref="https://www.geonames.org/2666199/uppsala.html">Uppsala</placeName>, Sweden</addrLine>
+                    </address>
+                    <salute>Dear Sir:</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Very faithfully yours,</salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+            </body>
+        </text>
     </TEI>
     

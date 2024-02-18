@@ -5,7 +5,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 04.08.1938 encoded in TEI</title>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 29.01.1938 encoded in TEI</title>
                     <respStmt>
                         <resp>Encoded by, </resp>
                         <persName>Theresa Blaschke</persName>
@@ -18,20 +18,20 @@
                     <bibl>
                         <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l86.pdf</idno>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l67.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="2.0">2.0 Seiten</measure>
-                            <measure unit="words" quantity="459">459 Wörter</measure>
+                            <measure unit="pages" quantity="6">6 Seiten</measure>
+                            <measure unit="words" quantity="1469">1469 Wörter</measure>
                         </extent>
                     </bibl>
                     <msDesc>
                         <msIdentifier>
                             <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                            <idno>l86</idno>
+                            <idno>l67</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>
-                                <p>Beschreibart: Handschrift</p>
+                                <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
                             </objectDesc>
                         </physDesc>
                     </msDesc>
@@ -42,7 +42,7 @@
                     <correspAction type="sent">
                         <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
                         <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
-                        <date when="1938-08-04">04.08.1938</date>
+                        <date when="1938-01-29">29.01.1938</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="nan">Karl Friedrich Müller</persName>
@@ -54,14 +54,36 @@
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>Sch (2.8)</term>
-<term>fahren (1.4)</term>
-<term>Leipzig (1.4)</term>
-<term>wissen (1.4)</term>
-<term>bitte (1.4)</term>
+                        <term>zweiten (3.97)</term>
+                        <term>Teil (3.17)</term>
+                        <term>Berichtigungen (1.59)</term>
+                        <term>Parallelstellen (1.59)</term>
+                        <term>Bearbeitungen (1.59)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.geonames.org/323786/ankara.html">Ankara</placeName>, <date when="1938-01-29">den 29.1.38</date></dateline>
+                    <address>
+                        <addrLine>P.K. 28</addrLine>
+                    </address>         
+                    <salute>Lieber Herr <persName>Müller</persName>,</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Ich hoffe bald wieder von Ihnen zu hören und sende Ihnen und<lb/>
+                        den Ihren die herzlichsten Grüsse.
+                        Stets Ihr</salute>
+                    <signed>B. Landsberger</signed>
+                </closer>
+                <postscript>
+                        <p></p>
+                </postscript>  
+            </body>
+        </text>
     </TEI>
     

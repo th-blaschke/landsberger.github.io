@@ -5,7 +5,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Brief von Reginald Campbell Thompson an Benno Landsberger vom 01.10.1943 encoded in TEI</title>
+                    <title>Brief von Benno Landsberger an Karl Friedrich Müller vom 24.08.1938 encoded in TEI</title>
                     <respStmt>
                         <resp>Encoded by, </resp>
                         <persName>Theresa Blaschke</persName>
@@ -18,16 +18,16 @@
                     <bibl>
                         <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l78.pdf</idno>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l71.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="1.0">1.0 Seiten</measure>
-                            <measure unit="words" quantity="148">148 Wörter</measure>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="94">94 Wörter</measure>
                         </extent>
                     </bibl>
                     <msDesc>
                         <msIdentifier>
                             <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                            <idno>l78</idno>
+                            <idno>l71</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>
@@ -40,28 +40,43 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="http://www.wikidata.org/entity/Q1918460">Reginald Campbell Thompson</persName>
-                        <settlement ref="https://www.geonames.org/2640729/oxford.html">Oxford</settlement>
-                        <date when="1943-10-01">01.10.1943</date>
+                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <settlement ref="https://www.geonames.org/323786/ankara.html">Ankara</settlement>
+                        <date when="1938-08-24">24.08.1938</date>
                     </correspAction>
                     <correspAction type="received">
-                        <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
+                        <persName ref="nan">Karl Friedrich Müller</persName>
                         <settlement ref="nan">nan</settlement>
                     </correspAction>
                 </correspDesc>
                 <langUsage>
-                    <language ident="eng">englisch</language>
+                    <language ident="de">deutsch</language>
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>thanks (5.26)</term>
-<term>books (5.26)</term>
-<term>work (5.26)</term>
-<term>treating (5.26)</term>
-<term>generous (2.63)</term>
+                        <term>liege (3.85)</term>
+                        <term>Krankenhaus (3.85)</term>
+                        <term>böse (3.85)</term>
+                        <term>Zehe (3.85)</term>
+                        <term>häuslicher (3.85)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <dateline><placeName ref="https://www.geonames.org/323786/ankara.html">Ankara</placeName> <date when="1938-08-24">24/8 38</date></dateline>
+                    <salute>Lieber Herr <persName>Müller</persName>,</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Sie und <persName ref="https://www.wikidata.org/wiki/Q15449583">Schuster</persName> herzlichst grüssend<lb/>
+                        [...?] Ihr alter</salute>
+                    <signed>B. J. L.</signed>
+                </closer>
+            </body>
+        </text>
     </TEI>
     

@@ -5,7 +5,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Brief von Karl Friedrich Müller an Benno Landsberger vom 20.04.1938 encoded in TEI</title>
+                    <title>Brief von Jakob J. Finkelstein an Benno Landsberger vom 19.02.1962 encoded in TEI</title>
                     <respStmt>
                         <resp>Encoded by, </resp>
                         <persName>Theresa Blaschke</persName>
@@ -18,20 +18,20 @@
                     <bibl>
                         <title ref="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">Landsberger Archives</title>
                         <publisher>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</publisher>
-                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/l85.pdf</idno>
+                        <idno>https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/j16.pdf</idno>
                         <extent>
-                            <measure unit="pages" quantity="1.0">1.0 Seiten</measure>
-                            <measure unit="words" quantity="263">263 Wörter</measure>
+                            <measure unit="pages" quantity="1">1 Seite</measure>
+                            <measure unit="words" quantity="186">186 Wörter</measure>
                         </extent>
                     </bibl>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Altorientalisches Institut, Universität Leipzig</repository>
-                            <idno>l85</idno>
+                            <repository>Institut für Archäologie der Hebrew University Jerusalem</repository>
+                            <idno>j16</idno>
                         </msIdentifier>
                         <physDesc>
                             <objectDesc>
-                                <p>Beschreibart: Schreibmaschine (Durchschlagpapier)</p>
+                                <p>Beschreibart: Schreibmaschine mit handschriftlichen Korrekturen/Ergänzungen/Kommentaren</p>
                             </objectDesc>
                         </physDesc>
                     </msDesc>
@@ -40,9 +40,9 @@
             <profileDesc>
                 <correspDesc>
                     <correspAction type="sent">
-                        <persName ref="nan">Karl Friedrich Müller</persName>
-                        <settlement ref="https://www.geonames.org/2809575/wiederitzsch.html">Wiederitzsch </settlement>
-                        <date when="1938-04-20">20.04.1938</date>
+                        <persName ref="http://www.wikidata.org/entity/Q105096216">Jakob J. Finkelstein</persName>
+                        <settlement ref="https://www.geonames.org/5327684/berkeley.html">Berkeley</settlement>
+                        <date when="1962-02-19">19.02.1962</date>
                     </correspAction>
                     <correspAction type="received">
                         <persName ref="http://www.wikidata.org/entity/Q67592">Benno Landsberger</persName>
@@ -50,18 +50,39 @@
                     </correspAction>
                 </correspDesc>
                 <langUsage>
-                    <language ident="de">deutsch</language>
+                    <language ident="eng">englisch</language>
                 </langUsage>
                 <textClass>
                     <keywords>
-                    <term>Schuster (8.57)</term>
-<term>Leipzig (4.29)</term>
-<term>Nachricht (4.29)</term>
-<term>Mai (4.29)</term>
-<term>Zeit (2.86)</term>
+                        <term>Keilschrift (14.67)</term>
+                        <term>beginning (4.0)</term>
+                        <term>line (2.67)</term>
+                        <term>begin (2.67)</term>
+                        <term>Herewith (1.33)</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <text>
+            <body>
+                <opener>
+                    <address>
+                        <orgName>UNIVERSITY OF CALIFORNIA</orgName>
+                        <orgName>DEPARTMENT OF NEAR EASTERN LANGUAGES</orgName>
+                        <addrLine><placeName ref="https://www.geonames.org/5327684/berkeley.html">BERKELEY</placeName> 4, CALIFORNIA</addrLine>                      
+                    </address>
+                    <dateline>
+                        <date when="1962-02-19">February 19, 1962</date>
+                    </dateline>
+                    <salute>Dear Professor,</salute>
+                </opener>
+                <p>TO BE ADDED
+                </p>
+                <closer>
+                    <salute>Cordially yours,</salute>
+                    <signed>Jack</signed>
+                </closer>
+            </body>
+        </text>
     </TEI>
     
