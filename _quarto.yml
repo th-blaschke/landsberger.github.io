@@ -25,6 +25,7 @@ format:
     toc: true
     link-external-icon: true
     link-external-newwindow: true
+    bibliography: references.bib
 
 
 

@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -112,12 +131,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#aufarbeitung-des-briefkorpus1" id="toc-aufarbeitung-des-briefkorpus1" class="nav-link active" data-scroll-target="#aufarbeitung-des-briefkorpus1">Aufarbeitung des Briefkorpus</a>
+  <li><a href="#aufbereitung-des-briefkorpus---editionsprinzipien" id="toc-aufbereitung-des-briefkorpus---editionsprinzipien" class="nav-link active" data-scroll-target="#aufbereitung-des-briefkorpus---editionsprinzipien">Aufbereitung des Briefkorpus - Editionsprinzipien</a>
   <ul class="collapse">
-  <li><a href="#die-auswahl-der-texte" id="toc-die-auswahl-der-texte" class="nav-link" data-scroll-target="#die-auswahl-der-texte">Die Auswahl der Texte</a></li>
-  <li><a href="#optical-character-recognition-ocr-handwritten-text-recognition-htr" id="toc-optical-character-recognition-ocr-handwritten-text-recognition-htr" class="nav-link" data-scroll-target="#optical-character-recognition-ocr-handwritten-text-recognition-htr">Optical Character Recognition (OCR) / Handwritten Text Recognition (HTR)</a></li>
-  <li><a href="#verwendung-von-normdaten" id="toc-verwendung-von-normdaten" class="nav-link" data-scroll-target="#verwendung-von-normdaten">Verwendung von Normdaten</a></li>
-  <li><a href="#erhebung-von-metadaten" id="toc-erhebung-von-metadaten" class="nav-link" data-scroll-target="#erhebung-von-metadaten">Erhebung von Metadaten</a></li>
+  <li><a href="#auswahl-der-texte" id="toc-auswahl-der-texte" class="nav-link" data-scroll-target="#auswahl-der-texte">Auswahl der Texte</a></li>
+  <li><a href="#sec-ocr" id="toc-sec-ocr" class="nav-link" data-scroll-target="#sec-ocr">Optical Character Recognition (OCR) /Handwritten Text Recognition (HTR)</a></li>
+  <li><a href="#sec-normdaten" id="toc-sec-normdaten" class="nav-link" data-scroll-target="#sec-normdaten">Verwendung von Normdaten</a></li>
+  <li><a href="#sec-metadaten" id="toc-sec-metadaten" class="nav-link" data-scroll-target="#sec-metadaten">Erhebung von Metadaten</a></li>
   <li><a href="#kodierung-in-tei" id="toc-kodierung-in-tei" class="nav-link" data-scroll-target="#kodierung-in-tei">Kodierung in TEI</a></li>
   </ul></li>
   </ul>
@@ -143,42 +162,44 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="aufarbeitung-des-briefkorpus1" class="level2">
-<h2 class="anchored" data-anchor-id="aufarbeitung-des-briefkorpus1">Aufarbeitung des Briefkorpus<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h2>
-<section id="die-auswahl-der-texte" class="level3">
-<h3 class="anchored" data-anchor-id="die-auswahl-der-texte">Die Auswahl der Texte</h3>
-<p>Das im Internetauftritt der Universität Leipzig präsentierte "Landsberger Archives" umfasst verschiedene Dokumente aus dem Nachlass und Umfeld von Benno Landsberger. Den Hauptteil der Dokumente machen Briefe von und an Kollegen<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> sowie Familienmitglieder aus. Briefumschläge zu den einzelnen Briefen liegen gar nicht vor. Es finden sich des Weiteren Postkarten, Manuskripte, Notizen und Fotos unter den Dokumenten. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Die Dokumente sind zum Teil in Form von PDF-Dateien verfügbar gemacht. Zu einigen, vor allen Dingen handschriftlich verfassten Briefen, liegt zudem eine Transkription ebenfalls im PDF-Format vor.</p>
-<p>Im Rahmen dieser Arbeit werden die Briefe als Textgattung herangezogen. Diese werden weiter selektiert. Ausgehend von der Fragestellung der Masterarbeit, die auf eine fachhistoriographische Untersuchung abzielt, werden nur Briefe berücksichtigt, die Landsberger mit Fachkollegen ausgetauscht hat. Briefe an und von Familienmitgliedern werden nicht näher betrachtet. Ebenfalls nicht berücksichtigt werden im Nachlass Landsbergers verwahrte Briefe, die offensichtlich in Besitz Landsbergers gekommen sind, jedoch weder von ihm verfasst noch an ihn adressiert wurden. Zudem sind zwei handschriftliche Briefe von C. Schoch an Landsberger nicht in das bearbeitete Briefkorpus eingeflossen, da die schlechte Bildqualität, in der sie zur Verfügung gestellt wurden, für ein HTR-Verfahren nicht ausreicht.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
-<p>Insgesamt wurde für diese Arbeit daher ein Korpus aus 69 Briefen zusammengestellt.</p>
+<section id="aufbereitung-des-briefkorpus---editionsprinzipien" class="level2">
+<h2 class="anchored" data-anchor-id="aufbereitung-des-briefkorpus---editionsprinzipien">Aufbereitung des Briefkorpus - Editionsprinzipien</h2>
+<section id="auswahl-der-texte" class="level3">
+<h3 class="anchored" data-anchor-id="auswahl-der-texte">Auswahl der Texte</h3>
+<p>Das in dieser Masterarbeit genutzte Briefkorpus entstammt den im Internetauftritt der Universität Leipzig als “Landsberger Archives” veröffentlichten Dokumenten aus dem Nachlass und Umfeld von Benno Landsberger.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Bei den in Leipzig aufbewahrten Dokumenten handelt es sich vorrangig um Briefe und Postkarten von und an Kolleg*innen sowie Familienmitglieder. Briefumschläge zu den einzelnen Briefen liegen nicht vor. Insbesondere unter den in Jerusalem aufbewahrten Nachlassobjekten finden sich des Weiteren Manuskripte, Notizen und Fotos.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Briefbeigaben wie Drucke und Manuskripte sind ebenfalls nicht aufbewahrt worden.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Die Dokumente sind als PDF-Dateien verfügbar gemacht. Zu einigen, insbesondere handschriftlich verfassten Briefen, liegt zudem eine Transkription im PDF-Format vor.</p>
+<p>Im Rahmen dieser Arbeit werden die Briefe als Textgattung herangezogen.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Diese werden weiter selektiert. Ausgehend von der Fragestellung der Masterarbeit, die auf eine fachhistoriographische Untersuchung abzielt, werden nur Briefe berücksichtigt, die Landsberger mit Fachkolleg*innen ausgetauscht hat. Briefe an und von Familienmitgliedern werden nicht näher betrachtet. Ebenfalls nicht berücksichtigt werden im Nachlass Landsbergers verwahrte Briefe, die offensichtlich in Besitz Landsbergers gekommen sind, jedoch weder von ihm verfasst noch an ihn adressiert wurden.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Zudem sind zwei handschriftliche Briefe von C. Schoch an Landsberger nicht in das bearbeitete Briefkorpus eingeflossen, da die schlechte Bildqualität, in der sie zur Verfügung gestellt wurden, für ein HTR-Verfahren nicht ausreicht.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Des Weiteren ist zu erwähnen, dass nicht alle Briefe, die im “Landsberger Archives” erwähnt sind, dort auch als Digitalisat veröffentlicht sind und somit auch nicht für diese Arbeit zur Verfügung standen.</p>
+<p>Insgesamt wurde für diese Arbeit daher ein Korpus aus 69 Briefen zusammengestellt, auf das die im Nachfolgenden beschriebenen Editionsschritte angewendet wurden. Während einige Schritte wie die automatische Texterkennung, die Erhebung von Metadaten und die Erstellung eines TEI Headers auf dem Gesamtkorpus durchgeführt werden konnten, wurde die Annotation der Brieftexte nur an einzelnen Briefen erprobt.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
 </section>
-<section id="optical-character-recognition-ocr-handwritten-text-recognition-htr" class="level3">
-<h3 class="anchored" data-anchor-id="optical-character-recognition-ocr-handwritten-text-recognition-htr">Optical Character Recognition (OCR) / Handwritten Text Recognition (HTR)</h3>
-<p>Bei der Auswahl eines Tools zur automatischen Texterkennung, um die im PDF-Format vorliegenden hand- und Schreibmaschinen-schriftlichen Briefe in eine maschinenlesbare Form als TXT-Datei umzuwandeln, waren zwei Kriterien ausschlaggebend. Zum einen war zu berücksichtigen, dass die auf der Internetseite der Universität Leipzig im Landsberger Archives zur Verfügung gestellten PDF-Dateien nicht der Qualität entsprechen, die beispielsweise in den Praxisregeln zur Digitalisierung der DFG beschrieben sind.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Die vorliegenden Briefseiten weisen für die automatische Texterkennung Herausforderungen auf: durchscheinendes Papier, was beidseitig beschrieben ist, so dass Text der Rückseite auf der Vorderseite durchscheint; vergilbtes Papier mit verblasster Schrift; Tintenkleckse; durchgestrichener und korrigierter Text; Notizen an den Seitenrändern; blasse Schrift aufgrund der Tatsache, dass bei mit der Schreibmaschine verfassten Briefen nur das Durchschlagpapier vorliegt und nicht der Originalbrief. Einige dieser Herausforderungen ließen sich durch die gute Qualität eines Scans der Briefseiten und einer Nachbearbeitung mit einem Bildbearbeitungsprogramm sicherlich mindern. Zugang zu den gescannten Bilddateien oder ein erneuter Scan des Materials war im Rahmen dieser Arbeit jedoch nicht vorhanden bzw. zu leisten. Um durch die Umwandlung der vorliegenden PDF-Dateien in Bilddateien nicht einen zusätzlichen Qualitätsverlust zu riskieren, war es daher notwendig ein Tool zu wählen, das auch das PDF-Format unterstützt.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Zum anderen erschien es sinnvoll ein Tool zu nutzen, das sowohl für die Erkennung von maschinenschriftlichem Text (OCR) als auch handschriftlich verfasstem Text (HTR) geeignet ist. Auch wenn einige handschriftlich verfasste Briefe bereits von Mitarbeitenden des Altorientalischen Instituts der Universität Leipzig manuell transkribiert wurden<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>, stand die Texterkennung einiger weiterer Briefe noch aus. Dies grenzte die Auswahl eines Tools auf zwei Optionen ein: Transkribus<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> und OCR4all<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>. Da das Ausgangsmaterial von 69 Briefen nicht ausreichte, um ein eigenes Texterkennungs-Modell insbesondere für die Handschriften zu trainieren<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>, war das Ziel, ein bereits existierendes Modell zu finden, das ein ausreichendes Maß an korrekter Texterkennung ermöglicht und manuelle Nachkorrekturen in Grenzen hält. Letztlich stellte sich durch Ausprobieren der beiden Tools Transkribus als das für dieses Briefkorpus am effektivsten einzusetzende Tool heraus.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> Für die mit der Schreibmaschine verfassten Briefe wurde das Modell <em>Transkribus print 0.3</em><a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> genutzt, für die handschriftlichen Briefe das Modell <em>The Text Titan I</em><a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>.</p>
-<p>Nach der automatischen Texterkennung und Überführung ins TXT-Format wurde eine manuelle Korrektur der OCR/HTR-Fehler vorgenommen. Des Weiteren war es notwendig, einige Entscheidungen bezüglich der Wiedergabe des Brieftextes zu treffen. Dabei wurde sich an folgenden Prinzipien orientiert, die z.T. aus pragmatischen Gründen für diese Masterarbeit gewählt wurden und ihm Rahmen eines größer angelegten Editionsprojekts überdacht werden müssten:</p>
+<section id="sec-ocr" class="level3">
+<h3 class="anchored" data-anchor-id="sec-ocr">Optical Character Recognition (OCR) /Handwritten Text Recognition (HTR)</h3>
+<p>Bei der Auswahl eines Tools zur automatischen Texterkennung, um die im PDF-Format vorliegenden Briefe in Hand- und Schreibmaschinenschrift in eine maschinenlesbare Form als TXT-Datei umzuwandeln, waren zwei Kriterien ausschlaggebend. Zum einen war zu berücksichtigen, dass die auf der Internetseite der Universität Leipzig im “Landsberger Archives”<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> zur Verfügung gestellten PDF-Dateien nicht der Qualität entsprechen, die beispielsweise in den Praxisregeln zur Digitalisierung der DFG beschrieben sind.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> Die vorliegenden Briefseiten weisen für die automatische Texterkennung Herausforderungen auf: durchscheinendes Papier, was beidseitig beschrieben ist, so dass Text der Rückseite auf der Vorderseite durchscheint; vergilbtes Papier mit verblasster Schrift; Tintenkleckse; durchgestrichener und korrigierter Text; Notizen an den Seitenrändern; blasse Schrift aufgrund der Tatsache, dass bei mit der Schreibmaschine verfassten Briefen nur das Durchschlagpapier vorliegt und nicht der Originalbrief; “aus der Reihe tanzende” Buchstaben in den Schreibmaschinendurchschlägen; handschriftliche Notizen in mit der Schreibmaschine geschriebenen Briefen; unterschiedliche vormoderne Sprachen und Schriftarten innerhalb eines Briefes. Einige dieser Herausforderungen ließen sich durch die gute Qualität eines Scans der Briefseiten und einer Nachbearbeitung mit einem Bildbearbeitungsprogramm sicherlich mindern. Zugang zu den gescannten Bilddateien oder ein erneuter Scan des Materials war im Rahmen dieser Arbeit jedoch nicht vorhanden bzw. zu leisten. Um durch die Umwandlung der vorliegenden PDF-Dateien in Bilddateien nicht einen zusätzlichen Qualitätsverlust zu riskieren, war es daher notwendig, ein Tool zu wählen, das auch das PDF-Format unterstützt.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> Zum anderen erschien es sinnvoll, ein Tool zu nutzen, das sowohl für die Erkennung von maschinenschriftlichem Text (OCR) als auch handschriftlich verfasstem Text (HTR) geeignet ist. Auch wenn einige handschriftlich verfasste Briefe bereits von Mitarbeitenden des Altorientalischen Instituts der Universität Leipzig manuell transkribiert wurden<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>, stand die Texterkennung einiger weiterer Briefe noch aus. Dies grenzte die Auswahl eines Tools auf zwei Optionen ein: Transkribus<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> und OCR4all<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>. Da das Ausgangsmaterial von 69 Briefen nicht ausreichte, um ein eigenes Texterkennungs-Modell insbesondere für die Handschriften zu trainieren<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>, war das Ziel, ein bereits existierendes Modell zu finden, das ein ausreichendes Maß an korrekter Texterkennung ermöglicht und manuelle Nachkorrekturen in Grenzen hält. Letztlich stellte sich durch Ausprobieren der beiden Tools Transkribus als das für dieses Briefkorpus am effektivsten einzusetzende Tool heraus.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> Für die mit der Schreibmaschine verfassten Briefe wurde das Modell <em>Transkribus print 0.3</em><a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> genutzt, für die handschriftlichen Briefe das Modell <em>The Text Titan I</em><a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>.</p>
+<p>Nach der automatischen Texterkennung und Überführung ins TXT-Format wurde eine manuelle Korrektur der OCR/HTR-Fehler vorgenommen. Des Weiteren war es notwendig, einige Entscheidungen bezüglich der Wiedergabe des Brieftextes zu treffen. Dabei wurde sich an folgenden Prinzipien orientiert, die z.T. aus pragmatischen Gründen für diese Masterarbeit gewählt wurden und im Rahmen eines größer angelegten Editionsprojekts überdacht werden müssten:</p>
 <ul>
-<li><p>Schreibfehler, die im originalen Brieftext vorliegen, wurden nicht korrigiert, sondern so belassen.</p></li>
-<li><p>Textstellen, die weder durch die automatische Texterkennung noch durch ein manuelles Nachprüfen entzifferbar waren, wurden mit [?] gekennzeichnet, wenn es sich um ein einzelnes Wort handelt, und mit […?] wenn es sich um eine Abfolge von mehr als einem Wort handelt.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p></li>
-<li><p>Im Originaltext fehlende Leerzeichen wurden ergänzt (z.B. S. 4 statt S.4). Zusätzliche Leerzeichen, die im Originaltext zwischen einem Wort und nachfolgender Interpunktion stehen, wurden entfernt (z.B. Herr! statt Herr !). Hintergrund dessen ist, dass im Weiteren verschiedene Textanalyse-Verfahren mithilfe von Python-Skripten durchgeführt werden sollen. Ein einheitlicher Umgang mit Leerzeichen erleichtert somit eine Wortzählung oder Identifizierung einzelner Wörter.</p></li>
-<li><p>Zeilenumbrüche und Worttrennung am Ende von Zeilen werden wie im Original beibehalten.</p></li>
-<li><p>Wurden im Originaltext Wörter durchgestrichen und neu geschrieben oder im Schreibmaschinentext handschriftlich korrigiert, wurde dies nicht originalgetreu in der generierten TXT-Datei dargestellt, sondern die vom Schreibenden intendierte korrigierte Version übernommen. Zu begründen ist dieses Vorgehen damit, dass anders als bei literarischen Texten bei der Analyse eines Briefkorpus eine Betrachtung der Textgenese weniger bedeutsam erscheint und eine automatisierte Textanalyse, die in diesem Rahmen ebenfalls stattfindet, durch den Versuch der Wiedergabe dieser Korrekturschritte erschwert wird.</p></li>
-<li><p>Nicht im Text festgehalten wurde bei mehrseitigen Briefen der Seitenwechsel oder die Angabe, auf welcher Briefseite man sich derzeit befindet, da auch dies eine automatisierte Textanalyse erschweren würde. Um dem Fehlen dieser Information entgegen zu wirken, kann durch ein Nebeneinanderlegen eines Faksimiles des Briefes und des erfassten Brieftexts optisch die Einteilung in Briefseiten nachvollzogen werden.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p></li>
-<li><p>Da es sich um ein Briefkorpus handelt, das einem wissenschaftlichen Austausch im Fach Altorientalistik diente, sind in den Texten vereinzelt handschriftliche Einfügungen von Keilschriftzeichen, hebräischer und phönizischer Schrift zu finden. Diese lassen sich schwer in ein TXT-Format überführen. Daher sind die betreffenden Stellen als {Keilschrift}, {Hebräisch}, {Phönizisch} markiert. Auch hier muss auf das Faksimile des Briefes für eine Ansicht der Schriftzeichen verwiesen werden.</p></li>
-<li><p>Ausführliche handschriftliche Kommentare im Schreibmaschinentext oder Randnotizen in handschriftlichen Texten, die vom Schreibenden nachträglich eingefügt wurden, werden in der erstellten TXT-Datei unter den eigentlichen Brieftext gesetzt und mit einer Markierung versehen, wie sie auch im Originaltext eingefügt wurde, um sie auf die Textstelle zu referenzieren. Bedauerlicherweise ist nicht in jedem Fall unterscheidbar, ob eine Notiz direkt im Schreibprozess hinzugefügt wurde oder ob eine Notiz deutlich später vom Empfänger getätigt wurde.</p></li>
+<li><p>Schreibfehler, die im originalen Brieftext vorliegen, wurden nicht korrigiert, sondern wie im Original belassen.</p></li>
+<li><p>Textstellen, die weder durch die automatische Texterkennung noch durch ein manuelles Nachprüfen entzifferbar waren, wurden mit [?] gekennzeichnet, wenn es sich um ein einzelnes Wort handelt, und mit […?] wenn es sich um eine Abfolge von mehr als einem Wort handelt.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p></li>
+<li><p>Im Originaltext fehlende Leerzeichen wurden ergänzt (z.B. S. 4 statt S.4). Zusätzliche Leerzeichen, die im Originaltext zwischen einem Wort und nachfolgender Interpunktion stehen, wurden entfernt (z.B. Herr! statt Herr !). Hintergrund dessen ist, dass im Weiteren verschiedene Textanalyse-Verfahren mithilfe von Python-Skripten durchgeführt wurden. Ein einheitlicher Umgang mit Leerzeichen erleichterte somit eine Wortzählung oder Identifizierung einzelner Wörter.</p></li>
+<li><p>Zeilenumbrüche und Worttrennung am Ende von Zeilen wurden wie im Original beibehalten.</p></li>
+<li><p>Wurden im Originaltext Wörter durchgestrichen und neu geschrieben, wurde dies nicht originalgetreu in der generierten TXT-Datei dargestellt, sondern die vom Schreibenden intendierte korrigierte Version übernommen. Zu begründen ist dieses Vorgehen damit, dass bei der Analyse eines Briefkorpus eine Betrachtung der Textgenese weniger bedeutsam erscheint als bei literarischen Texten. Eine automatisierte Textanalyse, die in diesem Rahmen ebenfalls stattfindet, würde durch den Versuch der Wiedergabe dieser Korrekturschritte erschwert.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a></p></li>
+<li><p>Nicht im Text festgehalten wurde bei mehrseitigen Briefen der Seitenwechsel oder die Angabe, auf welcher Briefseite man sich derzeit befindet, da auch dies eine automatisierte Textanalyse erschweren würde. Um dem Fehlen dieser Information entgegen zu wirken, kann durch ein Nebeneinanderlegen eines Bilddigitalisats des Briefes und des erfassten Brieftexts optisch die Einteilung in Briefseiten nachvollzogen werden.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p></li>
+<li><p>Da es sich um ein Briefkorpus handelt, das einem wissenschaftlichen Austausch im Fach Altorientalistik diente, finden sich in den Texten vereinzelt handschriftliche Einfügungen von Keilschriftzeichen, hebräischer und phönizischer Schrift. Diese lassen sich schwer in ein TXT-Format überführen. Daher sind die betreffenden Stellen als {Keilschrift}, {Hebräisch}, {Phönizisch} markiert. Auch hier muss auf das Bilddigitalisat des Briefes für eine Ansicht der Schriftzeichen verwiesen werden.</p></li>
+<li><p>Ausführliche handschriftliche Kommentare im Schreibmaschinentext oder Randnotizen in handschriftlichen Texten, die vom Schreibenden nachträglich eingefügt wurden, wurden in der erstellten TXT-Datei unter den eigentlichen Brieftext gesetzt und mit einer Markierung versehen, wie sie auch im Originaltext eingefügt wurde, um sie auf die Textstelle zu referenzieren. Bedauerlicherweise ist nicht in jedem Fall unterscheidbar, ob eine Notiz direkt im Schreibprozess oder zu einem späteren Zeitpunkt, womöglich von einer anderen Person, hinzugefügt wurde.</p></li>
 </ul>
 </section>
-<section id="verwendung-von-normdaten" class="level3">
-<h3 class="anchored" data-anchor-id="verwendung-von-normdaten">Verwendung von Normdaten</h3>
-<p>Die Nutzung von Normdaten bietet für eine digitale Edition eine Reihe von Vorteilen: eine eindeutige Identifizierung von Entitäten (Personen, Orte, Organisationen, Werken etc.) und die Definition von Begriffen, die wiederum die Auffindbarkeit von Daten nach den FAIR-Prinzipien und ihre Verlinkung mit anderen Datenquellen ermöglicht. Auch automatisierte Auswertungen von Daten können durch ihre eindeutige Indentifizierbarmachung durch Normdaten durchgeführt werden.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> Für die Nutzung von Normdaten-Quellen existieren verschiedene Empfehlungen.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a></p>
-<p>Im Rahmen dieser Masterarbeit mit einer fachhistoriographsichen Fragestellung ist bezüglich Normdaten zwischen zwei Kategorien zu unterscheiden. Zum einen gilt es, moderne Personen, Orte und Publikationen mit Normdaten anzureichern. Hierzu wurden maßgeblich zwei Normdaten-Quellen herangezogen, nämlich Wikidata<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a> und die GND<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a>. Auch wenn in anerkannten Leitlinien wie den Praxisregeln zur Digitalisierung der DFG ausschließlich die GND als Referenzquelle genannt wird<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> und auch die Handreichung für ein FAIRes Management kulturwissenschaftlicher Daten darauf hinweist, dass Pflege und Ausbau von Wikidata nicht in einer klaren institutionellen Verantwortlichkeit liegen<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> und Wikidata als Datenquelle daher mit einer gewissen Vorsicht zu betrachten ist, so lässt sich dennoch begründen, warum die Nutzung beider Normdaten-Quellen im Rahmen dieser Masterarbeit sinnvoll ist. Verschafft man sich auf Wikidata einen Überblick zu Personen, die als Altorientalist*innen gelabelt werden (s.u.) und die potenziell Teil des wissenschaftlichen Umfelds von Landsberger gewesen sind (durch Briefkorrespondenz, gemeinsame Publikationen, Rezensionen etc.), wird deutlich, dass es sich dabei um einen internationalen Personenkreis handelt, so dass dementsprechend nicht zu jeder einzelnen Person in der GND ein Eintrag zu finden ist. Wikidata bietet hier einen weiteren Spielraum und erfasst gleichzeitig auch internationale Normdaten zu einer Person (wie z.B. eine VIAF ID). Es gibt gleichzeitig jedoch auch andere Fälle, in denen der Bekanntheitsgrad von Wissenschaftler*innen nicht über das nationale Wissenschaftsfeld hinausgeht und daher aufgrund einer in Deutschland getätigten Publikation nur ein Eintrag in der GND vorliegt, jedoch kein Eintrag auf Wikidata. Um beide Eventualitäten abzudecken wurden daher insbesondere in den Metadaten sowohl die Wikidata- als auch die GND-ID eingefügt.</p>
-<p>Zum anderen stellen sich in Bezug auf das hier untersuchte Briefkorpus insbesondere auch für die Annotation der Briefinhalte und ihre Verknüpfung mit Normdaten Herausforderungen. Auch wenn in der Altorientalistik Initiativen existieren, die auf die Erarbeitung von kontrollierten Vokabularen hinarbeiten<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a>, stehen diese Bemühungen noch in den Anfängen und sind noch nicht auf breiter Ebene in der Fachkultur etabliert. In Bezug auf altorientalische Personennamen, die in den Brieftexten diskutiert werden, muss daher ebenfalls auf Wikidata als Quelle zurückgegriffen werden. In Fällen, in denen es sich bei der erwähnten Person um einen bekannteren König handelt, ist die Wahrscheinlichkeit hoch, dass ein passender Wikidata-Eintrag existiert. Bei anderen altorientalischen Personen aus dem Alltagsleben trifft dies meist nicht zu. Was die Nennung von altorientalischen Ortsnamen angeht, bietet sich die Möglichkeit, auf den Gazetteer <em>Pleiades</em><a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a> zurückzugreifen, der von einer Citizen-Science-Community gepflegt wird und Informationen über antike Ortsnamen sammelt. Einzelne Keilschrifttexte, die in den Briefen diskutiert werden und anhand ihres Namens, ihrer Museumsnummer oder ihres Publikationsortes genannt werden, können mit den Einträgen in der Datenbank der Cuneiform Digital Library Initiative<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a> verknüpft werden, wo zusätzliche Informationen sowie Fotos und Kopien der Texte zur Verfügung gestellt werden. Um auch sumerische oder akkadische Wörter, deren Bedeutung im Briefkorpus diskutiert wird, referenzieren zu können, bedürfte es digitaler Wörterbücher, die eine stabile Zitierung ermöglichen. Diese sind in der Altorientalistik derzeit noch ein Desiderat.</p>
-<p>Briefe als Textgattung transportieren oft Informationen, die nicht explizit formuliert und nur so weit erklärt sind, dass die empfangende Person diese versteht. Diese impliziten Informationen zu dekodieren und durch die Anreicherung mit Normdaten eindeutig identifizierbar zu machen, kann daher für Wissenschaftler*innen, die ein Briefkorpus mit einem gewissen zeitlichen Abstand und außerhalb der Community analysieren, in der der Brief entstanden ist, eine Herausforderung darstellen. Die Bereitstellung des hier analysierten Briefkorpus im Webauftritt der Universität Leipzig geht bereits mit einigen erklärenden Informationen zu Absender und Empfänger der Briefe sowie einigen wenigen inhaltlichen Informationen einher. Um die Arbeit mit den Briefen weiter zu erleichtern, wurden im Rahmen dieser Masterarbeit zwei csv-Tabellen geschaffen.</p>
-<p>In der ersten csv-Datei<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a> wurden Namen von Personen mit ihren zugehörigen Einträgen in Wikidata und der GND gesammelt, die allgemein als "Altorientalist*innen"<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a> verstanden werden und während Landsbergers Lebenszeit im Fach aktiv waren. Hierzu wurde eine SPARQL-Query geschrieben, die über den Wikidata Query Service<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a> eine Abfrage nach Personen durchführt, die den Beruf (P106 occupation) Assyriologist (Q19361459) oder Hittitologist (Q4529715) haben, deren Geburtsdatum (P569) zwischen 1820 und 1948 liegt und deren Todesdatum (P570) nicht vor 1908, dem Jahr, in dem Landsberger sein Studium in Leipzig begann, liegt.<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> Diese Vorgehensweise ist in der Hinsicht kritisch zu betrachten, da sich die grundlegende Frage stellt: Welche Personen sind als Altorientalist*innen einzustufen und welche nicht? Ist man bereits Altorientalist*in, wenn man hauptsächlich in einer Nachbardisziplin forscht, aber dennoch vereinzelte Publikationen erstelltt, die sich mit Forschungsfragen der Altorientalistik beschäftigen? Gleichzeitig muss man kritisch hinterfragen, inwiefern auf einer offenen Plattform wie Wikidata klare Regeln für das Erstellen von Labeln existieren. Werden auf Wikidata auch Forschende zu Archäologie mit Labeln wie Assyriologist und Hittitologist versehen? Bei Durchsicht der entstandenen Datei wurde deutlich, dass einerseits unvollständige, inkorrekte und nicht durch Referenzen belegte Einträge<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a> unter den Suchergebnissen vorhanden waren, die daher gelöscht wurden. Gleichzeitig war auffällig, dass bekannte Namen, die jedem Studierenden der Altorientalistik im Laufe des Studiums begegnen, in dieser Liste fehlten. Daher wurden zwei weitere Quellen hinzugezogen, um die Liste zu vervollständigen. Dies war zum einen die Webseite "Who is who in Assyriology"<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a> , zum anderen die Lemmaliste des "Reallexikon für Assyriologie und Vorderasiatische Archäologie", die in der Rubrik "History of Science" Nachrufe auf verstorbene Altorientalist*innen listet.<a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a> Durch einen manuellen Abgleich mit der mithilfe von Wikidata erstellten Liste und dem Reconciliation Service des Data Wrangling Tools OpenRefine<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a> konnte die Liste ergänzt werden und die fehlenden Personen ebenfalls größtenteils in Wikidata aufgefunden werden. Dass diese Personen nicht mit der ursprünglichen SPARQL-Anfrage erfasst wurden, lag darin begründet, dass entweder gar keine oder fehlerhafte Geburtsdaten in Wikidata eingetragen waren oder den Personen andere Berufe zugeordnet waren. Die Problematik dieses Labelings und der offenen Frage "Welche Personen sind als Altorientalist*innen zu definieren" lässt es nicht zu, die entstandene csv-Datei als ein allgemeines fachhistoriographisches Nachschlagewerk für Altorientalist*innen zu verstehen. Sie kann höchstens als eine Basis für eine Diskussion dieser Fragen dienen. Was diese Datei im Rahmen dieser Masterarbeit jedoch leistet, ist die Möglichkeit, einen Personenkreis einzugrenzen, um in den Briefen genannte Namen leichter zu identifizieren. Ist in den Briefen lediglich ein Nachname wie Schuster, Friedrich oder Pohl ohne genauere Angaben genannt, kann dieser Name zuerst mit der csv-Datei abgeglichen werden und geprüft werden, ob es sich um die entsprechende Person handelt.</p>
-<p>Die zweite erstellte csv-Datei<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a> basiert auf einem 1974 publizierten Artikel von Anne Draffkorn Kilmer und Johannes Renger, der einen Überblick über die von Landsberger verfassten Publikationen bietet.<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a> Der Artikel wurde wie auch das Briefkorpus mit Transkribus (s.o.) einem OCR-Verfahren unterzogen und die erstellte TXT-Datei manuell in Tabellenform umgewandelt. Die darin enthaltenen Namen von Autor*innen, mit denen Landsberger kollaboriert oder sie rezensiert hat, wurden mit ihren zugehörigen Wikidata- und GND-Einträgen verknüpft. Titel und Publikationsreihen sowie Zeitschriften wurden, insoweit möglich, mit ihren GND-Einträgen, oder falls alternativ vorhanden mit dem zugehörigen Wikidata-Eintrag, verbunden. Dies geschah entweder manuell oder über den Reconciliation Service von OpenRefine Die entstandene csv-Datei bietet somit die Möglichkeit, in Vorbereitung befindliche Publikationen, auf die in den Briefen angespielt wird, leichter zu identifizieren.</p>
+<section id="sec-normdaten" class="level3">
+<h3 class="anchored" data-anchor-id="sec-normdaten">Verwendung von Normdaten</h3>
+<p>Die Nutzung von Normdaten bietet für eine digitale Edition eine Reihe von Vorteilen: eine eindeutige Identifizierung von Entitäten (Personen, Orte, Organisationen, Werke etc.) und die Definition von Begriffen, die wiederum die Auffindbarkeit von Daten nach den FAIR-Prinzipien<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> und ihre Verknüpfung mit anderen Datenquellen ermöglicht. Auch können automatisierte Auswertungen von Daten durch ihre eindeutige Identifizierbarmachung mit Normdaten durchgeführt werden.<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a> Für die Nutzung von Normdatenquellen existieren verschiedene Empfehlungen.<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
+<p>Im Rahmen dieser Masterarbeit mit einer fachhistoriographsichen Fragestellung ist bezüglich Normdaten zwischen zwei Kategorien zu unterscheiden. Zum einen gilt es, moderne Personen, Orte und Publikationen mit Normdaten anzureichern. Hierzu wurden maßgeblich drei Normdatenquellen herangezogen, nämlich Wikidata<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a>, GeoNames<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a> und die GND<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>. Auch wenn in anerkannten Leitlinien wie den Praxisregeln zur Digitalisierung der DFG in Bezug auf die Verknüpfung von Personennamen mit Normdaten ausschließlich die GND als Referenzquelle genannt wird<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a> und auch die <em>Handreichung für ein FAIRes Management kulturwissenschaftlicher Daten</em> darauf hinweist, dass Pflege und Ausbau von Wikidata nicht in einer klaren institutionellen Verantwortlichkeit liegen<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> und Wikidata als Datenquelle daher mit einer gewissen Vorsicht zu betrachten ist, lässt sich dennoch begründen, warum die Nutzung beider Normdatenquellen im Rahmen dieser Masterarbeit sinnvoll ist. Verschafft man sich auf Wikidata einen Überblick zu Personen, die als Altorientalist*innen gelabelt werden (siehe <strong>?@sec-kontextualisierung</strong>) und die potenziell Teil des wissenschaftlichen Umfelds von Landsberger gewesen sind (durch Briefkorrespondenz, gemeinsame Publikationen, Rezensionen etc.), wird deutlich, dass es sich um einen internationalen Personenkreis handelt, so dass dementsprechend nicht zu jeder einzelnen Person in der GND ein Eintrag zu finden ist. Wikidata bietet hier einen weiteren Spielraum und erfasst gleichzeitig auch internationale Normdaten zu einer Person (wie z.B. eine VIAF ID). Es gibt gleichzeitig jedoch auch andere Fälle, in denen der Bekanntheitsgrad von Wissenschaftler*innen nicht über das nationale Wissenschaftsfeld hinausgeht und daher aufgrund einer in Deutschland getätigten Publikation nur ein Eintrag in der GND vorliegt, jedoch kein Eintrag auf Wikidata. Um beide Eventualitäten abzudecken, wurden daher insbesondere in den Metadaten sowohl die Wikidata ID als auch die GND ID eingefügt.</p>
+<p>Zum anderen entstehen in Bezug auf die Annotation der Briefinhalte und ihre Verknüpfung mit Normdaten weitere Herausforderungen. Auch wenn in der Altorientalistik Initiativen existieren, die auf die Erarbeitung von kontrollierten Vokabularen hinarbeiten<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a>, stehen diese Bemühungen noch in den Anfängen und sind noch nicht auf breiter Ebene in der Fachkultur etabliert. In Bezug auf altorientalische Personennamen, die in den Brieftexten diskutiert werden, muss daher ebenfalls auf Wikidata als Quelle zurückgegriffen werden. In Fällen, in denen es sich bei der erwähnten Person um einen bekannteren König handelt, ist die Wahrscheinlichkeit hoch, dass ein passender Wikidata-Eintrag existiert. Bei anderen altorientalischen Personen aus dem Alltagsleben trifft dies meist nicht zu. Was die Nennung von altorientalischen Ortsnamen angeht, bietet sich die Möglichkeit, auf den Gazetteer Pleiades<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a> zurückzugreifen, der von einer Citizen-Science-Community gepflegt wird und Informationen über antike Ortsnamen sammelt. Einzelne Keilschrifttexte, die in den Briefen diskutiert werden und anhand ihres Namens, ihrer Museumsnummer oder ihres Publikationsortes genannt werden, können mit den Einträgen in der Datenbank der <em>Cuneiform Digital Library Initiative</em><a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a> verknüpft werden, wo zusätzliche Informationen sowie Fotos und Kopien der Texte zur Verfügung gestellt werden. Um auch sumerische oder akkadische Wörter, deren Bedeutung im Briefkorpus diskutiert wird, referenzieren zu können, bedürfte es digitaler Wörterbücher, die eine stabile Zitierung ermöglichen. Diese sind in der Altorientalistik derzeit noch ein Desiderat.</p>
+<p>Briefe als Textgattung transportieren oft Informationen, die nicht explizit formuliert und nur so weit erklärt sind, dass die den Brief empfangende Person diese versteht. Diese impliziten Informationen zu dekodieren und durch die Anreicherung mit Normdaten eindeutig identifizierbar zu machen, kann daher für Wissenschaftler*innen, die ein Briefkorpus mit einem gewissen zeitlichen Abstand und außerhalb der Community analysieren, in der der Brief entstanden ist, eine Herausforderung darstellen. Die Bereitstellung des hier analysierten Briefkorpus im Webauftritt der Universität Leipzig geht bereits mit vereinzelten erklärenden Informationen zu Absender*innen und Empfänger*innen der Briefe sowie inhaltlichen Informationen einher.<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a> Um die Arbeit mit den Briefen weiter zu erleichtern, wurden im Rahmen dieser Masterarbeit zwei Datensammlungen geschaffen, die bereits in <strong>?@sec-kontextualisierung</strong> beschrieben wurden.</p>
+<p>Bei der ersten Datensammlung handelt es sich um Personennamen, die zu Landsbergers Lebzeiten die Altorientalistik-Fachcommunity ausmachten. Diese Liste bietet neben einer Darstellung der Fachcommunity gleichzeitig auch eine Möglichkeit, den potenziellen Personenkreis einzugrenzen, der in den Briefen erwähnt wird. Ist lediglich ein Nachname wie Schuster, Friedrich oder Pohl ohne genauere Angaben genannt, kann zuerst versucht werden, den Namen in diesem Personenkreis zu finden, bevor eine weitere Recherche nach der erwähnten Person stattfinden muss, was sich unter Umständen zu einer Suche nach der Nadel im Heuhaufen entwickeln kann, wenn nur wenige Angaben im Brief vorliegen.</p>
+<p>Die zweite Datensammlung in Form einer CSV-Datei<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a> basiert auf einem 1974 publizierten Artikel von Anne Draffkorn Kilmer und Johannes Renger, der einen Überblick über die von Landsberger verfassten Publikationen bietet.<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a> Der Artikel wurde wie auch das Briefkorpus mithilfe des Tools Transkribus (siehe <a href="#sec-ocr">Section&nbsp;1.2</a>) einem OCR-Verfahren unterzogen und die erstellte TXT-Datei manuell in Tabellenform umgewandelt. Die darin enthaltenen Namen von Autor*innen, mit denen Landsberger kollaboriert oder sie rezensiert hat, wurden mit ihren zugehörigen Wikidata- und GND-Einträgen verknüpft. Titel und Publikationsreihen sowie Zeitschriften wurden, insoweit möglich, mit ihren GND-Einträgen oder, falls alternativ vorhanden, mit dem zugehörigen Wikidata-Eintrag verbunden. Dies geschah entweder manuell oder über den Reconciliation Service von OpenRefine<a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a>. Die entstandene CSV-Datei bietet somit die Möglichkeit, Publikationen, an denen Landsberger mitgewirkt hat und auf die in den Briefen angespielt wird, leichter zu identifizieren. Beispielsweise dreht sich eine Vielzahl der Briefe, die zwischen Karl Friedrich Müller und Benno Landsberger ausgetauscht wurden, um die Publikation des ersten Bandes der Reihe <em>Materialien zum sumerischen Lexikon</em>.<a href="#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a></p>
 </section>
-<section id="erhebung-von-metadaten" class="level3">
-<h3 class="anchored" data-anchor-id="erhebung-von-metadaten">Erhebung von Metadaten</h3>
-<p>Folgende Metadaten<a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a> wurden, insoweit vorhanden, für die einzelnen Briefe des Korpus zusammengestellt und sind als csv-Datei auf GitHub einsehbar<a href="#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a>:</p>
+<section id="sec-metadaten" class="level3">
+<h3 class="anchored" data-anchor-id="sec-metadaten">Erhebung von Metadaten</h3>
+<p>Folgende Metadaten<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> wurden zusammengestellt<a href="#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a>, insoweit sie aus den Einzelbriefen ersichtlich wurden:</p>
+<div id="tbl-metadaten" class="anchored">
 <table class="table">
+<caption>Table&nbsp;1: Metadaten zur Briefkorrespondenz Landsbergers</caption>
 <thead>
 <tr class="header">
 <th><strong>Erfasste Metadaten</strong></th>
@@ -188,263 +209,109 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Dateiname</td>
-<td>Die im Rahmen der Digitalisierung der Einzelbriefe entstehenden TXT- und XML-Dateien erfordern eine systematische Benennung. Die einzelnen Dateinamen setzen sich aus dem auf dem Briefbogen genannten Datum sowie dem Nachnamen von Absender und Empfänger zusammen.</td>
+<td>Die im Rahmen der Digitalisierung der Einzelbriefe entstehenden TXT- und XML-Dateien erfordern eine systematische Benennung. Die einzelnen Dateinamen setzen sich aus dem im Briefkopf genannten Datum sowie dem Nachnamen von Absender*in und Empfänger*in zusammen.</td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>Landsberger Archives Signatur</td>
-<td>Entspricht den auf den Seiten der Universität Leipzig im Landsberger Archives vergebenen Nummern für die einzelnen Dokumente.</td>
-</tr>
-<tr class="odd">
-<td><p>Datum (ISO 8601)</p>
-<p>Datum (de)</p></td>
-<td>Das im Briefkopf genannte Datum wird zum einen im Format JJJJ-MM-DD sowie dem in Deutschland meist gebräuchlichen Format DD.MM.JJJJ angegeben. Ersteres Format entspricht der ISO-Norm 8601 und ist damit ortsunabhängig und für automatisierte Abfragen leicht handhabbar.<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> In dieser Arbeit ist es insbesondere für die Kodierung der Brieftexte in TEI relevant.</td>
+<td>Entspricht den auf den Seiten der Universität Leipzig im “Landsberger Archives”<a href="#fn39" class="footnote-ref" id="fnref39" role="doc-noteref"><sup>39</sup></a> vergebenen Nummern für die einzelnen Dokumente.</td>
 </tr>
 <tr class="even">
-<td><p>Absender</p>
-<p>Absender GND ID</p>
-<p>Absender Wikidata ID</p></td>
-<td>Um eine einheitliche Schreibung und eindeutige Identifizierung von Personen zu erreichen, werden die Namen der Absender und Empfänger der Briefe gemäß dem Label wiedergegeben, das sich in ihrem jeweiligen Eintrag in Wikidata findet. Eine beteiligte Person ist nicht auf Wikidata aber in der GND zu finden und wird daher gemäß diesen Angaben bezeichnet. Zu zwei weiteren Personen existieren weder auf Wikidata noch in der GND Einträge. Insoweit vorhanden wurden für alle Personen für eine eindeutige Referenzierbarkeit sowohl die Wikidata ID als auch die GND ID in der Metadatentabelle hinzugefügt.</td>
-</tr>
-<tr class="odd">
-<td><p>Empfänger</p>
-<p>Empfänger GND ID</p>
-<p>Empfänger Wikidata ID</p></td>
+<td></td>
 <td></td>
 </tr>
-<tr class="even">
-<td><p>Aufenthaltsort Absender</p>
-<p>Aufenthaltsort Absender Wikidata ID</p></td>
-<td>Der Aufenthaltsort des Absenders wurde gemäß der Nennung in den Briefen erfasst. Der Aufenthaltsort des Empfängers ist in den wenigstens Fällen aus den Briefen ersichtlich und daher nur vereinzelt eingetragen. Zur eindeutigen Referenzierbarkeit sind die Ortsnamen mit ihrer jeweiligen Wikidata ID erfasst.</td>
-</tr>
 <tr class="odd">
-<td><p>Aufenthaltsort Empfänger</p>
-<p>Aufenthaltsort Empfänger Wikidata ID</p></td>
+<td>Datum (ISO 8601) // Datum (de)</td>
+<td>Das im Briefkopf genannte Datum wird zum einen im Format JJJJ-MM-DD sowie dem in Deutschland meist gebräuchlichen Format DD.MM.JJJJ angegeben. Ersteres Format entspricht der ISO-Norm 8601 und ist damit ortsunabhängig und für automatisierte Abfragen leicht handhabbar.<a href="#fn40" class="footnote-ref" id="fnref40" role="doc-noteref"><sup>40</sup></a> In dieser Arbeit ist es insbesondere für die Kodierung der Brieftexte in TEI relevant.</td>
+</tr>
+<tr class="even">
+<td></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td>Absender*in/Empfänger*in // GND ID // Wikidata ID</td>
+<td>Um eine einheitliche Schreibung und eindeutige Identifizierung von Personen zu erreichen, werden die Namen der Absender*innen und Empfänger*innen der Briefe gemäß des Labels wiedergegeben, das sich in ihrem jeweiligen Eintrag in Wikidata findet. Eine beteiligte Person ist nicht auf Wikidata aber in der GND zu finden und wird daher gemäß dieser Angaben bezeichnet. Zu zwei weiteren Personen existieren weder auf Wikidata noch in der GND Einträge. Insoweit vorhanden, wurden für alle Personen für eine eindeutige Referenzierbarkeit sowohl die Wikidata ID als auch die GND ID in der Metadatentabelle hinzugefügt.</td>
+</tr>
 <tr class="even">
-<td><p>Sprache</p>
-<p>Sprache ID</p></td>
-<td>Unter Sprache wird die Hauptsprache, in der die Briefe verfasst sind, angegeben (Deutsch, Englisch, Französisch). In einigen Briefen finden sich zusätzlich Passagen in altorientalischen Sprachen. Das Vorhandensein dieser Passagen wird jedoch nicht in den Metadaten erfasst, sondern mittels Annotation (siehe unten). Zur eindeutigen Referenzierbarkeit wird die Hauptsprache mit einem Identifier gemäß IANA versehen, wie es auch in den TEI-Richtlinien vorgeschlagen wird.<a href="#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Aufenthaltsort Absender*in/Empfänger*in // GeoNames ID</td>
+<td>Der Aufenthaltsort der*s Absender*in wurde gemäß der Nennung in den Briefen erfasst. Der Aufenthaltsort der*s Empfänger*in ist in den wenigstens Fällen aus den Briefen ersichtlich und daher nur vereinzelt eingetragen. Zur eindeutigen Referenzierbarkeit sind die Ortsnamen mit ihrer jeweiligen GeoNames ID erfasst.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Sprache // Sprache ID</td>
+<td>Unter Sprache wird die Hauptsprache, in der die Briefe verfasst sind, angegeben (Deutsch, Englisch, Französisch). In einigen Briefen finden sich zusätzlich Passagen in altorientalischen Sprachen. Das Vorhandensein dieser Passagen wird jedoch nicht in den Metadaten erfasst, sondern mittels Annotation (siehe <a href="#sec-teitext">Section&nbsp;1.5.2</a>). Zur eindeutigen Referenzierbarkeit wird die Hauptsprache mit einem Identifier gemäß IANA versehen, wie es auch in den TEI Guidelines vorgeschlagen wird.<a href="#fn41" class="footnote-ref" id="fnref41" role="doc-noteref"><sup>41</sup></a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>Schriftart</td>
-<td>Dieses Feld enthält die Angabe, ob es sich um einen handschriftlich oder mit der Schreibmaschine verfassten Brief handelt. In Bezug auf Schreibmaschinentext wird zudem unterschieden, ob es sich um das Brieforiginal oder den Durchschlag handelt und ob handschriftliche Korrekturen und Notizen hinzugefügt wurden oder nicht.</td>
+<td>Dieses Feld enthält die Angabe, ob es sich um einen handschriftlich oder mit der Schreibmaschine verfassten Brief handelt. In Bezug auf Schreibmaschinentext wird zudem unterschieden, ob es sich um das Brieforiginal oder den Durchschlag handelt und ob handschriftliche Korrekturen und Notizen hinzugefügt wurden.</td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>verwahrt von</td>
-<td>Angegeben wird hier, von welcher Institution bzw. Privatperson der jeweilige Brief aufbewahrt wird.</td>
+<td>Angabe, von welcher Institution bzw. Privatperson der jeweilige Brief aufbewahrt wird.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>Anzahl Seiten</td>
-<td>Angabe der Anzahl von Seiten, die der Brief umfasst (mittels eines Python-Skriptes erfasst)</td>
+<td>Angabe der Anzahl von Seiten, die der Brief umfasst.<a href="#fn42" class="footnote-ref" id="fnref42" role="doc-noteref"><sup>42</sup></a></td>
 </tr>
 <tr class="even">
-<td>Anzahl Wörter</td>
-<td>Angabe der Anzahl von Wörtern, die der Brief enthält (inklusive Datumszeile, Anschrift etc.) (mittels eines Python-Skriptes erfasst)</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>Häufigste Wörter</td>
-<td>Um eine einfache Zusammenfassung des Inhalts und Schwerpunkts der einzelnen Briefe zu ermöglichen, wurde ein Python-Skript entwickelt, das nach einer Entfernung von Stoppwörtern die Häufigkeit des Vorkommens von einzelnen Wörtern erfasst. Dabei werden nur die Wörter berücksichtigt, die mehr als einmal in dem jeweiligen Brief auftreten. Sind eine Vielzahl von Wörtern mit einer hohen Häufigkeit vertreten, werden nur die fünf häufigsten erfasst.</td>
+<td>Anzahl Wörter</td>
+<td>Angabe der Anzahl von Wörtern, die der Brief enthält (inklusive Datumszeile, Anschrift etc.).<a href="#fn43" class="footnote-ref" id="fnref43" role="doc-noteref"><sup>43</sup></a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Häufigste Wörter (Relative Häufigkeit)</td>
+<td>Um eine einfache Zusammenfassung des Inhalts und Schwerpunkts der einzelnen Briefe zu ermöglichen, wurde ein Python-Skript entwickelt, das nach einer Entfernung von Stoppwörtern die Häufigkeit der fünf häufigst genannten Wörter im Text erfasst. Dabei wird die relative Häufigkeit<a href="#fn44" class="footnote-ref" id="fnref44" role="doc-noteref"><sup>44</sup></a> des Vorkommens eines Wortes ermittelt. Eine Lemmatisierung der Wörter hat zuvor nicht stattgefunden.<a href="#fn45" class="footnote-ref" id="fnref45" role="doc-noteref"><sup>45</sup></a></td>
 </tr>
 </tbody>
 </table>
+</div>
 </section>
 <section id="kodierung-in-tei" class="level3">
 <h3 class="anchored" data-anchor-id="kodierung-in-tei">Kodierung in TEI</h3>
-<p>TEI ist ein etablierter Standard für die Kodierung von geisteswissenschaftlichen Texten im Allgemeinen. Es existieren aber auch spezielle Auszeichnungsmöglichkeiten für die Textgattung Brief, um beispielsweise den Briefkopf, Gruß- und Schlussformeln und Postskripta zu kodieren. Das Element &lt;correspDesc&gt; im Header kann zudem die relevanten Metadaten erfassen, die es ermöglichen, Briefdaten aus verschiedenen Korpora miteinander zu verknüpfen.<a href="#fn39" class="footnote-ref" id="fnref39" role="doc-noteref"><sup>39</sup></a> Dementsprechend wurde gemäß den TEI Richtlinien<a href="#fn40" class="footnote-ref" id="fnref40" role="doc-noteref"><sup>40</sup></a> auch für dieses Briefkorpus ein Schema entwickelt, um die einzelnen Briefe zu kodieren.</p>
+<p>TEI ist ein etablierter Standard für die Kodierung von geisteswissenschaftlichen Texten im Allgemeinen. Es existieren aber auch spezielle Auszeichnungsmöglichkeiten für die Textgattung Brief, um beispielsweise den Briefkopf, Gruß- und Schlussformeln und Postskripta zu kodieren. Das Element &lt;correspDesc&gt; im Header kann zudem die relevanten Metadaten erfassen, die es ermöglichen, Briefdaten aus verschiedenen Korpora miteinander zu verknüpfen.<a href="#fn46" class="footnote-ref" id="fnref46" role="doc-noteref"><sup>46</sup></a> Dementsprechend wurde gemäß den TEI Guidelines<a href="#fn47" class="footnote-ref" id="fnref47" role="doc-noteref"><sup>47</sup></a> auch für dieses Briefkorpus ein Schema entwickelt, um die einzelnen Briefe zu kodieren.</p>
 <section id="tei-header" class="level4">
 <h4 class="anchored" data-anchor-id="tei-header">TEI Header</h4>
-<p>Die Erstellung des TEI Header für die einzelnen Briefe wurde größtenteils mithilfe der oben beschriebenen Metadatentabelle durchgeführt. Hierzu wurde ein Python-Skript geschrieben, das die Daten aus der Metadatentabelle automatisiert in den jeweiligen Brief-Header einfügt. Folgende Tags wurden dabei in Verbindung mit den Metadaten gebracht. Der Name der jeweiligen Spalte der Metadatentabelle wird in der untenstehenden Tabelle in geschweiften Klammern {} angegeben.</p>
-<table class="table">
-<colgroup>
-<col style="width: 10%">
-<col style="width: 19%">
-<col style="width: 19%">
-<col style="width: 49%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>TEI Tag</strong></th>
-<th><strong>Attribut</strong></th>
-<th></th>
-<th><strong>Metadaten und/oder default-Werte</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>&lt;fileDesc&gt;</strong></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>&lt;titleStmt&gt;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>&lt;title&gt;</td>
-<td></td>
-<td></td>
-<td>Brief von {Absender} an {Empfänger} vom {Datum (de)} encoded in TEI</td>
-</tr>
-<tr class="even">
-<td><p>&lt;respStmt&gt;&lt;resp&gt;</p>
-<p>&lt;persName&gt;</p></td>
-<td></td>
-<td></td>
-<td><p>Encoded by</p>
-<p>Theresa Blaschke</p></td>
-</tr>
-<tr class="odd">
-<td>&lt;publicationStmt&gt;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>&lt;p&gt;</td>
-<td></td>
-<td></td>
-<td>Bereitgestellt auf GitHub-Pages als Teil der Masterarbeit "Digitale Briefedition in der Fachhistoriographie der Altorientalistik. Eine Fallstudie zu Benno Landsberger" im Fach Cultural Data Studies, Philipps-Universität Marburg von Theresa Blaschke</td>
-</tr>
-<tr class="odd">
-<td>&lt;sourceDesc&gt;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>&lt;bibl&gt;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>&lt;title&gt;</td>
-<td>ref= "https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives"</td>
-<td></td>
-<td>Landsberger Archives</td>
-</tr>
-<tr class="even">
-<td>&lt;publisher&gt;</td>
-<td></td>
-<td></td>
-<td>Altorientalisches Institut Universität Leipzig und Hebrew University Jerusalem</td>
-</tr>
-<tr class="odd">
-<td>&lt;idno&gt;</td>
-<td></td>
-<td></td>
-<td>https://www.gkr.uni-leipzig.de/fileadmin/<br>
-Fakult%C3%A4t_GKR/ Altorientalisches_Institut/<br>
-Landsberger/{Landsberger Archives Signatur}.pdf</td>
-</tr>
-<tr class="even">
-<td>&lt;extent&gt;&lt;measure&gt;</td>
-<td></td>
-<td>unit="pages" quantity=" { Anzahl Seiten}"</td>
-<td>{Anzahl Seiten} Seiten</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>unit="words" quantity="{Anzahl Wörter}"</td>
-<td>{Anzahl Wörter} Wörter</td>
-</tr>
-<tr class="even">
-<td>&lt;msDesc&gt;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>&lt;msIdentifier&gt;&lt;repository&gt;</p>
-<p>&lt;idno&gt;</p></td>
-<td></td>
-<td></td>
-<td><p>{verwahrt von}</p>
-<p>{LandsbergerArchives Signatur}</p></td>
-</tr>
-<tr class="even">
-<td>&lt;physDesc&gt;&lt;objectDesc&gt;&lt;p&gt;</td>
-<td></td>
-<td></td>
-<td>Beschreibart: {Schriftart}</td>
-</tr>
-<tr class="odd">
-<td><strong>&lt;profileDesc&gt;</strong></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>&lt;correspDesc&gt;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>&lt;correspAction&gt;</td>
-<td></td>
-<td>type="sent" oder type="received"</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>&lt;persName&gt;</td>
-<td></td>
-<td>ref="{Absender Wikidata ID}" oder ref="{Empfänger Wikidata ID}"</td>
-<td>{Absender} oder {Empfänger}</td>
-</tr>
-<tr class="odd">
-<td>&lt;settlement&gt;</td>
-<td></td>
-<td>ref="{Aufenthaltsort Absender Wikidata ID}" oder ref="{Aufenthaltsort Empfänger Wikidata ID}"</td>
-<td>{Aufenthaltsort Absender} oder {Aufenthaltsort Empfänger}</td>
-</tr>
-<tr class="even">
-<td>&lt;date&gt; (nur bei &lt;correspAction type="sent"&gt;)</td>
-<td></td>
-<td>when="{Datum (ISO 8601)}"</td>
-<td>{Datum (de)}</td>
-</tr>
-<tr class="odd">
-<td>&lt;langUsage&gt;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>&lt;language&gt;</td>
-<td></td>
-<td>ident="{Sprache ID}"</td>
-<td>{Sprache}</td>
-</tr>
-<tr class="odd">
-<td>&lt;textClass&gt;</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>&lt;keywords&gt;&lt;lemma&gt;</td>
-<td></td>
-<td></td>
-<td>{Häufigste Wörter}</td>
-</tr>
-</tbody>
-</table>
-<p>Eine weitere Information, die über den Rahmen dieser Arbeit hinaus in den TEI Header eingeordnet werden könnte, wäre eine Angabe dazu, wie die einzelnen Briefe in die Gesamtkorrespondenz einzubetten sind (TEI Tag &lt;correspContext&gt;<a href="#fn41" class="footnote-ref" id="fnref41" role="doc-noteref"><sup>41</sup></a>. So könnte beispielwiese angegeben werden, welcher Brief eine direkte Antwort auf einen vorangehenden Brief darstellt. In Bezug auf das hier vorgestellte Landsberger Briefkorpus ist dies z.T. schwierig, da viele der Briefe isoliert dastehen. Nur die Korrespondenz zwischen Karl Müller und Benno Landsberger liegt über einen längeren Zeitraum kontinuierlich vor, wobei sich einige Briefe zeitlich auch zu überschneiden scheinen, da die beiden in ihrem Briefaustausch nicht zwangsläufig immer auf eine Antwort des anderen gewartet haben, bevor ein neuer Brief verfasst wurde.</p>
+<p>Die Erstellung des TEI Header für die einzelnen Briefe basiert auf der in <a href="#sec-metadaten">Section&nbsp;1.4</a> beschriebenen Metadatentabelle. Hierzu wurde ein Python-Skript geschrieben, das die Daten aus der Metadatentabelle automatisiert in den jeweiligen Brief-Header einfügt und mit weiteren default-Angaben ergänzt.<a href="#fn48" class="footnote-ref" id="fnref48" role="doc-noteref"><sup>48</sup></a></p>
+<p>Eine weitere Information, die über den Rahmen dieser Arbeit hinaus in den TEI Header eingeordnet werden könnte, wäre eine Angabe dazu, wie die einzelnen Briefe in die Gesamtkorrespondenz einzubetten sind (TEI Tag &lt;correspContext&gt;).<a href="#fn49" class="footnote-ref" id="fnref49" role="doc-noteref"><sup>49</sup></a> So könnte beispielsweise angegeben werden, welcher Brief eine direkte Antwort auf einen vorangehenden Brief darstellt. In Bezug auf das hier vorgestellte Briefkorpus ist dies z.T. schwierig, da viele der Briefe isoliert dastehen. Nur die Korrespondenz zwischen Karl Friedrich Müller und Benno Landsberger liegt über einen längeren Zeitraum kontinuierlich vor, wobei sich einige Briefe zeitlich auch zu überschneiden scheinen, da die beiden in ihrem Briefaustausch nicht zwangsläufig immer auf eine Antwort des anderen gewartet haben, bevor ein neuer Brief verfasst wurde.</p>
 </section>
-<section id="tei-textbody" class="level4">
-<h4 class="anchored" data-anchor-id="tei-textbody">TEI text/body</h4>
+<section id="sec-teitext" class="level4">
+<h4 class="anchored" data-anchor-id="sec-teitext">TEI text/body</h4>
 <p>Die übergeordnete Struktur des eigentlichen Brieftextes lässt sich mit folgenden Tags beschreiben, wobei diese optional sind und nicht in jedem Brief in derselben Reihenfolge und Struktur vorliegen:</p>
 <table class="table">
+<caption>TEI Tags zur Wiedergabe der Briefstruktur</caption>
 <colgroup>
-<col style="width: 27%">
-<col style="width: 34%">
-<col style="width: 37%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -455,39 +322,67 @@ Landsberger/{Landsberger Archives Signatur}.pdf</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td>&lt;opener&gt;</td>
+<td><strong>&lt;opener&gt;</strong></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>&lt;address&gt;</p>
-<p>&lt;addrLine&gt;(&lt;placeName&gt;)</p></td>
-<td>(&lt;placeName&gt; enthält ein ref-Attribut mit Angabe der Wikidata ID des Ortes</td>
-<td>Angabe der Adresse des Absenders (vereinzelt zusätzlich auch Adresse des Empfängers)</td>
+<td>&lt;address&gt;</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
+<td>&lt;addrLine&gt;(&lt;placeName&gt;)</td>
+<td>&lt;placeName&gt; enthält ein ref-Attribut mit Angabe der GeoNames ID des Ortes</td>
+<td>Angabe der Adresse des*r Absender*in (vereinzelt zusätzlich auch Adresse des*r Empfänger*in)</td>
+</tr>
+<tr class="even">
 <td>&lt;dateline&gt;&lt;date&gt;</td>
 <td>when-Attribut mit Angabe des Datums im ISO 8601-Format</td>
 <td>Datum der Abfassung des Briefes</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>&lt;persName&gt;</td>
 <td>ref-Attribut mit Angabe der Wikidata ID der Person</td>
-<td>Vereinzelt wird der Name des Absenders des Briefes im Briefkopf genannt</td>
+<td>Vereinzelt wird der Name des*r Absender*in des Briefes im Briefkopf genannt</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>&lt;salute&gt;</td>
 <td></td>
-<td>Enthält die Anredeformel (z.B. "Hochverehrter Herr Professor!“)</td>
+<td>Enthält die Anredeformel (z.B. Hochverehrter Herr Professor!)</td>
 </tr>
 <tr class="even">
-<td>&lt;p&gt;<br>
-(Enthält den Kerntext des Briefes. Zu den Annotationen s.u.)</td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>&lt;closer&gt;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>&lt;p&gt;</strong></td>
+<td></td>
+<td>(Enthält den Kerntext des Briefes. Zu den Annotationen siehe <a href="#tbl-briefinhalte">Table&nbsp;2</a>.)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>&lt;closer&gt;</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -498,24 +393,31 @@ Landsberger/{Landsberger Archives Signatur}.pdf</td>
 </tr>
 <tr class="odd">
 <td>&lt;signed&gt;</td>
-<td>ref-Attribut mit Angabe der Wikidata ID des Absenders</td>
-<td>Enthält die Unterschrift des Absenders</td>
+<td></td>
+<td>Enthält die Unterschrift des*r Absender*in</td>
 </tr>
 <tr class="even">
-<td>&lt;postscript&gt;</td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
+<td>&lt;postscript&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
 <td>&lt;p&gt;</td>
 <td></td>
 <td>Enthält den angehängten Text nach der Signatur</td>
 </tr>
 </tbody>
 </table>
-<p>Für die generelle Textstruktur sind zudem die Tags &lt;unclear&gt; für die Markierung von Wörtern oder Textpassagen, die nicht sicher gelesen werden können, und &lt;handShift&gt; für handschriftliche Einfügungen in den mit Schreibmaschine verfassten Briefen relevant. Randnotizen werden als &lt;div type="notes"&gt; gekennzeichnet.</p>
-<p>Im Kerntext des Briefes sowie im Postskriptum können weitere Informationen kodiert werden.<a href="#fn42" class="footnote-ref" id="fnref42" role="doc-noteref"><sup>42</sup></a> Dabei handelt es sich um Entitäten wie Personen, Ortsnamen, Publikationen, einzelne Keilschrifttexte und fremdsprachliche Textpassagen. Bei den Personen- und Ortsnamen wird eine Unterscheidung zwischen altorientalischen (ANE) und modernen Orten und Personen getroffen. Hierzu werden nachfolgende Tags und Attribute verwendet:</p>
+<p>Für die Textstruktur sind zudem die Tags &lt;unclear&gt; für die Markierung von Wörtern oder Textpassagen, die nicht sicher gelesen werden können, und &lt;handShift&gt; für handschriftliche Einfügungen in den mit Schreibmaschine verfassten Briefen relevant. Randnotizen werden als &lt;div type=<code>"notes"</code>&gt; gekennzeichnet. In Fällen, in denen vorgedruckte Elemente des Briefkopfes vorliegen, wird dem entsprechenden Element-Tag das Attribut &lt;style=<code>"pre-printed"</code>&gt; hinzugefügt.<a href="#fn50" class="footnote-ref" id="fnref50" role="doc-noteref"><sup>50</sup></a></p>
+<p>Im Kerntext des Briefes sowie im Postskriptum können weitere Informationen kodiert werden.<a href="#fn51" class="footnote-ref" id="fnref51" role="doc-noteref"><sup>51</sup></a> Dabei handelt es sich um Entitäten wie Personen, Ortsnamen, Publikationen, einzelne Keilschrifttexte und fremdsprachliche Textpassagen. Bei den Personen- und Ortsnamen wird eine Unterscheidung zwischen altorientalischen (ANE) und modernen Orten und Personen getroffen. Hierzu werden nachfolgende Tags und Attribute verwendet:</p>
+<div id="tbl-briefinhalte" class="anchored">
 <table class="table">
+<caption>Table&nbsp;2: TEI Tags zur Annotation der Briefinhalte</caption>
 <thead>
 <tr class="header">
 <th><strong>TEI Tag</strong></th>
@@ -526,37 +428,63 @@ Landsberger/{Landsberger Archives Signatur}.pdf</td>
 <tbody>
 <tr class="odd">
 <td>&lt;persName&gt;</td>
-<td><p>type = "modern" oder "ANE"</p>
-<p>ref-Attribut mit Angabe der Wikidata ID oder alternativ der GND ID</p></td>
+<td>type=<code>"modern"</code> oder <code>"ANE"</code>, ref-Attribut mit Angabe der Wikidata ID oder alternativ der GND ID</td>
 <td>Personennamen</td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>&lt;placeName&gt;</td>
-<td><p>type = "modern" oder "ANE"</p>
-<p>ref-Attribut mit Angabe der Wikidata ID oder der Pleiades ID<a href="#fn43" class="footnote-ref" id="fnref43" role="doc-noteref"><sup>43</sup></a></p></td>
+<td>type=<code>"modern"</code> oder <code>"ANE"</code>, ref-Attribut mit Angabe der GeoNames ID oder der Pleiades ID<a href="#fn52" class="footnote-ref" id="fnref52" role="doc-noteref"><sup>52</sup></a></td>
 <td>Ortsnamen (es wird keine genauere Unterscheidung zwischen Stadt- und Ländernamen getroffen, da diese Unterscheidung insbesondere für altorientalische geographische Namen nicht immer eindeutig zu treffen wäre)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>&lt;orgName&gt;</td>
-<td>type="university" oder "institute" oder "museum" (weitere Ergänzungen möglich)</td>
+<td>type=<code>"university"</code>, <code>"institute"</code>, <code>"academy"</code> oder <code>"museum"</code> (weitere Ergänzungen möglich)</td>
 <td>Namen von Organisation(seinheiten)</td>
 </tr>
 <tr class="even">
-<td>&lt;name&gt;</td>
-<td><p>type="academicdiscipline"</p>
-<p>ref- Attribut mit Angabe der Wikidata ID</p></td>
-<td>Name von akademischen Disziplinen (z.B. Altorientalistik, Semitistik)</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>&lt;name&gt;</td>
-<td><p>type="deity"</p>
-<p>ref- Attribut mit Angabe der Wikidata ID</p></td>
-<td>Altorientalische Götternamen<a href="#fn44" class="footnote-ref" id="fnref44" role="doc-noteref"><sup>44</sup></a></td>
+<td>type=<code>"academicdiscipline"</code>, ref-Attribut mit Angabe der Wikidata ID</td>
+<td>Name von akademischen Disziplinen (z.B. Altorientalistik, Semitistik)</td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>&lt;name&gt;</td>
+<td>type=<code>"deity"</code>, ref-Attribut mit Angabe der Wikidata ID</td>
+<td>Altorientalische Götternamen<a href="#fn53" class="footnote-ref" id="fnref53" role="doc-noteref"><sup>53</sup></a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>&lt;lang&gt;</td>
-<td>xml:lang mit Angabe gemäß IANA<a href="#fn45" class="footnote-ref" id="fnref45" role="doc-noteref"><sup>45</sup></a></td>
+<td>xml:lang mit Angabe gemäß IANA<a href="#fn54" class="footnote-ref" id="fnref54" role="doc-noteref"><sup>54</sup></a></td>
 <td>Name und Identifier einer im Text genannten Sprache</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>&lt;foreign&gt;</td>
@@ -564,105 +492,193 @@ Landsberger/{Landsberger Archives Signatur}.pdf</td>
 <td>Kennzeichnung von fremdsprachlichen Textpassagen</td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>&lt;title&gt;</td>
-<td><p>type="cuneiformtext"<br>
-ref-Attribut mit Angabe der CDLI ID<a href="#fn46" class="footnote-ref" id="fnref46" role="doc-noteref"><sup>46</sup></a></p>
-<p>type="journal"<br>
-ref-Attribut mit Angabe der GND ID</p></td>
-<td><p>Name eines Keilschrifttextes; dies kann sich auf einen tatsächlichen Namen, der entweder modern (z.B. "Krönungsritual") oder altorientalisch (z.B. wie die Serie <em>ana ittišu</em>) vergeben wurde, oder wie sonst in der Altorientalistik üblich den Publikationsort des Keilschrifttextes (z.B. "KAR 19") beziehen</p>
-<p>Name eines Publikationsorts wie einer Zeitschrift oder einer Buchreihe</p></td>
+<td>type=<code>"cuneiformtext"</code>, ref-Attribut mit Angabe der CDLI ID<a href="#fn55" class="footnote-ref" id="fnref55" role="doc-noteref"><sup>55</sup></a></td>
+<td>Name eines Keilschrifttextes; dies kann sich auf einen tatsächlichen Namen, der entweder modern (z.B. “Krönungsritual”) oder altorientalisch (z.B. wie die Serie <em>ana ittišu</em>) vergeben wurde, oder den Publikationsort des Keilschrifttextes (z.B. “KAR 19”) beziehen</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>type=<code>"journal"</code> oder <code>"monograph"</code>, ref-Attribut mit Angabe der GND ID</td>
+<td>Name eines Publikationsorts wie einer Zeitschrift, Monographie oder einer Buchreihe</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>type=<code>"meeting"</code>, ref-Attribut mit Angabe der GND ID</td>
+<td>Name eines Kongresses/Konferenz</td>
 </tr>
 </tbody>
 </table>
-<p>Die genannten Tags wurden manuell den Brieftexten hinzugefügt, nachdem verschiedene Versuche gescheitert waren, dies in automatisierter Form zu tun.</p>
-<p>Zum einen wurde versucht mithilfe der Python-Library spaCy<a href="#fn47" class="footnote-ref" id="fnref47" role="doc-noteref"><sup>47</sup></a> eine Named Enitity Recognition durchzuführen.<a href="#fn48" class="footnote-ref" id="fnref48" role="doc-noteref"><sup>48</sup></a> Hierzu wurden das für die deutsche Sprache zur Verfügung stehende Modell "de_core_news" in den drei Stufen small (sm), medium (md) und large (lg) getestet.<a href="#fn49" class="footnote-ref" id="fnref49" role="doc-noteref"><sup>49</sup></a> Hier sollen beispielhaft die Ergebnisse für die Analyse des Briefes von B. Landsberger an F. Thureau-Dangin vom 06.06.1929 vorgestellt werden. Das Ergebnis für eine Suche nach Ortsnamen sah mit dem sm-Modell wie folgt aus:</p>
-<p>('ZAG(=za)-hur-rum(=NE.RU', 'LOC'), ('Akkad', 'LOC'), ('Ungnad', 'LOC'), ('Materialien S. 42', 'LOC'), ('Rs', 'LOC'), ('erlaube ich mir', 'LOC'), ('Ihrem', 'LOC'), ('Syllabaire', 'LOC'), ('Unfug', 'LOC'), ('Kapp', 'LOC'), ('Parfum baluhhu', 'LOC'), ('Zeichens', 'LOC'), ('DP 14', 'LOC'), ('King', 'LOC'), ('Magio', 'LOC')</p>
-<p>Der einzige Ortsname, der korrekt erkannt wurde, ist der altorientalische Name "Akkad". Bei allen anderen erkannten Entitäten handelt es sich um Personen- und Publikationsnamen oder normalen Wörtern des Textes. Auch die Nutzung des lg-Modells brachte diesbezüglich keine Verbesserung:</p>
-<p>('Ungnad', 'LOC'), ('Syllabaire', 'LOC'), ('Nr. 272', 'LOC'), ('Nr. 4', 'LOC'), ('Altakk', 'LOC'), ('Awilija', 'LOC'), ('warkiu', 'LOC'), ('Kapp', 'LOC'), ('awat', 'LOC'), ('labu für lawu', 'LOC'), ('habiru', 'LOC'), ('hawiru', 'LOC'), ('ba-a', 'LOC'), ('King', 'LOC'), ('Magio', 'LOC')</p>
-<p>Da das in spaCy zur Verfügung gestellte Modell, wie auch der Name "de_core_news" schon sagt, anhand von Nachrichtentexten trainiert wurde, war bereits anzunehmen, dass die Erkennungsrate bei Briefen nicht ebenso hoch sein würde, wie bei den Textarten, auf die das Modell trainiert wurde. Die Erkennungsrate bei dem hier untersuchten Briefkorpus ist allerdings so schlecht, dass sie letztlich nicht nutzbar ist.</p>
-<p>Bei dem Versuch, stattdessen das webbasierte Tool WebLicht<a href="#fn50" class="footnote-ref" id="fnref50" role="doc-noteref"><sup>50</sup></a> für die Named Entity Recognition zu nutzen, wurde des Weiteren deutlich, dass insbesondere die in den Briefen diskutierten Begriffe aus altorientalischen Sprachen ein Problem für die Erkennung von Named Entities bedeuten, da diese fast durchgehend als Organisation oder Personennamen erkannt wurden. Auch eine Zeitschrift wie die Zeitschrift für Assyriologie, die in den Briefen regelmäßig als ZA abgekürzt auftritt, wird als Organisation erkannt. Erstaunlich ist, dass der altorientalische Personenname Awilija korrekt als Person erkannt wurde:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/image1.png" style="width:6.3in;height:2.43403in" class="figure-img"></p>
-<figcaption class="figure-caption">Ein Bild, das Text, Schrift, Screenshot enthält. Automatisch generierte Beschreibung</figcaption>
-</figure>
 </div>
-<p>Screenshot des Analyseergebnis von WebLicht, 02.01.2024.</p>
-<p>Auch mittels des Stanford Named Entity Recognizer (NER)<a href="#fn51" class="footnote-ref" id="fnref51" role="doc-noteref"><sup>51</sup></a> konnten keine überzeugenden Ergebnisse erzielt werden.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/image2.png" style="width:6.3in;height:2.77569in" class="figure-img"></p>
-<figcaption class="figure-caption">Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch generierte Beschreibung</figcaption>
-</figure>
+<p>Die genannten Tags wurden manuell den Brieftexten hinzugefügt, nachdem sich verschiedene Versuche, dies automatisiert zu tun, als ineffektiv herausgestellt hatten.<a href="#fn56" class="footnote-ref" id="fnref56" role="doc-noteref"><sup>56</sup></a></p>
+<p>Zum einen wurde versucht, mithilfe der Python-Library spaCy<a href="#fn57" class="footnote-ref" id="fnref57" role="doc-noteref"><sup>57</sup></a> eine Named Enitity Recognition durchzuführen.<a href="#fn58" class="footnote-ref" id="fnref58" role="doc-noteref"><sup>58</sup></a> Hierzu wurde das für die deutsche Sprache zur Verfügung stehende Modell “de_core_news” in den drei Stufen small (sm), medium (md) und large (lg) getestet.<a href="#fn59" class="footnote-ref" id="fnref59" role="doc-noteref"><sup>59</sup></a> In allen drei Modellen wurden die Entitätstypen nicht korrekt zugeordnet. Beispielsweise wurden Personen- und Publikationsnamen vielfach als Ortsnamen eingestuft. Da das in spaCy zur Verfügung gestellte Modell, wie auch der Name “de_core_news” schon sagt, anhand von Nachrichtentexten trainiert wurde, war bereits anzunehmen, dass die Erkennungsrate bei Briefen nicht ebenso hoch sein würde wie bei den Textarten, auf die das Modell trainiert wurde. Die Erkennungsrate bei dem hier untersuchten Briefkorpus ist allerdings so schlecht, dass sie letztlich nicht nutzbar ist.</p>
+<p>Bei dem Versuch, stattdessen das webbasierte Tool WebLicht<a href="#fn60" class="footnote-ref" id="fnref60" role="doc-noteref"><sup>60</sup></a> für die Named Entity Recognition zu nutzen, wurde des Weiteren deutlich, dass insbesondere die in den Briefen diskutierten Begriffe aus altorientalischen Sprachen ein Problem für die Erkennung von Named Entities bedeuten, da diese fast durchgehend als Organisation oder Personennamen eingeordnet wurden. Auch mittels des Stanford Named Entity Recognizer (NER)<a href="#fn61" class="footnote-ref" id="fnref61" role="doc-noteref"><sup>61</sup></a> konnten keine überzeugenden Ergebnisse erzielt werden.</p>
+<p>Zum anderen wurde in Betracht gezogen, Named Entities automatisiert zu erkennen und im Text zu annotieren, indem ein automatisierter Abgleich zwischen vorgefertigten Listen und den Brieftexten stattfindet. Hierfür bieten sich beispielsweise die bereits beschriebenen CSV-Tabellen zu den Altorientalist*innen in Landsbergers Zeiten und die Liste von Landsbergers Publikationen an (siehe dazu <a href="#sec-normdaten">Section&nbsp;1.3</a>). Aber auch hier stellen sich Herausforderungen, die die Automatisierungsmöglichkeiten des Abgleichs so stark begrenzen, dass letztlich eine von vornherein manuell durchgeführte Annotation in einer schnelleren Zeit durchgeführt werden kann. Als Beispiel sei hier der Altorientalist Hans-Siegfried Schuster genannt, der in einer Reihe von Briefen, die zwischen Karl Friedrich Müller und Landsberger ausgetauscht wurden, thematisiert wird. Landsberger kürzt den Namen Schusters häufig als S. oder Sch. ab. Die Abkürzung S. taucht in den Briefen gleichzeitig aber auch als Abkürzung für Seite auf, wenn über Publikationen gesprochen wird und ist somit nicht eindeutig. Auch der Spitzname Walti für Walter G. Kunstmann taucht in den Briefen auf und ließe sich nicht ohne Weiteres durch eine Liste mit offiziellen Namen abgleichen. Einige zu Lebzeiten Landsbergers von Deutschlands aus in die USA emigrierte Wissenschaftler*innen veränderten zudem ihre Namensschreibungen in Bezug auf Umlaute. So findet sich beispielsweise sowohl die Schreibung Götze als auch Goetze für einen Kollegen Landsbergers. Ambivalenzen finden sich auch bei Ortsnamen. Beispielsweise trägt der Hauptgott der altorientalischen Stadt Assur ebenfalls den Namen Assur. Eine Unterscheidung von Gottes- und Stadtname in der Annotierung erfordert ebenfalls einen manuellen Abgleich. Akkad. stellt eine Abkürzung für die Sprache Akkadisch dar. In Fällen, in denen der Punkt hinter der Abkürzung weggelassen oder für eine vereinfachte automatisierte Texterkennung die Satzzeichen eines Textes entfernt wurden, besteht bei einem automatisierten Abgleich eine Verwechslungsgefahr mit dem Ortsnamen Akkad. Sicherlich besteht die Möglichkeit, für die hier genannten Ausnahmefälle mithilfe eines Programmierskriptes automatisierte Lösungen zu finden. Der hierfür nötige Arbeitsaufwand ist realistischerweise aber eher von einem größeren Projektteam zu leisten und nicht in einer kleiner angelegten Edition möglich. Gleichzeitig ist zu bemerken, dass die Annotation der Texte Fachkenntnisse in der Altorientalistik bedarf, um ambivalente Begriffe unterscheiden zu können.</p>
+<p>Während die Annotation von Named Entities, sei es automatisiert oder manuell, durch ein recht klar definiertes Tag-Set ermöglicht wird, stellt die Annotation von Aussagen und Sinnstrukturen in den Briefen eine weitaus größere Herausforderung dar. Einen Versuch, eine inhaltliche Zusammenfassung und grundlegende Schlagwörter herauszuarbeiten, die den Inhalt eines Briefes prägen, stellt die Identifizierung der häufigsten Wörter eines Briefes dar, wie sie in der Metadatentabelle in der Spalte “Häufigste Wörter (Relative Häufigkeit)” geschehen ist (siehe <a href="#tbl-metadaten">Table&nbsp;1</a>). Um die errechnete relative Häufigkeit der jeweils häufigsten Wörter pro Brief noch deutlicher in Relation mit dem Gesamtbriefkorpus zu setzen, wurde zusätzlich in Form einer Term-Dokument-Matrix das Vorkommen dieser Wörter in jedem Einzelbrief dargestellt.<a href="#fn62" class="footnote-ref" id="fnref62" role="doc-noteref"><sup>62</sup></a> In der für dieser Masterarbeit erstellten digitalen Edition der Briefe wird zudem für jeden einzelnen Brief die Möglichkeit gegeben, einen Ausschnitt der Term-Dokument-Matrix anzusehen, der anzeigt, in welchen anderen Briefen die fünf ermittelten häufigsten Stichwörter ebenfalls vorkommen.<a href="#fn63" class="footnote-ref" id="fnref63" role="doc-noteref"><sup>63</sup></a> Theoretisch dürfte diese Form von Verknüpfung auch die Auffindung von thematisch ähnlichen Briefen ermöglichen. Bezüglich dieses Vorgehens lassen sich aber auch einige Kritikpunkte finden. Zum einen hat vorab keine Lemmatisierung stattgefunden, so dass sich Wörter desselben Wortstammes gleichzeitig unter den fünf häufigsten Wörtern befinden können. So findet sich beispielsweise in dem am 10.07.1927 von Karl Friedrich Müller an Landsberger verfassten Brief unter den fünf häufigsten Wörtern sowohl Assur als auch die Genitivform Assurs.<a href="#fn64" class="footnote-ref" id="fnref64" role="doc-noteref"><sup>64</sup></a> Eine manuelle Korrektur und Zusammenfassung dieser Wortformen ist in einem kleinen zu bearbeitenden Textkorpus sicherlich durchführbar, wird aber mit größeren Textmengen ein bedeutender Aufwand. Der Versuch, eine Lemmatisierung der Texte des Briefkorpus mit der bereits oben beschriebenen Python-Library spaCy und den zugehörigen drei Modellen für die deutsche Sprache durchzuführen, hat allerdings ähnlich wie bei der Named Entity Recognition zu einer Anzahl von Fehlern geführt, die nicht akzeptabel erschien. Verschiedene Begriffe wurden nicht korrekt ihrer Grundform zugeordnet. Beispielsweise wurde der Plural Assistentenstellen auf “Assistentenstell” zurückgeführt, Babylonien zu “Babylonie” gemacht, der Personenname von Soden zu “Sode”. Stattdessen ein Topic Modeling<a href="#fn65" class="footnote-ref" id="fnref65" role="doc-noteref"><sup>65</sup></a> durchzuführen, um inhaltliche Zusammenhänge zwischen den Thematiken der Briefe zu entdecken, war ebenfalls erfolglos. Topic Modeling als eine Methode des unüberwachten Machine Learning ist auf größere Textmengen ausgerichtet als das vorliegende Textkorpus sie bietet und hat daher nur indifferente Ergebnisse geliefert.<a href="#fn66" class="footnote-ref" id="fnref66" role="doc-noteref"><sup>66</sup></a> Zum anderen stellt sich die Frage, inwieweit die häufigsten Wörter eines Textes eine prägnante Zusammenfassung seines Inhalts ermöglichen. Eine semantische Ähnlichkeit von Begriffen wird bei dieser Vorgehensweise nicht berücksichtigt. Schlagwörter, die den Inhalt eines Briefes charakterisieren, könnten stattdessen auch identifiziert werden, indem ein Kategoriensystem zur Auszeichnung der Inhalte entwickelt wird. Digitale Editionsprojekte folgen dabei unterschiedlichen Vorgehensweisen. Thematische Wortfelder können zum einen aus den zu analysierenden Texten, zum anderen unabhängig vom konkreten textuellen Forschungsgegenstand generiert werden.<a href="#fn67" class="footnote-ref" id="fnref67" role="doc-noteref"><sup>67</sup></a> Im bislang unpublizierten Projekt “Vernetzte Korrespondenzen | Exilnetz33”<a href="#fn68" class="footnote-ref" id="fnref68" role="doc-noteref"><sup>68</sup></a> wurde ein auf das Themenfeld “Exil” zugeschnittener Thesaurus erstellt. Die in den Briefen erwähnten Wörter wurden lemmatisiert und einem Part-of-Speech-Tagging unterzogen. Nach einer Ermittlung der Häufigkeit von Einzelwörtern in den Einzelbriefen und in Relation zum Gesamtkorpus wurden diese mit einem passenden Schlagwort des Exil-Thesaurus verknüpft bzw. bei Bedarf ein neues Schlagwort erstellt. Auch wenn dieses Vorgehen halbautomatisiert geschieht, wird die Entwicklung des Thementhesaurus als ein aufwendiger Prozess beschrieben.<a href="#fn69" class="footnote-ref" id="fnref69" role="doc-noteref"><sup>69</sup></a> Ein Kategoriensystem, sei es in Form eines Thesaurus oder eine Ontologie, dessen Ober- und Unterbegriffe sprachwissenschaftlich auch als Frames bezeichnet werden, schematisiert das in einer Gruppe von Texten transportierte Wissen. Es muss derart gestaltet sein, dass es eine Erschließungstiefe ermöglicht, die der an die Texte gestellten Forschungsfrage gerecht wird, es muss jedem Einzeltext der Textgruppe gerecht werden, es muss Eindeutigkeit bieten und so transparent dokumentiert sein, dass es für alle Nutzer*innen verständlich wird.<a href="#fn70" class="footnote-ref" id="fnref70" role="doc-noteref"><sup>70</sup></a> Die Entwicklung so eines Kategoriensystems ist aufgrund des Aufwands der Umsetzung im Rahmen dieser Masterarbeit nicht geschehen, wäre für einen weiteren Ausbau der Briefedition jedoch ein erstrebenswertes Ziel.</p>
+
+
+
+</section>
+</section>
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-altenhoner_dfg-praxisregeln_2023" class="csl-entry" role="listitem">
+Altenhöner, Reinhard, Andreas Berger, Christian Bracht, Paul Klimpel, Sebastian Meyer, Andreas Neuburger, Thomas Stäcker, and Regine Stein. 2023. <span>“<span>DFG</span>-<span>Praxisregeln</span> ,<span>Digitalisierung</span>‘. <span>Aktualisierte</span> <span>Fassung</span> 2022.”</span> <a href="https://doi.org/10.5281/ZENODO.7435724">https://doi.org/10.5281/ZENODO.7435724</a>.
 </div>
-<p>Screenshot des Analyseergebnis Stanford Named Entity Recognizer, 02.01.2024.</p>
-<p>Zum anderen wurde in Betracht gezogen, Named Entities automatisiert zu erkennen und im Text zu annotieren, indem ein automatisierter Abgleich zwischen vorgefertigten Listen und den Brieftexten stattfindet. Hierzu würden beispielsweise die beiden oben beschriebenen CSV-Tabellen zu den Altorientalist*innen in Landsbergers Zeiten und die Liste von Landsbergers Publikationen in Betracht kommen. Aber auch hier stellen sich Herausforderungen, die die Automatisierungsmöglichkeiten des Abgleichs so stark begrenzen, dass letztlich eine von vornherein durchgeführte manuelle Annotation vergleichsweise keinen deutlich Mehraufwand bedeutet. Als Beispiel sie hier der Altorientalist Hans-Siegfried Schuster genannt, der in einer Reihe von Briefen, die zwischen Karl Friedrich Müller und Landsberger ausgetauscht wurden, thematisiert wird. Landsberger kürzt den Namen Schusters häufig als S. oder Sch. ab. Die Abkürzung S. taucht in den Briefen gleichzeitig aber auch als Abkürzung für Seite auf, wenn über Publikationen gesprochen wird und ist somit nicht eindeutig. Auch der Spitzname Walti für Walter G. Kunstmann taucht in den Briefen auf und ließe sich nicht ohne weiteres durch eine Liste mit offiziellen Namen abgleichen. Einige zu Lebzeiten Landsbergers von Deutschlands aus in die USA immigrierte Wissenschaftler veränderten zudem ihre Namensschreibungen, wenn sie Umlaute enthielten. So findet sich beispielsweise sowohl die Schreibung Götze als auch Goetze für einen bekannten Kollegen Landsbergers. Ambivalenzen finden sich auch bei Ortsnamen. Beispielsweise trägt der Hauptgott der altorientalischen Stadt Assur ebenfalls den Namen Assur. Eine Unterscheidung von Gottes- und Stadtname in der Annotierung erfordert ebenfalls einen manuellen Abgleich. Akkad. stellt eine Abkürzung für die Sprache Akkadisch dar. In Fällen, in denen der Punkt hinter der Abkürzung weggelassen oder für eine vereinfachte automatisierte Texterkennung die Satzzeichen eines Textes entfernt wurden, besteht bei einem automatisierten Abgleich eine Verwechslungsgefahr mit dem Ortsnamen Akkad. Sicherlich besteht die Möglichkeit, für die hier genannten Ausnahmefälle mithilfe eines Programmierskriptes automatisierte Lösungen zu finden. Der hierfür nötige Arbeitsaufwand ist realistischerweise aber eher von einem größeren Projektteam zu leisten und nicht in einer kleiner angelegten Edition möglich. Gleichzeitig ist zu bemerken, dass die Annotation der Texte Fachkenntnisse in der Altorientalistik bedarf, um ambivalente Begriffe unterscheiden zu können.</p>
-<p>Während die Annotation von Named Entities, sei es automatisiert oder manuell, durch ein recht klar definiertes Tag-Set ermöglicht wird, stellt die Annotation von Aussagen und Sinnstrukturen in den Briefen eine weitaus größere Herausforderung dar. Einen Versuch, eine inhaltliche Zusammenfassung und grundlegende Schlagwörter, die den Inhalt eines Briefes prägen, herauszuarbeiten, stellt die Identifizierung der häufigsten Wörter eines Briefes dar, wie sie in der Metadatentabelle in der Spalte "Häufigste Wörter" geschehen ist (s.o.). Bezüglich dieses Vorgehens lassen sich einige Kritikpunkte finden. Zum einen hat vorab keine Lemmatisierung stattgefunden, so dass sich Wörter desselben Wortstammes gleichzeitig unter den fünf häufigsten Wörtern befinden können. So findet sich beispielsweise in dem am 10.07.1927 von Karl Friedrich Müller an Landsberger verfassten Brief unter den fünf häufigsten Wörtern sowohl Assur mit vier Vorkommnissen als auch die Genitivform Assurs mit vier Vorkommnissen. Eine manuelle Korrektur und Zusammenfassung dieser Wortformen ist in einem kleinen zu bearbeitenden Textkorpus sicherlich machbar, wird aber mit größeren Textmengen nicht mehr durchführbar sein. Der Versuch, eine Lemmatisierung der Texte des Briefkorpus mit dem bereits oben beschriebenen Python-Library spaCy und den zugehörigen drei Modellen für die deutsche Sprache durchzuführen, hat allerdings ähnlich wie bei der Named Entity Recognition zu einer Anzahl von Fehlern geführt, die nicht akzeptabel erschien. Verschiedene Begriffe wurden nicht korrekt auf ihre Grundform zurückgesetzt. Beispielsweise wurde der Plural Assistentenstellen auf "Assistentenstell" zurückgeführt, Babylonien zu "Babylonie" gemacht, der Personenname von Soden zu "Sode". Stattdessen ein Topic Modeling<a href="#fn52" class="footnote-ref" id="fnref52" role="doc-noteref"><sup>52</sup></a> durchzuführen, um inhaltliche Zusammenhänge zwischen den Thematiken der Briefe zu entdecken, war ebenfalls nicht Erfolg bringend. Topic Modeling, als eine Methode des unüberwachten Machine Learning, ist auf größere Textmengen ausgerichtet als das vorliegende Textkorpus sie bietet und hat daher nur indifferente Ergebnisse geliefert.<a href="#fn53" class="footnote-ref" id="fnref53" role="doc-noteref"><sup>53</sup></a> Zum anderen lässt sich anmerken, dass das Auswählen der häufigsten Wörter eines Briefes nicht die semantische Ähnlichkeit von Begriffen berücksichtigt. Schlagwörter, die den Inhalt eines Briefes charakterisieren, könnten stattdessen auch identifiziert werden, indem ein Kategoriensystem (Ontologie/Frames/kontrolliertes Vokababular) zur Auszeichnung der Inhalte entwickelt wird.<a href="#fn54" class="footnote-ref" id="fnref54" role="doc-noteref"><sup>54</sup></a> Für das hier dargestellte Briefkorpus ließen sich beispielsweise Oberbegriffe wie Publikationsvorbereitung, Erkenntnisaustausch, Job-/Stellenvergabe finden. Diese Begriffe müssten in weiterführenden Schritten verfeinert und mit Unterelementen versehen werden.</p>
-
-
-</section>
-</section>
-</section>
-
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="ref-matthews-schlinzig_digitalisierung_2020" class="csl-entry" role="listitem">
+Baillot, Anne. 2020. <span>“Digitalisierung Und Ihre <span>Einflüsse</span> Auf Den <span>Umgang</span> Mit Alten Wie Neuen ,<span>Briefen</span>‘ in Deutscher Wie Internationaler <span>Perspektive</span>.”</span> In <em>Matthews-Schlinzig u. A. 2020b</em>, 387–98. <a href="https://doi.org/10.1515/9783110376531-025">https://doi.org/10.1515/9783110376531-025</a>.
+</div>
+<div id="ref-biehl_exilnetz33_2015" class="csl-entry" role="listitem">
+Biehl, Theresia, Anne Lorenz, and Dirk Osierenski. 2015. <span>“Exilnetz33. <span>Ein</span> <span>Forschungsportal</span> Als <span>Such</span>- Und <span>Visualisierungsinstrument</span>.”</span> <em>Einreichung Für Den Sonderband 1 Der Zeitschrift Für Digitale Geisteswissenschaften. Abrufbar Unter Http://Www.zfdg.de/</em>. <a href="https://doi.org/10.17175/SB001_011">https://doi.org/10.17175/SB001_011</a>.
+</div>
+<div id="ref-bleier_tei_2019" class="csl-entry" role="listitem">
+Bleier, Roman. 2019. <span>“<span>TEI</span> Genre-Specific Encoding: Letters. <span>CLARIAH</span>-<span>AT</span> <span>TEI</span> <span>Introductory</span> <span>School</span> 10.-13. <span>September</span> 2019 [Stand: 20.02.2024].”</span> <a href="https://www.i-d-e.de/wp-content/uploads/2019/11/Bleier_Correspondence.pdf">https://www.i-d-e.de/wp-content/uploads/2019/11/Bleier_Correspondence.pdf</a>.
+</div>
+<div id="ref-dumont_correspsearch_2016" class="csl-entry" role="listitem">
+Dumont, Stefan. 2016. <span>“<span class="nocase">correspSearch</span> – <span>Connecting</span> <span>Scholarly</span> <span>Editions</span> of <span>Letters</span> [Stand: 18.10.2023].”</span> <em>Journal of the Text Encoding Initiative</em>, no. 10. <a href="https://doi.org/10.4000/jtei.1742">https://doi.org/10.4000/jtei.1742</a>.
+</div>
+<div id="ref-dumont_encoding_2019" class="csl-entry" role="listitem">
+Dumont, Stefan, Susanne Haaf, and Sabine Seifert, eds. 2019. <span>“Encoding <span>Correspondence</span>. <span>A</span> <span>Manual</span> for <span>Encoding</span> <span>Letters</span> and <span>Postcards</span> in <span>TEI</span>-<span>XML</span> and <span>DTABf</span> [Stand: 20.02.2024].”</span> <a href="https://encoding-correspondence.bbaw.de/v1/index.html">https://encoding-correspondence.bbaw.de/v1/index.html</a>.
+</div>
+<div id="ref-greinert_paratextelemente_2020" class="csl-entry" role="listitem">
+Greinert, Cordula, Ariane Martin, and Mirko Nottscheid. 2020. <span>“Paratextelemente Der <span>Postkarte</span>: Überlegungen Zu Ihrer <span>Systematisierung</span> Und <span>Edition</span> Am <span>Beispiel</span> Der <span>Korrespondenz</span> <span>Frank</span> <span>Wedekinds</span>.”</span> <em>Editio</em> 34 (1): 142–59. <a href="https://doi.org/10.1515/editio-2020-0008">https://doi.org/10.1515/editio-2020-0008</a>.
+</div>
+<div id="ref-hildenbrandt_im_2014" class="csl-entry" role="listitem">
+Hildenbrandt, Vera, and Roland S. Kamzelak. 2014<span>“,<span>Im</span> <span>Exil</span> Erweitert Sich Die <span>Welt</span>‘. <span>Neue</span> <span>Zugangswege</span> Zu <span>Korrespondenzen</span> Durch <span>Visualisierung</span>.”</span> <em>Editio</em> 28 (1): 175–92. <a href="https://doi.org/10.1515/editio-2014-011">https://doi.org/10.1515/editio-2014-011</a>.
+</div>
+<div id="ref-horstmann_topic_2018" class="csl-entry" role="listitem">
+Horstmann, Jan. 2018. <span>“Topic <span>Modeling</span> [Stand: 20.02.2024].”</span> <em>forTEXT. Literatur Digital Erforschen</em>. <a href="https://fortext.net/routinen/methoden/topic-modeling">https://fortext.net/routinen/methoden/topic-modeling</a>.
+</div>
+<div id="ref-jung_digitale_2022" class="csl-entry" role="listitem">
+Jung, Joseph, ed. 2022. <span>“Digitale <span>Briefedition</span> <span>Alfred</span> <span>Escher</span> [Stand: 20.02.2024].”</span> <a href="https://briefedition.alfred-escher.ch">https://briefedition.alfred-escher.ch</a>.
+</div>
+<div id="ref-kailus_handreichung_2023" class="csl-entry" role="listitem">
+Kailus, Angela. 2023. <span>“Handreichung Für Ein <span>FAIRes</span> <span>Management</span> Kulturwissenschaftlicher <span>Forschungsdaten</span> [Stand: 25.02.2024].”</span> <a href="https://doi.org/10.5281/ZENODO.7716941">https://doi.org/10.5281/ZENODO.7716941</a>.
+</div>
+<div id="ref-kilmer_bibliography_1974" class="csl-entry" role="listitem">
+Kilmer, Anne Draffkorn, and Johannes Renger. 1974. <span>“A <span>Bibliography</span> of <span>B</span>. <span>Landsberger</span>’s <span>Works</span>.”</span> <em>Journal of Cuneiform Studies</em> 26 (3): 183–94. <a href="https://www.jstor.org/stable/1359274">https://www.jstor.org/stable/1359274</a>.
+</div>
+<div id="ref-kuhner_anforderungen_2021" class="csl-entry" role="listitem">
+Kühner, Janina Theresa. 2021. <em>Anforderungen Digitaler <span>Briefeditionen</span> an Eine <span>Virtuelle</span> <span>Forschungsumgebung</span></em>. Digital <span>Philology</span> <span></span> <span>Evolving</span> <span>Scholarship</span> in <span>Digital</span> <span>Philology</span> 02/2021. Darmstadt: TUPrints.
+</div>
+<div id="ref-landsberger_serie_1937" class="csl-entry" role="listitem">
+Landsberger, Benno. 1937. <em>Die Serie Ana Ittišu</em>. Materialien Zum Sumerischen <span>Lexikon</span> 1. Roma: Pontificium Institutum Biblicum.
+</div>
+<div id="ref-frohlich_digitale_2023" class="csl-entry" role="listitem">
+Neuber, Frederike. 2023. <span>“Der Digitale <span>Editionstext</span>. <span>Technologische</span> <span>Schichten</span>, ,Editorischer <span>Kerntext</span>‘ Und Datenzentrierte <span>Rezeption</span>.”</span> In <em>Der <span>Text</span> Und Seine (<span>Re</span>)<span>Produktion</span></em>, edited by Niklas Fröhlich, Bastian Politycki, Dirk Schäfer, and Annkathrin Sonder, 69–82. Berlin: De Gruyter. <a href="https://doi.org/10.1515/9783111006147-005">https://doi.org/10.1515/9783111006147-005</a>.
+</div>
+<div id="ref-bohnenkamp_beilage_2013" class="csl-entry" role="listitem">
+Radecke, Gabriele. 2013. <span>“Beilage, <span>Einlage</span>, <span>Einschluss</span>: <span>Zur</span> <span>Funktion</span> Und <span>Differenzierung</span> von <span>Briefbeigaben</span> Und Ihrer Editorischen <span>Repräsentation</span> Am <span>Beispiel</span> von <span>Theodor</span> <span>Fontanes</span> <span>Briefwechseln</span> Mit <span>Bernhard</span> von <span>Lepel</span> Und <span>Theodor</span> <span>Storm</span>.”</span> In <em>Brief-<span>Edition</span> Im Digitalen <span>Zeitalter</span></em>, edited by Anne Bohnenkamp and Elke Richter, 165–78. Berlin: De Gruyter. <a href="https://doi.org/10.1515/9783110289350.165">https://doi.org/10.1515/9783110289350.165</a>.
+</div>
+<div id="ref-jannidis_quantitative_2017" class="csl-entry" role="listitem">
+Schöch, Christof. 2017. <span>“Quantitative <span>Analyse</span>.”</span> In <em>Digital <span>Humanities</span></em>, edited by Fotis Jannidis, Hubertus Kohle, and Malte Rehbein, 279–98. Stuttgart: J.B. Metzler. <a href="https://doi.org/10.1007/978-3-476-05446-3_20">https://doi.org/10.1007/978-3-476-05446-3_20</a>.
+</div>
+<div id="ref-schumacher_named_2018" class="csl-entry" role="listitem">
+Schumacher, Mareike. 2018. <span>“Named <span>Entity</span> <span>Recognition</span> (<span>NER</span>) [Stand: 20.02.2024].”</span> <em>forTEXT. Literatur Digital Erforschen</em>. <a href="https://fortext.net/routinen/methoden/named-entity-recognition-ner">https://fortext.net/routinen/methoden/named-entity-recognition-ner</a>.
+</div>
+<div id="ref-seifert_pre-printed_2019" class="csl-entry" role="listitem">
+Seifert, Sabine, Nicolas Schenk, and Susanne Haaf. 2019-2020. <span>“Pre-Printed <span>Parts</span>: <span>Letterheads</span> and <span>Forms</span> [Stand: 20.02.2024].”</span> In <em>Encoding <span>Correspondence</span>. <span>A</span> <span>Manual</span> for <span>TEI</span>-<span>XML</span>-Based <span>Encoding</span> of <span>Letters</span> and <span>Postcards</span> in <span>TEI</span>-<span>XML</span> and <span>DTABf</span></em>, edited by Stefan Dumont. Berlin: Berlin-Brandenburg Academy of Sciences; Humanities. <a href="https://encoding-correspondence.bbaw.de/v1/pre-printed-parts.html">https://encoding-correspondence.bbaw.de/v1/pre-printed-parts.html</a>.
+</div>
+<div id="ref-stadler_normdateien_2012" class="csl-entry" role="listitem">
+Stadler, Peter. 2012. <span>“Normdateien in Der <span>Edition</span>.”</span> <em>Editio</em> 26 (1): 174–83. <a href="https://doi.org/10.1515/editio-2012-0013">https://doi.org/10.1515/editio-2012-0013</a>.
+</div>
+<div id="ref-streck_landsberger_2024" class="csl-entry" role="listitem">
+Streck, Michael P. n.d. <span>“Landsberger <span>Archives</span> [Stand: 20.02.2024].”</span> <em>Altorientalisches Institut/Forschung</em>. <a href="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives">https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives</a>.
+</div>
+<div id="ref-strobel_digitale_2014" class="csl-entry" role="listitem">
+Strobel, Jochen. 2014. <span>“Digitale <span>Briefedition</span> Und Semantische <span>Erschließung</span>. <span>Von</span> Den <span>Briefen</span> Der <span>Jenaer</span> <span>Romantikergeneration</span> Zur <span>Edition</span> Der <span>Korrespondenz</span> <span>August</span> <span>Wilhelm</span> <span>Schlegels</span>.”</span> <em>Editio</em> 28 (1): 151–74. <a href="https://doi.org/10.1515/editio-2014-010">https://doi.org/10.1515/editio-2014-010</a>.
+</div>
+<div id="ref-matthews-schlinzig_welchen_2018" class="csl-entry" role="listitem">
+———. 2018. <span>“Welchen <span>Erkenntnisgewinn</span> Versprechen Digitale <span>Briefeditionen</span>.”</span> In <em>Matthews-Schlinzig Und Socha 2018</em>, 91–105.
+</div>
+<div id="ref-bohn_woran_2021" class="csl-entry" role="listitem">
+———. 2021a. <span>“Woran Erkennen Wir Einen <span>Brief</span>.”</span> In <em>Briefkunst: Der Andere <span>Blick</span> Auf <span>Korrespondenzen</span>. Gesammelte <span>Essays</span> Für <span>Renate</span> <span>Stauf</span></em>, edited by Carolin Bohn, Maria Frommhold, and Christian Wiebe, 15–19. Beiträge Zur <span>Literaturtheorie</span> Und <span>Wissenspoetik</span> 23. Heidelberg: Universitätsverlag Winter.
+</div>
+<div id="ref-strobel__2021" class="csl-entry" role="listitem">
+———. 2021b. <span>“A. <span>W</span>. <span>Schlegels</span> <span>Korrespondenz</span> – Kollaborativ!: <span>Zu</span> Einer <span>Theorie</span> Der <span>Praxis</span> Digitaler <span>Briefedition</span>.”</span> <em>Editio</em> 35 (1): 142–67. <a href="https://doi.org/10.1515/editio-2021-0008">https://doi.org/10.1515/editio-2021-0008</a>.
+</div>
+<div id="ref-vauth_generierung_2019" class="csl-entry" role="listitem">
+Vauth, Michael, Benedikt Adelmann, Lina Franken, Evelyn Gius, and Katharina Krüger. 2019. <span>“Die <span>Generierung</span> von <span>Wortfeldern</span> Und Ihre <span>Nutzung</span> Als <span>Findeheuristik</span>. <span>Ein</span> <span>Erfahrungsbericht</span> Zum <span>Wortfeld</span> ,Medizinisches <span>Personal</span>‘ [Stand: 20.02.2024].”</span> <a href="https://dh-abstracts.library.virginia.edu/works/10894">https://dh-abstracts.library.virginia.edu/works/10894</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Die Strukturierung der Editionsprinzipien orientiert sich an der Alfred Escher Briefedition (<a href="https://www.briefedition.alfred-escher.ch/uber-die-edition/editionsprinzipien" class="uri">https://www.briefedition.alfred-escher.ch/uber-die-edition/editionsprinzipien</a>, letzter Zugriff 28.12.2023).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Es handelt es sich dabei ausnahmslos um männliche Personen, daher wird hier auf das Gendern des Begriffes Kollegen verzichtet.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p><a href="https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives" class="uri">https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives</a> (letzter Zugriff 28.12.2023).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Dabei handelt es sich um das in Jerusalem aufbewahrte Dokument j25 (<a href="https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/j25.pdf" class="uri">https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/j25.pdf</a>, letzter Zugriff 28.12.2023).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Siehe dazu Kapitel 3.2 Technische Parameter der digitalen Reproduktion, in: Altenhöner, R., Berger, A., Bracht, C., Klimpel, P., Meyer, S., Neuburger, A., Stäcker, T., &amp; Stein, R. (2023). DFG-Praxisregeln "Digitalisierung". Aktualisierte Fassung 2022. Zenodo. https://doi.org/10.5281/zenodo.7435724.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>Dies schloss beispielsweise die weit verbreitete Software Tesseract aus, mit der nur Bilddateien verarbeitet werden können (<a href="https://tesseract-ocr.github.io/tessdoc/InputFormats.html" class="uri">https://tesseract-ocr.github.io/tessdoc/InputFormats.html</a>, letzter Zugriff 29.12.2023). Ein proprietäres Tool wie der ABBYY FineReader (<a href="https://pdf.abbyy.com/de/" class="uri">https://pdf.abbyy.com/de/</a>, letzter Zugriff 29.12.2023) erschien zumindest für das in Schreimaschinenschrift vorliegende Briefmaterial eine Option zu sein. Das Ergebnis der Texterkennung war jedoch von so schlechter Qualität, da die oben beschriebenen Herausforderungen dafür sorgten, dass Artefakte wie durscheinende Schrift oder verschmierte Tinte vom Programm als Text eingestuft wurden, aber natürlich nicht sinnvoll erkannt werden konnten. Daher wurde die Nutzung auch dieses Tools verworfen.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p><a href="https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/Landsberger_Briefe_M%C3%BCller.pdf" class="uri">https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Landsberger/Landsberger_Briefe_M%C3%BCller.pdf</a>, letzter Zugriff 29.12.2023. Da die transkribierten Texte ebenfalls im PDF-Format vorliegen, mussten diese ebenfalls ins TXT-Format überführt werden. Die Transkribierenden haben keine Regeln festgehalten, nach denen die Transkription durchgeführt wurde. Es scheinen Unterschiede im Umgang mit beispielsweise durchgestrichenen und korrigierten Textpassagen vorhanden zu sein . Der Aufbau der Briefe wurde in der Transkription ebenfalls nur bedingt berücksichtigt. Zeilentrennungen wurden nicht wiedergegeben, sondern getrennte Wörter als Fließtext zusammengeschrieben. Letztlich war die Umwandlung der bereits transkribierten Texte in ein TXT-Format nach einheitlichen Regeln daher ebenso zeitaufwendig wie bei den durch die automatische Texterkennung erstellten TXT-Dateien.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p><a href="https://readcoop.eu/transkribus/?sc=Transkribus" class="uri">https://readcoop.eu/transkribus/?sc=Transkribus</a> (letzter Zugriff 29.12.2023).<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9"><p><a href="https://www.ocr4all.org/" class="uri">https://www.ocr4all.org/</a> (letzter Zugriff 29.12.2023).<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn10"><p>Für das Training so eines Modells werden für Transkribus zwischen 5.000 und 15.000 Wörter (ca. 25-75 Seiten) benötigt, siehe dazu <a href="https://readcoop.eu/de/transkribus/howto/how-to-train-a-handwritten-text-recognition-model-in-transkribus/" class="uri">https://readcoop.eu/de/transkribus/howto/how-to-train-a-handwritten-text-recognition-model-in-transkribus/</a> letzter Zugriff 29.12.2023.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn11"><p>Aus meiner subjektiven Perspektive ist diesbezüglich auch festzuhalten, dass mir persönlich die Entzifferung der Schrift einiger handschriftlicher Briefe kaum möglich war. Die Texterkennung durch Transkribus dieser Handschriften war aber letztlich so gut, dass ich mich durch den durch Transkribus bereitgestellten Text an die Handschrift "gewöhnen" konnte und so mit auch die manuellen Nachkorrekturen vereinfacht wurden.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn12"><p><a href="https://readcoop.eu/de/modelle/print-multi-language-danish-dutch-german-finnish-french-latin-swedish/" class="uri">https://readcoop.eu/de/modelle/print-multi-language-danish-dutch-german-finnish-french-latin-swedish/</a>, letzter Zugriff 29.12.2023.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn13"><p><a href="https://readcoop.eu/de/introducing-transkribus-super-models-get-access-to-the-text-titan-i/" class="uri">https://readcoop.eu/de/introducing-transkribus-super-models-get-access-to-the-text-titan-i/</a>, letzter Zugriff 29.12.2023.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn14"><p>Dies folgt dem Vorgehen der Alfred Escher Briefedition, <a href="https://www.briefedition.alfred-escher.ch/uber-die-edition/editionsprinzipien" class="uri">https://www.briefedition.alfred-escher.ch/uber-die-edition/editionsprinzipien</a> (letzter Zugriff 29.12.2023).<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn15"><p>Siehe diesbezüglich dagegen kritisch J. Strobel, "A. W. Schlegels Korrespondenz – kollaborativ!</p>
-<p>Zu einer Theorie der Praxis digitaler Briefedition", Editio 35 (2021) 142-167, <a href="https://doi.org/10.1515/editio-2021-0008" class="uri">https://doi.org/10.1515/editio-2021-0008</a>, insbesondere S. 155-157.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn16"><p>P. Stadler, "Normdaten in der Edition". Editio 26 (2012), <a href="https://doi.org/10.1515/editio-2012-0013" class="uri">https://doi.org/10.1515/editio-2012-0013</a>, S. 174-183; J. Strobel, "Digitale Briefedition und semantische Erschließung. Von den Briefen der Jenaer Romantikergeneration zur Edition der Korrespondenz August Wilhelm Schlegels". Editio 28 (1) (2014), <a href="https://doi.org/10.1515/editio-2014-010" class="uri">https://doi.org/10.1515/editio-2014-010</a>, S. 153; J. T. Kühner, Anforderungen digitaler Briefeditionen an eine Virtuelle Forschungsumgebung. Digital Philology | Evolving Scholarship in Digital Philology 02/2021. Darmstadt 2021, S. 22-23.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn17"><p>Für eine Liste von Empfehlungen siehe beispielweise A. Kailus, "Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (1.0.1) " 2023. Zenodo. <a href="https://doi.org/10.5281/zenodo.7716941" class="uri">https://doi.org/10.5281/zenodo.7716941</a>, S. 91-98 (letzter Zugriff 28.12.2023).<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn18"><p><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" class="uri">https://www.wikidata.org/wiki/Wikidata:Main_Page</a>, letzter Zugriff 29.12.2023<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn19"><p><a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html" class="uri">https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html</a>, letzter Zugriff 29.12.2023.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn20"><p>Altenhöner, R., Berger, A., Bracht, C., Klimpel, P., Meyer, S., Neuburger, A., Stäcker, T., &amp; Stein, R. (2023). DFG-Praxisregeln "Digitalisierung". Aktualisierte Fassung 2022. Zenodo. <a href="https://doi.org/10.5281/zenodo.7435724" class="uri">https://doi.org/10.5281/zenodo.7435724</a>, S. 8, 26<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn21"><p>A. Kailus, "Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (1.0.1)" 2023. Zenodo. <a href="https://doi.org/10.5281/zenodo.7716941" class="uri">https://doi.org/10.5281/zenodo.7716941</a>, S. 92 (letzter Zugriff 28.12.2023).<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn22"><p><a href="https://cdli-gh.github.io/glow_vocabularies/" class="uri">https://cdli-gh.github.io/glow_vocabularies/</a>, letzter Zugriff 29.12.2023.<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn23"><p><a href="https://pleiades.stoa.org/" class="uri">https://pleiades.stoa.org/</a>, letzter Zugriff 30.12.2023.<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn24"><p><a href="https://cdli.mpiwg-berlin.mpg.de/" class="uri">https://cdli.mpiwg-berlin.mpg.de/</a>, letzter Zugriff 30.12.2023.<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn25"><p><a href="https://github.com/th-blaschke/Landsberger-Korrespondenz/blob/main/assyriologists_times_of_landsberger.csv" class="uri">https://github.com/th-blaschke/Landsberger-Korrespondenz/blob/main/assyriologists_times_of_landsberger.csv</a><a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn26"><p>Für eine Erklärung zu den unterschiedlichen Bezeichnungen Altorientalist*in, Assyriolog*in, Hethitolog*in siehe Kapitel 2.1.<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn27"><p><a href="https://query.wikidata.org/" class="uri">https://query.wikidata.org/</a>, letzter Zugriff 30.12.2023.<a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn28"><p>Die GND ist für eine Abfrage wie diese weniger geeignet, da sie deutlich weniger Lebensdaten über die Personen zur Verfügung stellt und somit keine gute zeitliche Eingrenzung des in Frage kommenden Personenkreis erlaubt.<a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn29"><p>Siehe beispielsweise <a href="https://www.wikidata.org/wiki/Q313353" class="uri">https://www.wikidata.org/wiki/Q313353</a> mit fehlender Referenz oder <a href="https://www.wikidata.org/wiki/Q26938383" class="uri">https://www.wikidata.org/wiki/Q26938383</a> mit einem inkorrekten Geburtsdatum, letzter Zugriff 30.12.2023.<a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn30"><p><a href="https://cdli.ox.ac.uk/wiki/doku.php?id=who_s_who_in_cuneiform_studies" class="uri">https://cdli.ox.ac.uk/wiki/doku.php?id=who_s_who_in_cuneiform_studies</a>, letzter Zugriff 30.12.2023.<a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn31"><p><a href="https://publikationen.badw.de/de/rla/index" class="uri">https://publikationen.badw.de/de/rla/index</a>, letzter Zugriff 30.12.2023.<a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn32"><p><a href="https://openrefine.org/docs/manual/reconciling" class="uri">https://openrefine.org/docs/manual/reconciling</a>, letzter Zugriff 30.12.2023.<a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn33"><p><a href="https://github.com/th-blaschke/Landsberger-Korrespondenz/blob/main/landsberger_publications.csv" class="uri">https://github.com/th-blaschke/Landsberger-Korrespondenz/blob/main/landsberger_publications.csv</a><a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn34"><p>A. Draffkorn Kilmer/J. Renger, "A Bibliography of B. Landsberger's Works", Journal of Cuneiform Studies (1974) 183-194.<a href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn35"><p>Für eine Liste von Metadaten, die einen Brief als einen Brief definieren können, siehe auch J. Strobel, "Woran erkennen wir einen Brief? " In: Caroline Bohn, Maria Frommhold, Christian Wiebe (Hg.): BriefKunst. Der andere Blick auf Korrespondenzen. Gesammelte Essays für Renate Stauf. Heidelberg 2021, S. 18.<a href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn36"><p><a href="https://github.com/th-blaschke/Landsberger-Korrespondenz/blob/main/metadata_letters.csv" class="uri">https://github.com/th-blaschke/Landsberger-Korrespondenz/blob/main/metadata_letters.csv</a><a href="#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn37"><p>Zur Empfehlung für die Nutzung dieses Formats siehe beispielsweise auch A. Kailus, "Handreichung für ein FAIRes Management kulturwissenschaftlicher Forschungsdaten (1.0.1) " 2023. Zenodo. <a href="https://doi.org/10.5281/zenodo.7716941" class="uri">https://doi.org/10.5281/zenodo.7716941</a>, S. 96 (letzter Zugriff 28.12.2023).<a href="#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn38"><p><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CH.html#CHSH" class="uri">https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CH.html#CHSH</a>, letzter Zugriff 29.12.2023<a href="#fnref38" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn39"><p>A. Baillot, "Digitalisierung und ihre Einflüsse auf den Umgang mit alten wie neuen ‚Briefen’ in deutscher wie internationaler Perspektive", in: M. Matthews-Schlinzig et al., Handbuch Brief, De Gruyter 2020, S. 389-390.<a href="#fnref39" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn40"><p>Das im Folgenden dargestellte Schema wurde anhand folgender Quellen erarbeitet: "Encoding Correspondence. A Manual for Encoding Letters and Postcards in TEI-XML and DTABf. " Edited by Stefan Dumont, Susanne Haaf, and Sabine Seifert. Berlin 2019–2020. <a href="https://encoding-correspondence.bbaw.de/v1/index.html" class="uri">https://encoding-correspondence.bbaw.de/v1/index.html</a>, letzter Zugriff 30.12.2023; "TEI genre-specific encoding: letters. CLARIAH-AT TEI Introductory School 10.-13. September 2019" by Roman Bleier, <a href="https://www.i-d-e.de/wp-content/uploads/2019/11/Bleier_Correspondence.pdf" class="uri">https://www.i-d-e.de/wp-content/uploads/2019/11/Bleier_Correspondence.pdf</a>, letzter Zugriff 30.12.2023 sowie den Allgemeinen TEI Guidelines, <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html" class="uri">https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html</a>, letzter Zugriff 30.12.2023; <a href="https://github.com/TEI-Correspondence-SIG/CMIF/blob/main/examples/example01_basic.xml" class="uri">https://github.com/TEI-Correspondence-SIG/CMIF/blob/main/examples/example01_basic.xml</a>, letzter Zugriff 02.01.2024.<a href="#fnref40" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn41"><p>TEI Guidelines, <a href="https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-correspDesc.html" class="uri">https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-correspDesc.html</a>, letzter Zugriff 02.01.2024.<a href="#fnref41" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn42"><p>Absender und Empfänger, die in Gruß- und Schlussformel genannt werden, werden nicht noch zusätzlich ausgezeichnet und mit Normdaten versehen, da diese Informationen bereits im TEI Header vorliegen.<a href="#fnref42" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn43"><p><a href="https://pleiades.stoa.org/" class="uri">https://pleiades.stoa.org/</a>, letzter Zugriff 02.01.2024.<a href="#fnref43" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn44"><p>Prinzipiell bestünde auch die Möglichkeit, altorientalische Götternamen mit dem Tag &lt;persName&gt; und einem entsprechenden Attribut type="deity" zu versehen. Da die Personifikation von Gottheiten jedoch ein strittiges Thema ist, erscheint die Wahl des generellern &lt;name&gt;-Tags mit entsprechendem Attribut die geeignetere Wahl.<a href="#fnref44" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn45"><p><a href="https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry" class="uri">https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry</a>, letzter Zugriff 02.01.2024.<a href="#fnref45" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn46"><p><a href="https://cdli.mpiwg-berlin.mpg.de/" class="uri">https://cdli.mpiwg-berlin.mpg.de/</a>, letzter Zugriff 02.01.2024.<a href="#fnref46" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn47"><p><a href="https://spacy.io/" class="uri">https://spacy.io/</a>, letzter Zugriff 02.01.2024.<a href="#fnref47" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn48"><p>Für weitere Hintergründe und Tools für Named Entity Recognition in den Digital Humanities siehe Mareike Schumacher (2018): "Named Entity Recognition (NER) ". In: forTEXT. Literatur digital erforschen. URL: https://fortext.net/routinen/methoden/named-entity-recognition-ner (letzter Zugriff 02.01.2024).<a href="#fnref48" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn49"><p><a href="https://spacy.io/models/de" class="uri">https://spacy.io/models/de</a>, letzter Zugriff 02.01.2024.<a href="#fnref49" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn50"><p><a href="https://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page" class="uri">https://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page</a>, letzter Zugriff 02.01.2024.<a href="#fnref50" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn51"><p><a href="https://nlp.stanford.edu/software/CRF-NER.html#About" class="uri">https://nlp.stanford.edu/software/CRF-NER.html#About</a>, letzter Zugriff 02.01.2024; für die Anwendungsoberfläche siehe <a href="http://corenlp.run/" class="uri">http://corenlp.run/</a>.<a href="#fnref51" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn52"><p>Jan Horstmann (2018): "Topic Modeling". In: forTEXT. Literatur digital erforschen. URL: https://fortext.net/routinen/methoden/topic-modeling, letzter Zugriff 02.01.2024.<a href="#fnref52" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn53"><p>Es wurde hierfür der DARIAH Topic Explorer genutzt, <a href="https://de.dariah.eu/topicsexplorer" class="uri">https://de.dariah.eu/topicsexplorer</a> (letzter Zugriff 02.01.2024). Es wurden 1000 Iterationen bei 8 Topics durchgeführt.<a href="#fnref53" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn54"><p>Zum Thema Frames siehe J. Strobel, "Digitale Briefedition und semantische Erschließung. Von den Briefen der Jenaer Romantikergeneration zur Edition der Korrespondenz August Wilhelm Schlegels". Editio 28 (1) (2014), S. 155-160 und J. Strobel, "Welchen Erkenntnisgewinn versprechen digitale Briefeditionen? ", In: M. Matthews-Schlinzig, Was ist ein Brief? Aufsätze zu epistolarer Theorie und Kultur = What is a letter?: essays on epistolary theory and culture, Würzburg 2019, S. 102-105<a href="#fnref54" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Ich bin Michael P. Streck zu Dank verpflichtet, der mir gestattet hat, die veröffentlichten Materialien im Rahmen meiner Masterarbeit zu nutzen. Alle Veröffentlichungsrechte liegen beim Altorientalischen Institut der Universität Leipzig und der Hebrew University Jerusalem.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><span class="citation" data-cites="streck_landsberger_2024">Streck (<a href="#ref-streck_landsberger_2024" role="doc-biblioref">n.d.</a>)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Zum Thema Briefbeigaben siehe beispielsweise <span class="citation" data-cites="bohnenkamp_beilage_2013">Radecke (<a href="#ref-bohnenkamp_beilage_2013" role="doc-biblioref">2013</a>)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Da Postkarten eine andere Form der Erschließung erfordern, werden sie hier nicht mitberücksichtigt. Zur Edition von Postkarten siehe beispielsweise <span class="citation" data-cites="greinert_paratextelemente_2020">Greinert, Martin, and Nottscheid (<a href="#ref-greinert_paratextelemente_2020" role="doc-biblioref">2020</a>)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Hierbei handelt es sich um einen Brief von D. Prince an F. Delitzsch sowie einen Brief von E. Weidner an H. Zimmern, die im “Landsberger Archives” unter den in Jerusalem aufbewahrten Dokumenten unter den Nummern 21 und 22 zu finden sind.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Hierbei handelt es sich um das in Jerusalem aufbewahrte Dokument mit der Nummer 25.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Für die Ergebnisse siehe <a href="https://th-blaschke.github.io/landsberger.github.io/briefe.html">https://th-blaschke.github.io/landsberger.github.io/briefe.html</a>. Für die bisher nur z.T. edierten Briefe, die die Grundlage für eine weitere Edition bieten können, siehe für die Faksimiles <a href="https://github.com/th-blaschke/landsberger.github.io/tree/main/files/letters/pdf">https://github.com/th-blaschke/landsberger.github.io/tree/main/files/letters/pdf</a>, für die im Grundgerüst in TEI kodierten Briefe <a href="https://github.com/th-blaschke/landsberger.github.io/tree/main/files/letters/tei">https://github.com/th-blaschke/landsberger.github.io/tree/main/files/letters/tei</a>, für die TXT-Dateien <a href="https://github.com/th-blaschke/landsberger.github.io/tree/main/files/letters/txt">https://github.com/th-blaschke/landsberger.github.io/tree/main/files/letters/txt</a>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><span class="citation" data-cites="streck_landsberger_2024">Streck (<a href="#ref-streck_landsberger_2024" role="doc-biblioref">n.d.</a>)</span>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Siehe dazu Kapitel 3.2 Technische Parameter der digitalen Reproduktion in <span class="citation" data-cites="altenhoner_dfg-praxisregeln_2023">Altenhöner et al. (<a href="#ref-altenhoner_dfg-praxisregeln_2023" role="doc-biblioref">2023</a>)</span>.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Dies schloss beispielsweise die weit verbreitete Software Tesseract aus, mit der nur Bilddateien verarbeitet werden können (<a href="https://tesseract-ocr.github.io/tessdoc/InputFormats.html">https://tesseract-ocr.github.io/tessdoc/InputFormats.html</a>, letzter Zugriff 29.12.2023). Ein proprietäres Tool wie der ABBYY FineReader (<a href="https://pdf.abbyy.com/de/">https://pdf.abbyy.com/de/</a>, letzter Zugriff 29.12.2023.) erschien zumindest für das in Schreimaschinenschrift vorliegende Briefmaterial eine Option zu sein. Das Ergebnis der Texterkennung war jedoch von so schlechter Qualität, da die oben beschriebenen Herausforderungen dafür sorgten, dass Artefakte wie durchscheinende Schrift oder verschmierte Tinte vom Programm als Text eingestuft wurden, aber natürlich nicht sinnvoll erkannt werden konnten. Daher wurde die Nutzung auch dieses Tools verworfen.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p><a href="https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Dokumente/Brief_71.pdf">https://www.gkr.uni-leipzig.de/fileadmin/Fakult%C3%A4t_GKR/Altorientalisches_Institut/Dokumente/Brief_71.pdf</a>, letzter Zugriff 29.12.2023. Da die transkribierten Texte ebenfalls im PDF-Format vorliegen, mussten diese ebenfalls ins TXT-Format überführt werden. Die Transkribierenden haben keine Regeln festgehalten, nach denen die Transkription durchgeführt wurde. Es scheinen Unterschiede im Umgang mit beispielsweise durchgestrichenen und korrigierten Textpassagen vorhanden zu sein. Der Aufbau der Briefe wurde in der Transkription ebenfalls nur bedingt berücksichtigt. Zeilentrennungen wurden nicht wiedergegeben, sondern getrennte Wörter als Fließtext zusammengeschrieben. Letztlich war die Umwandlung der bereits transkribierten Texte in ein TXT-Format nach einheitlichen Regeln daher ebenso zeitaufwendig wie bei den durch die automatische Texterkennung erstellten TXT-Dateien.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p><a href="https://readcoop.eu/transkribus/?sc=Transkribus">https://readcoop.eu/transkribus/?sc=Transkribus</a>, letzter Zugriff 29.12.2023.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p><a href="https://www.ocr4all.org/">https://www.ocr4all.org/</a>, letzter Zugriff 29.12.2023.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Für das Training so eines Modells werden für Transkribus zwischen 5.000 und 15.000 Wörter (ca. 25-75 Seiten) benötigt, siehe dazu <a href="https://readcoop.eu/de/transkribus/howto/how-to-train-a-handwritten-text-recognition-model-in-transkribus/">https://readcoop.eu/de/transkribus/howto/how-to-train-a-handwritten-text-recognition-model-in-transkribus/</a>, letzter Zugriff 29.12.2023.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Aus meiner subjektiven Perspektive ist diesbezüglich auch festzuhalten, dass mir die Entzifferung der Schrift einiger handschriftlicher Briefe kaum möglich war. Die Texterkennung dieser Handschriften durch Transkribus war aber letztlich so gut, dass ich mich durch den OCR generierten Text an die Handschrift gewöhnen und somit auch manuelle Nachkorrekturen durchführen konnte.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p><a href="https://readcoop.eu/de/modelle/print-multi-language-danish-dutch-german-finnish-french-latin-swedish/">https://readcoop.eu/de/modelle/print-multi-language-danish-dutch-german-finnish-french-latin-swedish/</a>, letzter Zugriff 29.12.2023.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p><a href="https://readcoop.eu/de/introducing-transkribus-super-models-get-access-to-the-text-titan-i/">https://readcoop.eu/de/introducing-transkribus-super-models-get-access-to-the-text-titan-i/</a>, letzter Zugriff 29.12.2023.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>Dies folgt dem Vorgehen der Alfred Escher Briefedition, <span class="citation" data-cites="jung_digitale_2022">Jung (<a href="#ref-jung_digitale_2022" role="doc-biblioref">2022</a>)</span> sub Editionsprinzipien.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Zum Umgang mit Korrekturen im Text und der Relation zwischen Faksimile und ediertem Text siehe auch <span class="citation" data-cites="frohlich_digitale_2023">Neuber (<a href="#ref-frohlich_digitale_2023" role="doc-biblioref">2023</a>)</span>, 76-77.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Siehe dagegen kritisch <span class="citation" data-cites="strobel__2021">Strobel (<a href="#ref-strobel__2021" role="doc-biblioref">2021b</a>)</span>, 155-157.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p><a href="https://www.go-fair.org/fair-principles/">https://www.go-fair.org/fair-principles/</a>, letzter Zugriff 18.11.2023.<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p><span class="citation" data-cites="stadler_normdateien_2012">Stadler (<a href="#ref-stadler_normdateien_2012" role="doc-biblioref">2012</a>)</span>, 174-183; <span class="citation" data-cites="strobel_digitale_2014">Strobel (<a href="#ref-strobel_digitale_2014" role="doc-biblioref">2014</a>)</span>, 153; <span class="citation" data-cites="kuhner_anforderungen_2021">Kühner (<a href="#ref-kuhner_anforderungen_2021" role="doc-biblioref">2021</a>)</span>, 22-23.<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>Für eine Liste von Empfehlungen siehe beispielweise <span class="citation" data-cites="kailus_handreichung_2023">Kailus (<a href="#ref-kailus_handreichung_2023" role="doc-biblioref">2023</a>)</span>, 91-98.<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">https://www.wikidata.org/wiki/Wikidata:Main_Page</a>, letzter Zugriff 29.12.2023.<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p><a href="https://www.geonames.org/">https://www.geonames.org/</a>, letzter Zugriff 29.01.2024.<a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p><a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html</a>, letzter Zugriff 29.12.2023.<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p><span class="citation" data-cites="altenhoner_dfg-praxisregeln_2023">Altenhöner et al. (<a href="#ref-altenhoner_dfg-praxisregeln_2023" role="doc-biblioref">2023</a>)</span>, 8, 26.<a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p><span class="citation" data-cites="kailus_handreichung_2023">Kailus (<a href="#ref-kailus_handreichung_2023" role="doc-biblioref">2023</a>)</span>, 92.<a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p><a href="https://cdli-gh.github.io/glow_vocabularies/">https://cdli-gh.github.io/glow_vocabularies/</a>, letzter Zugriff 29.12.2023.<a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p><a href="https://pleiades.stoa.org/">https://pleiades.stoa.org/</a>, letzter Zugriff 30.12.2023.<a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31"><p><a href="https://cdli.mpiwg-berlin.mpg.de/">https://cdli.mpiwg-berlin.mpg.de/</a>, letzter Zugriff 30.12.2023.<a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32"><p><span class="citation" data-cites="streck_landsberger_2024">Streck (<a href="#ref-streck_landsberger_2024" role="doc-biblioref">n.d.</a>)</span>.<a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33"><p><a href="https://github.com/th-blaschke/landsberger.github.io/blob/main/files/landsberger_publications.csv">https://github.com/th-blaschke/landsberger.github.io/blob/main/files/landsberger_publications.csv</a>.<a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p><span class="citation" data-cites="kilmer_bibliography_1974">Kilmer and Renger (<a href="#ref-kilmer_bibliography_1974" role="doc-biblioref">1974</a>)</span>.<a href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn35"><p><a href="https://openrefine.org/docs/manual/reconciling">https://openrefine.org/docs/manual/reconciling</a>, letzter Zugriff 30.12.2023.<a href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn36"><p><span class="citation" data-cites="landsberger_serie_1937">Landsberger (<a href="#ref-landsberger_serie_1937" role="doc-biblioref">1937</a>)</span>.<a href="#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn37"><p>Für eine Liste von Metadaten, die einen Brief als einen Brief definieren können, siehe auch <span class="citation" data-cites="bohn_woran_2021">Strobel (<a href="#ref-bohn_woran_2021" role="doc-biblioref">2021a</a>)</span>, 18.<a href="#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn38"><p><a href="https://github.com/th-blaschke/landsberger.github.io/blob/main/files/metadata_letters.csv">https://github.com/th-blaschke/landsberger.github.io/blob/main/files/metadata_letters.csv</a>.<a href="#fnref38" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn39"><p><span class="citation" data-cites="streck_landsberger_2024">Streck (<a href="#ref-streck_landsberger_2024" role="doc-biblioref">n.d.</a>)</span>.<a href="#fnref39" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn40"><p>Zur Empfehlung für die Nutzung dieses Formats siehe beispielsweise auch <span class="citation" data-cites="kailus_handreichung_2023">Kailus (<a href="#ref-kailus_handreichung_2023" role="doc-biblioref">2023</a>)</span>, 96.<a href="#fnref40" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn41"><p><a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CH.html#CHSH">https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CH.html#CHSH</a>, letzter Zugriff 29.12.2023.<a href="#fnref41" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn42"><p>Dies wurde mittels eines Python-Skriptes erfasst. Siehe dazu <a href="https://github.com/th-blaschke/landsberger.github.io/blob/main/files/python/count_pages_words.py">https://github.com/th-blaschke/landsberger.github.io/blob/main/files/python/count_pages_words.py</a>.<a href="#fnref42" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn43"><p>Für die Erfassung der Wortzahl mithilfe eines Python-Skriptes siehe die vorangehende Fußnote.<a href="#fnref43" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn44"><p>Absolute Häufigkeit des Wortes dividiert durch die Gesamtzahl der Wörter des Textes multipliziert mit 100, wobei in diesem Kontext zu bemerken ist, dass die Gesamtzahl der Wörter eines Briefes und die Häufigkeit der Wörter nach Entfernung der Stoppwörter berechnet wurde. Die daraus errechnete Zahl gibt an, wie oft das betreffende Wort durchschnittlich pro 100 Wörter des Textes vorkommt. Dieses Vorgehen ermöglicht einen Vergleich der Häufigkeit von Wörtern in unterschiedlich langen Texten. Für verschiedene diesbezügliche Berechnungsarten siehe <span class="citation" data-cites="jannidis_quantitative_2017">Schöch (<a href="#ref-jannidis_quantitative_2017" role="doc-biblioref">2017</a>)</span>.<a href="#fnref44" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn45"><p>Für weiterführende Überlegungen hierzu siehe <a href="#sec-teitext">Section&nbsp;1.5.2</a>.<a href="#fnref45" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn46"><p><span class="citation" data-cites="matthews-schlinzig_digitalisierung_2020">Baillot (<a href="#ref-matthews-schlinzig_digitalisierung_2020" role="doc-biblioref">2020</a>)</span>, 389-390.<a href="#fnref46" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn47"><p>Das im Folgenden dargestellte Schema wurde anhand folgender Quellen erarbeitet: <span class="citation" data-cites="dumont_correspsearch_2016">Dumont (<a href="#ref-dumont_correspsearch_2016" role="doc-biblioref">2016</a>)</span>; <span class="citation" data-cites="dumont_encoding_2019">Dumont, Haaf, and Seifert (<a href="#ref-dumont_encoding_2019" role="doc-biblioref">2019</a>)</span>; <span class="citation" data-cites="bleier_tei_2019">Bleier (<a href="#ref-bleier_tei_2019" role="doc-biblioref">2019</a>)</span> sowie den Allgemeinen TEI Guidelines, <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html</a>, letzter Zugriff 30.12.2023.<a href="#fnref47" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn48"><p>Für das Skript und die jeweilige Zuordnung der Angaben der Metadatentabelle zu den TEI Tags siehe <a href="https://github.com/th-blaschke/landsberger.github.io/blob/main/files/python/create_tei_header.py">https://github.com/th-blaschke/landsberger.github.io/blob/main/files/python/create_tei_header.py</a>. Für ein konkretes Beispiel für einen Header siehe <a href="https://github.com/th-blaschke/landsberger.github.io/blob/main/files/letters/tei/1929-07-10_Mueller_Landsberger.xml">https://github.com/th-blaschke/landsberger.github.io/blob/main/files/letters/tei/1929-07-10_Mueller_Landsberger.xml</a>.<a href="#fnref48" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn49"><p>TEI Guidelines, <a href="https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-correspDesc.html">https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-correspDesc.html</a>, letzter Zugriff 02.01.2024.<a href="#fnref49" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn50"><p>Für eine andere Form von Annotation von vorgedruckten Briefelementen siehe auch <span class="citation" data-cites="seifert_pre-printed_2019">Seifert, Schenk, and Haaf (<a href="#ref-seifert_pre-printed_2019" role="doc-biblioref">2019-2020</a>)</span>.<a href="#fnref50" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn51"><p>Absender*innen und Empfänger*innen, die in Gruß- und Schlussformel genannt werden, werden nicht noch zusätzlich ausgezeichnet und mit Normdaten versehen, da diese Informationen bereits im TEI Header vorliegen.<a href="#fnref51" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn52"><p><a href="https://pleiades.stoa.org/">https://pleiades.stoa.org/</a>, letzter Zugriff 02.01.2024.<a href="#fnref52" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn53"><p>Prinzipiell bestünde auch die Möglichkeit, altorientalische Götternamen mit dem Tag &lt;persName&gt; und einem entsprechenden Attribut type=<code>"deity"</code> zu versehen. Da die Personifikation von Gottheiten jedoch ein strittiges Thema ist, erscheint die Wahl des generelleren &lt;name&gt;-Tags mit entsprechendem Attribut die geeignetere Wahl.<a href="#fnref53" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn54"><p><a href="https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry</a>, letzter Zugriff 02.01.2024.<a href="#fnref54" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn55"><p><a href="https://cdli.mpiwg-berlin.mpg.de/">https://cdli.mpiwg-berlin.mpg.de/</a>, letzter Zugriff 02.01.2024.<a href="#fnref55" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn56"><p>Was im Rahmen dieser Arbeit nicht getestet wurde, aber potenziell zu einer verbesserten automatisierten Annotation der Texte beitragen könnte, wäre die Nutzung von auf LLMs basierten Programmen wie ChatGPT. Für den Einsatz von ChatGPT in Editionsprojekten siehe beispielsweise die Publikationen von Christopher Pollin zu <em>Angewandte Generative KI in den (digitalen) Geisteswissenschaften</em>, <a href="https://chpollin.github.io/">https://chpollin.github.io/</a>, letzter Zugriff 18.02.2024.<a href="#fnref56" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn57"><p><a href="https://spacy.io/">https://spacy.io/</a>, letzter Zugriff 02.01.2024.<a href="#fnref57" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn58"><p>Für weitere Hintergründe und Tools für Named Entity Recognition in den Digital Humanities siehe <span class="citation" data-cites="schumacher_named_2018">Schumacher (<a href="#ref-schumacher_named_2018" role="doc-biblioref">2018</a>)</span>.<a href="#fnref58" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn59"><p><a href="https://spacy.io/models/de">https://spacy.io/models/de</a>, letzter Zugriff 02.01.2024.<a href="#fnref59" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn60"><p><a href="https://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page">https://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page</a>, letzter Zugriff 02.01.2024.<a href="#fnref60" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn61"><p><a href="https://nlp.stanford.edu/software/CRF-NER.html#About">https://nlp.stanford.edu/software/CRF-NER.html#About</a>, letzter Zugriff 02.01.2024.<a href="#fnref61" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn62"><p><a href="https://github.com/th-blaschke/landsberger.github.io/blob/main/files/term_document_matrix.csv">https://github.com/th-blaschke/landsberger.github.io/blob/main/files/term_document_matrix.csv</a>.<a href="#fnref62" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn63"><p>Für den Brief von Karl Friedrich Müller an Benno Landsberger vom 07.10.1929 siehe beispielsweise folgende Häufigkeitstabelle: <a href="https://th-blaschke.github.io/landsberger.github.io/1929-07-10_Mueller_Landsberger_wordfrequency.html">https://th-blaschke.github.io/landsberger.github.io/1929-07-10_Mueller_Landsberger_wordfrequency.html</a>. Für die CSV-Dateien für die Einzeltexte siehe <a href="https://github.com/th-blaschke/landsberger.github.io/tree/main/files/wordfrequency">https://github.com/th-blaschke/landsberger.github.io/tree/main/files/wordfrequency</a>.<a href="#fnref63" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn64"><p>Siehe <a href="https://th-blaschke.github.io/landsberger.github.io/1929-07-10_Mueller_Landsberger.html">https://th-blaschke.github.io/landsberger.github.io/1929-07-10_Mueller_Landsberger.html</a>.<a href="#fnref64" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn65"><p><span class="citation" data-cites="horstmann_topic_2018">Horstmann (<a href="#ref-horstmann_topic_2018" role="doc-biblioref">2018</a>)</span>.<a href="#fnref65" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn66"><p>Es wurde hierfür der DARIAH Topic Explorer genutzt, <a href="https://de.dariah.eu/topicsexplorer">https://de.dariah.eu/topicsexplorer</a>, letzter Zugriff 02.01.2024. Es wurden 1000 Iterationen bei 8 Topics durchgeführt.<a href="#fnref66" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn67"><p><span class="citation" data-cites="vauth_generierung_2019">Vauth et al. (<a href="#ref-vauth_generierung_2019" role="doc-biblioref">2019</a>)</span>.<a href="#fnref67" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn68"><p><a href="https://tcdh.uni-trier.de/de/projekt/vernetzte-korrespondenzen-exilnetz33">https://tcdh.uni-trier.de/de/projekt/vernetzte-korrespondenzen-exilnetz33</a>, letzter Zugriff 04.02.2024.<a href="#fnref68" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn69"><p><span class="citation" data-cites="hildenbrandt_im_2014">Hildenbrandt and Kamzelak (<a href="#ref-hildenbrandt_im_2014" role="doc-biblioref">2014</a>)</span>; <span class="citation" data-cites="biehl_exilnetz33_2015">Biehl, Lorenz, and Osierenski (<a href="#ref-biehl_exilnetz33_2015" role="doc-biblioref">2015</a>)</span>.<a href="#fnref69" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn70"><p>Zum Thema Frames siehe <span class="citation" data-cites="strobel_digitale_2014">Strobel (<a href="#ref-strobel_digitale_2014" role="doc-biblioref">2014</a>)</span>, 155-160; <span class="citation" data-cites="matthews-schlinzig_welchen_2018">Strobel (<a href="#ref-matthews-schlinzig_welchen_2018" role="doc-biblioref">2018</a>)</span>, 102-105.<a href="#fnref70" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
