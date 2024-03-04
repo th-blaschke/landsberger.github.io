@@ -14,7 +14,7 @@ matplotlib.rcParams.update({"font.size": 18})
 matplotlib.rcParams.update({"axes.titlesize" : 26})
 
 # Einlesen der in einer CSV-Datei gespeicherten Lebensdaten in zwei Listen
-df_bio = pd.read_csv("Lebenslauf-Landsberger.csv", encoding="utf-8")
+df_bio = pd.read_csv("biography_landsberger.csv", encoding="utf-8")
 names = df_bio["Ereignis"].to_list()
 dates = df_bio["Jahr"].to_list()
 
