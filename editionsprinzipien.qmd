@@ -102,7 +102,7 @@ Die übergeordnete Struktur des eigentlichen Brieftextes lässt sich mit folgend
 |   |   |   |
 |\<postscript\>|    |     |
 |\<p\>|   |Enthält den angehängten Text nach der Signatur|
-: TEI Tags zur Wiedergabe der Briefstruktur
+: TEI Tags zur Wiedergabe der Briefstruktur {#tbl-briefstruktur}
 
 Für die Textstruktur sind zudem die Tags \<unclear\> für die Markierung von Wörtern oder Textpassagen, die nicht sicher gelesen werden können, und \<handShift\> für handschriftliche Einfügungen in den mit Schreibmaschine verfassten Briefen relevant. Randnotizen werden als \<div type=`"notes"`\> gekennzeichnet. In Fällen, in denen vorgedruckte Elemente des Briefkopfes vorliegen, wird dem entsprechenden Element-Tag das Attribut \<style=`"pre-printed"`\> hinzugefügt.^[Für eine andere Form von Annotation von vorgedruckten Briefelementen siehe auch @seifert_pre-printed_2019.]
 
