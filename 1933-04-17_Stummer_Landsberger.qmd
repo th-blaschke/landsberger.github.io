@@ -71,4 +71,13 @@ ergebenster<br/>
 <br/>
 <br/>
 <br/>
+
+::: {.callout-warning collapse="true"}
+## Veröffentlichungsrechte
+
+Um User\*innen die Möglichkeit zu weiteren Analysen des Materials zu geben und die Briefe als plain text und in annotierter Form zum Download zur Verfügung zu stellen, wäre es sinnvoll, das Material unter einer Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) Lizenz ([https://creativecommons.org/licenses/by-sa/4.0/deed.en](https://creativecommons.org/licenses/by-sa/4.0/deed.en), letzter Zugriff 03.03.2024) zu veröffentlichen. Um eine einheitliche Zitierung des Materials zu gewährleisten, müsste zudem ein Zitiervorschlag hinzugefügt werden, wie z.B.:
+
 *Zitiervorschlag: Brief von Friedrich Stummer an Benno Landsberger vom 17.04.1933. In: Blaschke, Theresa. Die wissenschaftliche Korrespondenz Benno Landsbergers - Eine Fallstudie. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1933-04-17_Stummer_Landsberger.html.*
+
+Die Veröffentlichungsrechte für das in dieser Masterarbeit genutzte Material liegen jedoch beim Altorientalischen Institut der Universität Leipzig und der Hebrew University Jerusalem, siehe dazu auch den Abschnitt [Hintergrund des Projekts](index.qmd#hintergrund-des-projekts). Die hier erstellte Briefedition dient somit nicht der allgemeinen Veröffentlichungen, sondern lediglich der Darstellung der Ergebnisse der Masterarbeit. Die Entscheidung über die Vergabe einer CC-Lizenz müsste in Vereinbarung mit den zuständigen Universitäten geschehen.
+:::
