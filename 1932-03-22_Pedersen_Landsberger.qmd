@@ -1,12 +1,17 @@
 ---
 title: "Brief von Johannes Pedersen an Benno Landsberger vom 22.03.1932"
 ---
+::: {.callout-note collapse="true"}
+## Absender\*innen und Empfänger\*innen
+
+Auffällig in Bezug auf die für diese Fallstudie herangezogenen Briefe von und an Landsberger ist die Tatsache, dass es sich bei den Personen, die Briefe erhalten und empfangen, ausschließlich um männlich gelesene Personen handelt. Dies gilt ebenso für die in den Briefen erwähnten Personen. Hier stellt sich die Frage, ob die Fachcommunity der Altorientalistik zu Landsbergers Zeiten keine oder nur wenige weiblich gelesene Personen einschloss oder Wissenschaftlerinnen in dieser Zeitperiode zwar aktiv waren, jedoch von der Fachcommunity so marginalisiert wurden, dass sie in der Briefkorrespondenz dieser Zeit nicht sichtbar werden. In dem im Rahmen dieser Arbeit aus Wikidata generierten [Netzwerk von Altorientalist\*innen](index.qmd#kontextualisierung-der-korrespondenz) zu Landsbergers Zeiten sind nur ca. 30 Personen mit sex or gender ([Wikidata-Property (P21)](https://www.wikidata.org/wiki/Property:P21), letzter Zugriff 04.02.2024) als weiblich eingeordnet gegenüber ca. 200 Personen, die als männlich kategorisiert werden. Diese Verteilung muss jedoch nicht die tatsächliche Zusammensetzung der Altorientalistik-Community dieser Zeitperiode widerspiegeln, da auch die Eintragungen in Wikidata davon geprägt sein könnten, dass weiblich gelesenen Wissenschaftler\*innen dieser Zeitperiode weniger Aufmerksamkeit gewidmet wurde und wird, als dies für männlich gelesene Personen gilt. Diese Frage lässt sich im Rahmen dieser Arbeit nicht klären, wäre aber ebenfalls eine notwendige und sinnvolle Aufgabe der Fachhistoriographie, um Strukturen und potenziell ungleiche Machtverteilungen der Fachdisziplin sichtbar zu machen. Notwendig wären hierzu intensive Recherchen in Archiven und die Erschließung weiterer wissenschaftlicher Korrespondenzen, um eine valide Datengrundlage zur Beantwortung dieser Frage zu generieren. Zum Thema Data Feminsim und verzerrter, nicht-repräsentativer Datensätze bzw. Datensätzen, die erst gar nicht erhoben werden, da die Daten sammelnde Community kein Interesse daran zeigt, siehe *D’Ignazio, Catherine, and Lauren F. Klein. 2020. Data Feminism. Strong Ideas Series. Cambridge, Massachusetts: The MIT Press, S. 33-39.*
+:::
 
 **Absender\*in**: [Johannes Pedersen](https://www.wikidata.org/wiki/Q6039205)   
 **Aufenthaltsort Absender\*in**: [Kopenhagen](https://www.geonames.org/2618425/copenhagen.html)  
 **Datum**: 22.03.1932  
 **Empfänger\*in**: [Benno Landsberger](http://www.wikidata.org/entity/Q67592)  
-**Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**:  
+**Die fünf häufigsten Stichwörter und ihre relative Häufigkeit**^[Absolute Häufigkeit des Wortes dividiert durch die Gesamtzahl der Wörter des Textes multipliziert mit 100, siehe dazu auch den Abschnitt [Erhebung von Metadaten](editionsprinzipien.qmd#tbl-metadaten) sub Häufigste Wörter.]:  
 Zeit (2.54)  
 denke (1.69)  
 Leipzig (1.69)  
@@ -76,4 +81,4 @@ Joha. Pedersen
 <br/>
 <br/>
 <br/>
-*Zitiervorschlag: Brief von Johannes Pedersen an Benno Landsberger vom 22.03.1932. In: Blaschke, Theresa. Benno Landsberger und seine Korrespondenz. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1932-03-22_Pedersen_Landsberger.html.*
+*Zitiervorschlag: Brief von Johannes Pedersen an Benno Landsberger vom 22.03.1932. In: Blaschke, Theresa. Die wissenschaftliche Korrespondenz Benno Landsbergers - Eine Fallstudie. Marburg 2024. https://th-blaschke.github.io/landsberger.github.io/1932-03-22_Pedersen_Landsberger.html.*
