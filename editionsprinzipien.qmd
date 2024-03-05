@@ -1,7 +1,6 @@
 ---
 title: "Editionsprinzipien"
 ---
-
 ## Aufbereitung des Briefkorpus - Editionsprinzipien
 ### Auswahl der Texte
 Das in dieser Masterarbeit genutzte Briefkorpus entstammt den im Internetauftritt der Universität Leipzig als "Landsberger Archives" veröffentlichten Dokumenten aus dem Nachlass und Umfeld von Benno Landsberger.^[Ich bin Michael P. Streck zu Dank verpflichtet, der mir gestattet hat, die veröffentlichten Materialien im Rahmen meiner Masterarbeit zu nutzen. Alle Veröffentlichungsrechte liegen beim Altorientalischen Institut der Universität Leipzig und der Hebrew University Jerusalem.] Bei den in Leipzig aufbewahrten Dokumenten handelt es sich vorrangig um Briefe und Postkarten von und an Kolleg\*innen sowie Familienmitglieder. Briefumschläge zu den einzelnen Briefen liegen nicht vor. Insbesondere unter den in Jerusalem aufbewahrten Nachlassobjekten finden sich des Weiteren Manuskripte, Notizen und Fotos.^[@streck_landsberger_2024.] Briefbeigaben wie Drucke und Manuskripte sind ebenfalls nicht aufbewahrt worden.^[Zum Thema Briefbeigaben siehe beispielsweise @bohnenkamp_beilage_2013.] Die Dokumente sind als PDF-Dateien verfügbar gemacht. Zu einigen, insbesondere handschriftlich verfassten Briefen, liegt zudem eine Transkription im PDF-Format vor.
