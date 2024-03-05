@@ -8,7 +8,7 @@ website:
     pinned: true
     left:
       - href: index.qmd
-        text: Home
+        text: Kontext
       - href: briefe.qmd
         text: Briefe
       - href: suchoptionen.ipynb
