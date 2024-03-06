@@ -2,7 +2,7 @@
 title: "Briefe"
 ---
 ## Textgrundlage
-Im Rahmen dieser Fallstudie, in der die Erschließung wissenschaftlicher Korrespondenz für fachhistoriographische Fragestellungen mithilfe digitaler Briefedition erprobt wurde, sind die im Abschnitt [Editionsprinzipien](editionsprinzipien.qmd) beschriebenen Editionsschritte auf 10 Briefen vollständig angewendet worden, die nachfolgend präsentiert werden. 
+Im Rahmen dieser Fallstudie, in der die Erschließung wissenschaftlicher Korrespondenz für fachhistoriographische Fragestellungen mithilfe digitaler Briefedition erprobt wurde, sind die im Abschnitt [Editionsprinzipien](editionsprinzipien.qmd) beschriebenen Editionsschritte auf 10 Briefen vollständig angewendet worden, die nachfolgend präsentiert werden. In den Briefen genannte Entitäten wie Personen, Werke, Orte etc. wurden mit weiteren Informationsquellen verlinkt. Entitäten, zu denen keine Verknüpfung möglich ist, da keine externe Informationsquelle für sie existiert, sind in den Texten farbig markiert.
 
 Die hier vorgestellte Briefkorrespondenz wurde bereits im [*Landsberger Archives*](https://www.gkr.uni-leipzig.de/altorientalisches-institut/forschung/landsberger-archives) veröffentlicht. Alle Veröffentlichungsrechte liegen beim Altorientalischen Institut der Universität Leipzig und der Hebrew University Jerusalem. Einen Überblick über die Metadaten des gesamten Briefkorpus bietet eine [CSV-Datei](https://github.com/th-blaschke/landsberger.github.io/blob/main/files/metadata_letters.csv). Die bisher nur z.T. edierten Briefe, die die Grundlage für eine weitere Edition bieten können, sind in verschiedenen Formaten unter folgenden Links einsehbar:
 
